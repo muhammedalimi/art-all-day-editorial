@@ -1,0 +1,282 @@
+/* ==========================================
+   09-artists.css
+   Artist Showcase Section
+========================================== */
+
+
+/* ------------------------------------------
+   Artists Section
+------------------------------------------ */
+
+.artists {
+
+    width: 100%;
+
+}
+
+
+
+/* ------------------------------------------
+   Header
+------------------------------------------ */
+
+.artists-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    margin-bottom: var(--space-xl);
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Grid
+------------------------------------------ */
+
+.artist-grid {
+
+    display: grid;
+
+    grid-template-columns:
+
+        repeat(4, 1fr);
+
+    gap: var(--space-lg);
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Card
+------------------------------------------ */
+
+.artist-card {
+
+    position: relative;
+
+    overflow: hidden;
+
+    aspect-ratio: 3 / 4;
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Image
+------------------------------------------ */
+
+.artist-image {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+
+
+.artist-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform var(--transition-slow);
+
+}
+
+
+
+/* ------------------------------------------
+   Hover Zoom
+------------------------------------------ */
+
+.artist-card:hover img {
+
+    transform: scale(1.06);
+
+}
+
+
+
+/* ------------------------------------------
+   Overlay
+------------------------------------------ */
+
+.artist-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+
+    padding: var(--space-lg);
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Name
+------------------------------------------ */
+
+.artist-name {
+
+    font-family: var(--font-heading);
+
+    font-size: 1.8rem;
+
+    line-height: 1.1;
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Category
+------------------------------------------ */
+
+.artist-role {
+
+    margin-top: var(--space-xs);
+
+    font-size: 0.75rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.15em;
+
+}
+
+
+
+/* ------------------------------------------
+   Featured Artist
+------------------------------------------ */
+
+.artist-feature {
+
+    display: grid;
+
+    grid-template-columns:
+
+        1fr 1fr;
+
+    gap: var(--space-xl);
+
+    align-items: center;
+
+}
+
+
+
+.artist-feature-image img {
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Biography
+------------------------------------------ */
+
+.artist-bio {
+
+    max-width: 55ch;
+
+}
+
+
+
+/* ------------------------------------------
+   Artist Links
+------------------------------------------ */
+
+.artist-links {
+
+    display: flex;
+
+    gap: var(--space-md);
+
+    margin-top: var(--space-lg);
+
+}
+
+
+.artist-links a {
+
+    font-size: 0.85rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.12em;
+
+}
+
+
+
+/* ------------------------------------------
+   Responsive
+------------------------------------------ */
+
+@media(max-width:1000px){
+
+    .artist-grid {
+
+        grid-template-columns:
+
+            repeat(2,1fr);
+
+    }
+
+
+    .artist-feature {
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+    .artist-grid {
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .artists-header {
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:var(--space-md);
+
+    }
+
+}

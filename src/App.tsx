@@ -263,6 +263,7 @@ import NextIssue from './components/NextIssue'
 import SubscribeSection from './components/SubscribeSection'
 import BenCowanPrelude from './components/BenCowanPrelude'
 
+
 function HomePage() {
   return (
     <>
@@ -271,6 +272,7 @@ function HomePage() {
       <Hero />
       <BenCowanPrelude />
       <IssueIntro />
+      
       <Departments />
       <ArtistPick />
       <BenCowanFeature />

@@ -99,11 +99,12 @@ import { Link } from 'react-router-dom'
 import { artists } from '../data/artists'
 // import AccessibilityPanel from './AccessibilityPanel'
 
+
 function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        Art-All Day
+        Art All Day
       </Link>
 
       <div className="navLinks">

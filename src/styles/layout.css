@@ -1,0 +1,198 @@
+/* ==========================================
+   03-layout.css
+   Global Layout Structure
+========================================== */
+
+
+/* ------------------------------------------
+   Page Wrapper
+------------------------------------------ */
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* ------------------------------------------
+   Main Container
+------------------------------------------ */
+
+.container {
+    width: min(
+        var(--container-width),
+        calc(100% - (var(--space-xl) * 2))
+    );
+
+    margin-inline: auto;
+}
+
+
+/* ------------------------------------------
+   Sections
+------------------------------------------ */
+
+.section {
+    position: relative;
+    width: 100%;
+    padding-block: var(--section-space);
+}
+
+
+.section-inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+
+/* ------------------------------------------
+   Grid Systems
+------------------------------------------ */
+
+.grid {
+    display: grid;
+    gap: var(--space-lg);
+}
+
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* ------------------------------------------
+   Flex Utilities
+------------------------------------------ */
+
+.flex {
+    display: flex;
+}
+
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+/* ------------------------------------------
+   Content Alignment
+------------------------------------------ */
+
+.text-center {
+    text-align: center;
+}
+
+
+.align-center {
+    align-items: center;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+
+/* ------------------------------------------
+   Main Website Areas
+------------------------------------------ */
+
+main {
+    width: 100%;
+}
+
+
+header,
+footer {
+    width: 100%;
+}
+
+
+/* ------------------------------------------
+   Split Layouts
+------------------------------------------ */
+
+.split {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xl);
+    align-items: center;
+}
+
+
+/* ------------------------------------------
+   Full Width Sections
+------------------------------------------ */
+
+.full-width {
+    width: 100%;
+}
+
+
+.full-height {
+    min-height: 100vh;
+}
+
+
+/* ------------------------------------------
+   Overlay Containers
+------------------------------------------ */
+
+.relative {
+    position: relative;
+}
+
+
+.absolute {
+    position: absolute;
+}
+
+
+/* ------------------------------------------
+   Layer Management
+------------------------------------------ */
+
+.z-top {
+    z-index: 10;
+}
+
+
+.z-middle {
+    z-index: 5;
+}
+
+
+.z-bottom {
+    z-index: 1;
+}

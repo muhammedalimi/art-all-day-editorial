@@ -1,0 +1,178 @@
+/* ==========================================
+   ART ALL DAY
+   Design System
+   ========================================== */
+
+:root {
+
+  /* ======================================
+     COLORS
+     ====================================== */
+
+  --color-background: #F7F7F5;
+  --color-surface: #FFFFFF;
+  --color-surface-secondary: #FAF8F3;
+
+  --color-text: #171717;
+  --color-text-light: #5F5F5F;
+  --color-text-muted: #888888;
+
+  --color-border: #E6E6E6;
+
+  --color-accent: #8B5A2B;
+  --color-accent-light: #D8C3A5;
+
+  --color-white: #FFFFFF;
+  --color-black: #050505;
+
+  --color-success: #2E7D32;
+  --color-warning: #D97706;
+  --color-danger: #C62828;
+
+  --overlay-dark: rgba(0,0,0,.55);
+  --overlay-light: rgba(255,255,255,.08);
+
+  /* ======================================
+     TYPOGRAPHY
+     ====================================== */
+
+  --font-display:
+      Georgia,
+      "Times New Roman",
+      serif;
+
+  --font-body:
+      Inter,
+      Arial,
+      sans-serif;
+
+  /* ======================================
+     FONT WEIGHT
+     ====================================== */
+
+  --fw-light:300;
+  --fw-regular:400;
+  --fw-medium:500;
+  --fw-semibold:600;
+  --fw-bold:700;
+  --fw-black:900;
+
+  /* ======================================
+     FONT SIZE
+     ====================================== */
+
+  --fs-xs:.75rem;
+  --fs-sm:.875rem;
+  --fs-md:1rem;
+  --fs-lg:1.125rem;
+  --fs-xl:1.375rem;
+
+  --fs-h4:2rem;
+  --fs-h3:3rem;
+  --fs-h2:4.5rem;
+  --fs-h1:6rem;
+
+  --fs-display:
+      clamp(6rem,11vw,12.5rem);
+
+  /* ======================================
+     LINE HEIGHT
+     ====================================== */
+
+  --lh-tight:.9;
+  --lh-normal:1.5;
+  --lh-relaxed:1.8;
+
+  /* ======================================
+     LETTER SPACING
+     ====================================== */
+
+  --tracking-tight:-5px;
+  --tracking-medium:-2px;
+  --tracking-normal:0;
+  --tracking-wide:1px;
+
+  /* ======================================
+     SPACING
+     ====================================== */
+
+  --space-1:.5rem;
+  --space-2:1rem;
+  --space-3:1.5rem;
+  --space-4:2rem;
+  --space-5:3rem;
+  --space-6:4rem;
+  --space-7:6rem;
+  --space-8:8rem;
+  --space-9:10rem;
+  --space-10:14rem;
+
+  /* ======================================
+     CONTAINERS
+     ====================================== */
+
+  --container-sm:900px;
+  --container-md:1200px;
+  --container-lg:1600px;
+  --container-xl:1800px;
+
+  --reading-width:760px;
+
+  /* ======================================
+     BORDER RADIUS
+     ====================================== */
+
+  --radius-sm:12px;
+  --radius-md:20px;
+  --radius-lg:32px;
+  --radius-xl:48px;
+  --radius-pill:999px;
+
+  /* ======================================
+     SHADOWS
+     ====================================== */
+
+  --shadow-sm:
+      0 8px 20px rgba(0,0,0,.05);
+
+  --shadow-md:
+      0 20px 60px rgba(0,0,0,.08);
+
+  --shadow-lg:
+      0 40px 100px rgba(0,0,0,.12);
+
+  /* ======================================
+     TRANSITIONS
+     ====================================== */
+
+  --transition-fast:
+      .2s ease;
+
+  --transition:
+      .35s cubic-bezier(.22,.61,.36,1);
+
+  --transition-slow:
+      .7s cubic-bezier(.22,.61,.36,1);
+
+  /* ======================================
+     LAYOUT
+     ====================================== */
+
+  --navbar-height:90px;
+
+  --section-padding:10rem;
+
+  --card-padding:2rem;
+
+  --card-gap:2rem;
+
+  /* ======================================
+     Z-INDEX
+     ====================================== */
+
+  --z-navbar:100;
+  --z-dropdown:200;
+  --z-overlay:500;
+  --z-modal:1000;
+
+}

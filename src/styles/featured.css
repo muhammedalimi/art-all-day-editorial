@@ -1,0 +1,304 @@
+/* ==========================================
+   07-featured.css
+   Featured Content Section
+========================================== */
+
+
+/* ------------------------------------------
+   Featured Wrapper
+------------------------------------------ */
+
+.featured {
+
+    width: 100%;
+
+}
+
+
+.featured-header {
+
+    display: flex;
+
+    align-items: flex-end;
+
+    justify-content: space-between;
+
+    margin-bottom: var(--space-xl);
+
+    gap: var(--space-lg);
+
+}
+
+
+
+/* ------------------------------------------
+   Featured Grid
+------------------------------------------ */
+
+.featured-grid {
+
+    display: grid;
+
+    grid-template-columns: 
+        2fr 1fr;
+
+    gap: var(--space-lg);
+
+}
+
+
+
+/* ------------------------------------------
+   Main Featured Card
+------------------------------------------ */
+
+.featured-main {
+
+    position: relative;
+
+    min-height: 600px;
+
+    overflow: hidden;
+
+}
+
+
+
+/* ------------------------------------------
+   Secondary Featured Cards
+------------------------------------------ */
+
+.featured-side {
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: var(--space-lg);
+
+}
+
+
+
+.featured-card {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+
+/* ------------------------------------------
+   Images
+------------------------------------------ */
+
+.featured-image {
+
+    width: 100%;
+
+    height: 100%;
+
+    overflow: hidden;
+
+}
+
+
+.featured-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform var(--transition-slow);
+
+}
+
+
+
+/* ------------------------------------------
+   Hover Image Effect
+------------------------------------------ */
+
+.featured-card:hover img,
+.featured-main:hover img {
+
+    transform: scale(1.05);
+
+}
+
+
+
+/* ------------------------------------------
+   Overlay Content
+------------------------------------------ */
+
+.featured-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    padding: var(--space-lg);
+
+}
+
+
+
+/* ------------------------------------------
+   Featured Text
+------------------------------------------ */
+
+.featured-title {
+
+    max-width: 18ch;
+
+}
+
+
+
+.featured-description {
+
+    margin-top: var(--space-sm);
+
+    max-width: 45ch;
+
+}
+
+
+
+/* ------------------------------------------
+   Category Label
+------------------------------------------ */
+
+.featured-category {
+
+    margin-bottom: var(--space-sm);
+
+}
+
+
+
+/* ------------------------------------------
+   Small Cards
+------------------------------------------ */
+
+.featured-small {
+
+    display: grid;
+
+    grid-template-columns: 140px 1fr;
+
+    gap: var(--space-md);
+
+    align-items: center;
+
+}
+
+
+
+.featured-small-image {
+
+    aspect-ratio: 1 / 1;
+
+    overflow: hidden;
+
+}
+
+
+.featured-small-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+/* ------------------------------------------
+   Card Text
+------------------------------------------ */
+
+.featured-small-title {
+
+    font-size: 1.2rem;
+
+    line-height: 1.25;
+
+}
+
+
+
+/* ------------------------------------------
+   Divider
+------------------------------------------ */
+
+.featured-divider {
+
+    width: 100%;
+
+    height: 1px;
+
+    margin-block: var(--space-xl);
+
+}
+
+
+
+/* ------------------------------------------
+   Responsive
+------------------------------------------ */
+
+@media (max-width: 900px) {
+
+
+    .featured-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .featured-main {
+
+        min-height: 450px;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    .featured-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+
+    .featured-small {
+
+        grid-template-columns: 100px 1fr;
+
+    }
+
+
+}

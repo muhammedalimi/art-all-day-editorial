@@ -1,20 +1,25 @@
 export const departments = [
   
-  {
-    slug: 'artist-pick',
-    number: '01',
-    name: 'Artist Pick',
-    title: 'The Work Feels Loud Because the Feeling Was Loud',
-    subtitle: 'Artists building a clear visual language worth watching.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    paragraphs: [
-      'Artist Pick is where we pay attention to artists whose work feels immediate, alive, and impossible to ignore. These are not always the most polished artists in the room. Sometimes they are the ones whose work carries the most pressure, honesty, and visual urgency.',
-      'The best artist picks are not just chosen because the work looks good. They are chosen because something about the work stays with you. A repeated figure, a strange color choice, a rough edge, a spiritual tension, or a feeling that refuses to become quiet.',
-      'This department is interested in artists who are building a language. A style can be attractive, but a language has memory. It carries decisions, risks, mistakes, repetition, and growth.',
-      'The question is not only whether the artist has a recognizable look. The deeper question is whether the work can keep expanding without losing its emotional center.',
-    ],
-  },
+{
+  slug: 'artist-pick',
+  number: '01',
+  name: 'Artist Pick',
+  title: 'The Work Feels Loud Because the Feeling Was Loud',
+  subtitle: 'Artists building a clear visual language worth watching.',
+  author: 'Mo Alimi',
+  date: 'July 4, 2026',
+
+  heroImage: 'src/assets/sara01.jpg',
+  imageAlt: 'Bath, soft pastel on paper, 39.5 x 38.1 cm, 2025',
+ 
+
+  paragraphs: [
+    'Artist Pick is where we pay attention to artists whose work feels immediate, alive, and impossible to ignore. These are not always the most polished artists in the room. Sometimes they are the ones whose work carries the most pressure, honesty, and visual urgency.',
+    'The best artist picks are not just chosen because the work looks good. They are chosen because something about the work stays with you. A repeated figure, a strange color choice, a rough edge, a spiritual tension, or a feeling that refuses to become quiet.',
+    'This department is interested in artists who are building a language. A style can be attractive, but a language has memory. It carries decisions, risks, mistakes, repetition, and growth.',
+    'The question is not only whether the artist has a recognizable look. The deeper question is whether the work can keep expanding without losing its emotional center.',
+  ],
+},
   {
     slug: 'faith-and-form',
     number: '02',
@@ -23,6 +28,7 @@ export const departments = [
     subtitle: 'Work that moves through belief, memory, ritual, and image.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara02.jpg',
     paragraphs: [
       'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory. It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
       'A painting can become a prayer without saying anything directly. A shape can feel like a window. A leaf can become a symbol. A frame can become an altar. A repeated mark can begin to feel like devotion.',
@@ -38,6 +44,7 @@ export const departments = [
     subtitle: 'Art shaped by pressure, identity, insecurity, feeling, and memory.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara03.jpg',
     paragraphs: [
       'The Inner Image focuses on artists who make emotional pressure visible. These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
       'Some images do not explain themselves immediately because they are not trying to behave like explanations. They behave more like symptoms, dreams, confessions, or emotional weather.',
@@ -53,6 +60,7 @@ export const departments = [
     subtitle: 'Process, doubt, repetition, material, sketches, and private practice.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara04.jpg',
     paragraphs: [
       'Studio Notes is about the private life of the work before it becomes public. The sketches, the failed versions, the repeated attempts, the unfinished surfaces, and the quiet discipline of returning.',
       'Finished work can make process look cleaner than it really is. But the studio is often a place of doubt, revision, boredom, discovery, and accident.',
@@ -68,6 +76,7 @@ export const departments = [
     subtitle: 'Criticism that asks what happens when we stay with the work.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara06.jpg',
     paragraphs: [
       'Slow Looking is a resistance to quick judgment. It asks what happens when we stay with an image longer than the first reaction.',
       'The first feeling matters, but it is not always the whole truth of the work. A painting can open slowly. A detail can change the mood. A composition can reveal its structure only after attention has settled.',
@@ -83,6 +92,7 @@ export const departments = [
     subtitle: 'Color, texture, composition, scale, and material presence.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara09.jpg',
     paragraphs: [
       'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and the way an image holds presence.',
       'Surface is not shallow. It is where feeling lands. A rough mark can carry aggression. A soft wash can carry memory. A thick layer of paint can feel like time built into the object.',
@@ -98,6 +108,7 @@ export const departments = [
     subtitle: 'Work that carries raw energy from lived space into visual form.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara07.jpg',
     paragraphs: [
       'Street to Studio is about work that carries the energy of lived space. The wall, the sidewalk, the bedroom, the bus stop, the city, the neighborhood, the internet, the flyer, the corner store, the real world.',
       'Not all serious art needs to feel polished for approval. Some work matters because it still feels close to where it came from.',
@@ -113,6 +124,7 @@ export const departments = [
     subtitle: 'Short reflections on shows, rooms, walls, and the act of looking.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
+    heroImage: 'src/assets/sara08.jpg',
     paragraphs: [
       'Exhibition Notes looks at how art changes when it enters a room. A painting on a screen is not the same as a painting on a wall. Scale, light, distance, silence, and placement all shape the experience.',
       'Sometimes the room strengthens the work. Sometimes it exposes weakness. Sometimes the best piece is not the loudest one, but the one you notice after walking past it twice.',

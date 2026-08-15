@@ -1,0 +1,226 @@
+/* ==========================================
+   04-typography.css
+   Typography System
+========================================== */
+
+
+/* ------------------------------------------
+   Base Typography
+------------------------------------------ */
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+
+/* ------------------------------------------
+   Headings
+------------------------------------------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: clamp(
+        3rem,
+        7vw,
+        6rem
+    );
+}
+
+
+h2 {
+    font-size: clamp(
+        2rem,
+        4vw,
+        3.5rem
+    );
+}
+
+
+h3 {
+    font-size: clamp(
+        1.5rem,
+        3vw,
+        2.25rem
+    );
+}
+
+
+h4 {
+    font-size: 1.5rem;
+}
+
+
+/* ------------------------------------------
+   Paragraphs
+------------------------------------------ */
+
+p {
+    max-width: 70ch;
+    margin: 0;
+    color: var(--text-muted);
+}
+
+
+/* ------------------------------------------
+   Lead Text
+------------------------------------------ */
+
+.lead {
+    font-size: clamp(
+        1.1rem,
+        2vw,
+        1.4rem
+    );
+
+    line-height: 1.7;
+}
+
+
+/* ------------------------------------------
+   Small Text
+------------------------------------------ */
+
+.small {
+    font-size: 0.875rem;
+}
+
+
+.tiny {
+    font-size: 0.75rem;
+}
+
+
+/* ------------------------------------------
+   Labels / Categories
+------------------------------------------ */
+
+.label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+
+/* ------------------------------------------
+   Article Typography
+------------------------------------------ */
+
+.article-title {
+    font-family: var(--font-heading);
+    font-size: clamp(
+        1.5rem,
+        3vw,
+        2.5rem
+    );
+
+    line-height: 1.15;
+}
+
+
+.article-meta {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+}
+
+
+/* ------------------------------------------
+   Hero Typography
+------------------------------------------ */
+
+.hero-title {
+    font-size: clamp(
+        3.5rem,
+        9vw,
+        8rem
+    );
+
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+}
+
+
+.hero-subtitle {
+    font-size: clamp(
+        1.1rem,
+        2vw,
+        1.5rem
+    );
+
+    max-width: 50ch;
+}
+
+
+/* ------------------------------------------
+   Quotes
+------------------------------------------ */
+
+.quote {
+    font-family: var(--font-heading);
+    font-size: clamp(
+        1.8rem,
+        4vw,
+        3rem
+    );
+
+    font-style: italic;
+    line-height: 1.2;
+}
+
+
+/* ------------------------------------------
+   Links
+------------------------------------------ */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ------------------------------------------
+   Text Utilities
+------------------------------------------ */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+
+.tracking-wide {
+    letter-spacing: 0.15em;
+}
+
+
+.tracking-tight {
+    letter-spacing: -0.04em;
+}

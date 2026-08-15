@@ -1,0 +1,249 @@
+/* ==========================================
+   05-navbar.css
+   Navigation System
+========================================== */
+
+
+/* ------------------------------------------
+   Navbar Wrapper
+------------------------------------------ */
+
+.navbar {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+
+    padding-block: var(--space-md);
+}
+
+
+.navbar.sticky {
+    position: sticky;
+    top: 0;
+}
+
+
+/* ------------------------------------------
+   Navbar Container
+------------------------------------------ */
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: var(--space-lg);
+}
+
+
+/* ------------------------------------------
+   Logo
+------------------------------------------ */
+
+.logo {
+    font-family: var(--font-heading);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    letter-spacing: -0.03em;
+
+    white-space: nowrap;
+}
+
+
+.logo span {
+    font-style: italic;
+}
+
+
+/* ------------------------------------------
+   Navigation Links
+------------------------------------------ */
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-lg);
+}
+
+
+.nav-links a {
+
+    position: relative;
+
+    font-size: 0.9rem;
+
+    font-weight: 500;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+    transition: opacity var(--transition-fast);
+}
+
+
+.nav-links a:hover {
+
+    opacity: 0.65;
+}
+
+
+/* ------------------------------------------
+   Animated Underline
+------------------------------------------ */
+
+.nav-links a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -8px;
+
+    width: 100%;
+    height: 1px;
+
+    transform: scaleX(0);
+
+    transform-origin: right;
+
+    transition: transform var(--transition-medium);
+}
+
+
+.nav-links a:hover::after {
+
+    transform: scaleX(1);
+
+    transform-origin: left;
+}
+
+
+/* ------------------------------------------
+   Navigation Actions
+------------------------------------------ */
+
+.nav-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-sm);
+}
+
+
+/* ------------------------------------------
+   Menu Button
+------------------------------------------ */
+
+.menu-toggle {
+
+    display: none;
+
+    cursor: pointer;
+
+    width: 42px;
+    height: 42px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ------------------------------------------
+   Hamburger Icon
+------------------------------------------ */
+
+.menu-icon {
+
+    width: 22px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+.menu-icon span {
+
+    display: block;
+
+    width: 100%;
+
+    height: 2px;
+}
+
+
+/* ------------------------------------------
+   Transparent Navbar Variant
+------------------------------------------ */
+
+.navbar.transparent {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+}
+
+
+/* ------------------------------------------
+   Dark Navbar Variant
+------------------------------------------ */
+
+.navbar.dark {
+
+    background: var(--bg-dark);
+
+}
+
+
+/* ------------------------------------------
+   Mobile Preparation
+------------------------------------------ */
+
+@media (max-width: 768px) {
+
+
+    .nav-links {
+
+        display: none;
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        flex-direction: column;
+
+        padding: var(--space-lg);
+
+    }
+
+
+    .nav-links.active {
+
+        display: flex;
+
+    }
+
+
+    .menu-toggle {
+
+        display: flex;
+
+    }
+
+}

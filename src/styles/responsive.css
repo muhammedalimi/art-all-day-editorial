@@ -1,0 +1,336 @@
+/* ==========================================
+   14-responsive.css
+   Responsive Design System
+========================================== */
+
+
+/* ------------------------------------------
+   Large Screens
+------------------------------------------ */
+
+@media (max-width: 1200px) {
+
+
+    .container {
+
+        width: min(
+            var(--container-width),
+            calc(100% - 60px)
+        );
+
+    }
+
+
+
+    .grid-4 {
+
+        grid-template-columns:
+
+            repeat(3, 1fr);
+
+    }
+
+
+
+    .hero-title {
+
+        max-width: 15ch;
+
+    }
+
+
+}
+
+
+
+/* ------------------------------------------
+   Tablets
+------------------------------------------ */
+
+@media (max-width: 900px) {
+
+
+    /* Layout */
+
+    .grid-3 {
+
+        grid-template-columns:
+
+            repeat(2, 1fr);
+
+    }
+
+
+
+    .grid-4 {
+
+        grid-template-columns:
+
+            repeat(2, 1fr);
+
+    }
+
+
+
+    .split {
+
+        grid-template-columns:
+
+            1fr;
+
+    }
+
+
+
+    /* Spacing */
+
+    .section {
+
+        padding-block:
+
+            var(--space-xl);
+
+    }
+
+
+
+    /* Navigation */
+
+    .nav-links {
+
+        display:none;
+
+    }
+
+
+
+    .menu-toggle {
+
+        display:flex;
+
+    }
+
+
+
+    /* Hero */
+
+    .hero {
+
+        min-height:
+
+            85vh;
+
+    }
+
+
+
+    .hero-content {
+
+        max-width:100%;
+
+    }
+
+
+
+}
+
+
+
+/* ------------------------------------------
+   Mobile
+------------------------------------------ */
+
+@media (max-width: 600px) {
+
+
+
+    /* Container */
+
+    .container {
+
+        width:
+
+            calc(100% - 40px);
+
+    }
+
+
+
+    /* Typography */
+
+
+    h1 {
+
+        font-size:
+
+            clamp(
+                2.5rem,
+                12vw,
+                4rem
+            );
+
+    }
+
+
+
+    h2 {
+
+        font-size:
+
+            clamp(
+                2rem,
+                8vw,
+                3rem
+            );
+
+    }
+
+
+
+    /* Grids */
+
+
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+
+        grid-template-columns:
+
+            1fr;
+
+    }
+
+
+
+    /* Flex */
+
+    .flex-between {
+
+        flex-direction:
+
+            column;
+
+
+        align-items:
+
+            flex-start;
+
+
+        gap:
+
+            var(--space-md);
+
+    }
+
+
+
+    /* Hero */
+
+
+    .hero-actions {
+
+        flex-direction:
+
+            column;
+
+
+        width:
+
+            100%;
+
+    }
+
+
+
+    .hero-button {
+
+        width:
+
+            100%;
+
+    }
+
+
+
+    /* Featured */
+
+
+    .featured-main {
+
+        min-height:
+
+            420px;
+
+    }
+
+
+
+    /* Articles */
+
+
+    .article-card-title {
+
+        font-size:
+
+            1.4rem;
+
+    }
+
+
+
+    /* Footer */
+
+
+    .footer-container {
+
+        grid-template-columns:
+
+            1fr;
+
+    }
+
+
+
+}
+
+
+
+/* ------------------------------------------
+   Small Phones
+------------------------------------------ */
+
+@media (max-width: 400px) {
+
+
+
+    .container {
+
+        width:
+
+            calc(100% - 30px);
+
+    }
+
+
+
+    .hero-title {
+
+        font-size:
+
+            2.3rem;
+
+    }
+
+
+
+    .logo {
+
+        font-size:
+
+            1.25rem;
+
+    }
+
+
+
+}

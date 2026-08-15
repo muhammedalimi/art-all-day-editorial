@@ -216,9 +216,9 @@ function Departments() {
   return (
     <section id="departments" className="departments">
       <div className="sectionHeader">
-        <p className="sectionLabel">Departments</p>
+        <p className="sectionLabel">Issue 01</p>
 
-        <h2>Ways of looking</h2>
+        <h2>Art All Day — Weekly 8 Departments</h2>
 
         <span>
           Recurring sections that shape the magazine’s voice — from artist
@@ -233,6 +233,12 @@ function Departments() {
             to={`/departments/${department.slug}`}
             className="departmentCard"
           >
+          <img
+            src={department.heroImage}
+            alt={department.imageAlt}
+            className="departmentImage"
+            />
+
             <p>{department.number}</p>
             <h3>{department.name}</h3>
             <span>{department.subtitle}</span>

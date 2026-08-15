@@ -1,0 +1,347 @@
+/* ==========================================
+   08-articles.css
+   Article System
+========================================== */
+
+
+/* ------------------------------------------
+   Articles Section
+------------------------------------------ */
+
+.articles {
+
+    width: 100%;
+
+}
+
+
+.articles-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: var(--space-xl);
+
+}
+
+
+
+/* ------------------------------------------
+   Article Grid
+------------------------------------------ */
+
+.article-grid {
+
+    display: grid;
+
+    grid-template-columns:
+
+        repeat(3, 1fr);
+
+    gap: var(--space-lg);
+
+}
+
+
+
+/* ------------------------------------------
+   Article Card
+------------------------------------------ */
+
+.article-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-md);
+
+    overflow: hidden;
+
+}
+
+
+
+/* ------------------------------------------
+   Article Image
+------------------------------------------ */
+
+.article-image {
+
+    aspect-ratio: 16 / 10;
+
+    overflow: hidden;
+
+}
+
+
+
+.article-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform var(--transition-medium);
+
+}
+
+
+
+.article-card:hover .article-image img {
+
+    transform: scale(1.04);
+
+}
+
+
+
+/* ------------------------------------------
+   Article Content
+------------------------------------------ */
+
+.article-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-sm);
+
+}
+
+
+
+/* ------------------------------------------
+   Article Category
+------------------------------------------ */
+
+.article-category {
+
+    font-size: 0.75rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.15em;
+
+}
+
+
+
+/* ------------------------------------------
+   Article Title
+------------------------------------------ */
+
+.article-card-title {
+
+    font-family: var(--font-heading);
+
+    font-size: clamp(
+
+        1.25rem,
+
+        2vw,
+
+        1.8rem
+
+    );
+
+    line-height: 1.2;
+
+}
+
+
+
+/* ------------------------------------------
+   Article Summary
+------------------------------------------ */
+
+.article-excerpt {
+
+    font-size: 0.95rem;
+
+    line-height: 1.7;
+
+}
+
+
+
+/* ------------------------------------------
+   Article Meta
+------------------------------------------ */
+
+.article-info {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-sm);
+
+    font-size: 0.8rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.12em;
+
+}
+
+
+
+/* ------------------------------------------
+   Author
+------------------------------------------ */
+
+.article-author {
+
+    font-weight: 600;
+
+}
+
+
+
+/* ------------------------------------------
+   Featured Article Layout
+------------------------------------------ */
+
+.article-feature {
+
+    display: grid;
+
+    grid-template-columns:
+
+        1.5fr 1fr;
+
+    gap: var(--space-xl);
+
+    align-items: center;
+
+}
+
+
+
+.article-feature-image {
+
+    width: 100%;
+
+}
+
+
+.article-feature-image img {
+
+    width: 100%;
+
+    height: auto;
+
+    object-fit: cover;
+
+}
+
+
+
+/* ------------------------------------------
+   Article Reading Page
+------------------------------------------ */
+
+.article-page {
+
+    max-width: 800px;
+
+    margin-inline: auto;
+
+}
+
+
+
+.article-page h1 {
+
+    margin-bottom: var(--space-lg);
+
+}
+
+
+
+.article-page p {
+
+    margin-bottom: var(--space-md);
+
+    line-height: 1.9;
+
+}
+
+
+
+/* ------------------------------------------
+   Pull Quote
+------------------------------------------ */
+
+.article-quote {
+
+    margin-block: var(--space-xl);
+
+    padding-left: var(--space-lg);
+
+    font-family: var(--font-heading);
+
+    font-size: 2rem;
+
+    line-height: 1.3;
+
+}
+
+
+
+/* ------------------------------------------
+   Responsive
+------------------------------------------ */
+
+@media (max-width: 1000px) {
+
+
+    .article-grid {
+
+        grid-template-columns:
+
+            repeat(2, 1fr);
+
+    }
+
+
+    .article-feature {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 650px) {
+
+
+    .article-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .articles-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: var(--space-md);
+
+    }
+
+
+}
