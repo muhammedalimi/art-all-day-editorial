@@ -1,3 +1,13 @@
+
+import sara01 from '../assets/sara01.jpg';
+import sara02 from '../assets/sara02.jpg';
+import sara03 from '../assets/sara03.jpg';
+import sara04 from '../assets/sara04.jpg';
+import sara06 from '../assets/sara06.jpg';
+import sara07 from '../assets/sara07.jpg';
+import sara08 from '../assets/sara08.jpg';
+import sara09 from '../assets/sara09.jpg';
+
 export const departments = [
   
 {
@@ -9,7 +19,7 @@ export const departments = [
   author: 'Mo Alimi',
   date: 'July 4, 2026',
 
-  heroImage: 'src/assets/sara01.jpg',
+  heroImage: sara01,
   imageAlt: 'Bath, soft pastel on paper, 39.5 x 38.1 cm, 2025',
  
 
@@ -28,7 +38,7 @@ export const departments = [
     subtitle: 'Work that moves through belief, memory, ritual, and image.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara02.jpg',
+    heroImage: sara02,
     paragraphs: [
       'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory. It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
       'A painting can become a prayer without saying anything directly. A shape can feel like a window. A leaf can become a symbol. A frame can become an altar. A repeated mark can begin to feel like devotion.',
@@ -44,7 +54,7 @@ export const departments = [
     subtitle: 'Art shaped by pressure, identity, insecurity, feeling, and memory.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara03.jpg',
+    heroImage: sara03,
     paragraphs: [
       'The Inner Image focuses on artists who make emotional pressure visible. These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
       'Some images do not explain themselves immediately because they are not trying to behave like explanations. They behave more like symptoms, dreams, confessions, or emotional weather.',
@@ -60,7 +70,7 @@ export const departments = [
     subtitle: 'Process, doubt, repetition, material, sketches, and private practice.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara04.jpg',
+    heroImage: sara04,
     paragraphs: [
       'Studio Notes is about the private life of the work before it becomes public. The sketches, the failed versions, the repeated attempts, the unfinished surfaces, and the quiet discipline of returning.',
       'Finished work can make process look cleaner than it really is. But the studio is often a place of doubt, revision, boredom, discovery, and accident.',
@@ -76,7 +86,7 @@ export const departments = [
     subtitle: 'Criticism that asks what happens when we stay with the work.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara06.jpg',
+    heroImage: sara06,
     paragraphs: [
       'Slow Looking is a resistance to quick judgment. It asks what happens when we stay with an image longer than the first reaction.',
       'The first feeling matters, but it is not always the whole truth of the work. A painting can open slowly. A detail can change the mood. A composition can reveal its structure only after attention has settled.',
@@ -92,7 +102,7 @@ export const departments = [
     subtitle: 'Color, texture, composition, scale, and material presence.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara09.jpg',
+    heroImage: sara09,
     paragraphs: [
       'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and the way an image holds presence.',
       'Surface is not shallow. It is where feeling lands. A rough mark can carry aggression. A soft wash can carry memory. A thick layer of paint can feel like time built into the object.',
@@ -108,7 +118,7 @@ export const departments = [
     subtitle: 'Work that carries raw energy from lived space into visual form.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara07.jpg',
+    heroImage: sara07,
     paragraphs: [
       'Street to Studio is about work that carries the energy of lived space. The wall, the sidewalk, the bedroom, the bus stop, the city, the neighborhood, the internet, the flyer, the corner store, the real world.',
       'Not all serious art needs to feel polished for approval. Some work matters because it still feels close to where it came from.',
@@ -124,7 +134,7 @@ export const departments = [
     subtitle: 'Short reflections on shows, rooms, walls, and the act of looking.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: 'src/assets/sara08.jpg',
+    heroImage: sara08,
     paragraphs: [
       'Exhibition Notes looks at how art changes when it enters a room. A painting on a screen is not the same as a painting on a wall. Scale, light, distance, silence, and placement all shape the experience.',
       'Sometimes the room strengthens the work. Sometimes it exposes weakness. Sometimes the best piece is not the loudest one, but the one you notice after walking past it twice.',
