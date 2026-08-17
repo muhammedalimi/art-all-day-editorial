@@ -1,0 +1,274 @@
+.studioArticle {
+  min-height: 100vh;
+  padding: 32px 5vw 120px;
+  background: #f3f0e9;
+  color: #171717;
+}
+
+/* TOP NAV */
+
+.studioArticleNav {
+  max-width: 1400px;
+  margin: 0 auto 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.backHome {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+}
+
+.backHome:hover {
+  opacity: 0.5;
+}
+
+/* HEADER */
+
+.studioArticleHeader {
+  max-width: 1100px;
+  margin: 0 auto 70px;
+}
+
+.studioArticleCategory {
+  margin: 0 0 25px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+  color: #8b7355;
+}
+
+.studioArticleHeader h1 {
+  margin: 0;
+
+  font-size: clamp(70px, 12vw, 170px);
+  line-height: 0.82;
+  letter-spacing: -7px;
+  font-weight: 800;
+}
+
+.studioArticleIntro {
+  max-width: 760px;
+  margin: 45px 0 35px;
+
+  font-size: clamp(24px, 3vw, 40px);
+  line-height: 1.15;
+}
+
+.studioArticleMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(23, 23, 23, 0.25);
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.studioArticleMeta span {
+  padding-right: 25px;
+  margin-right: 25px;
+
+  border-right: 1px solid rgba(23, 23, 23, 0.25);
+}
+
+.studioArticleMeta span:last-child {
+  border-right: none;
+}
+
+/* HERO */
+
+.studioArticleHero {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.studioArticleHero img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+/* LISTEN */
+
+.articleListen {
+  max-width: 720px;
+  margin: 45px auto 0;
+
+  padding: 18px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid rgba(23, 23, 23, 0.25);
+  border-bottom: 1px solid rgba(23, 23, 23, 0.25);
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.articleListen button {
+  border: none;
+  background: transparent;
+
+  color: inherit;
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.articleListen button:hover {
+  opacity: 0.5;
+}
+
+/* ARTICLE */
+
+.studioArticleBody {
+  max-width: 720px;
+  margin: 90px auto 0;
+}
+
+.studioArticleBody p {
+  margin: 0 0 32px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.studioArticleBody .articleOpening {
+  font-size: 28px;
+  line-height: 1.45;
+}
+
+/* CONTINUE READING */
+
+.continueReading {
+  margin: 70px 0;
+
+  padding: 18px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid rgba(23, 23, 23, 0.25);
+  border-bottom: 1px solid rgba(23, 23, 23, 0.25);
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .studioArticle {
+    padding: 25px 20px 80px;
+  }
+
+  .studioArticleNav {
+    margin-bottom: 55px;
+    align-items: flex-start;
+  }
+
+  .studioArticleHeader h1 {
+    letter-spacing: -4px;
+  }
+
+  .studioArticleIntro {
+    margin-top: 35px;
+  }
+
+  .studioArticleMeta {
+    gap: 15px;
+  }
+
+  .studioArticleMeta span {
+    padding-right: 15px;
+    margin-right: 0;
+  }
+
+  .studioArticleHero img {
+    border-radius: 18px;
+  }
+
+  .studioArticleBody {
+    margin-top: 60px;
+  }
+
+  .studioArticleBody .articleOpening {
+    font-size: 23px;
+  }
+
+  .articleListen {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+
+}
+
+.articleControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.articleControls button {
+  border: 1px solid #111;
+  background: transparent;
+  color: #111;
+  padding: 10px 16px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.articleControls button:first-child {
+  background: #111;
+  color: #fff;
+}
+
+.articleControls button:first-child:hover {
+  background: #333;
+}
+
+.articleControls button:last-child:hover {
+  background: #f2f2f2;
+}
+
+.articleControls button:active {
+  transform: translateY(1px);
+}
+
