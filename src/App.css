@@ -573,10 +573,17 @@ body {
 
   .articleCard {
     min-height: 280px;
+    color: inherit;
+    text-decoration: none;
   }
-}
 
-.leadStory {
+  .articleCard:visited {
+  color: inherit;
+  text-decoration: none;
+}
+}
+/* Older Lead Story */
+/* .leadStory {
   margin-bottom: 22px;
   padding: 32px;
   border-radius: 32px;
@@ -586,6 +593,23 @@ body {
   grid-template-columns: 1.5fr 0.5fr;
   gap: 24px;
   min-height: 320px;
+} */
+
+.leadStory {
+  margin-bottom: 22px;
+  padding: 32px;
+  border-radius: 32px;
+  background: #171717;
+  color: white;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  gap: 24px;
+  min-height: 320px;
+}
+.leadStory:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .leadLabel {
@@ -641,6 +665,106 @@ body {
   }
 }
 
+/*  */
+/* 
+.studioArticle {
+  min-height: 100vh;
+  padding: 80px 5vw 120px;
+  background: #f3f0e9;
+  color: #171717;
+}
+
+.studioArticleHeader {
+  max-width: 1100px;
+  margin: 0 auto 70px;
+}
+
+.studioArticleCategory {
+  margin-bottom: 24px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #8b7355;
+}
+
+.studioArticleHeader h1 {
+  margin: 0;
+  font-size: clamp(70px, 12vw, 170px);
+  line-height: 0.82;
+  letter-spacing: -7px;
+}
+
+.studioArticleIntro {
+  max-width: 760px;
+  margin: 45px 0 30px;
+  font-size: clamp(24px, 3vw, 40px);
+  line-height: 1.15;
+}
+
+.studioArticleMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(23, 23, 23, 0.25);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.studioArticleHero {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.studioArticleHero img {
+  width: 100%;
+  display: block;
+  border-radius: 28px;
+}
+
+.studioArticleBody {
+  max-width: 720px;
+  margin: 90px auto 0;
+}
+
+.studioArticleBody p {
+  margin-bottom: 32px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.studioArticleBody h2 {
+  margin: 80px 0 30px;
+  font-size: clamp(40px, 6vw, 80px);
+  line-height: 0.9;
+  letter-spacing: -3px;
+}
+
+@media (max-width: 700px) {
+  .studioArticle {
+    padding: 50px 20px 80px;
+  }
+
+  .studioArticleHeader h1 {
+    letter-spacing: -4px;
+  }
+
+  .studioArticleIntro {
+    margin-top: 35px;
+  }
+
+  .studioArticleHero img {
+    border-radius: 18px;
+  }
+
+  .studioArticleBody {
+    margin-top: 60px;
+  }
+} */
 
 /* REMOVE UNDERLINES FROM ALL LINKS */
 a {

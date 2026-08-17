@@ -255,6 +255,7 @@ import SubmitSection from './components/SubmitSection'
 
 
 import ArtistArticlePage from './pages/ArtistArticlePage'
+import StudioHoursArticlePage from './pages/StudioHoursArticlePage'
 import SubmitPage from './pages/SubmitPage'
 import DepartmentArticlePage from './pages/DepartmentArticlePage'
 import ScrollToTop from './components/ScrollToTop'
@@ -296,6 +297,10 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/artists/:slug" element={<ArtistArticlePage />} />
         <Route path="/departments/:slug" element={<DepartmentArticlePage />} />
+        {/* <Route path="/studio-hours/inside-the-studio-practice" element={<StudioHoursArticlePage />} />
+        <Route path="/studio-hours/why-surfaces-matter" element={<StudioHoursArticlePage />} />
+        <Route path="/studio-hours/faith-and-form" element={<StudioHoursArticlePage />} /> */}
+        <Route path="/studio-hours/:slug" element={<StudioHoursArticlePage />} />
         <Route path="/submit" element={<SubmitPage />} />
       </Routes>
     </div>

@@ -78,6 +78,74 @@
 
 // export default ArticleSection
 
+
+// /* Version 1 */
+// import ArticleCard from './ArticleCard'
+
+// function ArticleSection() {
+//   return (
+//     <section id="latest" className="articles">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">Latest Writing</p>
+//         <h2>Studio Hours</h2>
+//         <span>
+//           Interviews, essays, criticism, and slow observations from artists,
+//           studios, galleries, and the culture around them.
+//         </span>
+//       </div>
+
+//       <article className="leadStory">
+//         <div>
+//           <p className="leadLabel">Editor’s Pick</p>
+//           <h3>The studio as a place of pressure, silence, and discovery</h3>
+//           <p>
+//             A closer look at how artists build meaning through repetition,
+//             space, material choices, and the quiet discipline of returning to
+//             the work every day.
+//           </p>
+//         </div>
+
+//         <div className="leadMeta">
+//           <span>Issue 01</span>
+//           <span>Studio Hours Editorial</span>
+//           <span>8 min read</span>
+//         </div>
+//       </article>
+
+//       <div className="articleGrid">
+//         <ArticleCard
+//           category="Interview"
+//           title="Inside the studio practice"
+//           text="A conversation about process, doubt, materials, and the private rhythm behind finished work."
+//           author="Studio Hours"
+//           readTime="6 min read"
+//         />
+
+//         <ArticleCard
+//           category="Essay"
+//           title="Why surfaces matter"
+//           text="A short reflection on texture, architecture, and the emotional weight carried by painted surfaces."
+//           author="Editorial"
+//           readTime="4 min read"
+//         />
+
+//         <ArticleCard
+//           category="Criticism"
+//           title="Faith & Form"
+//           text="Ben Cowan piece is about belief, painting, religious imagery, personal history, leaves, frames, and how faith becomes visual form. It is more than an artist profile — it is an essay about how spirituality moves through his work."
+//           author="Mo Alimi"
+//           readTime="5 min read"
+//         />
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default ArticleSection
+
+/* Version 2 */
+
+import { Link } from 'react-router-dom'
 import ArticleCard from './ArticleCard'
 
 function ArticleSection() {
@@ -92,7 +160,7 @@ function ArticleSection() {
         </span>
       </div>
 
-      <article className="leadStory">
+      <Link to="/studio-hours/issue-01" className="leadStory">
         <div>
           <p className="leadLabel">Editor’s Pick</p>
           <h3>The studio as a place of pressure, silence, and discovery</h3>
@@ -108,7 +176,7 @@ function ArticleSection() {
           <span>Studio Hours Editorial</span>
           <span>8 min read</span>
         </div>
-      </article>
+      </Link>
 
       <div className="articleGrid">
         <ArticleCard
@@ -117,6 +185,7 @@ function ArticleSection() {
           text="A conversation about process, doubt, materials, and the private rhythm behind finished work."
           author="Studio Hours"
           readTime="6 min read"
+          link="/studio-hours/inside-the-studio-practice"
         />
 
         <ArticleCard
@@ -125,6 +194,7 @@ function ArticleSection() {
           text="A short reflection on texture, architecture, and the emotional weight carried by painted surfaces."
           author="Editorial"
           readTime="4 min read"
+          link="/studio-hours/why-surfaces-matter"
         />
 
         <ArticleCard
@@ -133,6 +203,7 @@ function ArticleSection() {
           text="Ben Cowan piece is about belief, painting, religious imagery, personal history, leaves, frames, and how faith becomes visual form. It is more than an artist profile — it is an essay about how spirituality moves through his work."
           author="Mo Alimi"
           readTime="5 min read"
+          link="/studio-hours/faith-and-form"
         />
       </div>
     </section>
