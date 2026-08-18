@@ -1584,10 +1584,6 @@ a:focus {
 
 /* Department Article Page */
 
-.departmentCard {
-  color: white;
-  text-decoration: none;
-}
 
 .departmentCard:visited,
 .departmentCard:hover,
@@ -1666,7 +1662,7 @@ a:focus {
   object-fit: cover;
   display: block;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 

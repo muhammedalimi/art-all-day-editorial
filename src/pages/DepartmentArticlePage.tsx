@@ -163,17 +163,19 @@
 
 
 import { Link, useParams } from 'react-router-dom'
-import { articles } from '../data/articles'
+import { departments } from '../data/departments'
 import ReadingProgress from '../components/ReadingProgress'
 import Footer from '../components/Footer'
 import ListenButton from '../components/ListenButton'
 
-function StudioHoursArticlePage() {
+function DepartmentArticlePage() {
   const { slug } = useParams()
 
-  const article = articles[slug as keyof typeof articles]
+  const department = departments.find(
+  (item) => item.slug === slug
+)
 
-  if (!article) {
+  if (!department) {
     return (
       <main className="departmentArticlePage">
         <h1>Article not found</h1>
@@ -183,9 +185,9 @@ function StudioHoursArticlePage() {
   }
 
   const articleText = [
-    article.title,
-    article.intro,
-    ...article.body,
+    department.title,
+    department.subtitle,
+    ...department.paragraphs,
   ].join('. ')
 
   return (
@@ -198,52 +200,51 @@ function StudioHoursArticlePage() {
         </Link>
 
         <p className="sectionLabel">
-          {article.category}
+          {department.name}
         </p>
 
-        <h1>{article.title}</h1>
+        <h1>{department.title}</h1>
 
         <div className="articleInfo darkInfo">
-          <span>{article.issue || 'Issue 01'}</span>
-          <span>{article.author || 'Art All Day'}</span>
-          <span>{article.readTime}</span>
+          <span>{department.date  || 'Issue 01'}</span>
+          <span>{department.author || 'Art All Day'}</span>
+          {/* <span>{department.readTime}</span> */}
         </div>
       </section>
 
       <section className="departmentArticleBody">
         <ListenButton text={articleText} />
 
-        <p className="articleIntro">
-          {article.intro}
-        </p>
+        <p className="articleIntro">{department.subtitle}</p>
+        
 
-        {article.body.map((paragraph, index) => (
+
+        {department.paragraphs.map((paragraph, index) => (
           <p key={index}>
             {paragraph}
           </p>
         ))}
       </section>
-
       <section className="moreDepartments">
         <p className="sectionLabel">
-          More Studio Hours
+          More Departments
         </p>
 
         <div className="moreDepartmentGrid">
-          {Object.entries(articles)
-            .filter(([articleSlug]) => articleSlug !== slug)
+          {departments
+            .filter((item) => item.slug !== department.slug)
             .slice(0, 7)
-            .map(([articleSlug, item]) => (
+            .map((item) => (
               <Link
-                key={articleSlug}
-                to={`/studio-hours/${articleSlug}`}
+                key={item.slug}
+                to={`/departments/${item.slug}`}
                 className="archiveCard"
               >
-                <p>{item.issue || 'Issue 01'}</p>
+                <p>{item.number}</p>
 
-                <h3>{item.title}</h3>
+                <h3>{item.name}</h3>
 
-                <span>{item.category}</span>
+                <span>{item.subtitle}</span>
               </Link>
             ))}
         </div>
@@ -254,4 +255,4 @@ function StudioHoursArticlePage() {
   )
 }
 
-export default StudioHoursArticlePage
+export default DepartmentArticlePage

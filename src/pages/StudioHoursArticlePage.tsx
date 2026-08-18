@@ -247,11 +247,130 @@
 /* */
 
 
+// import { Link, useParams } from 'react-router-dom'
+// import { articles } from '../data/articles'
+// import ReadingProgress from '../components/ReadingProgress'
+// import Footer from '../components/Footer'
+// import ListenButton from '../components/ListenButton'
+
+// function StudioHoursArticlePage() {
+//   const { slug } = useParams()
+
+//   const article = articles[slug as keyof typeof articles]
+
+//   if (!article) {
+//     return (
+//       <main className="departmentArticlePage">
+//         <h1>Article not found</h1>
+//         <Link to="/">Back home</Link>
+//       </main>
+//     )
+//   }
+
+//   const articleText = [
+//     article.title,
+//     article.intro,
+//     ...article.body,
+//   ].join('. ')
+
+//   return (
+//     <main className="departmentArticlePage">
+//       <ReadingProgress />
+
+//       <section className="departmentArticleHero">
+//         <Link to="/" className="backLink dark">
+//           ← Back to Home
+//         </Link>
+
+//         <p className="sectionLabel">
+//           {article.category}
+//         </p>
+
+//         <h1>{article.title}</h1>
+
+//         <div className="articleInfo darkInfo">
+//           <span>{article.issue || 'Issue 01'}</span>
+//           <span>{article.author || 'Art All Day'}</span>
+//           <span>{article.readTime}</span>
+//         </div>
+//       </section>
+
+//       <section className="departmentArticleBody">
+
+//         <ListenButton text={articleText} />
+
+//         <p className="articleIntro">
+//           {article.intro}
+//         </p>
+ 
+//         {article.body.map((paragraph, index) => (
+//           <p key={index}>
+//             {paragraph}
+//           </p>
+//         ))}
+
+//       </section>
+
+//       <section className="moreDepartments">
+
+//         <p className="sectionLabel">
+//           More Studio Hours
+//         </p>
+
+//         <div className="moreArticleGrid">
+
+//           {/* {Object.entries(articles)
+//             .filter(([slug]) => slug !== article.slug)
+//             .slice(0, 7)
+//             .map(([slug, item]) => (
+//               <Link
+//                 key={slug}
+//                 to={`/studio-hours/${slug}`}
+//                 className="archiveCard"
+//               >
+//                 <p>{item.issue || 'Issue 01'}</p>
+
+//                 <h3>{item.title}</h3>
+
+//                 <span>
+//                   {item.category}
+//                 </span>
+//               </Link>
+//             ))} */}
+
+//             {Object.entries(articles)
+//             .filter(([articleSlug]) => articleSlug !== slug)
+//             .slice(0, 2)
+//             .map(([articleSlug, item]) => (
+//                 <Link
+//                 key={articleSlug}
+//                 to={`/studio-hours/${articleSlug}`}
+//                 className="archiveCard"
+//                 >
+//                 <p>{item.issue || 'Issue 01'}</p>
+//                 <h3>{item.title}</h3>
+//                 <span>{item.category}</span>
+//                 </Link>
+//             ))}
+
+//         </div>
+
+//       </section>
+
+//       <Footer />
+//     </main>
+//   )
+// }
+
+
+
+
 import { Link, useParams } from 'react-router-dom'
 import { articles } from '../data/articles'
 import ReadingProgress from '../components/ReadingProgress'
 import Footer from '../components/Footer'
 import ListenButton from '../components/ListenButton'
+import './pages/StudioHoursArticlePage.css'
 
 function StudioHoursArticlePage() {
   const { slug } = useParams()
@@ -260,9 +379,12 @@ function StudioHoursArticlePage() {
 
   if (!article) {
     return (
-      <main className="departmentArticlePage">
+      <main className="studioArticlePage">
+        <Link to="/" className="studioBackLink">
+          ← Back to Home
+        </Link>
+
         <h1>Article not found</h1>
-        <Link to="/">Back home</Link>
       </main>
     )
   }
@@ -274,83 +396,72 @@ function StudioHoursArticlePage() {
   ].join('. ')
 
   return (
-    <main className="departmentArticlePage">
+    <main className="studioArticle">
       <ReadingProgress />
 
-      <section className="departmentArticleHero">
-        <Link to="/" className="backLink dark">
-          ← Back to Home
+      <section className="studioArticleNav">
+        <Link to="/" className="studioBackLink">
+           Back to Home
         </Link>
+      
 
-        <p className="sectionLabel">
+        <p className="studioSectionLabel">
           {article.category}
         </p>
 
-        <h1>{article.title}</h1>
+        <h1 className="studioArticleTitle">
+          {article.title}
+        </h1>
 
-        <div className="articleInfo darkInfo">
+        <div className="studioArticleInfo">
           <span>{article.issue || 'Issue 01'}</span>
           <span>{article.author || 'Art All Day'}</span>
           <span>{article.readTime}</span>
         </div>
+
       </section>
 
-      <section className="departmentArticleBody">
+      <section className="studioArticleBody">
 
         <ListenButton text={articleText} />
 
-        <p className="articleIntro">
+        <p className="studioArticleIntro">
           {article.intro}
         </p>
- 
-        {article.body.map((paragraph, index) => (
-          <p key={index}>
-            {paragraph}
-          </p>
-        ))}
+
+        <div className="studioArticleText">
+          {article.body.map((paragraph, index) => (
+            <p key={index}>
+              {paragraph}
+            </p>
+          ))}
+        </div>
 
       </section>
 
-      <section className="moreDepartments">
+      <section className="studioMore">
 
-        <p className="sectionLabel">
+        <p className="studioSectionLabel">
           More Studio Hours
         </p>
 
-        <div className="moreArticleGrid">
+        <div className="studioArticleGrid">
 
-          {/* {Object.entries(articles)
-            .filter(([slug]) => slug !== article.slug)
+          {Object.entries(articles)
+            .filter(([articleSlug]) => articleSlug !== slug)
             .slice(0, 7)
-            .map(([slug, item]) => (
+            .map(([articleSlug, item]) => (
               <Link
-                key={slug}
-                to={`/studio-hours/${slug}`}
-                className="archiveCard"
+                key={articleSlug}
+                to={`/studio-hours/${articleSlug}`}
+                className="studioArchiveCard"
               >
                 <p>{item.issue || 'Issue 01'}</p>
 
                 <h3>{item.title}</h3>
 
-                <span>
-                  {item.category}
-                </span>
-              </Link>
-            ))} */}
-
-            {Object.entries(articles)
-            .filter(([articleSlug]) => articleSlug !== slug)
-            .slice(0, 7)
-            .map(([articleSlug, item]) => (
-                <Link
-                key={articleSlug}
-                to={`/studio-hours/${articleSlug}`}
-                className="archiveCard"
-                >
-                <p>{item.issue || 'Issue 01'}</p>
-                <h3>{item.title}</h3>
                 <span>{item.category}</span>
-                </Link>
+              </Link>
             ))}
 
         </div>
@@ -358,6 +469,7 @@ function StudioHoursArticlePage() {
       </section>
 
       <Footer />
+
     </main>
   )
 }
