@@ -370,7 +370,8 @@ import { articles } from '../data/articles'
 import ReadingProgress from '../components/ReadingProgress'
 import Footer from '../components/Footer'
 import ListenButton from '../components/ListenButton'
-import './pages/StudioHoursArticlePage.css'
+import '../styles/StudioHoursArticlePage.css'
+
 
 function StudioHoursArticlePage() {
   const { slug } = useParams()

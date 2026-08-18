@@ -168,6 +168,7 @@ import ReadingProgress from '../components/ReadingProgress'
 import Footer from '../components/Footer'
 import ListenButton from '../components/ListenButton'
 
+
 function DepartmentArticlePage() {
   const { slug } = useParams()
 

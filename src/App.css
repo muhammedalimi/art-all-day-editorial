@@ -2347,3 +2347,425 @@ a {
   background: white;
   color: #000;
 } */
+
+
+
+
+/* =========================
+   STUDIO ARTICLE
+   ========================= */
+
+.studioArticle {
+  min-height: 100vh;
+  background: #f5f1ea;
+  color: #171717;
+}
+
+
+/* =========================
+   STUDIO NAV
+   ========================= */
+
+.studioArticleNav {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 32px 24px 0;
+}
+
+.studioBackLink {
+  display: inline-block;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+
+  color: #171717;
+  text-decoration: none;
+
+  transition: opacity 0.2s ease;
+}
+
+.studioBackLink:hover {
+  opacity: 0.5;
+}
+
+.studioSectionLabel {
+  margin: 0;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #3f3a34;
+}
+
+.studioArticleTitle {
+  max-width: 1200px;
+
+  margin: 90px 0 0;
+
+  font-size: clamp(64px, 11vw, 160px);
+  line-height: 0.78;
+  letter-spacing: -8px;
+  font-weight: 900;
+}
+
+.studioArticleInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+
+  margin-top: 48px;
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(23, 23, 23, 0.2);
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  color: #3f3a34;
+}
+
+.studioArticleNav {
+  padding-bottom: 110px;
+  position: relative;
+}
+
+.studioArticleNav {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 32px 24px 110px;
+}
+
+.studioArticleNav::after {
+  content: '';
+
+  display: block;
+
+  width: 100%;
+  height: 1px;
+
+  margin-top: 24px;
+
+  background: rgba(23, 23, 23, 0.15);
+}
+
+.studioBackLink {
+  display: inline-block;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+
+  color: #171717;
+  text-decoration: none;
+
+  transition: opacity 0.2s ease;
+}
+
+
+.studioBackLink:hover {
+  opacity: 0.5;
+}
+
+
+.studioSectionLabel {
+  margin: 0;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #3f3a34;
+}
+
+
+.studioArticleTitle {
+  max-width: 1200px;
+  margin: 90px 0 0;
+
+  font-size: clamp(64px, 11vw, 160px);
+  line-height: 0.78;
+  letter-spacing: -8px;
+  font-weight: 900;
+}
+
+
+.studioArticleInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+
+  margin-top: 48px;
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(23, 23, 23, 0.2);
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  color: #3f3a34;
+}
+
+.studioArticleBody {
+  max-width: 820px;
+  margin: 0 auto 140px;
+  padding: 0 24px;
+}
+
+.studioArticleBody > button {
+  margin-bottom: 70px;
+}
+
+.studioArticleIntro {
+  margin: 0 0 70px;
+
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.18;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+
+  color: #171717;
+}
+
+
+.studioArticleText {
+  max-width: 720px;
+}
+
+.studioArticleText p {
+  margin: 0 0 30px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.8;
+
+  color: #3f3a34;
+}
+
+.studioArticleText p:first-child {
+  margin-top: 10px;
+}
+
+.studioMore {
+  max-width: 1600px;
+  margin: 0 auto 120px;
+  padding: 0 24px;
+}
+
+.studioMore > .studioSectionLabel {
+  margin-bottom: 28px;
+}
+
+
+.studioArchiveCard {
+  min-height: 320px;
+  padding: 28px;
+
+  border-radius: 28px;
+
+  background: #171717;
+  color: white;
+
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+.studioArchiveCard:hover {
+  transform: translateY(-6px);
+}
+
+
+.studioArchiveCard p {
+  margin: 0;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #d8c3a5;
+}
+
+.studioArchiveCard h3 {
+  margin: auto 0 16px;
+
+  font-size: 34px;
+  line-height: 0.95;
+  letter-spacing: -1px;
+
+  color: white;
+}
+
+.studioArchiveCard span {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: rgba(255, 255, 255, 0.72);
+}
+
+
+@media (max-width: 800px) {
+  .studioArticleNav {
+    padding: 24px 20px 80px;
+  }
+
+  .studioArticleTitle {
+    margin-top: 60px;
+
+    font-size: clamp(56px, 16vw, 100px);
+    line-height: 0.82;
+    letter-spacing: -5px;
+  }
+
+  .studioArticleInfo {
+    gap: 14px 22px;
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 800px) {
+  .studioArticleBody {
+    margin-bottom: 100px;
+    padding: 0 20px;
+  }
+
+  .studioArticleIntro {
+    margin-bottom: 50px;
+
+    font-size: clamp(27px, 7vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -1px;
+  }
+
+  .studioArticleText p {
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 800px) {
+  .studioMore {
+    margin-bottom: 90px;
+    padding: 0 20px;
+  }
+
+  .studioArticleGrid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .studioArchiveCard {
+    min-height: 280px;
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .studioArchiveCard h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .studioArticleTitle {
+    font-size: 18vw;
+    letter-spacing: -4px;
+  }
+
+  .studioArticleInfo {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .studioArticleIntro {
+    font-size: 28px;
+  }
+
+  .studioArticleText p {
+    font-size: 17px;
+  }
+}
+
+
+/* =========================================
+   ART ALL DAY — GLOBAL MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Global typography */
+  h1 {
+    font-size: clamp(52px, 15vw, 100px);
+    line-height: 0.85;
+    letter-spacing: -4px;
+  }
+
+  h2 {
+    font-size: clamp(36px, 10vw, 64px);
+    line-height: 0.9;
+    letter-spacing: -2px;
+  }
+
+  h3 {
+    font-size: clamp(28px, 8vw, 42px);
+    line-height: 0.95;
+  }
+
+  /* Global grids */
+  .departmentGrid,
+  .moreDepartmentGrid,
+  .studioArticleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Global images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Article text */
+  .departmentArticleBody p,
+  .studioArticleText p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  /* Studio */
+  .studioArticleTitle {
+    font-size: clamp(56px, 16vw, 100px);
+    line-height: 0.82;
+    letter-spacing: -5px;
+  }
+
+}
