@@ -273,15 +273,15 @@ function HomePage() {
       <Hero />
       <BenCowanPrelude />
       <IssueIntro />
-      <SubscribeSection />
       <Departments />
+      <SubscribeSection />
       <ArtistPick />
-      <BenCowanFeature />
+      {/* <BenCowanFeature /> */}
       {/* <WorksInView /> */}
-      <EditorsNote />
+      {/* <EditorsNote /> */}
       <ArticleSection />
       <ArtistArchive />
-      <SubmitSection />
+      {/* <SubmitSection /> */}
       <NextIssue />
       
       <Footer />

@@ -11,24 +11,24 @@ import sara09 from '../assets/sara09.jpg';
 export const departments = [
   
 {
-  slug: 'artist-pick',
+ slug: 'artist-pick',
   number: '01',
   name: 'Artist Pick',
-  title: 'The Work Feels Loud Because the Feeling Was Loud',
-  subtitle: 'Artists building a clear visual language worth watching.',
+  title: 'Sara Anstis Paints the Strange Space Between Body and Dream',
+  subtitle: 'An artist turning bodies, nature, folklore, and imagination into strange psychological landscapes.',
   author: 'Mo Alimi',
   date: 'July 4, 2026',
-
   heroImage: sara01,
   imageAlt: 'Bath, soft pastel on paper, 39.5 x 38.1 cm, 2025',
  
 
-  paragraphs: [
-    'Artist Pick is where we pay attention to artists whose work feels immediate, alive, and impossible to ignore. These are not always the most polished artists in the room. Sometimes they are the ones whose work carries the most pressure, honesty, and visual urgency.',
-    'The best artist picks are not just chosen because the work looks good. They are chosen because something about the work stays with you. A repeated figure, a strange color choice, a rough edge, a spiritual tension, or a feeling that refuses to become quiet.',
-    'This department is interested in artists who are building a language. A style can be attractive, but a language has memory. It carries decisions, risks, mistakes, repetition, and growth.',
-    'The question is not only whether the artist has a recognizable look. The deeper question is whether the work can keep expanding without losing its emotional center.',
-  ],
+paragraphs: [
+  'Artist Pick is where we pay attention to artists whose work creates its own world. Sara Anstis makes paintings where bodies, animals, landscapes, folklore, and imagination seem to exist in the same unstable space.',
+  'Her work feels familiar and unfamiliar at once. Figures stretch, merge, hide, and reappear. Nature becomes psychological, and the ordinary begins to feel mythological.',
+  'What makes the work compelling is not simply its surreal imagery. It is the feeling underneath it—the sense that something personal, instinctive, and slightly unsettling is taking place beneath the surface.',
+  'Anstis reminds us that an artist does not need to explain a world for us to enter it. Sometimes the strongest work simply opens the door and lets the strange things in.',
+],
+
 },
   {
     slug: 'faith-and-form',

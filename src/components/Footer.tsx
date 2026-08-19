@@ -28,10 +28,8 @@ function Footer() {
     <h3>An Ecosystem for Art</h3>
 
     <p>
-      Art All Day is an independent editorial platform for artists whose work
-      carries feeling, memory, pressure, faith, and visual truth. We publish
-      artist picks, visual essays, criticism, studio notes, and stories from the
-      edge of the studio, the street, and the spirit.
+     Art All Day is an independent editorial platform for artists,
+     exploring feeling, memory, faith, pressure, and visual truth through art and culture.
     </p>
 
     <div className="identityTags">
