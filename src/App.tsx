@@ -273,7 +273,7 @@ function HomePage() {
       <Hero />
       <BenCowanPrelude />
       <IssueIntro />
-      
+      <SubscribeSection />
       <Departments />
       <ArtistPick />
       <BenCowanFeature />
@@ -283,7 +283,7 @@ function HomePage() {
       <ArtistArchive />
       <SubmitSection />
       <NextIssue />
-      <SubscribeSection />
+      
       <Footer />
     </>
   )
