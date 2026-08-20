@@ -39,10 +39,10 @@
 
 
 import sara10 from '../assets/sara10.jpg'
-import Luz1 from '../assets/Luz1.jpg'
+import luz1 from '../assets/Luz1.jpg'
 import noor1 from '../assets/noor1.webp'
 import johanna1 from '../assets/johanna1.webp'
-import bendt1 from '../assets/bendt1.jpeg'
+import bendt1 from '../assets/Bendt1.jpeg'
 import manoela1 from '../assets/manoela1.webp'
 import jonas1 from '../assets/jonas1.jpg'
 import paula1 from '../assets/paula1.png'
@@ -60,7 +60,7 @@ export const issueDepartments = {
         'Her practice asks what happens when painting becomes less about describing the world and more about experiencing it through color, gesture, presence, and emotion.',
       ],
 
-      image: Luz1,
+      image: luz1,
       imageAlt: 'Artwork for Luz Carabano',
       caption: 'Suelo',
 

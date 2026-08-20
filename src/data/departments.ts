@@ -1,5 +1,4 @@
-
-import luz1 from '../assets/luz1.jpg';
+import luz1 from "../assets/Luz1.jpg";
 import ben4 from '../assets/ben11.jpg';
 import sara03 from '../assets/sara10.jpg';
 import sara04 from '../assets/sara04.jpg';
