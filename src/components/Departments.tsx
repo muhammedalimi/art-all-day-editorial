@@ -209,16 +209,279 @@
 
 /*  Version 4 */
 
+// import { Link } from 'react-router-dom'
+// import { departments } from '../data/departments'
+
+// function Departments() {
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">Issue 01</p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => (
+//           <Link
+//             key={department.slug}
+//             to={`/departments/${department.slug}`}
+//             className="departmentCard"
+//           >
+//           <img
+//             src={department.heroImage}
+//             alt={department.imageAlt}
+//             className="departmentImage"
+//             />
+
+//             <p>{department.number}</p>
+//             <h3>{department.name}</h3>
+//             <span>{department.subtitle}</span>
+//           </Link>
+//         ))}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+
+/*  Version 5 */
+
+// import { Link } from 'react-router-dom'
+// import { departments } from '../data/departments'
+// import { issues } from '../data/issues'
+
+// function Departments() {
+//   const currentIssue = issues['issue-01']
+
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">{currentIssue.number}</p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => {
+//           const currentFeature =
+//             currentIssue.departments[
+//               department.slug as keyof typeof currentIssue.departments
+//             ]
+
+//           return (
+//             <Link
+//               key={department.slug}
+//               to={`/departments/${department.slug}`}
+//               className="departmentCard"
+//             >
+//               <img
+//                 src={department.heroImage}
+//                 alt={department.imageAlt}
+//                 className="departmentImage"
+//               />
+
+//               <p>{department.number}</p>
+
+//               <h3>{department.name}</h3>
+
+//               <span>
+//                 {currentFeature?.title || department.subtitle}
+//               </span>
+//             </Link>
+//           )
+//         })}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+/*  Version 6 */
+
+// import { Link } from 'react-router-dom'
+// import { departments } from '../data/departments'
+
+// function Departments() {
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">Issue 01</p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => (
+//           <Link
+//             key={department.slug}
+//             to={`/departments/${department.slug}`}
+//             className="departmentCard"
+//           >
+//             <img
+//               src={department.heroImage}
+//               alt={department.imageAlt}
+//               className="departmentImage"
+//             />
+
+//             <p>{department.number}</p>
+
+//             <h3>{department.name}</h3>
+
+//             <span>{department.subtitle}</span>
+//           </Link>
+//         ))}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+/*  Version 7 */
+
+// import { Link } from 'react-router-dom'
+// import { departments } from '../data/departments'
+// import { issueDepartments } from '../data/issueDepartments'
+
+// function Departments() {
+//   const currentIssue = issueDepartments['issue-01']
+
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">Issue 01</p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => {
+//           const feature =
+//             currentIssue[
+//               department.slug as keyof typeof currentIssue
+//             ]
+
+//           return (
+//             <Link
+//               key={department.slug}
+//               to={`/departments/${department.slug}`}
+//               className="departmentCard"
+//             >
+//               <img
+//                 src={department.heroImage}
+//                 alt={department.imageAlt}
+//                 className="departmentImage"
+//               />
+
+//               <p>{department.number}</p>
+
+//               <h3>{department.name}</h3>
+
+//               <span>
+//                 {feature?.title || department.subtitle}
+//               </span>
+//             </Link>
+//           )
+//         })}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+/*  Version 8 */
+
+// import { Link } from 'react-router-dom'
+// import { departments } from '../data/departments'
+// import { issueDepartments } from '../data/issueDepartments'
+
+// function Departments() {
+//   const issue = issueDepartments['issue-01']
+
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">Issue 01</p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => {
+//           const feature =
+//             issue[
+//               department.slug as keyof typeof issue
+//             ]
+
+//           return (
+//             <Link
+//               key={department.slug}
+//               to={`/departments/${department.slug}`}
+//               className="departmentCard"
+//             >
+//               <p>{department.number}</p>
+
+//               <h3>{department.name}</h3>
+
+//               <span>
+//                 {feature?.artist || department.subtitle}
+//               </span>
+//             </Link>
+//           )
+//         })}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+/*  Version 9 */
+
+
 import { Link } from 'react-router-dom'
 import { departments } from '../data/departments'
+import { issueDepartments } from '../data/issueDepartments'
 
 function Departments() {
+  const issue = issueDepartments['issue-01']
+
   return (
     <section id="departments" className="departments">
       <div className="sectionHeader">
         <p className="sectionLabel">Issue 01</p>
 
-        <h2>Art All Day — Weekly 8 Departments</h2>
+        <h2>Inside Art All Day</h2>
 
         <span>
           Recurring sections that shape the magazine’s voice — from artist
@@ -227,23 +490,40 @@ function Departments() {
       </div>
 
       <div className="departmentGrid">
-        {departments.map((department) => (
-          <Link
-            key={department.slug}
-            to={`/departments/${department.slug}`}
-            className="departmentCard"
-          >
-          <img
-            src={department.heroImage}
-            alt={department.imageAlt}
-            className="departmentImage"
-            />
+        {departments.map((department) => {
+          const feature =
+            issue[
+              department.slug as keyof typeof issue
+            ]
 
-            <p>{department.number}</p>
-            <h3>{department.name}</h3>
-            <span>{department.subtitle}</span>
-          </Link>
-        ))}
+          return (
+            <Link
+              key={department.slug}
+              to={`/departments/${department.slug}`}
+              className="departmentCard"
+            >
+              {feature?.image && (
+                <img
+                  src={feature.image}
+                  alt={
+                    feature.imageAlt ||
+                    feature.artist
+                  }
+                  className="departmentImage"
+                />
+              )}
+
+              <p>{department.number}</p>
+
+              <h3>{department.name}</h3>
+
+              <span>
+                {feature?.artist ||
+                  department.subtitle}
+              </span>
+            </Link>
+          )
+        })}
       </div>
     </section>
   )

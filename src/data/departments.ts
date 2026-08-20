@@ -1,7 +1,7 @@
 
-import sara01 from '../assets/sara01.jpg';
-import sara02 from '../assets/sara02.jpg';
-import sara03 from '../assets/sara03.jpg';
+import luz1 from '../assets/luz1.jpg';
+import ben4 from '../assets/ben11.jpg';
+import sara03 from '../assets/sara10.jpg';
 import sara04 from '../assets/sara04.jpg';
 import sara06 from '../assets/sara06.jpg';
 import sara07 from '../assets/sara07.jpg';
@@ -18,7 +18,7 @@ export const departments = [
   subtitle: 'An artist turning bodies, nature, folklore, and imagination into strange psychological landscapes.',
   author: 'Mo Alimi',
   date: 'July 4, 2026',
-  heroImage: sara01,
+  heroImage: luz1,
   imageAlt: 'Bath, soft pastel on paper, 39.5 x 38.1 cm, 2025',
  
 
@@ -38,7 +38,7 @@ paragraphs: [
     subtitle: 'Work that moves through belief, memory, ritual, and image.',
     author: 'Mo Alimi',
     date: 'July 4, 2026',
-    heroImage: sara02,
+    heroImage: ben4,
     paragraphs: [
       'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory. It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
       'A painting can become a prayer without saying anything directly. A shape can feel like a window. A leaf can become a symbol. A frame can become an altar. A repeated mark can begin to feel like devotion.',
@@ -71,6 +71,7 @@ paragraphs: [
     author: 'Mo Alimi',
     date: 'July 4, 2026',
     heroImage: sara04,
+    imageAlt: 'Artwork for Nour Bishouty',
     paragraphs: [
       'Studio Notes is about the private life of the work before it becomes public. The sketches, the failed versions, the repeated attempts, the unfinished surfaces, and the quiet discipline of returning.',
       'Finished work can make process look cleaner than it really is. But the studio is often a place of doubt, revision, boredom, discovery, and accident.',

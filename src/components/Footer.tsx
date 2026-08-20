@@ -31,13 +31,13 @@ function Footer() {
      Art All Day is an independent editorial platform for artists,
      exploring feeling, memory, faith, pressure, and visual truth through art and culture.
     </p>
-
+{/* 
     <div className="identityTags">
       <span>Artist Discovery</span>
       <span>Visual Essays</span>
       <span>Studio Culture</span>
       <span>Slow Criticism</span>
-    </div>
+    </div> */}
   </div>
 
       <div className="footerGrid">
@@ -47,33 +47,33 @@ function Footer() {
           <Link to="/departments/faith-and-form">Faith & Form</Link>
           <Link to="/departments/the-inner-image">The Inner Image</Link>
           <Link to="/departments/studio-notes">Studio Notes</Link>
-          <Link to="/departments/slow-looking">Slow Looking</Link>
+          {/* <Link to="/departments/slow-looking">Slow Looking</Link> */}
         </div>
 
         <div className="footerColumn">
           <h4>Artists</h4>
           <Link to="/artists/blu-the-genius">BLU The Genius</Link>
           <Link to="/artists/ben-cowan">Ben Cowan</Link>
-          <a href="#archive">Artist Archive</a>
-          <a href="#works">Works in View</a>
+          {/* <a href="#archive">Artist Archive</a>
+          <a href="#works">Works in View</a> */}
         </div>
-
+{/* 
         <div className="footerColumn">
           <h4>Magazine</h4>
           <a href="#issue">Issue 01</a>
           <a href="#latest">Latest Writing</a>
           <a href="#editors-note">Editor’s Note</a>
           <a href="#departments">Departments</a>
-        </div>
+        </div> */}
 
-        <div className="footerColumn">
+        {/* <div className="footerColumn">
           <h4>About</h4>
           <Link to="/submit">Submit Work</Link>
           <a href="mailto:artalldayco@gmail.com">Contact</a>
           <a href="#">Masthead</a>
           <a href="#">Privacy Policy</a>
-        </div>
-
+        </div> */}
+{/* 
         <div className="footerSubscribe">
           <h4>Art in your inbox</h4>
 
@@ -86,16 +86,21 @@ function Footer() {
             <input type="email" placeholder="Email address" />
             <button type="submit">Submit</button>
           </form>
-        </div>
+        </div> */}
       </div>
 
       <div className="footerBottom">
         <p>© 2026 Art All Day. Independent art editorial.</p>
 
         <div className="footerSocials">
-          <a href="#">Instagram</a>
-          <a href="#">YouTube</a>
-          <a href="#">TikTok</a>
+           <a
+            href="https://www.instagram.com/artallday.studio/"
+            target="_blank"
+            rel="noopener noreferrer">
+            Instagram
+          </a>
+          {/* <a href="#">YouTube</a>
+          <a href="#">TikTok</a> */}
         </div>
       </div>
 
