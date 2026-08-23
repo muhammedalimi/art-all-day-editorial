@@ -108,7 +108,7 @@ function Navbar() {
       </Link>
 
       <div className="navLinks">
-        {/* ARTISTS DROPDOWN */}
+        {/* ARTISTS DROPDOWN
         <div className="navMenu">
           <button className="navMenuButton" type="button">
             Artists <span>▾</span>
@@ -128,7 +128,33 @@ function Navbar() {
               </Link>
             ))}
           </div>
+        </div> */}
+
+        {/* ARTISTS DROPDOWN */}
+      <div className="navMenu">
+        <button className="navMenuButton" type="button">
+          Artists <span>▾</span>
+        </button>
+
+        <div className="navDropdown artistDropdown">
+          <p className="dropdownLabel">Featured Artists</p>
+
+          {artists.map((artist) => (
+            <Link
+              key={artist.slug}
+              to={`/artists/${artist.slug}`}
+              className="dropdownItem"
+            >
+              <div className="dropdownItemText">
+                <strong>{artist.name}</strong>
+                <span>{artist.category}</span>
+              </div>
+
+              <span className="dropdownArrow">↗</span>
+            </Link>
+          ))}
         </div>
+      </div>
 
         {/* WRITING DROPDOWN */}
         <div className="navMenu">
@@ -149,10 +175,10 @@ function Navbar() {
               <span>Artist Pick, Faith & Form, Studio Notes</span>
             </a>
 
-            <a href="#editors-note" className="dropdownItem">
+            {/* <a href="#editors-note" className="dropdownItem">
               <strong>Editor’s Note</strong>
               <span>The voice and direction of the issue</span>
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -175,10 +201,10 @@ function Navbar() {
               <span>Feeling in Color</span>
             </a>
 
-            <a href="#works" className="dropdownItem">
+            {/* <a href="#works" className="dropdownItem">
               <strong>Works in View</strong>
               <span>Selected images from the features</span>
-            </a>
+            </a> */}
           </div>
         </div>
 

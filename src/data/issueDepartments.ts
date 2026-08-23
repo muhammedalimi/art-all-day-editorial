@@ -57,7 +57,7 @@ export const issueDepartments = {
       description: [
         'Luz Carabano approaches painting intuitively rather than descriptively, allowing intimacy and feeling to guide the work.',
 
-        'Her practice asks what happens when painting becomes less about describing the world and more about experiencing it through color, gesture, presence, and emotion.',
+        'His practice asks what happens when painting becomes less about describing the world and more about experiencing it through color, gesture, presence, and emotion.',
       ],
 
       image: luz1,
@@ -139,20 +139,20 @@ export const issueDepartments = {
 
     'surface-study': {
       department: 'Surface Study',
-      artist: 'Manoele Medeiros',
+      artist: 'Manoela Medeiros',
       title: 'Space as a Living Body',
 
       description: [
-        'Manoele Medeiros creates work shaped by material structures, treating space almost like a living body.',
+        'Manoela Medeiros creates work shaped by material structures, treating space almost like a living body.',
 
         'Her practice considers how materials, architecture, surfaces, and physical environments can carry memory, movement, and presence.',
       ],
       image: manoela1,
-      imageAlt: 'Artwork for Manoele Medeiros',
+      imageAlt: 'Artwork for Manoela Medeiros',
       caption: 'Space as a Living Body',
      
 
-      link: '/artists/manoele-medeiros',
+      link: '/artists/manoela-medeiros',
     },
 
     'street-to-studio': {
