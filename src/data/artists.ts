@@ -6,7 +6,7 @@ import ben1 from '../assets/ben1.jpg'
 import ben2 from '../assets/ben2.jpg'
 import ben3 from '../assets/ben3.jpg'
 
-import luz1 from '../assets/luz1.jpg'
+import luz1 from '../assets/Luz1.jpg'
 
 export const artists = [
   {
