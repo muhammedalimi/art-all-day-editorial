@@ -478,7 +478,153 @@
 // export default StudioHoursArticlePage
 
 
-import { Link, useParams } from 'react-router-dom'
+// import { Link, useParams } from 'react-router-dom'
+
+// import { articles } from '../data/articles'
+// import { issues } from '../data/issues'
+
+// import ReadingProgress from '../components/ReadingProgress'
+// import Footer from '../components/Footer'
+// import ListenButton from '../components/ListenButton'
+
+// import '../styles/StudioHoursArticlePage.css'
+
+// function StudioHoursArticlePage() {
+//   const { slug } = useParams()
+
+//   const article =
+//     articles[slug as keyof typeof articles]
+
+//   if (!article) {
+//     return (
+//       <main className="studioArticlePage">
+//         <Link to="/" className="studioBackLink">
+//           ← Back to Home
+//         </Link>
+
+//         <h1>Article not found</h1>
+//       </main>
+//     )
+//   }
+
+//   const issue = issues.find(
+//     (item) =>
+//       item.issueNumber === article.issueNumber
+//   )
+
+//   const articleText = [
+//     article.title,
+//     article.intro,
+//     ...article.body,
+//   ].join('. ')
+
+//   return (
+//     <main className="studioArticle">
+//       <ReadingProgress />
+
+//       <section className="studioArticleNav">
+//         <Link
+//           to="/"
+//           className="studioBackLink"
+//         >
+//           Back to Home
+//         </Link>
+
+//         <p className="studioSectionLabel">
+//           {article.category}
+//         </p>
+
+//         <h1 className="studioArticleTitle">
+//           {article.title}
+//         </h1>
+
+//         <div className="studioArticleInfo">
+//           <span>
+//             {issue?.number || 'Issue'}
+//           </span>
+
+//           <span>
+//             {article.author || 'Art All Day'}
+//           </span>
+
+//           <span>
+//             {article.readTime}
+//           </span>
+//         </div>
+//       </section>
+
+//       <section className="studioArticleBody">
+//         <ListenButton text={articleText} />
+
+//         <p className="studioArticleIntro">
+//           {article.intro}
+//         </p>
+
+//         <div className="studioArticleText">
+//           {article.body.map(
+//             (paragraph, index) => (
+//               <p key={index}>
+//                 {paragraph}
+//               </p>
+//             )
+//           )}
+//         </div>
+//       </section>
+
+//       <section className="studioMore">
+//         <p className="studioSectionLabel">
+//           More Studio Hours
+//         </p>
+
+//         <div className="studioArticleGrid">
+//           {Object.entries(articles)
+//             .filter(
+//               ([articleSlug]) =>
+//                 articleSlug !== slug
+//             )
+//             .slice(0, 7)
+//             .map(([articleSlug, item]) => {
+//               const itemIssue = issues.find(
+//                 (issueItem) =>
+//                   issueItem.issueNumber ===
+//                   item.issueNumber
+//               )
+
+//               return (
+//                 <Link
+//                   key={articleSlug}
+//                   to={`/studio-hours/${articleSlug}`}
+//                   className="studioArchiveCard"
+//                 >
+//                   <p>
+//                     {itemIssue?.number ||
+//                       'Issue'}
+//                   </p>
+
+//                   <h3>{item.title}</h3>
+
+//                   <span>
+//                     {item.category}
+//                   </span>
+//                 </Link>
+//               )
+//             })}
+//         </div>
+//       </section>
+
+//       <Footer />
+//     </main>
+//   )
+// }
+
+// export default StudioHoursArticlePage
+
+
+import {
+  Link,
+  useNavigate,
+  useParams,
+} from 'react-router-dom'
 
 import { articles } from '../data/articles'
 import { issues } from '../data/issues'
@@ -491,6 +637,7 @@ import '../styles/StudioHoursArticlePage.css'
 
 function StudioHoursArticlePage() {
   const { slug } = useParams()
+  const navigate = useNavigate()
 
   const article =
     articles[slug as keyof typeof articles]
@@ -498,7 +645,10 @@ function StudioHoursArticlePage() {
   if (!article) {
     return (
       <main className="studioArticlePage">
-        <Link to="/" className="studioBackLink">
+        <Link
+          to="/"
+          className="studioBackLink"
+        >
           ← Back to Home
         </Link>
 
@@ -523,12 +673,13 @@ function StudioHoursArticlePage() {
       <ReadingProgress />
 
       <section className="studioArticleNav">
-        <Link
-          to="/"
+        <button
+          type="button"
           className="studioBackLink"
+          onClick={() => navigate(-1)}
         >
-          Back to Home
-        </Link>
+          ← Back
+        </button>
 
         <p className="studioSectionLabel">
           {article.category}
@@ -601,7 +752,9 @@ function StudioHoursArticlePage() {
                       'Issue'}
                   </p>
 
-                  <h3>{item.title}</h3>
+                  <h3>
+                    {item.title}
+                  </h3>
 
                   <span>
                     {item.category}

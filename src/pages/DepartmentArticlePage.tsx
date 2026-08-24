@@ -1096,7 +1096,219 @@
 // export default DepartmentArticlePage
 
 
-import { Link, useParams } from 'react-router-dom'
+// import { Link, useParams } from 'react-router-dom'
+
+// import { departments } from '../data/departments'
+// import { issueDepartments } from '../data/issueDepartments'
+// import { issues, currentIssue } from '../data/issues'
+
+// import ReadingProgress from '../components/ReadingProgress'
+// import Footer from '../components/Footer'
+// import ListenButton from '../components/ListenButton'
+
+// function DepartmentArticlePage() {
+//   const { issueSlug, slug } = useParams()
+
+//   const department = departments.find(
+//     (item) => item.slug === slug
+//   )
+
+//   if (!department || !currentIssue) {
+//     return (
+//       <main className="departmentArticlePage">
+//         <h1>Department not found</h1>
+
+//         <Link to="/">
+//           Back home
+//         </Link>
+//       </main>
+//     )
+//   }
+
+//   const resolvedIssueSlug =
+//     issueSlug || currentIssue.slug
+
+//   const issue =
+//     issueDepartments[resolvedIssueSlug]
+
+//   const resolvedIssue = issues.find(
+//     (item) => item.slug === resolvedIssueSlug
+//   )
+//  ///Testing 
+//   // console.log('issueSlug:', issueSlug)
+//   // console.log('resolvedIssueSlug:', resolvedIssueSlug)
+//   // console.log('issue:', issue)
+//   // console.log('resolvedIssue:', resolvedIssue)
+//   // console.log('issueDepartment keys:', Object.keys(issueDepartments))
+
+//   if (!issue || !resolvedIssue) {
+//     return (
+//       <main className="departmentArticlePage">
+//         <h1>Issue not found</h1>
+
+//         <Link to="/">
+//           Back home
+//         </Link>
+//       </main>
+//     )
+//   }
+
+//   const feature =
+//     issue.departments[
+//       department.slug as keyof typeof issue.departments
+//     ]
+
+//   const title =
+//     feature?.title || department.name
+
+//   const artist =
+//     feature?.artist || department.name
+
+//   const paragraphs =
+//     feature?.description || department.paragraphs
+
+//   const articleText = [
+//     department.name,
+//     artist,
+//     title,
+//     ...paragraphs,
+//   ].join('. ')
+
+//   return (
+//     <main className="departmentArticlePage">
+//       <ReadingProgress />
+
+//       {/* HERO IMAGE */}
+//       {feature?.image && (
+//         <figure className="departmentHeroImage">
+//           <img
+//             src={feature.image}
+//             alt={
+//               feature.imageAlt ||
+//               feature.artist ||
+//               department.name
+//             }
+//           />
+
+//           {feature.caption && (
+//             <figcaption>
+//               {feature.caption}
+//             </figcaption>
+//           )}
+//         </figure>
+//       )}
+
+//       {/* HEADER */}
+//       <section className="departmentArticleHero">
+//         <Link
+//           to="/"
+//           className="backLink dark"
+//         >
+//           ← Back to Home
+//         </Link>
+
+//         <p className="sectionLabel">
+//           {department.name}
+//         </p>
+
+//         <h1>
+//           {artist}
+//         </h1>
+
+//         <p className="departmentArticleTitle">
+//           {title}
+//         </p>
+
+//         <div className="articleInfo darkInfo">
+//           <span>
+//             {resolvedIssue.number}
+//           </span>
+
+//           <span>
+//             Art All Day
+//           </span>
+//         </div>
+//       </section>
+
+//       {/* ARTICLE */}
+//       <section className="departmentArticleBody">
+//         <ListenButton text={articleText} />
+
+//         <p className="articleIntro">
+//           {department.subtitle}
+//         </p>
+
+//         {paragraphs.map((paragraph, index) => (
+//           <p key={index}>
+//             {paragraph}
+//           </p>
+//         ))}
+
+//         {feature?.link && (
+//           <Link
+//             to={feature.link}
+//             className="departmentFeatureButton"
+//           >
+//             View Artist →
+//           </Link>
+//         )}
+//       </section>
+
+//       {/* MORE DEPARTMENTS */}
+//       <section className="moreDepartments">
+//         <p className="sectionLabel">
+//           More Departments
+//         </p>
+
+//         <div className="moreDepartmentGrid">
+//           {departments
+//             .filter(
+//               (item) =>
+//                 item.slug !== department.slug
+//             )
+//             .slice(0, 7)
+//             .map((item) => {
+//               const itemFeature =
+//                 issue.departments[
+//                   item.slug as keyof typeof issue.departments
+//                 ]
+
+//               return (
+//                 <Link
+//                   key={item.slug}
+//                   to={
+//                     issueSlug
+//                       ? `/issues/${resolvedIssueSlug}/departments/${item.slug}`
+//                       : `/departments/${item.slug}`
+//                   }
+//                   className="archiveCard"
+//                 >
+//                   <p>{item.number}</p>
+
+//                   <h3>{item.name}</h3>
+
+//                   <span>
+//                     {itemFeature?.artist ||
+//                       item.subtitle}
+//                   </span>
+//                 </Link>
+//               )
+//             })}
+//         </div>
+//       </section>
+
+//       <Footer />
+//     </main>
+//   )
+// }
+
+// export default DepartmentArticlePage
+
+import {
+  Link,
+  useNavigate,
+  useParams,
+} from 'react-router-dom'
 
 import { departments } from '../data/departments'
 import { issueDepartments } from '../data/issueDepartments'
@@ -1108,6 +1320,7 @@ import ListenButton from '../components/ListenButton'
 
 function DepartmentArticlePage() {
   const { issueSlug, slug } = useParams()
+  const navigate = useNavigate()
 
   const department = departments.find(
     (item) => item.slug === slug
@@ -1134,12 +1347,6 @@ function DepartmentArticlePage() {
   const resolvedIssue = issues.find(
     (item) => item.slug === resolvedIssueSlug
   )
- ///Testing 
-  // console.log('issueSlug:', issueSlug)
-  // console.log('resolvedIssueSlug:', resolvedIssueSlug)
-  // console.log('issue:', issue)
-  // console.log('resolvedIssue:', resolvedIssue)
-  // console.log('issueDepartment keys:', Object.keys(issueDepartments))
 
   if (!issue || !resolvedIssue) {
     return (
@@ -1200,12 +1407,13 @@ function DepartmentArticlePage() {
 
       {/* HEADER */}
       <section className="departmentArticleHero">
-        <Link
-          to="/"
+        <button
+          type="button"
           className="backLink dark"
+          onClick={() => navigate(-1)}
         >
-          ← Back to Home
-        </Link>
+          ← Back
+        </button>
 
         <p className="sectionLabel">
           {department.name}
@@ -1238,11 +1446,13 @@ function DepartmentArticlePage() {
           {department.subtitle}
         </p>
 
-        {paragraphs.map((paragraph, index) => (
-          <p key={index}>
-            {paragraph}
-          </p>
-        ))}
+        {paragraphs.map(
+          (paragraph, index) => (
+            <p key={index}>
+              {paragraph}
+            </p>
+          )
+        )}
 
         {feature?.link && (
           <Link
