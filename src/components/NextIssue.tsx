@@ -63,12 +63,52 @@
 
 /* Version 2.0 date updated  */
 
-import { issues } from '../data/issues'
+// import { issues } from '../data/issues'
+// import { Link } from 'react-router-dom'
+
+// function NextIssue() {
+//   const nextIssue = issues.find((issue) => issue.slug === 'issue-02')
+
+//   if (!nextIssue) {
+//     return null
+//   }
+
+//   return (
+//     <section className="nextIssue">
+//       <div>
+//         <p className="sectionLabel">{nextIssue.status}</p>
+
+//         <h2>
+//           {nextIssue.number}: {nextIssue.title}
+//         </h2>
+
+//         <p>{nextIssue.description}</p>
+
+//         <p className="issueDate">{nextIssue.date}</p>
+
+//         <Link to="/submit" className="nextIssueButton">
+//           Submit for {nextIssue.number}
+//         </Link>
+//       </div>
+
+//       <div className="nextIssueList">
+//         <Link to="/submit">Family Archives</Link>
+//         <Link to="/submit">Home & Distance</Link>
+//         <Link to="/submit">Memory Work</Link>
+//         <Link to="/submit">Objects That Remember</Link>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default NextIssue
+
+
+
 import { Link } from 'react-router-dom'
+import { nextIssue } from '../data/issues'
 
 function NextIssue() {
-  const nextIssue = issues.find((issue) => issue.slug === 'issue-02')
-
   if (!nextIssue) {
     return null
   }
@@ -76,26 +116,46 @@ function NextIssue() {
   return (
     <section className="nextIssue">
       <div>
-        <p className="sectionLabel">{nextIssue.status}</p>
+        <p className="sectionLabel">
+          {nextIssue.status}
+        </p>
 
         <h2>
           {nextIssue.number}: {nextIssue.title}
         </h2>
 
-        <p>{nextIssue.description}</p>
+        <p>
+          {nextIssue.description}
+        </p>
 
-        <p className="issueDate">{nextIssue.date}</p>
+        <p className="issueDate">
+          {nextIssue.date}
+        </p>
 
-        <Link to="/submit" className="nextIssueButton">
+        <Link
+          to="/submit"
+          className="nextIssueButton"
+        >
           Submit for {nextIssue.number}
         </Link>
       </div>
 
       <div className="nextIssueList">
-        <Link to="/submit">Family Archives</Link>
-        <Link to="/submit">Home & Distance</Link>
-        <Link to="/submit">Memory Work</Link>
-        <Link to="/submit">Objects That Remember</Link>
+        <Link to="/submit">
+          Family Archives
+        </Link>
+
+        <Link to="/submit">
+          Home & Distance
+        </Link>
+
+        <Link to="/submit">
+          Memory Work
+        </Link>
+
+        <Link to="/submit">
+          Objects That Remember
+        </Link>
       </div>
     </section>
   )

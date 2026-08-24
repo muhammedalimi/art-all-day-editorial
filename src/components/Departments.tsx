@@ -469,17 +469,174 @@
 /*  Version 9 */
 
 
+// import { Link } from 'react-router-dom'
+// import { departments } from '../data/departments'
+// import { issueDepartments } from '../data/issueDepartments'
+
+// function Departments() {
+//   const issue = issueDepartments['issue-01']
+
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">Issue 01</p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => {
+//           const feature =
+//             issue[
+//               department.slug as keyof typeof issue
+//             ]
+
+//           return (
+//             <Link
+//               key={department.slug}
+//               to={`/departments/${department.slug}`}
+//               className="departmentCard"
+//             >
+//               {feature?.image && (
+//                 <img
+//                   src={feature.image}
+//                   alt={
+//                     feature.imageAlt ||
+//                     feature.artist
+//                   }
+//                   className="departmentImage"
+//                 />
+//               )}
+
+//               <p>{department.number}</p>
+
+//               <h3>{department.name}</h3>
+
+//               <span>
+//                 {feature?.artist ||
+//                   department.subtitle}
+//               </span>
+//             </Link>
+//           )
+//         })}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+// import { Link } from 'react-router-dom'
+
+// import { departments } from '../data/departments'
+// import { issueDepartments } from '../data/issueDepartments'
+// import { currentIssue } from '../data/issues'
+
+// function Departments() {
+//   if (!currentIssue) {
+//     return null
+//   }
+
+//   const issue = issueDepartments[currentIssue.slug]
+
+//   if (!issue) {
+//     return null
+//   }
+
+//   return (
+//     <section id="departments" className="departments">
+//       <div className="sectionHeader">
+//         <p className="sectionLabel">
+//           {currentIssue.number}
+//         </p>
+
+//         <h2>Inside Art All Day</h2>
+
+//         <span>
+//           Recurring sections that shape the magazine’s voice — from artist
+//           discovery to criticism, studio life, emotion, material, and culture.
+//         </span>
+//       </div>
+
+//       <div className="departmentGrid">
+//         {departments.map((department) => {
+//           const feature =
+//             issue.departments[
+//               department.slug as keyof typeof issue.departments
+//             ]
+
+//           return (
+//             <Link
+//               key={department.slug}
+//               to={`/departments/${department.slug}`}
+//               className="departmentCard"
+//             >
+//               {feature?.image && (
+//                 <img
+//                   src={feature.image}
+//                   alt={
+//                     feature.imageAlt ||
+//                     feature.artist
+//                   }
+//                   className="departmentImage"
+//                 />
+//               )}
+
+//               <p>{department.number}</p>
+
+//               <h3>{department.name}</h3>
+
+//               <span>
+//                 {feature?.artist ||
+//                   department.subtitle}
+//               </span>
+//             </Link>
+//           )
+//         })}
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default Departments
+
+
+
+
 import { Link } from 'react-router-dom'
+
 import { departments } from '../data/departments'
 import { issueDepartments } from '../data/issueDepartments'
+import { currentIssue } from '../data/issues'
 
 function Departments() {
-  const issue = issueDepartments['issue-01']
+  // No current issue = nothing to display
+  if (!currentIssue) {
+    return null
+  }
+
+  // Get the department features belonging
+  // specifically to the current issue
+  const issue = issueDepartments[currentIssue.slug]
+
+  if (!issue) {
+    return null
+  }
 
   return (
-    <section id="departments" className="departments">
+    <section
+      id="departments"
+      className="departments"
+    >
       <div className="sectionHeader">
-        <p className="sectionLabel">Issue 01</p>
+        <p className="sectionLabel">
+          {currentIssue.number}
+        </p>
 
         <h2>Inside Art All Day</h2>
 
@@ -492,31 +649,36 @@ function Departments() {
       <div className="departmentGrid">
         {departments.map((department) => {
           const feature =
-            issue[
-              department.slug as keyof typeof issue
+            issue.departments[
+              department.slug as keyof typeof issue.departments
             ]
 
           return (
             <Link
               key={department.slug}
-              to={`/departments/${department.slug}`}
+              to={`/issues/${currentIssue.slug}/departments/${department.slug}`}
               className="departmentCard"
             >
+              {/* FEATURE IMAGE */}
               {feature?.image && (
                 <img
                   src={feature.image}
                   alt={
                     feature.imageAlt ||
-                    feature.artist
+                    feature.artist ||
+                    department.name
                   }
                   className="departmentImage"
                 />
               )}
 
+              {/* DEPARTMENT NUMBER */}
               <p>{department.number}</p>
 
+              {/* DEPARTMENT NAME */}
               <h3>{department.name}</h3>
 
+              {/* ISSUE-SPECIFIC ARTIST */}
               <span>
                 {feature?.artist ||
                   department.subtitle}

@@ -365,18 +365,135 @@
 
 
 
+// import { Link, useParams } from 'react-router-dom'
+// import { articles } from '../data/articles'
+// import ReadingProgress from '../components/ReadingProgress'
+// import Footer from '../components/Footer'
+// import ListenButton from '../components/ListenButton'
+// import '../styles/StudioHoursArticlePage.css'
+
+
+// function StudioHoursArticlePage() {
+//   const { slug } = useParams()
+
+//   const article = articles[slug as keyof typeof articles]
+
+//   if (!article) {
+//     return (
+//       <main className="studioArticlePage">
+//         <Link to="/" className="studioBackLink">
+//           ← Back to Home
+//         </Link>
+
+//         <h1>Article not found</h1>
+//       </main>
+//     )
+//   }
+
+//   const articleText = [
+//     article.title,
+//     article.intro,
+//     ...article.body,
+//   ].join('. ')
+
+//   return (
+//     <main className="studioArticle">
+//       <ReadingProgress />
+
+//       <section className="studioArticleNav">
+//         <Link to="/" className="studioBackLink">
+//            Back to Home
+//         </Link>
+      
+
+//         <p className="studioSectionLabel">
+//           {article.category}
+//         </p>
+
+//         <h1 className="studioArticleTitle">
+//           {article.title}
+//         </h1>
+
+//         <div className="studioArticleInfo">
+//           <span>{article.issue || 'Issue 01'}</span>
+//           <span>{article.author || 'Art All Day'}</span>
+//           <span>{article.readTime}</span>
+//         </div>
+
+//       </section>
+
+//       <section className="studioArticleBody">
+
+//         <ListenButton text={articleText} />
+
+//         <p className="studioArticleIntro">
+//           {article.intro}
+//         </p>
+
+//         <div className="studioArticleText">
+//           {article.body.map((paragraph, index) => (
+//             <p key={index}>
+//               {paragraph}
+//             </p>
+//           ))}
+//         </div>
+
+//       </section>
+
+//       <section className="studioMore">
+
+//         <p className="studioSectionLabel">
+//           More Studio Hours
+//         </p>
+
+//         <div className="studioArticleGrid">
+
+//           {Object.entries(articles)
+//             .filter(([articleSlug]) => articleSlug !== slug)
+//             .slice(0, 7)
+//             .map(([articleSlug, item]) => (
+//               <Link
+//                 key={articleSlug}
+//                 to={`/studio-hours/${articleSlug}`}
+//                 className="studioArchiveCard"
+//               >
+//                 <p>{item.issue || 'Issue 01'}</p>
+
+//                 <h3>{item.title}</h3>
+
+//                 <span>{item.category}</span>
+//               </Link>
+//             ))}
+
+//         </div>
+
+//       </section>
+
+//       <Footer />
+
+//     </main>
+//   )
+// }
+
+// export default StudioHoursArticlePage
+
+
 import { Link, useParams } from 'react-router-dom'
+
 import { articles } from '../data/articles'
+import { issues } from '../data/issues'
+
 import ReadingProgress from '../components/ReadingProgress'
 import Footer from '../components/Footer'
 import ListenButton from '../components/ListenButton'
-import '../styles/StudioHoursArticlePage.css'
 
+import '../styles/StudioHoursArticlePage.css'
 
 function StudioHoursArticlePage() {
   const { slug } = useParams()
 
-  const article = articles[slug as keyof typeof articles]
+  const article =
+    articles[slug as keyof typeof articles]
 
   if (!article) {
     return (
@@ -390,6 +507,11 @@ function StudioHoursArticlePage() {
     )
   }
 
+  const issue = issues.find(
+    (item) =>
+      item.issueNumber === article.issueNumber
+  )
+
   const articleText = [
     article.title,
     article.intro,
@@ -401,10 +523,12 @@ function StudioHoursArticlePage() {
       <ReadingProgress />
 
       <section className="studioArticleNav">
-        <Link to="/" className="studioBackLink">
-           Back to Home
+        <Link
+          to="/"
+          className="studioBackLink"
+        >
+          Back to Home
         </Link>
-      
 
         <p className="studioSectionLabel">
           {article.category}
@@ -415,15 +539,21 @@ function StudioHoursArticlePage() {
         </h1>
 
         <div className="studioArticleInfo">
-          <span>{article.issue || 'Issue 01'}</span>
-          <span>{article.author || 'Art All Day'}</span>
-          <span>{article.readTime}</span>
-        </div>
+          <span>
+            {issue?.number || 'Issue'}
+          </span>
 
+          <span>
+            {article.author || 'Art All Day'}
+          </span>
+
+          <span>
+            {article.readTime}
+          </span>
+        </div>
       </section>
 
       <section className="studioArticleBody">
-
         <ListenButton text={articleText} />
 
         <p className="studioArticleIntro">
@@ -431,46 +561,58 @@ function StudioHoursArticlePage() {
         </p>
 
         <div className="studioArticleText">
-          {article.body.map((paragraph, index) => (
-            <p key={index}>
-              {paragraph}
-            </p>
-          ))}
+          {article.body.map(
+            (paragraph, index) => (
+              <p key={index}>
+                {paragraph}
+              </p>
+            )
+          )}
         </div>
-
       </section>
 
       <section className="studioMore">
-
         <p className="studioSectionLabel">
           More Studio Hours
         </p>
 
         <div className="studioArticleGrid">
-
           {Object.entries(articles)
-            .filter(([articleSlug]) => articleSlug !== slug)
+            .filter(
+              ([articleSlug]) =>
+                articleSlug !== slug
+            )
             .slice(0, 7)
-            .map(([articleSlug, item]) => (
-              <Link
-                key={articleSlug}
-                to={`/studio-hours/${articleSlug}`}
-                className="studioArchiveCard"
-              >
-                <p>{item.issue || 'Issue 01'}</p>
+            .map(([articleSlug, item]) => {
+              const itemIssue = issues.find(
+                (issueItem) =>
+                  issueItem.issueNumber ===
+                  item.issueNumber
+              )
 
-                <h3>{item.title}</h3>
+              return (
+                <Link
+                  key={articleSlug}
+                  to={`/studio-hours/${articleSlug}`}
+                  className="studioArchiveCard"
+                >
+                  <p>
+                    {itemIssue?.number ||
+                      'Issue'}
+                  </p>
 
-                <span>{item.category}</span>
-              </Link>
-            ))}
+                  <h3>{item.title}</h3>
 
+                  <span>
+                    {item.category}
+                  </span>
+                </Link>
+              )
+            })}
         </div>
-
       </section>
 
       <Footer />
-
     </main>
   )
 }

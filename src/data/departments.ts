@@ -1,145 +1,294 @@
-import luz1 from "../assets/Luz1.jpg";
-import ben4 from '../assets/ben11.jpg';
-import sara03 from '../assets/sara10.jpg';
-import sara04 from '../assets/sara04.jpg';
-import sara06 from '../assets/sara06.jpg';
-import sara07 from '../assets/sara07.jpg';
-import sara08 from '../assets/sara08.jpg';
-import sara09 from '../assets/sara09.jpg';
+// import luz1 from "../assets/Luz1.jpg";
+// import ben4 from '../assets/ben11.jpg';
+// import sara03 from '../assets/sara10.jpg';
+// import sara04 from '../assets/sara04.jpg';
+// import sara06 from '../assets/sara06.jpg';
+// import sara07 from '../assets/sara07.jpg';
+// import sara08 from '../assets/sara08.jpg';
+// import sara09 from '../assets/sara09.jpg';
 
-export const departments = [
+// export const departments = [
   
-{
- slug: 'artist-pick',
-  number: '01',
-  name: 'Artist Pick',
-  title: 'Sara Anstis Paints the Strange Space Between Body and Dream',
-  subtitle: 'An artist turning bodies, nature, folklore, and imagination into strange psychological landscapes.',
-  author: 'Mo Alimi',
-  date: 'July 4, 2026',
-  heroImage: luz1,
-  imageAlt: 'Bath, soft pastel on paper, 39.5 x 38.1 cm, 2025',
+// {
+//  slug: 'artist-pick',
+//   number: '01',
+//   name: 'Artist Pick',
+//   title: 'Sara Anstis Paints the Strange Space Between Body and Dream',
+//   subtitle: 'An artist turning bodies, nature, folklore, and imagination into strange psychological landscapes.',
+//   author: 'Mo Alimi',
+//   date: 'July 4, 2026',
+//   heroImage: luz1,
+//   imageAlt: 'Bath, soft pastel on paper, 39.5 x 38.1 cm, 2025',
  
 
-paragraphs: [
-  'Artist Pick is where we pay attention to artists whose work creates its own world. Sara Anstis makes paintings where bodies, animals, landscapes, folklore, and imagination seem to exist in the same unstable space.',
-  'Her work feels familiar and unfamiliar at once. Figures stretch, merge, hide, and reappear. Nature becomes psychological, and the ordinary begins to feel mythological.',
-  'What makes the work compelling is not simply its surreal imagery. It is the feeling underneath it—the sense that something personal, instinctive, and slightly unsettling is taking place beneath the surface.',
-  'Anstis reminds us that an artist does not need to explain a world for us to enter it. Sometimes the strongest work simply opens the door and lets the strange things in.',
-],
+// paragraphs: [
+//   'Artist Pick is where we pay attention to artists whose work creates its own world. Sara Anstis makes paintings where bodies, animals, landscapes, folklore, and imagination seem to exist in the same unstable space.',
+//   'Her work feels familiar and unfamiliar at once. Figures stretch, merge, hide, and reappear. Nature becomes psychological, and the ordinary begins to feel mythological.',
+//   'What makes the work compelling is not simply its surreal imagery. It is the feeling underneath it—the sense that something personal, instinctive, and slightly unsettling is taking place beneath the surface.',
+//   'Anstis reminds us that an artist does not need to explain a world for us to enter it. Sometimes the strongest work simply opens the door and lets the strange things in.',
+// ],
 
-},
+// },
+//   {
+//     slug: 'faith-and-form',
+//     number: '02',
+//     name: 'Faith & Form',
+//     title: 'What Remains Sacred After Doubt?',
+//     subtitle: 'Work that moves through belief, memory, ritual, and image.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: ben4,
+//     paragraphs: [
+//       'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory. It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
+//       'A painting can become a prayer without saying anything directly. A shape can feel like a window. A leaf can become a symbol. A frame can become an altar. A repeated mark can begin to feel like devotion.',
+//       'This department is interested in how artists build sacred feeling through material choices, composition, light, repetition, and silence. Sometimes faith appears clearly. Other times, it arrives through absence, rupture, or longing.',
+//       'What remains sacred after doubt is not always certainty. Sometimes it is the act of returning to the work, looking again, and allowing meaning to rebuild itself slowly.',
+//     ],
+//   },
+//   {
+//     slug: 'the-inner-image',
+//     number: '03',
+//     name: 'The Inner Image',
+//     title: 'Anxiety Has a Color',
+//     subtitle: 'Art shaped by pressure, identity, insecurity, feeling, and memory.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: sara03,
+//     paragraphs: [
+//       'The Inner Image focuses on artists who make emotional pressure visible. These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
+//       'Some images do not explain themselves immediately because they are not trying to behave like explanations. They behave more like symptoms, dreams, confessions, or emotional weather.',
+//       'Color becomes important here. A blue face, a red background, a distorted body, a repeated character — these choices can carry what language struggles to hold.',
+//       'This department asks how artists turn inner life into visual form. Not to make pain beautiful, but to make it visible enough to be faced.',
+//     ],
+//   },
+//   {
+//     slug: 'studio-notes',
+//     number: '04',
+//     name: 'Studio Notes',
+//     title: 'Before the Work Looks Finished',
+//     subtitle: 'Process, doubt, repetition, material, sketches, and private practice.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: sara04,
+//     imageAlt: 'Artwork for Nour Bishouty',
+//     paragraphs: [
+//       'Studio Notes is about the private life of the work before it becomes public. The sketches, the failed versions, the repeated attempts, the unfinished surfaces, and the quiet discipline of returning.',
+//       'Finished work can make process look cleaner than it really is. But the studio is often a place of doubt, revision, boredom, discovery, and accident.',
+//       'This department pays attention to what happens before the final image. The materials on the table. The marks that get painted over. The ideas that almost worked. The experiments that later become a language.',
+//       'To understand an artist, sometimes you have to look at the practice, not only the product.',
+//     ],
+//   },
+//   {
+//     slug: 'slow-looking',
+//     number: '05',
+//     name: 'Slow Looking',
+//     title: 'The First Feeling Is Not the Whole Painting',
+//     subtitle: 'Criticism that asks what happens when we stay with the work.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: sara06,
+//     paragraphs: [
+//       'Slow Looking is a resistance to quick judgment. It asks what happens when we stay with an image longer than the first reaction.',
+//       'The first feeling matters, but it is not always the whole truth of the work. A painting can open slowly. A detail can change the mood. A composition can reveal its structure only after attention has settled.',
+//       'This department is where criticism becomes patient. It does not rush to praise or dismiss. It looks for tension, rhythm, contradiction, and meaning.',
+//       'The goal is not to sound academic. The goal is to look honestly and carefully enough that the work has a chance to speak.',
+//     ],
+//   },
+//   {
+//     slug: 'surface-study',
+//     number: '06',
+//     name: 'Surface Study',
+//     title: 'Color Is Never Neutral',
+//     subtitle: 'Color, texture, composition, scale, and material presence.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: sara09,
+//     paragraphs: [
+//       'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and the way an image holds presence.',
+//       'Surface is not shallow. It is where feeling lands. A rough mark can carry aggression. A soft wash can carry memory. A thick layer of paint can feel like time built into the object.',
+//       'Color is never neutral either. It brings mood, culture, emotion, and atmosphere into the work before the viewer has even named what they are seeing.',
+//       'This department looks closely at how artworks create meaning through what they are made of, not only what they are about.',
+//     ],
+//   },
+//   {
+//     slug: 'street-to-studio',
+//     number: '07',
+//     name: 'Street to Studio',
+//     title: 'Art That Still Has Dust on Its Shoes',
+//     subtitle: 'Work that carries raw energy from lived space into visual form.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: sara07,
+//     paragraphs: [
+//       'Street to Studio is about work that carries the energy of lived space. The wall, the sidewalk, the bedroom, the bus stop, the city, the neighborhood, the internet, the flyer, the corner store, the real world.',
+//       'Not all serious art needs to feel polished for approval. Some work matters because it still feels close to where it came from.',
+//       'This department is interested in artists who move between raw expression and formal presentation. Work that can live in a gallery but still remembers the street.',
+//       'Raw does not mean unfinished. Sometimes raw means honest before it becomes acceptable.',
+//     ],
+//   },
+//   {
+//     slug: 'exhibition-notes',
+//     number: '08',
+//     name: 'Exhibition Notes',
+//     title: 'The Room Changed the Work',
+//     subtitle: 'Short reflections on shows, rooms, walls, and the act of looking.',
+//     author: 'Mo Alimi',
+//     date: 'July 4, 2026',
+//     heroImage: sara08,
+//     paragraphs: [
+//       'Exhibition Notes looks at how art changes when it enters a room. A painting on a screen is not the same as a painting on a wall. Scale, light, distance, silence, and placement all shape the experience.',
+//       'Sometimes the room strengthens the work. Sometimes it exposes weakness. Sometimes the best piece is not the loudest one, but the one you notice after walking past it twice.',
+//       'This department is for short reflections on shows, pop-ups, installations, gallery visits, and unexpected encounters with art.',
+//       'The room is never neutral. It frames the work, guides the body, and changes the way attention moves.',
+//     ],
+//   },
+// ]
+
+
+/* Permamnent look*/
+
+export type Department = {
+  slug: string
+  number: string
+  name: string
+  subtitle: string
+  paragraphs: string[]
+}
+
+export const departments: Department[] = [
+  {
+    slug: 'artist-pick',
+    number: '01',
+    name: 'Artist Pick',
+
+    subtitle:
+      'Artists whose work creates a world worth paying attention to.',
+
+    paragraphs: [
+      'Artist Pick is where Art All Day pays attention to artists whose work creates its own visual world.',
+
+      'The selection is not simply about popularity or market attention. It is about artists whose work gives us something worth looking at, questioning, or returning to.',
+
+      'Each issue introduces a new Artist Pick and looks closely at the ideas, images, contradictions, and decisions shaping the work.',
+    ],
+  },
+
   {
     slug: 'faith-and-form',
     number: '02',
     name: 'Faith & Form',
-    title: 'What Remains Sacred After Doubt?',
-    subtitle: 'Work that moves through belief, memory, ritual, and image.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: ben4,
+
+    subtitle:
+      'Work that moves through belief, memory, ritual, and image.',
+
     paragraphs: [
-      'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory. It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
-      'A painting can become a prayer without saying anything directly. A shape can feel like a window. A leaf can become a symbol. A frame can become an altar. A repeated mark can begin to feel like devotion.',
-      'This department is interested in how artists build sacred feeling through material choices, composition, light, repetition, and silence. Sometimes faith appears clearly. Other times, it arrives through absence, rupture, or longing.',
-      'What remains sacred after doubt is not always certainty. Sometimes it is the act of returning to the work, looking again, and allowing meaning to rebuild itself slowly.',
+      'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory.',
+
+      'It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
+
+      'This department is interested in how artists build sacred feeling through material choices, composition, light, repetition, silence, absence, rupture, and longing.',
     ],
   },
+
   {
     slug: 'the-inner-image',
     number: '03',
     name: 'The Inner Image',
-    title: 'Anxiety Has a Color',
-    subtitle: 'Art shaped by pressure, identity, insecurity, feeling, and memory.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: sara03,
+
+    subtitle:
+      'Art shaped by pressure, identity, insecurity, feeling, and memory.',
+
     paragraphs: [
-      'The Inner Image focuses on artists who make emotional pressure visible. These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
-      'Some images do not explain themselves immediately because they are not trying to behave like explanations. They behave more like symptoms, dreams, confessions, or emotional weather.',
-      'Color becomes important here. A blue face, a red background, a distorted body, a repeated character — these choices can carry what language struggles to hold.',
-      'This department asks how artists turn inner life into visual form. Not to make pain beautiful, but to make it visible enough to be faced.',
+      'The Inner Image focuses on artists who make emotional and psychological experience visible.',
+
+      'These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
+
+      'The department asks how inner life becomes visual form.',
     ],
   },
+
   {
     slug: 'studio-notes',
     number: '04',
     name: 'Studio Notes',
-    title: 'Before the Work Looks Finished',
-    subtitle: 'Process, doubt, repetition, material, sketches, and private practice.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: sara04,
-    imageAlt: 'Artwork for Nour Bishouty',
+
+    subtitle:
+      'Process, doubt, repetition, material, sketches, and private practice.',
+
     paragraphs: [
-      'Studio Notes is about the private life of the work before it becomes public. The sketches, the failed versions, the repeated attempts, the unfinished surfaces, and the quiet discipline of returning.',
-      'Finished work can make process look cleaner than it really is. But the studio is often a place of doubt, revision, boredom, discovery, and accident.',
-      'This department pays attention to what happens before the final image. The materials on the table. The marks that get painted over. The ideas that almost worked. The experiments that later become a language.',
-      'To understand an artist, sometimes you have to look at the practice, not only the product.',
+      'Studio Notes is about the private life of the work before it becomes public.',
+
+      'The sketches, failed versions, repeated attempts, unfinished surfaces, experiments, materials, and quiet discipline of returning all matter here.',
+
+      'To understand an artist, sometimes we have to look at the practice rather than only the finished product.',
     ],
   },
+
   {
     slug: 'slow-looking',
     number: '05',
     name: 'Slow Looking',
-    title: 'The First Feeling Is Not the Whole Painting',
-    subtitle: 'Criticism that asks what happens when we stay with the work.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: sara06,
+
+    subtitle:
+      'Criticism that asks what happens when we stay with the work.',
+
     paragraphs: [
-      'Slow Looking is a resistance to quick judgment. It asks what happens when we stay with an image longer than the first reaction.',
-      'The first feeling matters, but it is not always the whole truth of the work. A painting can open slowly. A detail can change the mood. A composition can reveal its structure only after attention has settled.',
-      'This department is where criticism becomes patient. It does not rush to praise or dismiss. It looks for tension, rhythm, contradiction, and meaning.',
-      'The goal is not to sound academic. The goal is to look honestly and carefully enough that the work has a chance to speak.',
+      'Slow Looking is a resistance to quick judgment.',
+
+      'It asks what happens when we stay with an image longer than the first reaction and allow details, contradictions, rhythms, and tensions to emerge.',
+
+      'The goal is not to sound academic. The goal is to look carefully enough that the work has a chance to reveal itself.',
     ],
   },
+
   {
     slug: 'surface-study',
     number: '06',
     name: 'Surface Study',
-    title: 'Color Is Never Neutral',
-    subtitle: 'Color, texture, composition, scale, and material presence.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: sara09,
+
+    subtitle:
+      'Color, texture, composition, scale, and material presence.',
+
     paragraphs: [
-      'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and the way an image holds presence.',
-      'Surface is not shallow. It is where feeling lands. A rough mark can carry aggression. A soft wash can carry memory. A thick layer of paint can feel like time built into the object.',
-      'Color is never neutral either. It brings mood, culture, emotion, and atmosphere into the work before the viewer has even named what they are seeing.',
+      'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and presence.',
+
+      'Surface is not shallow. It is often where feeling lands.',
+
       'This department looks closely at how artworks create meaning through what they are made of, not only what they are about.',
     ],
   },
+
   {
     slug: 'street-to-studio',
     number: '07',
     name: 'Street to Studio',
-    title: 'Art That Still Has Dust on Its Shoes',
-    subtitle: 'Work that carries raw energy from lived space into visual form.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: sara07,
+
+    subtitle:
+      'Where lived culture, public space, and artistic practice meet.',
+
     paragraphs: [
-      'Street to Studio is about work that carries the energy of lived space. The wall, the sidewalk, the bedroom, the bus stop, the city, the neighborhood, the internet, the flyer, the corner store, the real world.',
-      'Not all serious art needs to feel polished for approval. Some work matters because it still feels close to where it came from.',
-      'This department is interested in artists who move between raw expression and formal presentation. Work that can live in a gallery but still remembers the street.',
-      'Raw does not mean unfinished. Sometimes raw means honest before it becomes acceptable.',
+      'Street to Studio looks at work carrying the energy of lived culture into artistic practice.',
+
+      'The street, neighborhood, internet, fashion, music, advertising, nightlife, public walls, and everyday visual culture can all become part of an artist’s language.',
+
+      'This department is interested in what happens when those influences enter studios, galleries, institutions, and markets.',
     ],
   },
+
   {
     slug: 'exhibition-notes',
     number: '08',
     name: 'Exhibition Notes',
-    title: 'The Room Changed the Work',
-    subtitle: 'Short reflections on shows, rooms, walls, and the act of looking.',
-    author: 'Mo Alimi',
-    date: 'July 4, 2026',
-    heroImage: sara08,
+
+    subtitle:
+      'Reflections on shows, rooms, walls, and the act of looking.',
+
     paragraphs: [
-      'Exhibition Notes looks at how art changes when it enters a room. A painting on a screen is not the same as a painting on a wall. Scale, light, distance, silence, and placement all shape the experience.',
-      'Sometimes the room strengthens the work. Sometimes it exposes weakness. Sometimes the best piece is not the loudest one, but the one you notice after walking past it twice.',
-      'This department is for short reflections on shows, pop-ups, installations, gallery visits, and unexpected encounters with art.',
-      'The room is never neutral. It frames the work, guides the body, and changes the way attention moves.',
+      'Exhibition Notes looks at how art changes when it enters a physical space.',
+
+      'Scale, light, distance, architecture, placement, and neighboring works all affect the experience.',
+
+      'This department is for reflections on exhibitions, gallery visits, installations, pop-ups, museums, and unexpected encounters with art.',
     ],
   },
 ]

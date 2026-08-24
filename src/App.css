@@ -470,6 +470,39 @@ body {
     align-items:center;
 
     padding:0 60px;
+    margin-bottom: 60px;
+}
+
+.issueButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 24px;
+  padding: 14px 22px;
+
+  background: #fff;
+  color: #171717;
+
+  border: 1px solid #fff;
+  border-radius: 999px;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.issueButton:hover {
+  background: transparent;
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .eyebrow {
@@ -1631,6 +1664,7 @@ a:focus {
   /* background: #424242; */
   color: white;
   text-align: center;
+  margin-top: 0;
 }
 
 .issueIntro h2 {
@@ -1821,6 +1855,44 @@ a:focus {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0.55;
+}
+
+.archiveActions {
+  margin-top: 36px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.archiveButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 14px 22px;
+
+  background: #171717;
+  color: #fffaf2;
+
+  border: 1px solid #171717;
+  border-radius: 999px;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.archiveButton:hover {
+  background: transparent;
+  color: #171717;
+
+  transform: translateY(-2px);
 }
 
 /* SUBMIT PAGE */

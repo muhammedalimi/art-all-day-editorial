@@ -33,34 +33,130 @@
 /*version*/
 
 
+// import { Link } from 'react-router-dom'
+
+// function IssueIntro() {
+//   return (
+//     <section id="issue" className="issueIntro">
+//       <p className="sectionLabel">Issue 01 · 2026</p>
+
+//       <h2>Eight Artists Who Are Teaching Us How to Feel Again</h2>
+
+//       <p>
+//         It is happening quietly—in studios, bedrooms, streets, archives, and sacred spaces.
+//         Eight artists are making work about memory, faith, identity, desire, history, and the 
+//         strange things we carry with us.
+//       </p>
+
+//       <div className="issueMeta">
+//         <Link to="/departments/artist-pick">
+//           Artist Pick
+//         </Link>
+
+//         <Link to="/departments/faith-and-form">
+//           Faith &amp; Form
+//         </Link>
+
+//         <Link to="/departments/exhibition-notes">
+//           Visual Essays
+//         </Link>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default IssueIntro
+
+
+
+// import { Link } from 'react-router-dom'
+
+// import { currentIssue } from '../data/issues'
+
+// function IssueIntro() {
+//   if (!currentIssue) {
+//     return null
+//   }
+
+//   return (
+//     <section id="issue" className="issueIntro">
+//       <p className="sectionLabel">
+//         {currentIssue.number} · {currentIssue.date}
+//       </p>
+
+//       <h2>{currentIssue.headline}</h2>
+
+//       <p>
+//         {currentIssue.description}
+//       </p>
+
+//       <div className="issueMeta">
+//         <Link
+//           to={`/issues/${currentIssue.slug}/departments/artist-pick`}
+//         >
+//           Artist Pick
+//         </Link>
+
+//         <Link
+//           to={`/issues/${currentIssue.slug}/departments/faith-and-form`}
+//         >
+//           Faith &amp; Form
+//         </Link>
+
+//         <Link
+//           to={`/issues/${currentIssue.slug}/departments/exhibition-notes`}
+//         >
+//           Exhibition Notes
+//         </Link>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default IssueIntro
+
 import { Link } from 'react-router-dom'
+import { currentIssue } from '../data/issues'
 
 function IssueIntro() {
+  if (!currentIssue) {
+    return null
+  }
+
   return (
     <section id="issue" className="issueIntro">
-      <p className="sectionLabel">Issue 01 · 2026</p>
-
-      <h2>Eight Artists Who Are Teaching Us How to Feel Again</h2>
-
-      <p>
-        It is happening quietly—in studios, bedrooms, streets, archives, and sacred spaces.
-        Eight artists are making work about memory, faith, identity, desire, history, and the 
-        strange things we carry with us.
+      <p className="sectionLabel">
+        Current Issue
       </p>
 
-      <div className="issueMeta">
-        <Link to="/departments/artist-pick">
-          Artist Pick
-        </Link>
+      <p className="issueNumber">
+        {currentIssue.number} · {currentIssue.date}
+      </p>
 
-        <Link to="/departments/faith-and-form">
-          Faith &amp; Form
-        </Link>
+      <h2>
+        {currentIssue.title}
+      </h2>
 
-        <Link to="/departments/exhibition-notes">
-          Visual Essays
-        </Link>
+      <h3 className="issueHeadline">
+        {currentIssue.headline}
+      </h3>
+
+      <div className="issueOpening">
+        {currentIssue.openingStatement.map(
+          (paragraph, index) => (
+            <p key={index}>
+              {paragraph}
+            </p>
+          )
+        )}
       </div>
+
+      <Link
+        to={`/issues/${currentIssue.slug}`}
+        className="issueButton"
+      >
+        Explore {currentIssue.number} →
+      </Link>
     </section>
   )
 }

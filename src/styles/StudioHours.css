@@ -1,0 +1,389 @@
+/* =========================================
+   STUDIO HOURS
+   ========================================= */
+
+.studioHoursSection {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 100px 5vw;
+}
+
+
+/* HEADER */
+
+.studioHoursHeader {
+  margin-bottom: 45px;
+
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+
+  align-items: end;
+  gap: 50px;
+}
+
+
+.studioHoursHeader .sectionLabel {
+  margin: 0 0 8px;
+
+  color: #a65a1f;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+
+.studioHoursHeader h2 {
+  margin: 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(64px, 8vw, 115px);
+
+  line-height: 0.86;
+  letter-spacing: -0.055em;
+}
+
+
+.studioHoursDescription {
+  max-width: 520px;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 1.55;
+
+  color: #555;
+}
+
+
+/* =========================================
+   MAIN EDITORIAL GRID
+   ========================================= */
+
+.studioHoursLayout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.7fr)
+    minmax(320px, 0.8fr);
+
+  gap: 20px;
+}
+
+
+/* =========================================
+   LEAD STORY
+   ========================================= */
+
+.studioLeadStory {
+  min-height: 560px;
+
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #171717;
+  color: #fffaf2;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.studioLeadStory:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 20px 45px
+    rgba(0, 0, 0, 0.12);
+}
+
+
+.studioLeadTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+
+.studioKicker {
+  color: #c47a34;
+}
+
+
+.studioLeadContent {
+  margin: auto 0;
+  max-width: 900px;
+}
+
+
+.studioLeadContent h3 {
+  max-width: 900px;
+
+  margin: 0 0 28px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(56px, 6vw, 100px);
+
+  line-height: 0.88;
+  letter-spacing: -0.055em;
+}
+
+
+.studioLeadContent p {
+  max-width: 700px;
+
+  margin: 0;
+
+  font-size: 19px;
+  line-height: 1.55;
+
+  color: rgba(255, 250, 242, 0.74);
+}
+
+
+/* LEAD FOOTER */
+
+.studioLeadFooter {
+  padding-top: 30px;
+
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.18);
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+
+.studioLeadFooter > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+
+.studioReadLink {
+  white-space: nowrap;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+
+/* =========================================
+   SECONDARY STORIES
+   ========================================= */
+
+.studioSecondary {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 20px;
+}
+
+
+.studioSecondaryStory {
+  padding: 26px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #fffaf2;
+  color: #171717;
+
+  border:
+    1px solid
+    rgba(23, 23, 23, 0.14);
+
+  border-radius: 26px;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+
+.studioSecondaryStory:hover {
+  transform: translateY(-3px);
+  background: #f3ede2;
+}
+
+
+.studioSecondaryTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+  margin-bottom: 30px;
+
+  color: #a65a1f;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.studioSecondaryStory h3 {
+  margin: 0 0 16px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(34px, 3vw, 54px);
+
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+
+.studioSecondaryStory > p {
+  margin: 0 0 35px;
+
+  font-size: 15px;
+  line-height: 1.5;
+
+  color: #555;
+}
+
+
+.studioSecondaryMeta {
+  margin-top: auto;
+
+  padding-top: 18px;
+
+  border-top:
+    1px solid
+    rgba(23, 23, 23, 0.12);
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  font-size: 11px;
+  color: #666;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 1000px) {
+
+  .studioHoursHeader {
+    grid-template-columns: 1fr;
+  }
+
+
+  .studioHoursLayout {
+    grid-template-columns: 1fr;
+  }
+
+
+  .studioLeadStory {
+    min-height: 500px;
+  }
+
+
+  .studioSecondary {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: none;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 700px) {
+
+  .studioHoursSection {
+    padding:
+      75px
+      20px;
+  }
+
+
+  .studioHoursHeader {
+    margin-bottom: 35px;
+  }
+
+
+  .studioHoursHeader h2 {
+    font-size: 64px;
+  }
+
+
+  .studioHoursDescription {
+    font-size: 16px;
+  }
+
+
+  .studioLeadStory {
+    min-height: 500px;
+
+    padding: 24px;
+
+    border-radius: 24px;
+  }
+
+
+  .studioLeadContent h3 {
+    font-size: 54px;
+  }
+
+
+  .studioLeadFooter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+
+  .studioSecondary {
+    grid-template-columns: 1fr;
+  }
+
+
+  .studioSecondaryStory {
+    min-height: 330px;
+
+    padding: 22px;
+
+    border-radius: 22px;
+  }
+
+}

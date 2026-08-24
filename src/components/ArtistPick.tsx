@@ -221,18 +221,80 @@
 
 /* version6 */
 
+// import { Link } from 'react-router-dom'
+// import { issueDepartments } from '../data/issueDepartments'
+
+// function ArtistPick() {
+//   const artistPick = issueDepartments['issue-01']['artist-pick']
+
+//   return (
+//     <section id="artists" className="artistPick">
+//       <div className="artistPickText">
+//         <p className="sectionLabel">Artist Pick</p>
+
+//         <h2>{artistPick.title}</h2>
+
+//         {artistPick.description.map((paragraph, index) => (
+//           <p key={index}>{paragraph}</p>
+//         ))}
+
+//         <Link
+//           to={artistPick.link}
+//           className="artistButton"
+//         >
+//           View Full Feature
+//         </Link>
+//       </div>
+
+//       <div className="artistPickImage">
+//         <img
+//           src={artistPick.image}
+//           alt={artistPick.imageAlt}
+//         />
+
+//         <span>{artistPick.caption}</span>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default ArtistPick
+
+
 import { Link } from 'react-router-dom'
+
 import { issueDepartments } from '../data/issueDepartments'
+import { currentIssue } from '../data/issues'
 
 function ArtistPick() {
-  const artistPick = issueDepartments['issue-01']['artist-pick']
+  if (!currentIssue) {
+    return null
+  }
+
+  const issue = issueDepartments[currentIssue.slug]
+
+  if (!issue) {
+    return null
+  }
+
+  const artistPick = issue.departments['artist-pick']
+
+  if (!artistPick) {
+    return null
+  }
 
   return (
     <section id="artists" className="artistPick">
       <div className="artistPickText">
-        <p className="sectionLabel">Artist Pick</p>
+        <p className="sectionLabel">
+          {currentIssue.number} / Artist Pick
+        </p>
 
         <h2>{artistPick.title}</h2>
+
+        <p className="artistPickName">
+          {artistPick.artist}
+        </p>
 
         {artistPick.description.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>

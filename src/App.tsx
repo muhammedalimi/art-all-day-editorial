@@ -262,7 +262,9 @@ import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
 import NextIssue from './components/NextIssue'
 import SubscribeSection from './components/SubscribeSection'
-import BenCowanPrelude from './components/BenCowanPrelude'
+// import BenCowanPrelude from './components/BenCowanPrelude'
+import IssuePage from './pages/IssuePage'
+import ArtistsPage from './pages/ArtistsPage'
 
 
 function HomePage() {
@@ -271,9 +273,10 @@ function HomePage() {
       <Navbar />
       {/* <IssueTicker /> */}
       <Hero />
-      <BenCowanPrelude />
       <IssueIntro />
-      <Departments />
+      {/* <BenCowanPrelude /> */}
+      {/* <IssueIntro /> */}
+      {/* <Departments /> */}
       <SubscribeSection />
       <ArtistPick />
       {/* <BenCowanFeature /> */}
@@ -295,8 +298,15 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/artists" element={<ArtistsPage />}/>
         <Route path="/artists/:slug" element={<ArtistArticlePage />} />
-        <Route path="/departments/:slug" element={<DepartmentArticlePage />} />
+        {/* <Route path="/departments/:slug" element={<DepartmentArticlePage />} /> */}
+        <Route path="/issues/:issueSlug/departments/:slug" element={<DepartmentArticlePage />}/>
+        <Route path="/departments/:slug" element={<DepartmentArticlePage />}/>
+        <Route path="/issues/:issueSlug" element={<IssuePage />}/>
+      
+      
+        
         {/* <Route path="/studio-hours/inside-the-studio-practice" element={<StudioHoursArticlePage />} />
         <Route path="/studio-hours/why-surfaces-matter" element={<StudioHoursArticlePage />} />
         <Route path="/studio-hours/faith-and-form" element={<StudioHoursArticlePage />} /> */}
