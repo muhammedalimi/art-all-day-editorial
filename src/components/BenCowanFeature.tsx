@@ -59,7 +59,7 @@ import { issueDepartments } from '../data/issueDepartments'
 
 function BenCowanFeature() {
   const faithAndForm =
-    issueDepartments['issue-01']['faith-and-form']
+    issueDepartments['issue-01'].departments['faith-and-form']
 
   return (
     <section className="benFeature">
@@ -79,11 +79,19 @@ function BenCowanFeature() {
 
         <h2>{faithAndForm.title}</h2>
 
-        {faithAndForm.description.map((paragraph, index) => (
+        {/* {faithAndForm.description.map((paragraph, index) => (
           <p key={index}>
             {paragraph}
           </p>
-        ))}
+        ))} */}
+
+        {faithAndForm.description.map(
+          (paragraph: string, index: number) => (
+            <p key={index}>
+              {paragraph}
+            </p>
+          )
+        )}
 
         <Link
           to={faithAndForm.link}
