@@ -54,6 +54,59 @@
 
 // export default BenCowanFeature
 
+// import { Link } from 'react-router-dom'
+// import { issueDepartments } from '../data/issueDepartments'
+
+// function BenCowanFeature() {
+//   const faithAndForm =
+//     issueDepartments['issue-01'].departments['faith-and-form']
+
+//   return (
+//     <section className="benFeature">
+//       <div className="benImage">
+//         <img
+//           src={faithAndForm.image}
+//           alt={faithAndForm.imageAlt}
+//         />
+
+//         <span>Faith & Form</span>
+//       </div>
+
+//       <div className="benText">
+//         <p className="sectionLabel">
+//           Faith & Form
+//         </p>
+
+//         <h2>{faithAndForm.title}</h2>
+
+//         {/* {faithAndForm.description.map((paragraph, index) => (
+//           <p key={index}>
+//             {paragraph}
+//           </p>
+//         ))} */}
+
+//         {faithAndForm.description.map(
+//           (paragraph: string, index: number) => (
+//             <p key={index}>
+//               {paragraph}
+//             </p>
+//           )
+//         )}
+
+//         <Link
+//           to={faithAndForm.link}
+//           className="benButton"
+//         >
+//           Read Feature
+//         </Link>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default BenCowanFeature
+
+
 import { Link } from 'react-router-dom'
 import { issueDepartments } from '../data/issueDepartments'
 
@@ -74,30 +127,23 @@ function BenCowanFeature() {
 
       <div className="benText">
         <p className="sectionLabel">
-          Faith & Form
+          Faith & Form / Criticism
         </p>
 
-        <h2>{faithAndForm.title}</h2>
+        <h2>Dear God: What Remains of Faith?</h2>
 
-        {/* {faithAndForm.description.map((paragraph, index) => (
-          <p key={index}>
-            {paragraph}
-          </p>
-        ))} */}
-
-        {faithAndForm.description.map(
-          (paragraph: string, index: number) => (
-            <p key={index}>
-              {paragraph}
-            </p>
-          )
-        )}
+        <p>
+          Ben Cowan’s <em>Dear God</em> takes inherited religious
+          imagery apart and places it beside fragments of the material
+          world, raising questions about faith, confinement, detachment,
+          mortality, and what remains when belief is reconstructed.
+        </p>
 
         <Link
-          to={faithAndForm.link}
+          to="/studio-hours/dear-god-what-remains-of-faith"
           className="benButton"
         >
-          Read Feature
+          Read Criticism
         </Link>
       </div>
     </section>

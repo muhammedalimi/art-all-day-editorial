@@ -620,6 +620,336 @@
 // export default StudioHoursArticlePage
 
 
+// import {
+//   Link,
+//   useNavigate,
+//   useParams,
+// } from 'react-router-dom'
+
+// import { articles } from '../data/articles'
+// import { issues } from '../data/issues'
+
+// import ReadingProgress from '../components/ReadingProgress'
+// import Footer from '../components/Footer'
+// import ListenButton from '../components/ListenButton'
+
+// import '../styles/StudioHoursArticlePage.css'
+
+// function StudioHoursArticlePage() {
+//   const { slug } = useParams()
+//   const navigate = useNavigate()
+
+//   const article =
+//     articles[slug as keyof typeof articles]
+
+//   if (!article) {
+//     return (
+//       <main className="studioArticlePage">
+//         <Link
+//           to="/"
+//           className="studioBackLink"
+//         >
+//           ← Back to Home
+//         </Link>
+
+//         <h1>Article not found</h1>
+//       </main>
+//     )
+//   }
+
+//   const issue = issues.find(
+//     (item) =>
+//       item.issueNumber === article.issueNumber
+//   )
+
+//   const articleText = [
+//     article.title,
+//     article.intro,
+//     ...article.body,
+//   ].join('. ')
+
+//   return (
+//     <main className="studioArticle">
+//       <ReadingProgress />
+
+//       <section className="studioArticleNav">
+//         <button
+//           type="button"
+//           className="studioBackLink"
+//           onClick={() => navigate(-1)}
+//         >
+//           ← Back
+//         </button>
+
+//         <p className="studioSectionLabel">
+//           {article.category}
+//         </p>
+
+//         <h1 className="studioArticleTitle">
+//           {article.title}
+//         </h1>
+
+//         <div className="studioArticleInfo">
+//           <span>
+//             {issue?.number || 'Issue'}
+//           </span>
+
+//           <span>
+//             {article.author || 'Art All Day'}
+//           </span>
+
+//           <span>
+//             {article.readTime}
+//           </span>
+//         </div>
+//       </section>
+
+//       <section className="studioArticleBody">
+//         <ListenButton text={articleText} />
+
+//         <p className="studioArticleIntro">
+//           {article.intro}
+//         </p>
+
+//         <div className="studioArticleText">
+//           {article.body.map(
+//             (paragraph, index) => (
+//               <p key={index}>
+//                 {paragraph}
+//               </p>
+//             )
+//           )}
+//         </div>
+//       </section>
+
+//       <section className="studioMore">
+//         <p className="studioSectionLabel">
+//           More Studio Hours
+//         </p>
+
+//         <div className="studioArticleGrid">
+//           {Object.entries(articles)
+//             .filter(
+//               ([articleSlug]) =>
+//                 articleSlug !== slug
+//             )
+//             .slice(0, 7)
+//             .map(([articleSlug, item]) => {
+//               const itemIssue = issues.find(
+//                 (issueItem) =>
+//                   issueItem.issueNumber ===
+//                   item.issueNumber
+//               )
+
+//               return (
+//                 <Link
+//                   key={articleSlug}
+//                   to={`/studio-hours/${articleSlug}`}
+//                   className="studioArchiveCard"
+//                 >
+//                   <p>
+//                     {itemIssue?.number ||
+//                       'Issue'}
+//                   </p>
+
+//                   <h3>
+//                     {item.title}
+//                   </h3>
+
+//                   <span>
+//                     {item.category}
+//                   </span>
+//                 </Link>
+//               )
+//             })}
+//         </div>
+//       </section>
+
+//       <Footer />
+//     </main>
+//   )
+// }
+
+// export default StudioHoursArticlePage
+
+
+// import {
+//   Link,
+//   useNavigate,
+//   useParams,
+// } from 'react-router-dom'
+
+// import { articles } from '../data/articles'
+// import { issues } from '../data/issues'
+
+// import ReadingProgress from '../components/ReadingProgress'
+// import Footer from '../components/Footer'
+// import ListenButton from '../components/ListenButton'
+
+// import '../styles/StudioHoursArticlePage.css'
+
+// function StudioHoursArticlePage() {
+//   const { slug } = useParams()
+//   const navigate = useNavigate()
+
+//   const article =
+//     articles[slug as keyof typeof articles]
+
+//   if (!article) {
+//     return (
+//       <main className="studioArticlePage">
+//         <Link
+//           to="/"
+//           className="studioBackLink"
+//         >
+//           ← Back to Home
+//         </Link>
+
+//         <h1>Article not found</h1>
+//       </main>
+//     )
+//   }
+
+//   const issue = issues.find(
+//     (item) =>
+//       item.issueNumber === article.issueNumber
+//   )
+
+//   // Convert every body block into plain text
+//   // for the ListenButton.
+//   const bodyText = article.body.map((block) => {
+//     if (typeof block === 'string') {
+//       return block
+//     }
+
+//     return block.text
+//   })
+
+//   const articleText = [
+//     article.title,
+//     article.intro,
+//     ...bodyText,
+//   ].join('. ')
+
+//   return (
+//     <main className="studioArticle">
+//       <ReadingProgress />
+
+//       <section className="studioArticleNav">
+//         <button
+//           type="button"
+//           className="studioBackLink"
+//           onClick={() => navigate(-1)}
+//         >
+//           ← Back
+//         </button>
+
+//         <p className="studioSectionLabel">
+//           {article.category}
+//         </p>
+
+//         <h1 className="studioArticleTitle">
+//           {article.title}
+//         </h1>
+
+//         <div className="studioArticleInfo">
+//           <span>
+//             {issue?.number || 'Issue'}
+//           </span>
+
+//           <span>
+//             {article.author || 'Art All Day'}
+//           </span>
+
+//           <span>
+//             {article.readTime}
+//           </span>
+//         </div>
+//       </section>
+
+//       <section className="studioArticleBody">
+//         <ListenButton text={articleText} />
+
+//         <p className="studioArticleIntro">
+//           {article.intro}
+//         </p>
+
+//         <div className="studioArticleText">
+//           {article.body.map((block, index) => {
+//             if (typeof block === 'string') {
+//               return (
+//                 <p key={index}>
+//                   {block}
+//                 </p>
+//               )
+//             }
+
+//             if (block.type === 'heading') {
+//               return (
+//                 <h2
+//                   key={index}
+//                   className="studioArticleSectionTitle"
+//                 >
+//                   {block.text}
+//                 </h2>
+//               )
+//             }
+
+//             return null
+//           })}
+//         </div>
+//       </section>
+
+//       <section className="studioMore">
+//         <p className="studioSectionLabel">
+//           More Studio Hours
+//         </p>
+
+//         <div className="studioArticleGrid">
+//           {Object.entries(articles)
+//             .filter(
+//               ([articleSlug]) =>
+//                 articleSlug !== slug
+//             )
+//             .slice(0, 7)
+//             .map(([articleSlug, item]) => {
+//               const itemIssue = issues.find(
+//                 (issueItem) =>
+//                   issueItem.issueNumber ===
+//                   item.issueNumber
+//               )
+
+//               return (
+//                 <Link
+//                   key={articleSlug}
+//                   to={`/studio-hours/${articleSlug}`}
+//                   className="studioArchiveCard"
+//                 >
+//                   <p>
+//                     {itemIssue?.number || 'Issue'}
+//                   </p>
+
+//                   <h3>
+//                     {item.title}
+//                   </h3>
+
+//                   <span>
+//                     {item.category}
+//                   </span>
+//                 </Link>
+//               )
+//             })}
+//         </div>
+//       </section>
+
+//       <Footer />
+//     </main>
+//   )
+// }
+
+// export default StudioHoursArticlePage
+
+
 import {
   Link,
   useNavigate,
@@ -662,16 +992,34 @@ function StudioHoursArticlePage() {
       item.issueNumber === article.issueNumber
   )
 
+  // Convert article body into readable text
+  // for the ListenButton.
+  // Images are ignored.
+  const bodyText = article.body
+    .map((block) => {
+      if (typeof block === 'string') {
+        return block
+      }
+
+      if (block.type === 'heading') {
+        return block.text
+      }
+
+      return ''
+    })
+    .filter(Boolean)
+
   const articleText = [
     article.title,
     article.intro,
-    ...article.body,
+    ...bodyText,
   ].join('. ')
 
   return (
     <main className="studioArticle">
       <ReadingProgress />
 
+      {/* ARTICLE HEADER */}
       <section className="studioArticleNav">
         <button
           type="button"
@@ -691,7 +1039,7 @@ function StudioHoursArticlePage() {
 
         <div className="studioArticleInfo">
           <span>
-            {issue?.number || 'Issue'}
+            {issue?.number || article.issue || 'Issue'}
           </span>
 
           <span>
@@ -704,6 +1052,17 @@ function StudioHoursArticlePage() {
         </div>
       </section>
 
+      {/* HERO IMAGE */}
+      {article.heroImage && (
+        <section className="studioArticleHero">
+          <img
+            src={article.heroImage}
+            alt={article.title}
+          />
+        </section>
+      )}
+
+      {/* ARTICLE CONTENT */}
       <section className="studioArticleBody">
         <ListenButton text={articleText} />
 
@@ -712,16 +1071,55 @@ function StudioHoursArticlePage() {
         </p>
 
         <div className="studioArticleText">
-          {article.body.map(
-            (paragraph, index) => (
-              <p key={index}>
-                {paragraph}
-              </p>
-            )
-          )}
+          {article.body.map((block, index) => {
+            // NORMAL PARAGRAPH
+            if (typeof block === 'string') {
+              return (
+                <p key={index}>
+                  {block}
+                </p>
+              )
+            }
+
+            // SECTION HEADING
+            if (block.type === 'heading') {
+              return (
+                <h2
+                  key={index}
+                  className="studioArticleSectionTitle"
+                >
+                  {block.text}
+                </h2>
+              )
+            }
+
+            // INLINE ARTWORK
+            if (block.type === 'image') {
+              return (
+                <figure
+                  key={index}
+                  className="studioArticleArtwork"
+                >
+                  <img
+                    src={block.src}
+                    alt={block.alt}
+                  />
+
+                  {block.caption && (
+                    <figcaption>
+                      {block.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              )
+            }
+
+            return null
+          })}
         </div>
       </section>
 
+      {/* MORE STORIES */}
       <section className="studioMore">
         <p className="studioSectionLabel">
           More Studio Hours
@@ -749,6 +1147,7 @@ function StudioHoursArticlePage() {
                 >
                   <p>
                     {itemIssue?.number ||
+                      item.issue ||
                       'Issue'}
                   </p>
 
