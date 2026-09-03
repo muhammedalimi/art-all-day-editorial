@@ -100,6 +100,7 @@ import slawn5 from '../assets/slawn5.jpg'
 import slawn6 from '../assets/slawn6.jpg'
 import slawn7 from '../assets/slawn7.jpg'
 import wangechi1 from '../assets/wangechi1.jpg'
+import sixsiblings from '../assets/sixsiblings.png'
 
 type Artist = {
   slug: string
@@ -247,6 +248,30 @@ export const artists: Artist[] = [
     'That instability is part of the power.',
 
     'Mutu does not simply place African identity inside contemporary art. Her work questions the visual systems that decided what Africa, femininity, beauty, civilization, and even humanity were supposed to look like in the first place.',
+  ],
+},
+{
+  slug: 'Woolly Mo',
+  name: 'Woolly Mo',
+
+  issueNumber: 2,
+
+  title: 'Six Siblings',
+  date: 'August 28, 2026',
+  author: 'Mo Alimi',
+
+  heroImage: sixsiblings,
+  images: [sixsiblings],
+
+  intro:
+    'Six Siblings moves between music, poetry, memory, and visual storytelling, using the image of six painters to explore one family through six different lives.',
+
+  paragraphs: [
+    'The work looks at family as something shared but never experienced in exactly the same way. Each sibling carries a different version of the same house, the same history, the same love, and the same wounds.',
+
+    'Painting becomes the central metaphor. Six siblings become six painters, each leaving a different stroke while working from the same inherited canvas.',
+
+    'Presented alongside an unreleased recording, Six Siblings expands Studio Notes beyond the traditional studio and into music, writing, memory, and personal narrative.',
   ],
 },
 ]

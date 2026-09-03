@@ -38,7 +38,7 @@ function Hero() {
       </p>
 
       <a href="#latest" className="heroButton">
-        View Latest Articles
+        Read Issue 01
       </a>
     </section>
   )

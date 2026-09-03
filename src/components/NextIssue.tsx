@@ -105,6 +105,66 @@
 
 
 
+// import { Link } from 'react-router-dom'
+// import { nextIssue } from '../data/issues'
+
+// function NextIssue() {
+//   if (!nextIssue) {
+//     return null
+//   }
+
+//   return (
+//     <section className="nextIssue">
+//       <div>
+//         <p className="sectionLabel">
+//           {nextIssue.status}
+//         </p>
+
+//         <h2>
+//           {nextIssue.number}: {nextIssue.title}
+//         </h2>
+
+//         <p>
+//           {nextIssue.description}
+//         </p>
+
+//         <p className="issueDate">
+//           {nextIssue.date}
+//         </p>
+
+//         <Link
+//           to="/submit"
+//           className="nextIssueButton"
+//         >
+//           Submit for {nextIssue.number}
+//         </Link>
+//       </div>
+
+//       <div className="nextIssueList">
+//         <Link to="/submit">
+//           Family Archives
+//         </Link>
+
+//         <Link to="/submit">
+//           Home & Distance
+//         </Link>
+
+//         <Link to="/submit">
+//           Memory Work
+//         </Link>
+
+//         <Link to="/submit">
+//           Objects That Remember
+//         </Link>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default NextIssue
+
+
+
 import { Link } from 'react-router-dom'
 import { nextIssue } from '../data/issues'
 
@@ -115,7 +175,7 @@ function NextIssue() {
 
   return (
     <section className="nextIssue">
-      <div>
+      <div className="nextIssueMain">
         <p className="sectionLabel">
           {nextIssue.status}
         </p>
@@ -139,6 +199,44 @@ function NextIssue() {
           Submit for {nextIssue.number}
         </Link>
       </div>
+
+      {/* STUDIO NOTE TEASER */}
+      {nextIssue.studioNoteTeaser && (
+        <div className="nextIssueStudioNote">
+          <div className="nextIssueStudioNoteImage">
+            <img
+              src={nextIssue.studioNoteTeaser.image}
+              alt={nextIssue.studioNoteTeaser.imageAlt}
+            />
+          </div>
+
+          <div className="nextIssueStudioNoteContent">
+            <p className="sectionLabel">
+              {nextIssue.studioNoteTeaser.label}
+            </p>
+
+            <p className="studioNoteStatus">
+              {nextIssue.studioNoteTeaser.status}
+            </p>
+
+            <h3>
+              {nextIssue.studioNoteTeaser.title}
+            </h3>
+
+            <p className="studioNoteArtist">
+              {nextIssue.studioNoteTeaser.artist}
+            </p>
+
+            <p className="studioNoteDescription">
+              {nextIssue.studioNoteTeaser.description}
+            </p>
+
+            <p className="studioNoteQuote">
+              “{nextIssue.studioNoteTeaser.quote}”
+            </p>
+          </div>
+        </div>
+      )}
 
       <div className="nextIssueList">
         <Link to="/submit">

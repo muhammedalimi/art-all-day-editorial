@@ -407,6 +407,178 @@
 // export default Navbar
 
 
+// import { Link } from 'react-router-dom'
+
+// import { artists } from '../data/artists'
+// import { issues } from '../data/issues'
+
+// function Navbar() {
+//   return (
+//     <nav className="navbar">
+//       {/* LOGO */}
+//       <Link to="/" className="logo">
+//         Art All Day
+//       </Link>
+
+//       <div className="navLinks">
+//         {/* ARTISTS DROPDOWN */}
+//         <div className="navMenu">
+//           <button
+//             className="navMenuButton"
+//             type="button"
+//           >
+//             Artists <span>▾</span>
+//           </button>
+
+//           <div className="navDropdown artistDropdown">
+//             <p className="dropdownLabel">
+//               Featured Artists
+//             </p>
+
+//             {artists.map((artist) => {
+//               const issue = issues.find(
+//                 (item) =>
+//                   item.issueNumber === artist.issueNumber
+//               )
+
+//               return (
+//                 <Link
+//                   key={artist.slug}
+//                   to={`/artists/${artist.slug}`}
+//                   className="dropdownItem"
+//                 >
+//                   <div className="dropdownItemText">
+//                     <strong>
+//                       {artist.name}
+//                     </strong>
+
+//                     <span>
+//                       {issue?.number || 'Artist Feature'}
+//                     </span>
+//                   </div>
+
+//                   <span className="dropdownArrow">
+//                     ↗
+//                   </span>
+//                 </Link>
+//               )
+//             })}
+//           </div>
+//         </div>
+
+//         {/* WRITING DROPDOWN */}
+//         <div className="navMenu">
+//           <button
+//             className="navMenuButton"
+//             type="button"
+//           >
+//             Writing <span>▾</span>
+//           </button>
+
+//           <div className="navDropdown">
+//             <p className="dropdownLabel">
+//               Departments
+//             </p>
+
+//             <a
+//               href="/#latest"
+//               className="dropdownItem"
+//             >
+//               <div className="dropdownItemText">
+//                 <strong>
+//                   Latest Writing
+//                 </strong>
+
+//                 <span>
+//                   Essays, criticism, and interviews
+//                 </span>
+//               </div>
+
+//               <span className="dropdownArrow">
+//                 ↗
+//               </span>
+//             </a>
+
+//             <a
+//               href="/#departments"
+//               className="dropdownItem"
+//             >
+//               <div className="dropdownItemText">
+//                 <strong>
+//                   Departments
+//                 </strong>
+
+//                 <span>
+//                   Artist Pick, Faith &amp; Form,
+//                   Studio Notes
+//                 </span>
+//               </div>
+
+//               <span className="dropdownArrow">
+//                 ↗
+//               </span>
+//             </a>
+//           </div>
+//         </div>
+
+//         {/* ARCHIVE DROPDOWN */}
+//         <div className="navMenu">
+//           <button
+//             className="navMenuButton"
+//             type="button"
+//           >
+//             Archive <span>▾</span>
+//           </button>
+
+//           <div className="navDropdown">
+//             <p className="dropdownLabel">
+//               Browse Archive
+//             </p>
+
+//             <a
+//               href="/#archive"
+//               className="dropdownItem"
+//             >
+//               <div className="dropdownItemText">
+//                 <strong>
+//                   Artist Archive
+//                 </strong>
+
+//                 <span>
+//                   All featured artists and visual studies
+//                 </span>
+//               </div>
+
+//               <span className="dropdownArrow">
+//                 ↗
+//               </span>
+//             </a>
+//           </div>
+//         </div>
+
+//         {/* SUBMIT */}
+//         <Link to="/submit">
+//           Submit
+//         </Link>
+//       </div>
+
+//       {/* CTA */}
+//       <Link
+//         to="/submit"
+//         className="navButton"
+//       >
+//         Submit Work
+//       </Link>
+//     </nav>
+//   )
+// }
+
+// export default Navbar
+
+
+
+/* New Nav */
+
 import { Link } from 'react-router-dom'
 
 import { artists } from '../data/artists'
@@ -415,13 +587,29 @@ import { issues } from '../data/issues'
 function Navbar() {
   return (
     <nav className="navbar">
-      {/* LOGO */}
-      <Link to="/" className="logo">
+
+      {/* =========================
+          LOGO
+      ========================= */}
+
+      <Link
+        to="/"
+        className="logo"
+      >
         Art All Day
       </Link>
 
+
+      {/* =========================
+          MAIN NAVIGATION
+      ========================= */}
+
       <div className="navLinks">
-        {/* ARTISTS DROPDOWN */}
+
+        {/* =========================
+            ARTISTS
+        ========================= */}
+
         <div className="navMenu">
           <button
             className="navMenuButton"
@@ -431,6 +619,7 @@ function Navbar() {
           </button>
 
           <div className="navDropdown artistDropdown">
+
             <p className="dropdownLabel">
               Featured Artists
             </p>
@@ -438,7 +627,8 @@ function Navbar() {
             {artists.map((artist) => {
               const issue = issues.find(
                 (item) =>
-                  item.issueNumber === artist.issueNumber
+                  item.issueNumber ===
+                  artist.issueNumber
               )
 
               return (
@@ -448,13 +638,16 @@ function Navbar() {
                   className="dropdownItem"
                 >
                   <div className="dropdownItemText">
+
                     <strong>
                       {artist.name}
                     </strong>
 
                     <span>
-                      {issue?.number || 'Artist Feature'}
+                      {issue?.number ||
+                        'Artist Feature'}
                     </span>
+
                   </div>
 
                   <span className="dropdownArrow">
@@ -466,7 +659,11 @@ function Navbar() {
           </div>
         </div>
 
-        {/* WRITING DROPDOWN */}
+
+        {/* =========================
+            WRITING
+        ========================= */}
+
         <div className="navMenu">
           <button
             className="navMenuButton"
@@ -476,8 +673,9 @@ function Navbar() {
           </button>
 
           <div className="navDropdown">
+
             <p className="dropdownLabel">
-              Departments
+              Writing
             </p>
 
             <a
@@ -485,13 +683,16 @@ function Navbar() {
               className="dropdownItem"
             >
               <div className="dropdownItemText">
+
                 <strong>
                   Latest Writing
                 </strong>
 
                 <span>
-                  Essays, criticism, and interviews
+                  Essays, criticism,
+                  interviews, and observations
                 </span>
+
               </div>
 
               <span className="dropdownArrow">
@@ -504,24 +705,31 @@ function Navbar() {
               className="dropdownItem"
             >
               <div className="dropdownItemText">
+
                 <strong>
                   Departments
                 </strong>
 
                 <span>
                   Artist Pick, Faith &amp; Form,
-                  Studio Notes
+                  Studio Notes, and more
                 </span>
+
               </div>
 
               <span className="dropdownArrow">
                 ↗
               </span>
             </a>
+
           </div>
         </div>
 
-        {/* ARCHIVE DROPDOWN */}
+
+        {/* =========================
+            ARCHIVE
+        ========================= */}
+
         <div className="navMenu">
           <button
             className="navMenuButton"
@@ -531,6 +739,7 @@ function Navbar() {
           </button>
 
           <div className="navDropdown">
+
             <p className="dropdownLabel">
               Browse Archive
             </p>
@@ -540,35 +749,41 @@ function Navbar() {
               className="dropdownItem"
             >
               <div className="dropdownItemText">
+
                 <strong>
                   Artist Archive
                 </strong>
 
                 <span>
-                  All featured artists and visual studies
+                  Featured artists,
+                  visual studies,
+                  and previous work
                 </span>
+
               </div>
 
               <span className="dropdownArrow">
                 ↗
               </span>
             </a>
+
           </div>
         </div>
 
-        {/* SUBMIT */}
-        <Link to="/submit">
-          Submit
-        </Link>
       </div>
 
-      {/* CTA */}
+
+      {/* =========================
+          SUBMIT CTA
+      ========================= */}
+
       <Link
         to="/submit"
         className="navButton"
       >
         Submit Work
       </Link>
+
     </nav>
   )
 }

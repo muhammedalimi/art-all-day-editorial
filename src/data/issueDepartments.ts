@@ -398,6 +398,7 @@ import jonas1 from '../assets/jonas1.jpg'
 import paula1 from '../assets/paula1.png'
 import slawn4 from '../assets/slawn4.jpg'
 import wangechi1 from '../assets/wangechi1.jpg'
+import sixsiblings from '../assets/sixsiblings.png'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -563,7 +564,7 @@ export const issueDepartments: IssueDepartments = {
   issueNumber: 2,
 
   departments: {
-    'artist-pick': {
+    'street-to-studio': {
       artist: 'Slawn',
       title: 'The Joke Is Serious',
 
@@ -579,6 +580,25 @@ export const issueDepartments: IssueDepartments = {
 
       link: '/artists/slawn',
     },
+
+
+    'studio-notes': {
+      artist: 'Woolly Mo',
+      title: 'Six Siblings',
+
+      description: [
+        'Six Siblings is an unreleased recording presented through Art All Day as a study of family, memory, survival, inheritance, and the different ways siblings carry the same history.',
+
+        'Moving between music, poetry, and visual storytelling, the piece treats six siblings like six painters — each working from the same family history but leaving a different mark.',
+      ],
+
+      image: sixsiblings,
+      imageAlt: 'Six siblings artwork for Six Siblings by Woolly Mo',
+      caption: 'Six Siblings — unreleased recording by Woolly Mo',
+
+      link: '/studio-hours/six-siblings',
+    },
+
 
       'the-inner-image': {
         artist: 'Wangechi Mutu',
@@ -600,6 +620,8 @@ export const issueDepartments: IssueDepartments = {
 
         link: '/artists/wangechi-mutu',
       },
+
+
     },
   },
 }

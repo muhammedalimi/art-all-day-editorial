@@ -320,12 +320,12 @@
   }
 
   .studioArticleGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 
   .studioArchiveCard {
-    min-height: 280px;
+    min-height: 0px;
     padding: 24px;
     border-radius: 24px;
   }
@@ -407,4 +407,258 @@
   font-size: 13px;
   line-height: 1.5;
   color: #666;
+}
+
+
+@media (max-width: 768px) {
+  .benFeature {
+    grid-template-columns: 1fr;
+  }
+
+  .benImage {
+    min-height: 260px;
+  }
+}
+
+
+/* =========================================
+   STUDIO NOTES — AUDIO FEATURE
+========================================= */
+
+.studioAudioFeature {
+  max-width: 1100px;
+  margin: 40px auto 100px;
+  padding: 32px 0;
+
+  border-top: 1px solid rgba(23, 23, 23, 0.2);
+  border-bottom: 1px solid rgba(23, 23, 23, 0.2);
+}
+
+.studioAudioHeader {
+  margin-bottom: 28px;
+}
+
+.studioAudioLabel {
+  margin: 0 0 12px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.studioAudioHeader h2 {
+  margin: 0;
+
+  font-size: clamp(38px, 6vw, 76px);
+  line-height: 0.95;
+  letter-spacing: -3px;
+}
+
+.studioAudioMeta {
+  margin: 14px 0 0;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+
+  opacity: 0.6;
+}
+
+.studioAudioPlayer {
+  width: 100%;
+}
+
+
+/* =========================================
+   LYRICS
+========================================= */
+
+.studioLyricsHeading {
+  margin: 100px 0 60px;
+}
+
+.studioLyricsHeading h2 {
+  margin: 0;
+
+  font-size: clamp(52px, 9vw, 110px);
+  line-height: 0.9;
+  letter-spacing: -5px;
+}
+
+.studioLyrics {
+  max-width: 720px;
+}
+
+.studioLyricsBlock {
+  white-space: pre-wrap;
+
+  font-size: clamp(18px, 2vw, 22px);
+  line-height: 1.9;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .studioAudioFeature {
+    margin: 30px auto 70px;
+  }
+
+  .studioLyricsHeading {
+    margin: 70px 0 40px;
+  }
+
+  .studioLyricsHeading h2 {
+    letter-spacing: -3px;
+  }
+
+  .studioLyricsBlock {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+}
+
+
+/* ==================================================
+   MORE STUDIO HOURS — FINAL OVERRIDE
+================================================== */
+
+.studioMore {
+  max-width: 1180px;
+  margin: 0 auto 120px;
+  padding: 0 24px;
+}
+
+
+/* GRID */
+
+.studioMore .studioArticleGrid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+
+/* CARD */
+
+.studioMore .studioArchiveCard {
+  min-height: 240px;
+
+  padding: 24px;
+
+  background: #fffaf2;
+  color: #171717;
+
+  border: 1px solid rgba(23, 23, 23, 0.14);
+  border-radius: 26px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+
+/* HOVER */
+
+.studioMore .studioArchiveCard:hover {
+  transform: translateY(-5px);
+
+  background: #f8f2e8;
+
+  color: #171717;
+  text-decoration: none;
+}
+
+
+/* ISSUE */
+
+.studioMore .studioArchiveCard > p {
+  margin: 0;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+
+  color: #8b5a2b;
+}
+
+
+/* TITLE */
+
+.studioMore .studioArchiveCard h3 {
+  margin: auto 0 18px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 600;
+
+  line-height: 0.98;
+  letter-spacing: -1.6px;
+
+  color: #171717;
+}
+
+
+/* CATEGORY */
+
+.studioMore .studioArchiveCard > span {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+
+  color: #625d55;
+}
+
+
+/* ==================================================
+   TABLET
+================================================== */
+
+@media (max-width: 700px) {
+  .studioMore .studioArticleGrid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 650px) {
+  .studioMore {
+    margin-bottom: 90px;
+    padding: 0 20px;
+  }
+
+  .studioMore .studioArticleGrid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .studioMore .studioArchiveCard {
+    min-height: 220px;
+    padding: 24px;
+
+    border-radius: 22px;
+  }
+
+  .studioMore .studioArchiveCard h3 {
+    font-size: 34px;
+  }
 }

@@ -240,6 +240,10 @@ import benFeatherStone from '../assets/ben25.jpg'
 import benRailSpike from '../assets/ben26.jpg'
 import benPoussin from '../assets/ben27.jpg'
 
+import sixsiblings from '../assets/sixsiblings.png'
+import sixsiblingsAudio from '../assets/sixsiblings.mp3'
+import slawn1 from '../assets/slawn1.png'
+
 
 type BodyBlock =
   | string
@@ -597,4 +601,239 @@ export const articles: Record<string, Article> = {
     youtube: '',
     audio: '',
   },
+
+    // STUDIO NOTES — ISSUE 02
+  'six-siblings': {
+    category: 'Inside the Studio Practice',
+    title: 'Six Siblings',
+    author: 'Mo Alimi',
+    readTime: 'Listen + Lyrics',
+
+    issueNumber: 2,
+    issue: 'Issue 02',
+
+    intro:
+      'An unreleased recording about family, memory, survival, and the different ways siblings carry the same history.',
+
+    heroImage: sixsiblings,
+
+    body: [
+      `Six siblings, six painters, different stroke  
+
+Dinner table stories never fully spoke  
+
+Mama held the roof while the floorboard broke  
+
+Everybody chasing light through the cigarette smoke  
+
+Youngest move different, more like a leader  
+
+Planet like Jupiter, the stars wanna meet her  
+
+Pressure make diamonds, pain made a preacher  
+
+Brothers writing poems, she turned them into ether  
+
+She branched out the family tree gracefully  
+
+Carried all the scars like they came with a receipt 
+
+Patches and pieces from her brother’s poetry  
+
+Now she wear the words like designers on the street  
+
+See the oldest moved militant, heart cold winter  
+
+Middle child gambling dreams with the sinners  
+
+One stayed quiet, paint walls, remember  
+
+Another lost time tryna  chase contenders  
+
+Big house energy with small room trauma  
+
+Everybody tough till it’s tears for mama  
+
+Thanksgiving tension, silenced by marijuana  
+
+Love get complicated when survival’s be problem  
+
+
+Chorus
+
+All my life on the road 
+
+I can tell you what have seen  
+
+Sell my soul that’s no  
+
+How you expect to fucking win
+
+I don't know, girl let’s go
+
+It’s time to flee the scene  
+
+And life is not  a dream  
+
+ṣùgbọ́n, gbọ́ mi 
+
+ṣùgbọ́n, gbọ́ mi
+
+
+He tortured artist that opted to live that space,
+
+The darkness that sparked the ravaging rage.
+
+Turned every scar on his skin into lines on the page.
+
+Held a storm in his chest, put himself in a cage. 
+
+He wasn’t born cold, he was forged in the fire,
+
+A kid with a dream and a heart full of wires.
+
+Watching heroes fall, watching love expire,
+
+So he built up walls higher than his own desires.
+
+His painting scream words his mouth couldn’t mention
+
+Every color carried a lost childhood sentence.
+
+Every shadow on the canvas held a confession,
+
+Every masterpiece came with a hidden depression 
+
+Mama saw the boy underneath the anger,
+
+Knew the pain made him into a stranger.
+
+She prayed for his soul when the world called him danger
+
+Because even broken wings still remember  sky’s nature.
+
+Brothers all carried their father’s reflection,
+
+Different versions of the same imperfection. 
+
+Some chased power, some chased affection,
+
+Some ran from pain with no direction.
+
+But the youngest watched every chapter unfold,
+
+Saw how family turn trauma into gold.
+
+Collected all the stories the elders never told,
+
+Turned  broken history into something that is bold.
+
+She said, We ain’t cursed, we just from survival.
+
+Ancestors fought wars without a title.
+
+Every tear in the house was a hidden recital,
+
+Every scar was a map to a place more vital.
+
+So, she painted the names that were lost in the dust,
+
+Gave voices to the ones who forgot how to trust.
+
+Built bridges from memories, rebuilt from the rust,
+
+Because love is the only thing stronger than us.
+
+Now six painters stand with six different frames,
+
+Six different fires but one family name.
+
+Some found peace, some still wrestle with flames,
+
+But nobody leaves without carrying A change.
+
+Now, the tortured artist finally looked at his own creation,
+
+Saw not just pain, but a whole generation.
+
+Realized his suffering wasn’t his destination,
+
+It was the first page of a new family narration.
+
+The brush hit the canvas, the silence broke,
+
+A house full of ghosts finally learned how to cope.
+
+Six siblings, six painters, one unfinnished stroke,
+
+Still chasing the light through the old cigarette smoke.`,
+    ],
+
+    images: [],
+    youtube: '',
+    audio: sixsiblingsAudio,
+  },
+
+
+  'the-joke-is-serious': {
+  category: 'Street to Studio',
+  title: 'The Joke Is Serious',
+  author: 'Mo Alimi',
+  readTime: '6 min',
+
+  issueNumber: 2,
+  issue: 'Issue 02',
+
+  intro:
+    'Slawn emerges from Lagos skate culture with graffiti, chaos, humor, and a no-rules energy that has traveled from the street into contemporary art, fashion, and global culture.',
+
+  heroImage: slawn1,
+
+  body: [
+    `Slawn hails from Lagos, Nigeria, emerging from a generation heavily influenced by skate culture, streetwear, graffiti, and the chaotic, no-rules energy of a new Nigerian alternative scene.
+
+Spray cans, skateboards, and an irreverent attitude became part of a visual language that felt less concerned with entering the traditional art world than with creating a world of its own.
+
+There was something happening in Lagos beyond Slawn himself. Motherlan, the skate and streetwear collective he co-founded, belonged to an emerging culture that was Nigerian without feeling obligated to perform an older idea of what Nigerian culture should look like.
+
+The rise of this culture felt like a new Afro-Nigerian language taking shape — skating, streetwear, graffiti, music, fashion, and Alté energy colliding without asking permission from the institutions that traditionally decide what deserves cultural importance.
+
+The likes of Skepta's co-sign signaled something larger. This was no longer simply a Lagos subculture existing within itself. Something was beginning to travel.
+
+It is tempting to look at Slawn and see traces of Jean-Michel Basquiat, particularly the unruly spirit associated with the SAMO era — graffiti, repetition, provocation, humor, and the refusal to separate the street from the work.
+
+But resemblance is not lineage.
+
+Lagos is not 1970s New York.
+
+And Slawn is operating inside an entirely different cultural machine.
+
+This is where the joke becomes serious.
+
+What can initially appear like chaos — a spray-painted face, a crude gesture, a joke pushed too far — has carried Slawn into an extraordinary run across art, fashion, music, and popular culture.
+
+The humor remains.
+
+The aggression remains.
+
+The feeling that none of this is supposed to be taken too seriously remains.
+
+Yet the collaborations, exhibitions, collectors, cultural figures, and institutions surrounding the work suggest otherwise.
+
+Early recognition from figures such as Virgil Abloh gave another stamp of approval to a visual language that had already been forming outside the traditional structures of the art world.
+
+Slawn has proven that the joke is serious.
+
+But perhaps the more interesting question is whether Slawn is actually making a joke out of art at all.
+
+Maybe the joke is aimed somewhere else.
+
+Maybe he is exposing how seriously the art world takes the things it eventually decides are valuable.`,
+  ],
+
+  images: [],
+  youtube: '',
+  audio: '',
+},
+
 }
