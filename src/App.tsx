@@ -250,7 +250,7 @@ import ArtistPick from './components/ArtistPick'
 // import WorksInView from './components/WorksInView'
 // import EditorsNote from './components/EditorsNote'
 import ArticleSection from './components/ArticleSection'
-import ArtistArchive from './components/ArtistArchive'
+// import ArtistArchive from './components/ArtistArchive'
 // import SubmitSection from './components/SubmitSection'
 
 

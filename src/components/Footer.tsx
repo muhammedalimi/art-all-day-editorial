@@ -9,7 +9,7 @@
 
 // export default Footer
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Footer() {
   function scrollToTop() {
