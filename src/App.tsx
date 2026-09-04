@@ -260,7 +260,7 @@ import SubmitPage from './pages/SubmitPage'
 import DepartmentArticlePage from './pages/DepartmentArticlePage'
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
-import NextIssue from './components/NextIssue'
+// import NextIssue from './components/NextIssue'
 import SubscribeSection from './components/SubscribeSection'
 // import BenCowanPrelude from './components/BenCowanPrelude'
 import IssuePage from './pages/IssuePage'
@@ -273,19 +273,22 @@ function HomePage() {
       <Navbar />
       {/* <IssueTicker /> */}
       <Hero />
+      <ArtistPick />
       <IssueIntro />
+      
+      <ArticleSection />
       {/* <BenCowanPrelude /> */}
       {/* <IssueIntro /> */}
       {/* <Departments /> */}
       <SubscribeSection />
-      <ArtistPick />
+      
       {/* <BenCowanFeature /> */}
       {/* <WorksInView /> */}
       {/* <EditorsNote /> */}
-      <ArticleSection />
-      <ArtistArchive />
+      
+      {/* <ArtistArchive /> */}
       {/* <SubmitSection /> */}
-      <NextIssue />
+      {/* <NextIssue /> */}
       
       <Footer />
     </>

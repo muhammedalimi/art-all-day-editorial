@@ -42,18 +42,18 @@ function Footer() {
 
       <div className="footerGrid">
         <div className="footerColumn">
-          <h4>Departments</h4>
+          {/* <h4>Departments</h4>
           <Link to="/departments/artist-pick">Artist Pick</Link>
           <Link to="/departments/faith-and-form">Faith & Form</Link>
           <Link to="/departments/the-inner-image">The Inner Image</Link>
-          <Link to="/departments/studio-notes">Studio Notes</Link>
+          <Link to="/departments/studio-notes">Studio Notes</Link> */}
           {/* <Link to="/departments/slow-looking">Slow Looking</Link> */}
         </div>
 
         <div className="footerColumn">
-          <h4>Artists</h4>
+          {/* <h4>Artists</h4>
           <Link to="/artists/blu-the-genius">BLU The Genius</Link>
-          <Link to="/artists/ben-cowan">Ben Cowan</Link>
+          <Link to="/artists/ben-cowan">Ben Cowan</Link> */}
           {/* <a href="#archive">Artist Archive</a>
           <a href="#works">Works in View</a> */}
         </div>

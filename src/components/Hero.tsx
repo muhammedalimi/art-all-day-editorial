@@ -37,9 +37,9 @@ function Hero() {
         exhibition notes, interviews, and essays on contemporary art.
       </p>
 
-      <a href="#latest" className="heroButton">
+      {/* <a href="#latest" className="heroButton">
         Read Issue 01
-      </a>
+      </a> */}
     </section>
   )
 }
