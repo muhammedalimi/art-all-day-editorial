@@ -1,0 +1,232 @@
+/* =========================
+   ARCHIVE PAGE
+========================= */
+
+.archivePage {
+  min-height: 100vh;
+  padding: 70px 24px 120px;
+  background: #f7f4ee;
+  color: #171717;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.archiveHeader {
+  max-width: 1180px;
+  margin: 0 auto 56px;
+}
+
+.archiveHeader .sectionLabel {
+  margin: 0 0 14px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #9b4f10;
+}
+
+.archiveHeader h1 {
+  margin: 0 0 18px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(64px, 8vw, 110px);
+  font-weight: 600;
+  line-height: 0.88;
+  letter-spacing: -5px;
+
+  color: #171717;
+}
+
+.archiveHeader > p:last-child {
+  max-width: 620px;
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  line-height: 1.6;
+
+  color: #625d55;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.archiveGrid {
+  max-width: 1180px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.archiveCard {
+  min-height: 520px;
+
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #fffaf2;
+  color: #171717;
+
+  border: 1px solid rgba(23, 23, 23, 0.12);
+  border-radius: 28px;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.archiveCard:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 18px 45px rgba(23, 23, 23, 0.08);
+
+  text-decoration: none;
+}
+
+/* IMAGE */
+
+.archiveCard img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  background: #eee8dd;
+}
+
+/* ISSUE LABEL */
+
+.archiveCard > p {
+  margin: 22px 4px 10px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+
+  color: #9b4f10;
+}
+
+/* ARTIST NAME */
+
+.archiveCard h2 {
+  margin: 0 4px 14px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -1.8px;
+
+  color: #171717;
+}
+
+/* DESCRIPTION */
+
+.archiveCard span {
+  margin: 0 4px 8px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.55;
+
+  color: #625d55;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 950px) {
+  .archiveGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .archiveCard {
+    min-height: 480px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+  .archivePage {
+    padding: 46px 18px 90px;
+  }
+
+  .archiveHeader {
+    margin-bottom: 36px;
+  }
+
+  .archiveHeader h1 {
+    font-size: 58px;
+    letter-spacing: -3px;
+  }
+
+  .archiveGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .archiveCard {
+    min-height: 0;
+    padding: 14px;
+    border-radius: 22px;
+  }
+
+  .archiveCard img {
+    border-radius: 16px;
+  }
+
+  .archiveCard h2 {
+    font-size: 34px;
+  }
+}
+
+
+.archiveBackBar {
+  max-width: 1180px;
+  margin: 0 auto 28px;
+}
+
+.archiveBackLink {
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+
+  color: #171717;
+
+  cursor: pointer;
+}
+
+.archiveBackLink:hover {
+  opacity: 0.55;
+}

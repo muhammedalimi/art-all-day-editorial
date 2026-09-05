@@ -252,6 +252,7 @@ import ArtistPick from './components/ArtistPick'
 import ArticleSection from './components/ArticleSection'
 // import ArtistArchive from './components/ArtistArchive'
 // import SubmitSection from './components/SubmitSection'
+import ArchivePage from './pages/ArchivePage'
 
 
 import ArtistArticlePage from './pages/ArtistArticlePage'
@@ -301,6 +302,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
+              <Route
+        path="/archive"
+        element={<ArchivePage />}
+      />
         <Route path="/artists" element={<ArtistsPage />}/>
         <Route path="/artists/:slug" element={<ArtistArticlePage />} />
         {/* <Route path="/departments/:slug" element={<DepartmentArticlePage />} /> */}

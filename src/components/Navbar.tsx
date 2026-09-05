@@ -744,8 +744,7 @@ function Navbar() {
               Browse Archive
             </p>
 
-            <a
-              href="/#archive"
+            <Link to="/archive"
               className="dropdownItem"
             >
               <div className="dropdownItemText">
@@ -765,7 +764,7 @@ function Navbar() {
               <span className="dropdownArrow">
                 ↗
               </span>
-            </a>
+            </Link>
 
           </div>
         </div>

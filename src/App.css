@@ -1633,6 +1633,7 @@ a:focus {
 }
 
 .benButton:hover {
+  
   background: transparent;
   color: white;
 }

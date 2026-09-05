@@ -216,12 +216,12 @@ function IssuePage() {
       {issueData && (
         <section className="issuePageDepartments">
           <div className="sectionHeader">
-            <p className="sectionLabel">
+            {/* <p className="sectionLabel">
               Inside {issue.number}
-            </p>
+            </p> */}
 
             <h2>
-              The Issue
+              Inside {issue.number}
             </h2>
           </div>
 
