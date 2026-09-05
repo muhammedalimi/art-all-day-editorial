@@ -699,7 +699,7 @@ function Navbar() {
                 ↗
               </span>
             </a>
-
+{/* 
             <a
               href="/#departments"
               className="dropdownItem"
@@ -720,7 +720,7 @@ function Navbar() {
               <span className="dropdownArrow">
                 ↗
               </span>
-            </a>
+            </a> */}
 
           </div>
         </div>
