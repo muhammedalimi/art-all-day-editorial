@@ -3,18 +3,18 @@
    Matches current IssuePage.tsx exactly
    ========================================================= */
 
-.issuePage {
+/* .issuePage {
   min-height: 100vh;
   background: #f5f0e6;
   color: #171717;
-}
+} */
 
 
 /* =========================================================
    ISSUE HERO
    ========================================================= */
 
-.issuePageHero {
+/* .issuePageHero {
   min-height: 92vh;
   padding: 30px 5vw 80px;
 
@@ -24,12 +24,12 @@
   background: #171717;
   color: #fffaf2;
   margin-bottom: 40px;
-}
+} */
 
 
 /* BACK LINK */
 
-.issuePageHero .backLink {
+/* .issuePageHero .backLink {
   align-self: flex-start;
 
   margin-bottom: 30px;
@@ -51,12 +51,12 @@
 
 .issuePageHero .backLink:hover {
   opacity: 1;
-}
+} */
 
 
 /* ISSUE NUMBER */
 
-.issuePageHero > .sectionLabel {
+/* .issuePageHero > .sectionLabel {
   margin: 0 0 90px;
 
   color: #b76822;
@@ -67,12 +67,12 @@
 
   text-transform: uppercase;
   letter-spacing: 1.4px;
-}
+} */
 
 
 /* DATE */
 
-.issuePageDate {
+/* .issuePageDate {
   margin: 0 0 45px;
 
   font-family: Inter, Arial, sans-serif;
@@ -81,11 +81,11 @@
 
   color: rgba(255, 250, 242, 0.75);
   margin-bottom: 40px;
-}
+} */
 
 
 /* MAIN ISSUE TITLE */
-
+/* 
 .issuePageHero > h1 {
   max-width: 1250px;
 
@@ -98,11 +98,11 @@
 
   line-height: 0.84;
   letter-spacing: -0.065em;
-}
+} */
 
 
 /* ISSUE HEADLINE */
-
+/* 
 .issuePageHero > h2 {
   max-width: 850px;
 
@@ -118,24 +118,24 @@
 
   color: rgba(255, 250, 242, 0.82);
   margin-bottom: 48px;
-}
+} */
 
 
 /* =========================================================
    OPENING STATEMENT
    ========================================================= */
 
-.issuePageOpening {
+/* .issuePageOpening {
   width: 100%;
   max-width: 1050px;
 
   margin-top: auto;
-}
+} */
 
 
 /* FIRST PARAGRAPH = LEAD STATEMENT */
 
-.issuePageOpening p:first-child {
+/* .issuePageOpening p:first-child {
   max-width: 1000px;
 
   margin: 0 0 55px;
@@ -149,12 +149,12 @@
   letter-spacing: -0.04em;
 
   color: #fffaf2;
-}
+} */
 
 
 /* NORMAL OPENING PARAGRAPHS */
 
-.issuePageOpening p:not(:first-child) {
+/* .issuePageOpening p:not(:first-child) {
   max-width: 820px;
 
   margin: 0 0 26px;
@@ -166,13 +166,13 @@
   line-height: 1.62;
 
   color: rgba(255, 250, 242, 0.78);
-}
+} */
 
 
 /* PENULTIMATE PARAGRAPH:
    "The center is changing."
 */
-
+/* 
 .issuePageOpening p:nth-last-child(2) {
   max-width: 900px;
 
@@ -187,12 +187,12 @@
   letter-spacing: -0.04em;
 
   color: #fffaf2;
-}
+} */
 
 
 /* LAST PARAGRAPH */
 
-.issuePageOpening p:last-child {
+/* .issuePageOpening p:last-child {
   max-width: 900px;
 
   margin-bottom: 0;
@@ -203,29 +203,29 @@
   letter-spacing: -0.03em;
 
   color: #fffaf2;
-}
+} */
 
 
 /* =========================================================
    ISSUE DEPARTMENTS
    ========================================================= */
 
-.issuePageDepartments {
+/* .issuePageDepartments {
   padding: 90px 5vw 130px;
 
   background: #fffaf2;
 }
-
+ */
 
 /* SECTION HEADER */
-
+/* 
 .issuePageDepartments .sectionHeader {
   max-width: 1600px;
 
   margin: 0 auto 55px;
-}
+} */
 
-
+/* 
 .issuePageDepartments .sectionHeader .sectionLabel {
   margin: 0 0 10px;
 
@@ -238,8 +238,8 @@
   text-transform: uppercase;
   letter-spacing: 1.3px;
 }
-
-
+ */
+/* 
 .issuePageDepartments .sectionHeader h2 {
   margin: 0;
 
@@ -249,13 +249,13 @@
 
   line-height: 0.86;
   letter-spacing: -0.055em;
-}
+} */
 
 
 /* =========================================================
    DEPARTMENT GRID
    ========================================================= */
-
+/* 
 .issuePageDepartments .departmentGrid {
   max-width: 1600px;
 
@@ -267,11 +267,11 @@
     repeat(4, minmax(0, 1fr));
 
   gap: 18px;
-}
+} */
 
 
 /* CARD */
-
+/* 
 .issuePageDepartments .departmentCard {
   min-width: 0;
 
@@ -292,19 +292,19 @@
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
-}
+} */
 
 
-.issuePageDepartments .departmentCard:hover {
+/* .issuePageDepartments .departmentCard:hover {
   transform: translateY(-5px);
 
   box-shadow:
     0 18px 40px rgba(0, 0, 0, 0.12);
-}
+} */
 
 
 /* CARD IMAGE */
-
+/* 
 .issuePageDepartments .departmentImage {
   display: block;
 
@@ -316,12 +316,12 @@
   border-radius: 16px;
 
   margin-bottom: 16px;
-}
+} */
 
 
 /* DEPARTMENT NUMBER */
 
-.issuePageDepartments .departmentCard > p {
+/* .issuePageDepartments .departmentCard > p {
   margin: 0 0 4px;
 
   font-family: Inter, Arial, sans-serif;
@@ -332,12 +332,12 @@
   letter-spacing: 1px;
 
   color: #c47a34;
-}
+} */
 
 
 /* DEPARTMENT NAME */
 
-.issuePageDepartments .departmentCard > h3 {
+/* .issuePageDepartments .departmentCard > h3 {
   margin: 0 0 10px;
 
   font-family: Georgia, 'Times New Roman', serif;
@@ -346,11 +346,11 @@
 
   line-height: 0.95;
   letter-spacing: -0.04em;
-}
+} */
 
 
 /* ARTIST NAME */
-
+/* 
 .issuePageDepartments .departmentCard > span {
   margin-top: auto;
 
@@ -361,14 +361,14 @@
   line-height: 1.4;
 
   color: rgba(255, 250, 242, 0.72);
-}
+} */
 
 
 /* =========================================================
    TABLET
    ========================================================= */
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
 
   .issuePageHero {
     min-height: 85vh;
@@ -383,13 +383,13 @@
       repeat(2, minmax(0, 1fr));
   }
 
-}
+} */
 
 
 /* =========================================================
    MOBILE
    ========================================================= */
-
+/* 
 @media (max-width: 760px) {
 
   .issuePageHero {
@@ -537,5 +537,595 @@
   padding: 0;
   background: none;
   cursor: pointer;
+  font: inherit;
+} */
+
+
+
+/* =========================================================
+   ART ALL DAY — ISSUE PAGE
+   ========================================================= */
+
+.issuePage {
+  min-height: 100vh;
+  background: #f5f0e6;
+  color: #171717;
+}
+
+
+/* =========================================================
+   ISSUE HERO
+   ========================================================= */
+
+.issuePageHero {
+  min-height: 92vh;
+  padding: 30px 5vw 80px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #171717;
+  color: #fffaf2;
+
+  margin-bottom: 40px;
+}
+
+
+/* BACK LINK */
+
+.issuePageHero .backLink {
+  align-self: flex-start;
+
+  margin-bottom: 30px;
+
+  color: #fffaf2;
+  text-decoration: none;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  opacity: 0.8;
+
+  transition: opacity 0.2s ease;
+}
+
+.issuePageHero .backLink:hover {
+  opacity: 1;
+}
+
+
+/* ISSUE NUMBER */
+
+.issuePageHero > .sectionLabel {
+  margin: 0 0 90px;
+
+  color: #b76822;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+
+/* DATE */
+
+.issuePageDate {
+  margin: 0 0 40px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+
+  color: rgba(255, 250, 242, 0.75);
+}
+
+
+/* MAIN ISSUE TITLE */
+
+.issuePageHero > h1 {
+  max-width: 1250px;
+
+  margin: 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(76px, 10vw, 170px);
+  font-weight: 700;
+
+  line-height: 0.84;
+  letter-spacing: -0.065em;
+}
+
+
+/* ISSUE HEADLINE */
+
+.issuePageHero > h2 {
+  max-width: 850px;
+
+  margin: 36px 0 48px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(28px, 3vw, 46px);
+  font-weight: 400;
+
+  line-height: 1.14;
+  letter-spacing: -0.025em;
+
+  color: rgba(255, 250, 242, 0.82);
+}
+
+
+/* =========================================================
+   OPENING STATEMENT
+   ========================================================= */
+
+.issuePageOpening {
+  width: 100%;
+  max-width: 1050px;
+
+  margin-top: auto;
+}
+
+
+/* FIRST PARAGRAPH */
+
+.issuePageOpening p:first-child {
+  max-width: 1000px;
+
+  margin: 0 0 55px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(36px, 4.5vw, 70px);
+  font-weight: 700;
+
+  line-height: 1.03;
+  letter-spacing: -0.04em;
+
+  color: #fffaf2;
+}
+
+
+/* NORMAL OPENING PARAGRAPHS */
+
+.issuePageOpening p:not(:first-child) {
+  max-width: 820px;
+
+  margin: 0 0 26px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(18px, 1.5vw, 23px);
+
+  line-height: 1.62;
+
+  color: rgba(255, 250, 242, 0.78);
+}
+
+
+/* PENULTIMATE PARAGRAPH */
+
+.issuePageOpening p:nth-last-child(2) {
+  max-width: 900px;
+
+  margin-top: 70px;
+  margin-bottom: 22px;
+
+  font-size: clamp(38px, 4vw, 64px);
+  font-weight: 700;
+
+  line-height: 1;
+  letter-spacing: -0.04em;
+
+  color: #fffaf2;
+}
+
+
+/* LAST PARAGRAPH */
+
+.issuePageOpening p:last-child {
+  max-width: 900px;
+
+  margin-bottom: 0;
+
+  font-size: clamp(28px, 3vw, 48px);
+
+  line-height: 1.14;
+  letter-spacing: -0.03em;
+
+  color: #fffaf2;
+}
+
+
+/* =========================================================
+   ISSUE DEPARTMENTS
+   ========================================================= */
+
+.issuePageDepartments {
+  padding: 90px 5vw 130px;
+
+  background: #fffaf2;
+}
+
+
+/* SECTION HEADER */
+
+.issuePageDepartments .sectionHeader {
+  max-width: 1600px;
+
+  margin: 0 auto 55px;
+}
+
+.issuePageDepartments .sectionHeader h2 {
+  margin: 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(58px, 7vw, 105px);
+
+  line-height: 0.86;
+  letter-spacing: -0.055em;
+}
+
+
+/* =========================================================
+   DEPARTMENT GRID
+   ========================================================= */
+
+.issuePageDepartments .departmentGrid {
+  max-width: 1600px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   DEPARTMENT CARD
+   ========================================================= */
+
+.issuePageDepartments .departmentCard {
+  min-width: 0;
+
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #171717;
+  color: #fffaf2;
+
+  border-radius: 24px;
+
+  text-decoration: none;
+
+  overflow: hidden;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.issuePageDepartments .departmentCard:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   CARD IMAGE
+   ========================================================= */
+
+.departmentImageWrapper {
+  width: 100%;
+
+  overflow: hidden;
+
+  border-radius: 16px;
+
+  background: #252525;
+}
+
+.issuePageDepartments .departmentImage {
+  display: block;
+
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  object-fit: cover;
+
+  transition: transform 0.4s ease;
+}
+
+.issuePageDepartments
+.departmentCard:hover
+.departmentImage {
+  transform: scale(1.025);
+}
+
+
+/* =========================================================
+   CARD CONTENT
+   ========================================================= */
+
+.issuePageDepartments .departmentCardContent {
+  min-height: 210px;
+
+  padding: 22px 4px 4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* DEPARTMENT NUMBER */
+
+.issuePageDepartments .departmentNumber {
+  margin: 0 0 24px;
+
+  font-family: Inter, Arial, sans-serif;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  line-height: 1;
+
+  letter-spacing: 1.2px;
+
+  color: #c47a34;
+}
+
+
+/* DEPARTMENT NAME */
+
+.issuePageDepartments .departmentName {
+  margin: 0;
+
+  max-width: 95%;
+
+  font-family: Georgia, 'Times New Roman', serif;
+
+  font-size: clamp(27px, 2.15vw, 39px);
+  font-weight: 500;
+
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+
+  color: #fffaf2;
+}
+
+
+/* ARTIST NAME */
+
+.issuePageDepartments .departmentArtist {
+  margin-top: auto;
+  padding-top: 32px;
+
+  font-family: Inter, Arial, sans-serif;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  line-height: 1.4;
+
+  color: rgba(255, 250, 242, 0.68);
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .issuePageHero {
+    min-height: 85vh;
+  }
+
+  .issuePageHero > .sectionLabel {
+    margin-bottom: 70px;
+  }
+
+  .issuePageDepartments .departmentGrid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .issuePageDepartments .departmentName {
+    font-size: 40px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 760px) {
+
+  .issuePageHero {
+    min-height: auto;
+
+    padding:
+      22px
+      20px
+      70px;
+  }
+
+
+  .issuePageHero .backLink {
+    margin-bottom: 24px;
+
+    font-size: 10px;
+  }
+
+
+  .issuePageHero > .sectionLabel {
+    margin-bottom: 55px;
+
+    font-size: 10px;
+  }
+
+
+  .issuePageDate {
+    margin-bottom: 26px;
+
+    font-size: 11px;
+  }
+
+
+  .issuePageHero > h1 {
+    font-size: clamp(
+      58px,
+      18vw,
+      100px
+    );
+
+    line-height: 0.86;
+  }
+
+
+  .issuePageHero > h2 {
+    margin:
+      28px
+      0
+      55px;
+
+    font-size: 24px;
+
+    line-height: 1.2;
+  }
+
+
+  .issuePageOpening {
+    margin-top: 0;
+  }
+
+
+  .issuePageOpening p:first-child {
+    margin-bottom: 42px;
+
+    font-size: clamp(
+      36px,
+      10vw,
+      58px
+    );
+
+    line-height: 1.04;
+  }
+
+
+  .issuePageOpening p:not(:first-child) {
+    font-size: 18px;
+
+    line-height: 1.6;
+  }
+
+
+  .issuePageOpening p:nth-last-child(2) {
+    margin-top: 55px;
+
+    font-size: 38px;
+  }
+
+
+  .issuePageOpening p:last-child {
+    font-size: 29px;
+  }
+
+
+  .issuePageDepartments {
+    padding:
+      70px
+      20px
+      95px;
+  }
+
+
+  .issuePageDepartments .sectionHeader {
+    margin-bottom: 40px;
+  }
+
+
+  .issuePageDepartments .sectionHeader h2 {
+    font-size: 64px;
+  }
+
+
+  .issuePageDepartments .departmentGrid {
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+  }
+
+
+  .issuePageDepartments .departmentCard {
+    padding: 15px;
+
+    border-radius: 20px;
+  }
+
+
+  .departmentImageWrapper {
+    border-radius: 14px;
+  }
+
+
+  .issuePageDepartments .departmentCardContent {
+    min-height: 190px;
+
+    padding:
+      20px
+      3px
+      3px;
+  }
+
+
+  .issuePageDepartments .departmentNumber {
+    margin-bottom: 22px;
+  }
+
+
+  .issuePageDepartments .departmentName {
+    font-size: 40px;
+  }
+
+
+  .issuePageDepartments .departmentArtist {
+    padding-top: 28px;
+  }
+
+}
+
+
+/* =========================================================
+   GLOBAL BACK BUTTON RESET
+   ========================================================= */
+
+.backLink {
+  border: 0;
+  padding: 0;
+
+  background: none;
+
+  cursor: pointer;
+
   font: inherit;
 }
