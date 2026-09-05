@@ -293,7 +293,7 @@ export const issues: Issue[] = [
     title: 'Feeling in Color',
 
     headline:
-      'Eight Artists Who Are Teaching Us How to Feel Again',
+      'Four Artists Who Are Teaching Us How to Feel Again',
 
     date: 'July 2026',
 

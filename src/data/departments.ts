@@ -147,6 +147,155 @@
 
 /* Permamnent look*/
 
+// export type Department = {
+//   slug: string
+//   number: string
+//   name: string
+//   subtitle: string
+//   paragraphs: string[]
+// }
+
+// export const departments: Department[] = [
+//   {
+//     slug: 'artist-pick',
+//     number: '01',
+//     name: 'Artist Pick',
+
+//     subtitle:
+//       'Artists whose work creates a world worth paying attention to.',
+
+//     paragraphs: [
+//       'Artist Pick is where Art All Day pays attention to artists whose work creates its own visual world.',
+
+//       'The selection is not simply about popularity or market attention. It is about artists whose work gives us something worth looking at, questioning, or returning to.',
+
+//       'Each issue introduces a new Artist Pick and looks closely at the ideas, images, contradictions, and decisions shaping the work.',
+//     ],
+//   },
+
+//   {
+//     slug: 'faith-and-form',
+//     number: '02',
+//     name: 'Faith & Form',
+
+//     subtitle:
+//       'Work that moves through belief, memory, ritual, and image.',
+
+//     paragraphs: [
+//       'Faith & Form looks at artists who use visual language to approach belief, doubt, ritual, grief, and spiritual memory.',
+
+//       'It is not only about religious art. It is about the moments when an image begins to feel larger than decoration.',
+
+//       'This department is interested in how artists build sacred feeling through material choices, composition, light, repetition, silence, absence, rupture, and longing.',
+//     ],
+//   },
+
+//   {
+//     slug: 'the-inner-image',
+//     number: '03',
+//     name: 'The Inner Image',
+
+//     subtitle:
+//       'Art shaped by pressure, identity, insecurity, feeling, and memory.',
+
+//     paragraphs: [
+//       'The Inner Image focuses on artists who make emotional and psychological experience visible.',
+
+//       'These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
+
+//       'The department asks how inner life becomes visual form.',
+//     ],
+//   },
+
+//   {
+//     slug: 'studio-notes',
+//     number: '04',
+//     name: 'Studio Notes',
+
+//     subtitle:
+//       'Process, doubt, repetition, material, sketches, and private practice.',
+
+//     paragraphs: [
+//       'Studio Notes is about the private life of the work before it becomes public.',
+
+//       'The sketches, failed versions, repeated attempts, unfinished surfaces, experiments, materials, and quiet discipline of returning all matter here.',
+
+//       'To understand an artist, sometimes we have to look at the practice rather than only the finished product.',
+//     ],
+//   },
+
+//   {
+//     slug: 'slow-looking',
+//     number: '05',
+//     name: 'Slow Looking',
+
+//     subtitle:
+//       'Criticism that asks what happens when we stay with the work.',
+
+//     paragraphs: [
+//       'Slow Looking is a resistance to quick judgment.',
+
+//       'It asks what happens when we stay with an image longer than the first reaction and allow details, contradictions, rhythms, and tensions to emerge.',
+
+//       'The goal is not to sound academic. The goal is to look carefully enough that the work has a chance to reveal itself.',
+//     ],
+//   },
+
+//   {
+//     slug: 'surface-study',
+//     number: '06',
+//     name: 'Surface Study',
+
+//     subtitle:
+//       'Color, texture, composition, scale, and material presence.',
+
+//     paragraphs: [
+//       'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and presence.',
+
+//       'Surface is not shallow. It is often where feeling lands.',
+
+//       'This department looks closely at how artworks create meaning through what they are made of, not only what they are about.',
+//     ],
+//   },
+
+//   {
+//     slug: 'street-to-studio',
+//     number: '07',
+//     name: 'Street to Studio',
+
+//     subtitle:
+//       'Where lived culture, public space, and artistic practice meet.',
+
+//     paragraphs: [
+//       'Street to Studio looks at work carrying the energy of lived culture into artistic practice.',
+
+//       'The street, neighborhood, internet, fashion, music, advertising, nightlife, public walls, and everyday visual culture can all become part of an artist’s language.',
+
+//       'This department is interested in what happens when those influences enter studios, galleries, institutions, and markets.',
+//     ],
+//   },
+
+//   {
+//     slug: 'exhibition-notes',
+//     number: '08',
+//     name: 'Exhibition Notes',
+
+//     subtitle:
+//       'Reflections on shows, rooms, walls, and the act of looking.',
+
+//     paragraphs: [
+//       'Exhibition Notes looks at how art changes when it enters a physical space.',
+
+//       'Scale, light, distance, architecture, placement, and neighboring works all affect the experience.',
+
+//       'This department is for reflections on exhibitions, gallery visits, installations, pop-ups, museums, and unexpected encounters with art.',
+//     ],
+//   },
+// ]
+
+
+/* Department Data */
+
 export type Department = {
   slug: string
   number: string
@@ -169,7 +318,7 @@ export const departments: Department[] = [
 
       'The selection is not simply about popularity or market attention. It is about artists whose work gives us something worth looking at, questioning, or returning to.',
 
-      'Each issue introduces a new Artist Pick and looks closely at the ideas, images, contradictions, and decisions shaping the work.',
+      'From painting and sculpture to work shaped by music, fashion, the internet, public space, and everyday culture, each issue introduces an artist and looks closely at the world forming around the work.',
     ],
   },
 
@@ -191,42 +340,25 @@ export const departments: Department[] = [
   },
 
   {
-    slug: 'the-inner-image',
-    number: '03',
-    name: 'The Inner Image',
-
-    subtitle:
-      'Art shaped by pressure, identity, insecurity, feeling, and memory.',
-
-    paragraphs: [
-      'The Inner Image focuses on artists who make emotional and psychological experience visible.',
-
-      'These are works that seem to come from the inside out — from anxiety, insecurity, memory, identity, grief, or private tension.',
-
-      'The department asks how inner life becomes visual form.',
-    ],
-  },
-
-  {
     slug: 'studio-notes',
-    number: '04',
+    number: '03',
     name: 'Studio Notes',
 
     subtitle:
-      'Process, doubt, repetition, material, sketches, and private practice.',
+      'Process, doubt, experiments, conversation, and the private life of making.',
 
     paragraphs: [
-      'Studio Notes is about the private life of the work before it becomes public.',
+      'Studio Notes is about the life of the work before it becomes public.',
 
-      'The sketches, failed versions, repeated attempts, unfinished surfaces, experiments, materials, and quiet discipline of returning all matter here.',
+      'The sketches, failed versions, repeated attempts, unfinished surfaces, conversations, experiments, materials, memories, and private tensions surrounding a practice all matter here.',
 
-      'To understand an artist, sometimes we have to look at the practice rather than only the finished product.',
+      'To understand an artist, sometimes we have to spend less time explaining the finished object and more time understanding how they arrived there.',
     ],
   },
 
   {
     slug: 'slow-looking',
-    number: '05',
+    number: '04',
     name: 'Slow Looking',
 
     subtitle:
@@ -235,60 +367,9 @@ export const departments: Department[] = [
     paragraphs: [
       'Slow Looking is a resistance to quick judgment.',
 
-      'It asks what happens when we stay with an image longer than the first reaction and allow details, contradictions, rhythms, and tensions to emerge.',
+      'It asks what happens when we stay with an artwork, exhibition, or image long enough for its color, texture, scale, composition, material, contradictions, and tensions to emerge.',
 
-      'The goal is not to sound academic. The goal is to look carefully enough that the work has a chance to reveal itself.',
-    ],
-  },
-
-  {
-    slug: 'surface-study',
-    number: '06',
-    name: 'Surface Study',
-
-    subtitle:
-      'Color, texture, composition, scale, and material presence.',
-
-    paragraphs: [
-      'Surface Study focuses on the physical and visual qualities of art: color, texture, scale, composition, edges, materials, and presence.',
-
-      'Surface is not shallow. It is often where feeling lands.',
-
-      'This department looks closely at how artworks create meaning through what they are made of, not only what they are about.',
-    ],
-  },
-
-  {
-    slug: 'street-to-studio',
-    number: '07',
-    name: 'Street to Studio',
-
-    subtitle:
-      'Where lived culture, public space, and artistic practice meet.',
-
-    paragraphs: [
-      'Street to Studio looks at work carrying the energy of lived culture into artistic practice.',
-
-      'The street, neighborhood, internet, fashion, music, advertising, nightlife, public walls, and everyday visual culture can all become part of an artist’s language.',
-
-      'This department is interested in what happens when those influences enter studios, galleries, institutions, and markets.',
-    ],
-  },
-
-  {
-    slug: 'exhibition-notes',
-    number: '08',
-    name: 'Exhibition Notes',
-
-    subtitle:
-      'Reflections on shows, rooms, walls, and the act of looking.',
-
-    paragraphs: [
-      'Exhibition Notes looks at how art changes when it enters a physical space.',
-
-      'Scale, light, distance, architecture, placement, and neighboring works all affect the experience.',
-
-      'This department is for reflections on exhibitions, gallery visits, installations, pop-ups, museums, and unexpected encounters with art.',
+      'The goal is not to sound academic. The goal is to look carefully enough that the work — and the space around it — has a chance to reveal itself.',
     ],
   },
 ]
