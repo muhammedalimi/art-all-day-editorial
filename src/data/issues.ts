@@ -305,7 +305,7 @@ export const issues: Issue[] = [
     openingStatement: [
       'It is happening quietly—in studios, bedrooms, streets, archives, and sacred spaces.',
 
-      'Eight artists are making work about memory, faith, identity, desire, history, and the strange things we carry with us.',
+      'Four artists are making work about memory, faith, identity, desire, history, and the strange things we carry with us.',
     ],
   },
 
