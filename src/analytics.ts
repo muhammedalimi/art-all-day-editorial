@@ -191,7 +191,7 @@ export function initAnalytics() {
 
   window.dataLayer = window.dataLayer || []
 
-  window.gtag = function (...args: unknown[]) {
+  window.gtag = function () {
     window.dataLayer.push(arguments)
   }
 
