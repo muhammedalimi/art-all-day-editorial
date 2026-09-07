@@ -16,11 +16,12 @@
 .studioHoursHeader {
   margin-bottom: 45px;
 
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: flex-end;
 
   gap: 50px;
+  /* align-items: flex-start; */
 }
 
 .studioHoursHeader .sectionLabel {
@@ -44,6 +45,13 @@
   line-height: 0.86;
 
   letter-spacing: -0.055em;
+}
+
+.studioHoursTitle {
+  font-size: clamp(70px, 8vw, 130px);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  white-space: nowrap;
 }
 
 .studioHoursDescription {
