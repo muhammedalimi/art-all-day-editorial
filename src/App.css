@@ -1083,6 +1083,33 @@ body {
   color: #555;
 }
 
+@media (max-width: 700px) {
+  .footer {
+    min-height: auto;
+    padding: 56px 36px 28px;
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+
+  .footer p {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  .footer h2 {
+    font-size: clamp(48px, 14vw, 68px);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+  }
+    .footerBottom {
+    margin-top: 70px;
+  }
+
+  .footerInner {
+    min-height: auto;
+  }
+}
 /* RESPONSIVE */
 
 @media (max-width: 500px) {

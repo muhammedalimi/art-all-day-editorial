@@ -467,19 +467,19 @@
     margin: 0;
   }
 
-  .studioLeadContent h3 {
+ .studioLeadContent h3 {
     width: 100%;
     max-width: 100%;
 
     margin: 0 0 24px;
 
-    font-size: clamp(50px, 13vw, 68px);
-    line-height: 0.88;
+    font-size: clamp(48px, 12vw, 64px);
+    line-height: 0.86;
+    letter-spacing: -0.06em;
 
-    letter-spacing: -0.055em;
-
-    overflow-wrap: break-word;
+    overflow-wrap: normal;
     word-break: normal;
+    hyphens: none;
   }
 
   .studioLeadContent p {
