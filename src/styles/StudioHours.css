@@ -10,7 +10,7 @@
 
 
 /* HEADER */
-
+/* 
 .studioHoursHeader {
   margin-bottom: 45px;
 
@@ -20,7 +20,13 @@
   align-items: end;
   gap: 50px;
 }
+ */
 
+ .studioHoursHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .studioHoursHeader .sectionLabel {
   margin: 0 0 8px;

@@ -456,29 +456,41 @@ body {
 
 /* HERO */
 
+
+
+
 /* .hero {
-  max-width: 1000px;
-  margin: 90px auto 100px;
-  text-align: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 70px 24px 55px;
+    margin-bottom: 10px;
+
+    text-align: center;
 } */
 
 .hero {
     width: 100%;
-    min-height: auto;
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    /* transform: translateY(-55px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    /* padding:0 60px; */
-    margin-bottom: 60px;
-    padding-top: 40px;
-    /* padding-bottom: 120px; */
-    padding: 140px 24px 90px;
+    padding: 70px 24px 35px;
+    margin-bottom: 0;
+
+    text-align: center;
 }
-
+.hero .eyebrow {
+    width: fit-content;
+    margin: 0 auto 22px;
+    align-self: center;
+}
 .issueButton {
   display: inline-flex;
   align-items: center;
@@ -523,22 +535,46 @@ body {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
+  
 }
 
+.hero .eyebrow {
+    align-self: center;
+    margin: 0 auto 20px;
+}
+
+@media (max-width: 1200px) {
+    .hero h1 {
+        white-space: normal;
+    }
+}
+/* 
 .hero h1 {
   margin: 0;
   font-size: clamp(64px, 11vw, 140px);
   line-height: 0.85;
   letter-spacing: -6px;
   font-weight: 900;
-}
+} */
 
+.hero h1 {
+    width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+    white-space: nowrap;
+
+    font-size: clamp(72px, 8vw, 150px);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+}
 .heroText {
   max-width: 680px;
   margin: 30px auto 36px;
   font-size: 22px;
   line-height: 1.6;
   color: #4a4a4a;
+  text-align: center;
 }
 
 /* FEATURED ARTIST */
@@ -940,106 +976,6 @@ body {
   }
 }
 
-/*  */
-/* 
-.studioArticle {
-  min-height: 100vh;
-  padding: 80px 5vw 120px;
-  background: #f3f0e9;
-  color: #171717;
-}
-
-.studioArticleHeader {
-  max-width: 1100px;
-  margin: 0 auto 70px;
-}
-
-.studioArticleCategory {
-  margin-bottom: 24px;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: #8b7355;
-}
-
-.studioArticleHeader h1 {
-  margin: 0;
-  font-size: clamp(70px, 12vw, 170px);
-  line-height: 0.82;
-  letter-spacing: -7px;
-}
-
-.studioArticleIntro {
-  max-width: 760px;
-  margin: 45px 0 30px;
-  font-size: clamp(24px, 3vw, 40px);
-  line-height: 1.15;
-}
-
-.studioArticleMeta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(23, 23, 23, 0.25);
-  font-family: Inter, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.studioArticleHero {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.studioArticleHero img {
-  width: 100%;
-  display: block;
-  border-radius: 28px;
-}
-
-.studioArticleBody {
-  max-width: 720px;
-  margin: 90px auto 0;
-}
-
-.studioArticleBody p {
-  margin-bottom: 32px;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 19px;
-  line-height: 1.8;
-}
-
-.studioArticleBody h2 {
-  margin: 80px 0 30px;
-  font-size: clamp(40px, 6vw, 80px);
-  line-height: 0.9;
-  letter-spacing: -3px;
-}
-
-@media (max-width: 700px) {
-  .studioArticle {
-    padding: 50px 20px 80px;
-  }
-
-  .studioArticleHeader h1 {
-    letter-spacing: -4px;
-  }
-
-  .studioArticleIntro {
-    margin-top: 35px;
-  }
-
-  .studioArticleHero img {
-    border-radius: 18px;
-  }
-
-  .studioArticleBody {
-    margin-top: 60px;
-  }
-} */
 
 /* REMOVE UNDERLINES FROM ALL LINKS */
 a {
@@ -1072,107 +1008,6 @@ a:focus {
   text-decoration: none;
 }
 
-
-/*old artist pick*/
-/* 
-.artistPick {
-  max-width: 1600px;
-  margin: 0 auto 90px;
-  padding: 28px;
-  border: 1px solid rgba(23, 23, 23, 0.16);
-  border-radius: 32px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-  background: #fffaf2;
-}
-
-.artistPickText h2 {
-  margin: 0;
-  font-size: clamp(46px, 7vw, 92px);
-  line-height: 0.9;
-  letter-spacing: -4px;
-}
-
-.artistPickText p {
-  max-width: 560px;
-  font-size: 20px;
-  line-height: 1.65;
-  color: #4a4a4a;
-}
-
-.artistPickText button {
-  Display: inline-block;
-  border: 1px solid #171717;
-  background: #171717;
-  color: white;
-  border-radius: 999px;
-  padding: 14px 20px;
-  font-weight: 900;
-  cursor: pointer;
-  transition: 0.25s ease;
-}
-
-.artistPickText button:hover {
-  background: transparent;
-  color: #171717;
-}
-
-.artistPickImage {
-  position: relative;
-  min-height: 620px;
-  border-radius: 24px;
-  overflow: hidden;
-  background: #171717;
-  cursor: zoom-out;
-}
-
-.artistPickImage img {
-  width: 100%;
-  height: 100%;
-  min-height: 620px;
-  object-fit: cover;
-  display: block;
-  transform: scale(1.12);
-  transition: transform 0.6s ease, object-fit 0.6s ease;
-}
-
-.artistPickImage:hover img,
-.artistPick:hover .artistPickImage img {
-  transform: scale(1);
-  object-fit: contain;
-}
-
-.artistPickImage::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.55),
-    rgba(0, 0, 0, 0.05)
-  );
-  transition: opacity 0.4s ease;
-}
-
-.artistPickImage:hover::after,
-.artistPick:hover .artistPickImage::after {
-  opacity: 0.15;
-}
-
-.artistPickImage span {
-  position: absolute;
-  left: 24px;
-  bottom: 24px;
-  z-index: 2;
-  color: white;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
- */
 
  .artistPick {
   max-width: 1600px;
@@ -3767,3 +3602,133 @@ a {
   cursor: pointer;
   font: inherit;
 }
+
+
+/* =========================================
+   ARTIST ARTICLE — SECTION HEADINGS
+   ========================================= */
+
+.artistArticleHeading {
+  margin: 72px 0 24px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.2;
+
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+
+  color: #171717;
+}
+
+
+/* =========================================
+   ARTIST ARTICLE — PULL QUOTES
+   ========================================= */
+
+.artistArticleQuote {
+  margin: 48px 0;
+  padding: 4px 0 4px 24px;
+
+  border-left: 2px solid #171717;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(28px, 4vw, 46px);
+  font-weight: 400;
+  line-height: 1.12;
+
+  font-style: italic;
+
+  color: #171717;
+}
+
+
+/* =========================================
+   ARTICLE BODY RHYTHM
+   ========================================= */
+
+.articleBody > p {
+  margin: 0 0 28px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(20px, 2vw, 25px);
+  line-height: 1.65;
+
+  color: #171717;
+}
+
+
+/* INTRO */
+
+.articleBody .articleIntro {
+  margin-bottom: 42px;
+
+  font-size: clamp(24px, 2.6vw, 32px);
+  line-height: 1.45;
+
+  font-style: italic;
+}
+
+
+/* =========================================
+   CONTINUE READING
+   ========================================= */
+
+.continueButton {
+  margin-top: 30px;
+  padding: 14px 22px;
+
+  border: 1px solid #171717;
+  background: transparent;
+  color: #171717;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.continueButton:hover {
+  background: #171717;
+  color: #fffaf2;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+  .artistArticleHeading {
+    margin: 56px 0 20px;
+
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
+  .artistArticleQuote {
+    margin: 38px 0;
+    padding-left: 18px;
+
+    font-size: 30px;
+  }
+
+  .articleBody > p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .articleBody .articleIntro {
+    font-size: 23px;
+  }
+}
+

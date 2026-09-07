@@ -243,7 +243,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 // import IssueTicker from './components/IssueTicker'
 import Hero from './components/Hero'
-import IssueIntro from './components/IssueIntro'
+// import IssueIntro from './components/IssueIntro'
 // import Departments from './components/Departments'
 import ArtistPick from './components/ArtistPick'
 // import BenCowanFeature from './components/BenCowanFeature'
@@ -275,7 +275,7 @@ function HomePage() {
       {/* <IssueTicker /> */}
       <Hero />
       <ArtistPick />
-      <IssueIntro />
+      {/* <IssueIntro /> */}
       
       <ArticleSection />
       {/* <BenCowanPrelude /> */}

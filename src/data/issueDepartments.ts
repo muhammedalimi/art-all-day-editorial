@@ -564,22 +564,39 @@ export const issueDepartments: IssueDepartments = {
   issueNumber: 2,
 
   departments: {
-    'street-to-studio': {
+
+        'street-to-studio': {
       artist: 'Slawn',
-      title: 'The Joke Is Serious',
+      title: 'Living Dangerously',
 
       description: [
-        'Slawn moves through contemporary art with the energy of someone who understands that painting, performance, fashion, business, celebrity, and internet culture can all become part of the same artistic language.',
+        'The first time I really tried to understand Slawn’s art, I wasn’t sure I did. Maybe I was looking too hard at the paintings.',
 
-        'The work raises a larger question for contemporary art: what happens when the spectacle surrounding the artist becomes almost impossible to separate from the paintings themselves?',
+        'Slawn’s practice moves beyond the canvas into skate culture, fashion, spectacle, business, performance, and the mythology surrounding the artist himself.',
       ],
 
       image: slawn4,
       imageAlt: 'Artwork by Slawn',
-      caption: 'Selected work by Slawn',
+      caption: 'Slawn',
 
-      link: '/artists/slawn',
-    },
+      link: '/articles/living-dangerously',
+},
+  //   'street-to-studio': {
+  //     artist: 'Slawn',
+  //     title: 'The Joke Is Serious',
+
+  //     description: [
+  //       'Slawn moves through contemporary art with the energy of someone who understands that painting, performance, fashion, business, celebrity, and internet culture can all become part of the same artistic language.',
+
+  //       'The work raises a larger question for contemporary art: what happens when the spectacle surrounding the artist becomes almost impossible to separate from the paintings themselves?',
+  //     ],
+
+  //     image: slawn4,
+  //     imageAlt: 'Artwork by Slawn',
+  //     caption: 'Selected work by Slawn',
+
+  //     link: '/artists/slawn',
+  //   },
 
 
     'studio-notes': {

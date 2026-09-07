@@ -1,236 +1,4 @@
-// import ben1 from '../assets/ben1.jpg'
 
-// export const articles = {
-//   'faith-and-form': {
-//     category: 'Criticism',
-//     title: 'Faith & Form',
-
-//     author: 'Mo Alimi',
-//     readTime: '5 min read',
-//     issue: 'Studio Hours — Issue 01',
-
-//     intro:
-//       'Ben Cowan’s work explores belief, painting, religious imagery, personal history, leaves, frames, and how faith becomes visual form.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       `Faith & Form is an exploration of how belief can move through material. In Ben Cowan’s paintings, religious imagery, memory, and natural forms come together in a visual language that feels both personal and familiar.`,
-
-//       `Leaves, frames, painted surfaces, and sacred references become more than individual objects. They create a space where memory and spirituality can exist together.`,
-
-//       `Cowan’s work asks us to slow down and look closely. The paintings carry a sense of history while remaining grounded in the physical qualities of paint, surface, and composition.`,
-//     ],
-
-//     images: [],
-
-//     youtube: '',
-
-//     audio: '',
-//   },
-// }
-
-// import ben1 from '../assets/ben1.jpg'
-
-// export const articles = {
-//   'faith-and-form': {
-//     category: 'Criticism',
-//     title: 'Faith & Form',
-
-//     author: 'Mo Alimi',
-//     readTime: '5 min read',
-//     issue: 'Studio Hours — Issue 01',
-
-//     intro:
-//       'Ben Cowan’s work explores belief, painting, religious imagery, personal history, leaves, frames, and how faith becomes visual form.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       `Faith & Form is an exploration of how belief can move through material. In Ben Cowan’s paintings, religious imagery, memory, and natural forms come together in a visual language that feels both personal and familiar.`,
-
-//       `Leaves, frames, painted surfaces, and sacred references become more than individual objects. They create a space where memory and spirituality can exist together.`,
-
-//       `Cowan’s work asks us to slow down and look closely. The paintings carry a sense of history while remaining grounded in the physical qualities of paint, surface, and composition.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-
-//   'inside-the-studio-practice': {
-//     category: 'Interview',
-//     title: 'Inside the Studio Practice',
-
-//     author: 'Studio Hours',
-//     readTime: '6 min read',
-//     issue: 'Studio Hours — Issue 01',
-
-//     intro:
-//       'A conversation about process, doubt, materials, and the private rhythm behind finished work.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       `The studio is often where the finished image begins to take shape, but the process is rarely as simple as the final work suggests.`,
-
-//       `Artists move through uncertainty, repetition, mistakes, and unexpected discoveries before arriving at something that feels complete.`,
-
-//       `This conversation looks at the private rhythm behind the work and what it means to return to the studio every day.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-
-//   'why-surfaces-matter': {
-//     category: 'Essay',
-//     title: 'Why Surfaces Matter',
-
-//     author: 'Editorial',
-//     readTime: '4 min read',
-//     issue: 'Studio Hours — Issue 01',
-
-//     intro:
-//       'A short reflection on texture, architecture, and the emotional weight carried by painted surfaces.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       `A painted surface is never simply a background. Texture, color, and material can change the way an image is experienced.`,
-
-//       `Across painting and architecture, surfaces carry traces of time, touch, construction, and memory.`,
-
-//       `To look closely at a surface is to notice the physical history embedded within the work.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-// }
-
-
-/* Version 3 */
-
-// import ben1 from '../assets/ben1.jpg'
-
-
-
-// type BodyBlock =
-//   | string
-//   | {
-//       type: 'heading'
-//       text: string
-//     }
-
-// type Article = {
-//   category: string
-//   title: string
-//   author: string
-//   readTime: string
-//   issueNumber: number
-//   issue: string
-//   intro: string
-//   heroImage: string
-//   body: BodyBlock[]
-//   images: string[]
-//   youtube: string
-//   audio: string
-// }
-
-// export const articles: Record<string, Article> = {
-//   // Issue 01
-//   'faith-and-form': {
-//     category: 'Criticism',
-//     title: 'Faith & Form',
-//     author: 'Mo Alimi',
-//     readTime: '5 min read',
-
-//     issueNumber: 1,
-//     issue: 'Issue 01',
-
-//     intro:
-//       'Ben Cowan’s work explores belief, painting, religious imagery, personal history, leaves, frames, and how faith becomes visual form.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       {
-//         type: 'heading',
-//         text: 'Faith & Form is an exploration of how belief can move through material.'
-//       },
-//       `In Ben Cowan’s paintings, religious imagery, memory, and natural forms come together in a visual language that feels both personal and familiar.`,
-
-//       `Leaves, frames, painted surfaces, and sacred references become more than individual objects. They create a space where memory and spirituality can exist together.`,
-
-//       `Cowan’s work asks us to slow down and look closely. The paintings carry a sense of history while remaining grounded in the physical qualities of paint, surface, and composition.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-
-
-//   'inside-the-studio-practice': {
-//     category: 'Interview',
-//     title: 'Inside the Studio Practice',
-
-//     author: 'Studio Hours',
-//     readTime: '6 min read',
-
-//     issueNumber: 1,
-//     issue: 'Issue 01',
-
-//     intro:
-//       'A conversation about process, doubt, materials, and the private rhythm behind finished work.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       `The studio is often where the finished image begins to take shape, but the process is rarely as simple as the final work suggests.`,
-
-//       `Artists move through uncertainty, repetition, mistakes, and unexpected discoveries before arriving at something that feels complete.`,
-
-//       `This conversation looks at the private rhythm behind the work and what it means to return to the studio every day.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-
-//   'why-surfaces-matter': {
-//     category: 'Essay',
-//     title: 'Why Surfaces Matter',
-
-//     author: 'Editorial',
-//     readTime: '4 min read',
-
-//     issueNumber: 1,
-//     issue: 'Issue 01',
-
-//     intro:
-//       'A short reflection on texture, architecture, and the emotional weight carried by painted surfaces.',
-
-//     heroImage: ben1,
-
-//     body: [
-//       `A painted surface is never simply a background. Texture, color, and material can change the way an image is experienced.`,
-
-//       `Across painting and architecture, surfaces carry traces of time, touch, construction, and memory.`,
-
-//       `To look closely at a surface is to notice the physical history embedded within the work.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-// }
 
 
 import ben22 from '../assets/ben22.jpg'
@@ -242,8 +10,18 @@ import benPoussin from '../assets/ben27.jpg'
 
 import sixsiblings from '../assets/sixsiblings.png'
 import sixsiblingsAudio from '../assets/sixsiblings.mp3'
-import slawn1 from '../assets/slawn1.png'
-
+// import slawn1 from '../assets/slawn1.png'
+import slawn4 from '../assets/slawn4.jpg'
+// import slawn5 from '../assets/slawn5.jpg'
+// import slawn6 from '../assets/slawn6.jpg'
+import slawn7 from '../assets/slawn7.jpg'
+// import slawn8 from '../assets/slawn8.jpg'
+// import slawn9 from '../assets/slawn9.jpg'
+import slawn10 from '../assets/slawn10.jpg'
+import slawn11 from '../assets/slawn11.jpg'
+import slawn12 from '../assets/slawn12.jpg'
+import slawn13 from '../assets/slawn13.jpg'
+import slawn14 from '../assets/slawn14.png'
 
 type BodyBlock =
   | string
@@ -255,7 +33,9 @@ type BodyBlock =
       type: 'image'
       src: string
       alt: string
-      caption: string
+      caption?: string
+      title?: string
+      details?: string
     }
 type Article = {
   category: string
@@ -773,67 +553,442 @@ Still chasing the light through the old cigarette smoke.`,
     youtube: '',
     audio: sixsiblingsAudio,
   },
-
-
-  'the-joke-is-serious': {
+'living-dangerously': {
   category: 'Street to Studio',
-  title: 'The Joke Is Serious',
+
+  title: 'Living Dangerously',
+
   author: 'Mo Alimi',
-  readTime: '6 min',
+
+  readTime: '8 min read',
 
   issueNumber: 2,
+
   issue: 'Issue 02',
 
   intro:
-    'Slawn emerges from Lagos skate culture with graffiti, chaos, humor, and a no-rules energy that has traveled from the street into contemporary art, fashion, and global culture.',
+    'The first time I really tried to understand Slawn’s art, I wasn’t sure I did. Maybe I was looking too hard at the paintings.',
 
-  heroImage: slawn1,
+  heroImage: slawn12,
+  
+ 
 
   body: [
-    `Slawn hails from Lagos, Nigeria, emerging from a generation heavily influenced by skate culture, streetwear, graffiti, and the chaotic, no-rules energy of a new Nigerian alternative scene.
+    `There are the faces, the spray paint, the roughness, the repetition. Everything feels immediate, almost like it happened before anyone had time to ask whether it was a good idea.`,
 
-Spray cans, skateboards, and an irreverent attitude became part of a visual language that felt less concerned with entering the traditional art world than with creating a world of its own.
+    `Then there is Slawn himself.`,
 
-There was something happening in Lagos beyond Slawn himself. Motherlan, the skate and streetwear collective he co-founded, belonged to an emerging culture that was Nigerian without feeling obligated to perform an older idea of what Nigerian culture should look like.
+    `Cigarettes. Skateboards. Clothes. Cars. Parties. Fights. Lagos. London. A café. A spray can is never too far away.`,
 
-The rise of this culture felt like a new Afro-Nigerian language taking shape — skating, streetwear, graffiti, music, fashion, and Alté energy colliding without asking permission from the institutions that traditionally decide what deserves cultural importance.
+    `Some would call it chaotic.`,
 
-The likes of Skepta's co-sign signaled something larger. This was no longer simply a Lagos subculture existing within itself. Something was beginning to travel.
+    `I dare to call it breaking free.`,
 
-It is tempting to look at Slawn and see traces of Jean-Michel Basquiat, particularly the unruly spirit associated with the SAMO era — graffiti, repetition, provocation, humor, and the refusal to separate the street from the work.
+    `Because the more I looked at Slawn, the less interested I became in trying to understand him through the paintings alone. The paintings are part of something larger. Slawn seems to have built a world where almost anything can become art, and almost anything surrounding the art can become part of the experience.`,
 
-But resemblance is not lineage.
+    `There is something dangerous about that kind of freedom.`,
 
-Lagos is not 1970s New York.
+    `Not dangerous because it is violent or destructive, but because once you stop respecting the boundaries people have drawn around art, you have to decide for yourself where the boundaries are.`,
 
-And Slawn is operating inside an entirely different cultural machine.
+    `Slawn seems perfectly comfortable with that.`,
 
-This is where the joke becomes serious.
+    {
+      type: 'image',
+      src: slawn4,
+      alt: 'Slawn',
+      caption:
+        'Nigeria, My Country, 2024',
+    },
 
-What can initially appear like chaos — a spray-painted face, a crude gesture, a joke pushed too far — has carried Slawn into an extraordinary run across art, fashion, music, and popular culture.
+    {
+      type: 'heading',
+      text: 'Lagos Before London',
+    },
 
-The humor remains.
+    `Before the galleries, auctions, and collaborations, there was skateboarding.`,
 
-The aggression remains.
+    `Olaolu Slawn grew up in Nigeria and, in his late teens, worked at Wafflesncream, widely recognized as Nigeria’s first skate shop.`,
 
-The feeling that none of this is supposed to be taken too seriously remains.
+    `It was there that he met Leo and Onyedi. They skated, made films, created artwork, and eventually built Motherlan together.`,
 
-Yet the collaborations, exhibitions, collectors, cultural figures, and institutions surrounding the work suggest otherwise.
+    `That part of the story matters to me.`,
 
-Early recognition from figures such as Virgil Abloh gave another stamp of approval to a visual language that had already been forming outside the traditional structures of the art world.
+    `Because skateboarding teaches you to look at the world differently.`,
 
-Slawn has proven that the joke is serious.
+    `A staircase is not only a staircase.`,
 
-But perhaps the more interesting question is whether Slawn is actually making a joke out of art at all.
+    `A railing is not only something to hold.`,
 
-Maybe the joke is aimed somewhere else.
+    `An empty stretch of concrete suddenly has possibilities that someone walking past it might never notice.`,
 
-Maybe he is exposing how seriously the art world takes the things it eventually decides are valuable.`,
+    `I think there is something similar happening in Slawn’s relationship with art.`,
+
+    `He sees surfaces.`,
+
+    {
+      type: 'image',
+      src: slawn11,
+      alt: 'Slawn',
+      caption:
+        'Mickey, 2026',
+      
+    },
+
+    `In 2018, he moved to London and later studied graphic design at Middlesex University.`,
+
+    `During the pandemic, he began painting more seriously, giving work to people at parties and putting it online.`,
+
+    `But moving to London did not erase Lagos from the story.`,
+
+    `When I look at Slawn, I do not necessarily mean that I see Lagos literally represented in every painting.`,
+
+    `I recognize something else.`,
+
+    `An energy.`,
+
+    `Improvisation. Noise. Humor. Hustle. Youth.`,
+
+    `The confidence to make something out of whatever happens to be in front of you.`,
+
+    `The kind of energy that says:`,
+
+    `Why not?`,
+
+    {
+      type: 'heading',
+      text: 'I Can Spray on Anything',
+    },
+
+    `This might be what finally made Slawn click for me.`,
+
+    `I can spray on anything.`,
+
+    `It sounds almost stupidly simple, but there is a philosophy inside it.`,
+
+    `A T-shirt has an empty corner? Spray it.`,
+
+    `A suitcase looks too clean? Spray it.`,
+
+    `A wall, a canvas, a car?`,
+
+    `Why should the material decide whether something deserves to become art?`,
+
+    {
+      type: 'image',
+      src: slawn13,
+      alt: 'American Ice by Slawn',
+      caption: 'Dreadful, 2026'
+
+    },
+
+    `There is something about the spray can itself that fits Slawn perfectly.`,
+
+    `It does not carry the ceremony of traditional painting.`,
+
+    `You do not need to carefully prepare a palette.`,
+
+    `You shake it, press down, and leave a mark.`,
+
+    `It encourages movement.`,
+
+    `It encourages risk.`,
+
+    `It allows the artist to get there before doubt does.`,
+
+    `And Slawn’s world seems built around that instinct.`,
+
+    `I started thinking about those moments when you look at an object and suddenly notice the empty space on it.`,
+
+    `The edge of a shirt.`,
+
+    `The side of a suitcase.`,
+
+    `Something about it feels unfinished.`,
+
+    `Most of us leave it alone.`,
+
+    `Slawn does not.`,
+
+    `That is where I started understanding the breaking-free energy I felt when I first encountered him.`,
+
+    `The artwork does not necessarily stop at the canvas because Slawn does not seem particularly interested in where art is supposed to stop.`,
+
+    {
+      type: 'heading',
+      text: 'The Basquiat Problem',
+    },
+
+    {
+      type: 'image',
+      src: slawn10,
+      alt: 'American Ice by Slawn',
+      caption: 'Skepta SBTV, 2026',
+    
+    },
+
+    
+    `Jean-Michel Basquiat came to my mind almost immediately.`,
+
+    `The cigarettes, the young-wild-and-free mythology, the marks, the speed, the feeling of someone moving through culture without asking permission.`,
+
+    `But I hesitate even writing his name here.`,
+
+    `Because there is a lazy habit of encountering a young Black artist with an expressive visual language and reaching immediately for Basquiat.`,
+
+    `Slawn does not need that.`,
+
+    `And Slawn is not Basquiat.`,
+
+    `What interests me about the comparison is not whether their paintings look alike.`,
+
+    `It is the attitude I feel underneath them.`,
+
+    `A refusal to behave properly around Art.`,
+
+    `Basquiat moved between streets, galleries, language, celebrity, music, and painting.`,
+
+    `The mythology surrounding the person became difficult to separate from the artwork.`,
+
+    `With Slawn, I feel another version of that collapse.`,
+
+    `Where does Slawn the artist end and Slawn the cultural figure begin?`,
+
+    `Maybe nowhere.`,
+
+    `Maybe separating them misses the point.`,
+
+    {
+      type: 'heading',
+      text: 'The Artist Becomes the Artwork',
+    },
+
+    `Slawn once spoke about his own work with an almost ridiculous lack of preciousness, questioning why people wanted it and essentially describing painting as something he did so he could mess around.`,
+
+    `I love the contradiction in that.`,
+
+    `Because the art world kept becoming more serious about someone who appeared determined not to become too serious about himself.`,
+
+    `His trajectory since then almost reads like someone testing how far the joke can travel.`,
+
+    `A debut exhibition.`,
+
+    `Sotheby’s.`,
+
+    `The BRIT Awards, where in 2023 he became the youngest person to design the Britannia statuette.`,
+
+    `BeauBeau’s, the East London café named after his son.`,
+
+    `Cars turned into artworks.`,
+
+    `Fashion and design collaborations.`,
+
+    {
+      type: 'image',
+      src: slawn7,
+      alt: 'Slawn and his wider creative practice',
+      caption:
+        'Ben, 2024',
+    },
+
+    `Then came his 2024 exhibition I present to you, Slawn, where a huge installation composed of 1,000 individual canvases became the center of the show.`,
+
+    `At some point you have to ask:`,
+
+    `What exactly is the artwork anymore?`,
+
+    `Is it the canvas?`,
+
+    `The object?`,
+
+    `The event?`,
+
+    `The person?`,
+
+    `The crowd?`,
+
+    `The mythology?`,
+
+    `With Slawn, I think the answer might simply be yes.`,
+
+    {
+      type: 'heading',
+      text: 'Why Not Squabble for It?',
+    },
+
+    `That same attitude is why the fight-club energy around Slawn does not feel completely separate from the paintings to me.`,
+
+    `There is something absurd about the proposition:`,
+
+    `Two people want something.`,
+
+    `So why not squabble for it?`,
+
+    `It turns desire into spectacle.`,
+
+    `The polite machinery around art — private views, collectors, waiting lists, careful conversations about acquisition — gets replaced by something almost primitive.`,
+
+    `You want it?`,
+
+    `How badly?`,
+
+    `That does not necessarily make the fight itself art.`,
+
+    `But it tells us something about the world Slawn has constructed around his work.`,
+
+    `He understands attention.`,
+
+    `He understands spectacle.`,
+
+    `And most importantly, he seems to understand that contemporary culture does not always experience an artist by standing silently in front of a canvas.`,
+
+    `We encounter artists through Instagram posts, clothes, videos, collaborations, memes, interviews, parties, and stories we tell each other afterward.`,
+
+    `Slawn does not resist that.`,
+
+    `He plays with it.`,
+
+    {
+      type: 'heading',
+      text: 'But Is It Enough?',
+    },
+
+    `This is where my uncertainty about Slawn has not completely disappeared.`,
+
+    `And I do not think it should.`,
+
+    `Sometimes I look at the work and wonder whether freedom can become its own formula.`,
+
+    `A face.`,
+
+    `A spray can.`,
+
+    `A few gestures.`,
+
+    `Another object.`,
+
+    `Another collaboration.`,
+
+    `Another moment.`,
+
+    `When an artist becomes recognizable enough that almost any surface can carry their language, recognition itself can become dangerous.`,
+
+    `Because eventually the question changes from:`,
+
+    `Can I spray on anything?`,
+
+    `to:`,
+
+    `Should everything I spray automatically matter?`,
+
+    `Those are different questions.`,
+
+    `The energy surrounding Slawn can become so compelling that it risks doing some of the work for the paintings.`,
+
+    `The personality is enormous.`,
+
+    `The mythology is entertaining.`,
+
+    `The world moves quickly.`,
+
+    `Sometimes I want the painting to make me stop when Slawn himself makes me want to move.`,
+
+    `But strangely, that tension is part of why I keep looking.`,
+
+    `I am not convinced that Slawn wants every object to carry some enormous hidden meaning.`,
+
+    `Maybe demanding that from him would be another way of forcing him back inside the rules he seems determined to escape.`,
+
+    {
+      type: 'heading',
+      text: 'Young, Wild and Free',
+    },
+
+    `What I eventually found in Slawn was not an explanation for every painting.`,
+
+    `It was permission.`,
+
+    `Permission to move between worlds.`,
+
+    `To be Nigerian without allowing that identity to become a box around the work.`,
+
+    `To come through skate culture and end up inside galleries.`,
+
+    `To make clothes and still be an artist.`,
+
+    `To open a café.`,
+
+    `To paint a car.`,
+
+       {
+      type: 'image',
+      src: slawn14,
+      alt: 'Slawn and his wider creative practice',
+      caption:
+        'Slawn-Strip',
+    },
+
+
+    `To design a trophy.`,
+
+    `To make something expensive and still laugh at the seriousness surrounding it.`,
+
+    `To look at an empty surface and think:`,
+
+    `I could put something there.`,
+
+    `There is something very Lagos in that spirit to me.`,
+
+    `And something very much of this generation.`,
+
+    `We inherited a world obsessed with categories.`,
+
+    `Artist.`,
+
+    `Designer.`,
+
+    `Musician.`,
+
+    `Skater.`,
+
+    `Entrepreneur.`,
+
+    `Pick one.`,
+
+    `Slawn’s answer seems to be:`,
+
+    `Why?`,
+
+    `That is why I hesitate to describe him simply as chaotic.`,
+
+    `Chaos suggests there is no direction.`,
+
+    `I think there is a direction here.`,
+
+    `Outward.`,
+
+    `Beyond the canvas.`,
+
+    `Beyond the gallery.`,
+
+    `Beyond whatever somebody decided an artist was supposed to look like.`,
+
+    `Slawn may not be giving us a new definition of art.`,
+
+    `He might be doing something more interesting.`,
+
+    `He is behaving as though he never needed the definition in the first place.`,
+
+    `And maybe that is what living dangerously looks like.`,
+
+    `Because once you realize the edge of the canvas is not actually the edge —`,
+
+    `what exactly is supposed to stop you?`,
   ],
 
   images: [],
+
   youtube: '',
+
   audio: '',
 },
-
 }
