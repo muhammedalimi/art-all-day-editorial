@@ -385,8 +385,8 @@ export const articles: Record<string, Article> = {
     // STUDIO NOTES — ISSUE 02
   'six-siblings': {
     category: 'Inside the Studio Practice',
-    title: 'Six Siblings',
-    author: 'Mo Alimi',
+    title: 'Six Siblings ',
+    author: ' Woolly Mo',
     readTime: 'Listen + Lyrics',
 
     issueNumber: 2,
