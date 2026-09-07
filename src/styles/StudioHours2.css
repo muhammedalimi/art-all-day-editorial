@@ -137,7 +137,7 @@
    LEAD IMAGE
    ========================================= */
 
-/* .studioLeadImage {
+.studioLeadImage {
   width: 48%;
   max-width: 520px;
 
@@ -151,33 +151,6 @@
 
   border-radius: 18px;
 
-  background: #242424;
-} */
-
-/* .studioLeadImage {
-  width: 58%;
-  max-width: 620px;
-
-  margin:
-    34px
-    0
-    28px
-    42px;
-
-  overflow: hidden;
-
-  border-radius: 18px;
-  background: #242424;
-} */
-
-.studioLeadImage {
-  width: 62%;
-  max-width: 680px;
-
-  margin: 34px 0 28px;
-
-  overflow: hidden;
-  border-radius: 18px;
   background: #242424;
 }
 
@@ -204,10 +177,10 @@
    ========================================= */
 
 .studioLeadContent {
+  margin: auto 0;
+
   width: 100%;
   max-width: 900px;
-
-  margin: auto 0;
 }
 
 .studioLeadContent h3 {
@@ -281,7 +254,7 @@
 /* =========================================
    SECONDARY STORIES
    ========================================= */
-/* 
+
 .studioSecondary {
   display: grid;
 
@@ -372,101 +345,9 @@
   font-size: 11px;
 
   color: #666;
-} */
-
-.studioSecondaryStory {
-  min-height: 420px;
-
-  padding: 30px;
-
-  display: flex;
-  flex-direction: column;
-
-  background: #fffaf2;
-  color: #171717;
-
-  border:
-    1px solid
-    rgba(23, 23, 23, 0.14);
-
-  border-radius: 26px;
-
-  text-decoration: none;
-
-  transition:
-    transform 0.25s ease,
-    background 0.25s ease;
 }
 
-.studioSecondaryStory h3 {
-  margin: 0 0 20px;
 
-  font-family: Georgia, "Times New Roman", serif;
-
-  font-size: clamp(40px, 3.4vw, 60px);
-  line-height: 0.93;
-
-  letter-spacing: -0.045em;
-}
-
-.studioSecondaryStory > p {
-  margin: 0 0 40px;
-
-  font-size: 16px;
-  line-height: 1.55;
-
-  color: #555;
-}
-
-.studioSecondaryMeta {
-  margin-top: auto;
-
-  padding-top: 20px;
-
-  border-top:
-    1px solid
-    rgba(23, 23, 23, 0.12);
-
-  display: flex;
-  justify-content: space-between;
-
-  gap: 20px;
-
-  font-size: 11px;
-
-  color: #666;
-}
-
-@media (max-width: 700px) {
-  .studioSecondaryStory {
-    min-height: 330px;
-    padding: 22px;
-    border-radius: 22px;
-  }
-
-  .studioSecondaryStory h3 {
-    font-size: 44px;
-  }
-}
-.studioSecondaryTop {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-
-  margin-bottom: 8px;
-
-  color: #a65a1f;
-
-  font-size: 10px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.studioSecondaryTop > * {
-  margin: 0;
-}
 /* =========================================
    TABLET
    ========================================= */
@@ -504,7 +385,7 @@
 
 @media (max-width: 700px) {
   .studioHoursSection {
-    padding: 20px 18px 64px;
+    padding: 20px 18px 64px;;
 
     overflow-x: hidden;
   }
@@ -586,7 +467,7 @@
     margin: 0;
   }
 
-  .studioLeadContent h3 {
+ .studioLeadContent h3 {
     width: 100%;
     max-width: 100%;
 
@@ -594,7 +475,6 @@
 
     font-size: clamp(48px, 12vw, 64px);
     line-height: 0.86;
-
     letter-spacing: -0.06em;
 
     overflow-wrap: normal;
@@ -622,7 +502,9 @@
   }
 
   .studioLeadFooter > div {
-    gap: 14px 22px;
+    gap:
+      14px
+      22px;
   }
 
   .studioSecondary {
@@ -646,14 +528,13 @@
   }
 }
 
-
 /* =========================================
    DESKTOP HERO → STUDIO HOURS SPACING
    ========================================= */
 
 @media (min-width: 1001px) {
   .hero {
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .heroText {
@@ -661,6 +542,6 @@
   }
 
   .studioHoursSection {
-    padding-top: 35px;
+    padding-top: 55px;
   }
 }
