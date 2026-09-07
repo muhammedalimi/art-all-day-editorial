@@ -543,10 +543,12 @@ body {
     margin: 0 auto 20px;
 }
 
-@media (max-width: 1200px) {
-    .hero h1 {
-        white-space: normal;
-    }
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 19vw;
+    line-height: 0.9;
+    white-space: nowrap;
+  }
 }
 /* 
 .hero h1 {
@@ -564,7 +566,7 @@ body {
     text-align: center;
     white-space: nowrap;
 
-    font-size: clamp(72px, 8vw, 150px);
+    font-size: clamp(64px, 12vw, 150px);
     line-height: 0.95;
     letter-spacing: -0.04em;
 }
