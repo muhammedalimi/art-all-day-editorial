@@ -221,3 +221,19 @@ export function trackPageView(
       window.location.href,
   })
 }
+
+
+/* =========================================================
+   CUSTOM ANALYTICS EVENTS
+   ========================================================= */
+
+export function trackEvent(
+  eventName: string,
+  parameters: Record<string, unknown> = {}
+) {
+  window.gtag?.(
+    'event',
+    eventName,
+    parameters
+  )
+}
