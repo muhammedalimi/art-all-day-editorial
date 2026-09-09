@@ -699,3 +699,6 @@
   }
 }
 
+.studioArticleBlock {
+  display: contents;
+}
