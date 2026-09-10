@@ -271,13 +271,147 @@
 // export default SubscribeSection
 
 
+// import { useState } from 'react'
+// import { trackEvent } from '../analytics'
+
+// function SubscribeSection() {
+//   const [email, setEmail] = useState('')
+//   const [message, setMessage] = useState('')
+//   const [loading, setLoading] = useState(false)
+
+//   async function handleSubmit(
+//     event: React.FormEvent<HTMLFormElement>
+//   ) {
+//     event.preventDefault()
+
+//     if (!email.trim()) {
+//       setMessage('Please enter your email.')
+//       return
+//     }
+
+//     try {
+//       setLoading(true)
+//       setMessage('')
+
+//       const apiUrl = import.meta.env.VITE_API_URL
+
+//       if (!apiUrl) {
+//         throw new Error(
+//           'VITE_API_URL is not configured.'
+//         )
+//       }
+
+//       const response = await fetch(
+//         `${apiUrl}/api/subscribe`,
+//         {
+//           method: 'POST',
+//           headers: {
+//             'Content-Type': 'application/json',
+//           },
+//           body: JSON.stringify({
+//             email: email.trim(),
+//           }),
+//         }
+//       )
+
+//       const data = await response.json()
+
+//       if (!response.ok) {
+//         throw new Error(
+//           data.message || 'Subscription failed.'
+//         )
+//       }
+
+//       setMessage(
+//         data.message || 'Welcome to Art All Day!'
+//       )
+
+//       trackEvent('subscribe', {
+//         method: 'website_form',
+//       })
+
+//       setEmail('')
+
+//     } catch (error) {
+//       console.error(
+//         'Subscribe error:',
+//         error
+//       )
+
+//       setMessage(
+//         'Something went wrong. Please try again.'
+//       )
+
+//     } finally {
+//       setLoading(false)
+//     }
+//   }
+
+//   return (
+//     <section className="subscribeSection">
+//       <p className="sectionLabel">
+//         Subscribe
+//       </p>
+
+//       <h2>
+//         Art in your inbox.
+//       </h2>
+
+//       <p>
+//         Get artist picks, visual essays,
+//         studio notes, and slow criticism
+//         from the Art All Day archive.
+//       </p>
+
+//       <form
+//         onSubmit={handleSubmit}
+//         className="subscribeForm"
+//       >
+//         <input
+//           type="email"
+//           placeholder="Email address"
+//           value={email}
+//           onChange={(event) =>
+//             setEmail(event.target.value)
+//           }
+//           required
+//         />
+
+//         <button
+//           type="submit"
+//           disabled={loading}
+//         >
+//           {loading
+//             ? 'Joining...'
+//             : 'Subscribe'}
+//         </button>
+//       </form>
+
+//       {message && (
+//         <span className="subscribeMessage">
+//           {message}
+//         </span>
+//       )}
+//     </section>
+//   )
+// }
+
+// export default SubscribeSection
+
+
+
 import { useState } from 'react'
-import { trackEvent } from '../analytics'
+
+import {
+  trackNewsletterSignup,
+} from '../analytics'
+
 
 function SubscribeSection() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [loading, setLoading] = useState(false)
+
 
   async function handleSubmit(
     event: React.FormEvent<HTMLFormElement>
@@ -285,7 +419,9 @@ function SubscribeSection() {
     event.preventDefault()
 
     if (!email.trim()) {
-      setMessage('Please enter your email.')
+      setMessage(
+        'Please enter your email.'
+      )
       return
     }
 
@@ -293,7 +429,8 @@ function SubscribeSection() {
       setLoading(true)
       setMessage('')
 
-      const apiUrl = import.meta.env.VITE_API_URL
+      const apiUrl =
+        import.meta.env.VITE_API_URL
 
       if (!apiUrl) {
         throw new Error(
@@ -301,61 +438,92 @@ function SubscribeSection() {
         )
       }
 
+
       const response = await fetch(
         `${apiUrl}/api/subscribe`,
         {
           method: 'POST',
+
           headers: {
-            'Content-Type': 'application/json',
+            'Content-Type':
+              'application/json',
           },
+
           body: JSON.stringify({
             email: email.trim(),
           }),
         }
       )
 
-      const data = await response.json()
+
+      const data =
+        await response.json()
+
 
       if (!response.ok) {
         throw new Error(
-          data.message || 'Subscription failed.'
+          data.message ||
+            'Subscription failed.'
         )
       }
 
+
+      // =========================================
+      // SUCCESS MESSAGE
+      // =========================================
+
       setMessage(
-        data.message || 'Welcome to Art All Day!'
+        data.message ||
+          'Welcome to Art All Day!'
       )
 
-      trackEvent('subscribe', {
-        method: 'website_form',
-      })
+
+      // =========================================
+      // ANALYTICS
+      //
+      // Only fires after the API confirms
+      // a successful subscription.
+      // =========================================
+
+      trackNewsletterSignup(
+        'homepage_subscribe'
+      )
+
 
       setEmail('')
 
     } catch (error) {
+
       console.error(
         'Subscribe error:',
         error
       )
+
 
       setMessage(
         'Something went wrong. Please try again.'
       )
 
     } finally {
+
       setLoading(false)
+
     }
   }
 
+
   return (
     <section className="subscribeSection">
+
       <p className="sectionLabel">
         Subscribe
       </p>
 
+
       <h2>
         Art in your inbox.
       </h2>
+
 
       <p>
         Get artist picks, visual essays,
@@ -363,19 +531,24 @@ function SubscribeSection() {
         from the Art All Day archive.
       </p>
 
+
       <form
         onSubmit={handleSubmit}
         className="subscribeForm"
       >
+
         <input
           type="email"
           placeholder="Email address"
           value={email}
           onChange={(event) =>
-            setEmail(event.target.value)
+            setEmail(
+              event.target.value
+            )
           }
           required
         />
+
 
         <button
           type="submit"
@@ -385,15 +558,21 @@ function SubscribeSection() {
             ? 'Joining...'
             : 'Subscribe'}
         </button>
+
       </form>
 
+
       {message && (
+
         <span className="subscribeMessage">
           {message}
         </span>
+
       )}
+
     </section>
   )
 }
+
 
 export default SubscribeSection

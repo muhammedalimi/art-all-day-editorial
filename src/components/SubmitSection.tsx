@@ -104,61 +104,305 @@
 
 // export default SubmitSection
 
+// import { useState } from "react"
+// import type { FormEvent, ChangeEvent } from "react"
+
+// function SubmitSection() {
+//   const [file, setFile] = useState<File | null>(null)
+//   const [message, setMessage] = useState("")
+
+//   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+//     e.preventDefault()
+
+//     if (!file) {
+//       setMessage("Please select an image before submitting.")
+//       return
+//     }
+
+//     const formData = new FormData()
+
+//     formData.append("artistName", "Muhammed")
+//     formData.append("artistEmail", "test@example.com")
+//     formData.append("title", "Artwork Submission")
+//     formData.append("description", "Submitted through Art All Day")
+//     formData.append("image", file)
+
+//     try {
+//       const apiUrl =
+//         import.meta.env.VITE_API_URL ||
+//         "http://localhost:7071"
+
+//       const response = await fetch(
+//         `${apiUrl}/api/uploadArtwork`,
+//         {
+//           method: "POST",
+//           body: formData,
+//         }
+//       )
+
+//       if (!response.ok) {
+//         throw new Error(`Upload failed: ${response.status}`)
+//       }
+
+//       const data = await response.json()
+
+//       setMessage(data.message || "Artwork submitted successfully.")
+//     } catch (error) {
+//       console.error(error)
+//       setMessage("Upload failed. Please try again.")
+//     }
+//   }
+
+//   function handleFileChange(
+//     e: ChangeEvent<HTMLInputElement>
+//   ) {
+//     const selectedFile = e.target.files?.[0] ?? null
+//     setFile(selectedFile)
+//   }
+
+//   return (
+//     <section className="submitSection">
+
+//       <p className="sectionLabel">
+//         Open Call
+//       </p>
+
+//       <h2>
+//         Have art we should see?
+//       </h2>
+
+//       <p>
+//         Studio Hours accepts artist submissions, studio notes,
+//         exhibition reflections, and interview pitches from
+//         artists and writers.
+//       </p>
+
+//       <form onSubmit={handleSubmit}>
+
+//         <input
+//           type="file"
+//           accept="image/*"
+//           onChange={handleFileChange}
+//         />
+
+//         <button type="submit">
+//           Submit Work
+//         </button>
+
+//       </form>
+
+//       <p>
+//         {message}
+//       </p>
+
+//     </section>
+//   )
+// }
+
+// export default SubmitSection
+
+
+
+
 import { useState } from "react"
-import type { FormEvent, ChangeEvent } from "react"
+
+import type {
+  FormEvent,
+  ChangeEvent,
+} from "react"
+
+import {
+  trackSubmissionCompleted,
+  trackSubmissionStarted,
+} from "../analytics"
+
 
 function SubmitSection() {
-  const [file, setFile] = useState<File | null>(null)
-  const [message, setMessage] = useState("")
+  const [artistName, setArtistName] =
+    useState("")
 
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  const [artistEmail, setArtistEmail] =
+    useState("")
+
+  const [title, setTitle] =
+    useState("")
+
+  const [description, setDescription] =
+    useState("")
+
+  const [file, setFile] =
+    useState<File | null>(null)
+
+  const [message, setMessage] =
+    useState("")
+
+  const [loading, setLoading] =
+    useState(false)
+
+  const [hasStarted, setHasStarted] =
+    useState(false)
+
+
+  async function handleSubmit(
+    e: FormEvent<HTMLFormElement>
+  ) {
     e.preventDefault()
 
-    if (!file) {
-      setMessage("Please select an image before submitting.")
+    if (!artistName.trim()) {
+      setMessage(
+        "Please enter your name."
+      )
       return
     }
 
-    const formData = new FormData()
+    if (!artistEmail.trim()) {
+      setMessage(
+        "Please enter your email."
+      )
+      return
+    }
 
-    formData.append("artistName", "Muhammed")
-    formData.append("artistEmail", "test@example.com")
-    formData.append("title", "Artwork Submission")
-    formData.append("description", "Submitted through Art All Day")
-    formData.append("image", file)
+    if (!title.trim()) {
+      setMessage(
+        "Please enter a title."
+      )
+      return
+    }
+
+    if (!file) {
+      setMessage(
+        "Please select an image before submitting."
+      )
+      return
+    }
+
+
+    const formData =
+      new FormData()
+
+    formData.append(
+      "artistName",
+      artistName.trim()
+    )
+
+    formData.append(
+      "artistEmail",
+      artistEmail.trim()
+    )
+
+    formData.append(
+      "title",
+      title.trim()
+    )
+
+    formData.append(
+      "description",
+      description.trim()
+    )
+
+    formData.append(
+      "image",
+      file
+    )
+
 
     try {
+      setLoading(true)
+      setMessage("")
+
+
       const apiUrl =
         import.meta.env.VITE_API_URL ||
         "http://localhost:7071"
 
-      const response = await fetch(
-        `${apiUrl}/api/uploadArtwork`,
-        {
-          method: "POST",
-          body: formData,
-        }
-      )
+
+      const response =
+        await fetch(
+          `${apiUrl}/api/uploadArtwork`,
+          {
+            method: "POST",
+            body: formData,
+          }
+        )
+
 
       if (!response.ok) {
-        throw new Error(`Upload failed: ${response.status}`)
+        throw new Error(
+          `Upload failed: ${response.status}`
+        )
       }
 
-      const data = await response.json()
 
-      setMessage(data.message || "Artwork submitted successfully.")
+      const data =
+        await response.json()
+
+
+      setMessage(
+        data.message ||
+        "Artwork submitted successfully."
+      )
+
+
+      // =========================================
+      // ANALYTICS
+      // =========================================
+
+      trackSubmissionCompleted(
+        "submit_section"
+      )
+
+
+      // =========================================
+      // RESET FORM
+      // =========================================
+
+      setArtistName("")
+      setArtistEmail("")
+      setTitle("")
+      setDescription("")
+      setFile(null)
+      setHasStarted(false)
+
     } catch (error) {
-      console.error(error)
-      setMessage("Upload failed. Please try again.")
+
+      console.error(
+        "Submission error:",
+        error
+      )
+
+      setMessage(
+        "Upload failed. Please try again."
+      )
+
+    } finally {
+
+      setLoading(false)
+
     }
   }
+
 
   function handleFileChange(
     e: ChangeEvent<HTMLInputElement>
   ) {
-    const selectedFile = e.target.files?.[0] ?? null
+    const selectedFile =
+      e.target.files?.[0] ?? null
+
     setFile(selectedFile)
+
+
+    if (
+      selectedFile &&
+      !hasStarted
+    ) {
+      trackSubmissionStarted(
+        "submit_section"
+      )
+
+      setHasStarted(true)
+    }
   }
+
 
   return (
     <section className="submitSection">
@@ -167,36 +411,105 @@ function SubmitSection() {
         Open Call
       </p>
 
+
       <h2>
         Have art we should see?
       </h2>
 
+
       <p>
-        Studio Hours accepts artist submissions, studio notes,
-        exhibition reflections, and interview pitches from
-        artists and writers.
+        Studio Hours accepts artist submissions,
+        studio notes, exhibition reflections,
+        and interview pitches from artists
+        and writers.
       </p>
 
-      <form onSubmit={handleSubmit}>
+
+      <form
+        onSubmit={handleSubmit}
+        className="submitForm"
+      >
+
+        <input
+          type="text"
+          placeholder="Artist name"
+          value={artistName}
+          onChange={(e) =>
+            setArtistName(
+              e.target.value
+            )
+          }
+          required
+        />
+
+
+        <input
+          type="email"
+          placeholder="Email address"
+          value={artistEmail}
+          onChange={(e) =>
+            setArtistEmail(
+              e.target.value
+            )
+          }
+          required
+        />
+
+
+        <input
+          type="text"
+          placeholder="Artwork title"
+          value={title}
+          onChange={(e) =>
+            setTitle(
+              e.target.value
+            )
+          }
+          required
+        />
+
+
+        <textarea
+          placeholder="Tell us about the work"
+          value={description}
+          onChange={(e) =>
+            setDescription(
+              e.target.value
+            )
+          }
+          rows={6}
+        />
+
 
         <input
           type="file"
           accept="image/*"
           onChange={handleFileChange}
+          required
         />
 
-        <button type="submit">
-          Submit Work
+
+        <button
+          type="submit"
+          disabled={loading}
+        >
+          {loading
+            ? "Submitting..."
+            : "Submit Work"}
         </button>
 
       </form>
 
-      <p>
-        {message}
-      </p>
+
+      {message && (
+        <p className="submitMessage">
+          {message}
+        </p>
+      )}
 
     </section>
   )
 }
+
 
 export default SubmitSection
