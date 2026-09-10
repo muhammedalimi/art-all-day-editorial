@@ -1,12 +1,12 @@
 
 
-
 import ben22 from '../assets/ben22.jpg'
 
 import benIronGate from '../assets/ben23.jpg'
 import benFeatherStone from '../assets/ben25.jpg'
 import benRailSpike from '../assets/ben26.jpg'
 import benPoussin from '../assets/ben27.jpg'
+
 
 import sixsiblings from '../assets/sixsiblings.png'
 import sixsiblingsAudio from '../assets/sixsiblings.mp3'
@@ -50,6 +50,9 @@ type Article = {
   images: string[]
   youtube: string
   audio: string
+
+  // Connects this story to a Living Artist Profile
+  artistSlug?: string
 }
 
 export const articles: Record<string, Article> = {
@@ -62,6 +65,8 @@ export const articles: Record<string, Article> = {
 
     issueNumber: 1,
     issue: 'Issue 01',
+
+    artistSlug: 'ben-cowan',
 
     intro:
       'Ben Cowan’s Dear God takes inherited religious imagery apart and places it beside fragments of the material world, raising questions about faith, confinement, detachment, mortality, and what remains when belief is reconstructed.',
@@ -326,61 +331,65 @@ export const articles: Record<string, Article> = {
     audio: '',
   },
 
+//   // SUPPORTING STORY
+//   'inside-the-studio-practice': {
+//     category: 'Interview',
+//     title: 'Inside the Studio Practice',
+//     author: 'Studio Hours',
+//     readTime: '6 min read',
+
+//     issueNumber: 1,
+//     issue: 'Issue 01',
+
+//     artistSlug: 'ben-cowan',
+
+//     intro:
+//       'A conversation about process, doubt, materials, and the private rhythm behind finished work.',
+
+//     heroImage: ben10,
+
+//     body: [
+//       `The studio is often where the finished image begins to take shape, but the process is rarely as simple as the final work suggests.`,
+
+//       `Artists move through uncertainty, repetition, mistakes, and unexpected discoveries before arriving at something that feels complete`,
+
+//       `This conversation looks at the private rhythm behind the work and what it means to return to the studio every day.`,
+//     ],
+
+//     images: [],
+//     youtube: '',
+//     audio: '',
+//   },
+
   // SUPPORTING STORY
-  // 'inside-the-studio-practice': {
-  //   category: 'Interview',
-  //   title: 'Inside the Studio Practice',
-  //   author: 'Studio Hours',
-  //   readTime: '6 min read',
+//   'why-surfaces-matter': {
+//     category: 'Essay',
+//     title: 'Why Surfaces Matter',
+//     author: 'Editorial',
+//     readTime: '4 min read',
 
-  //   issueNumber: 1,
-  //   issue: 'Issue 01',
+//     issueNumber: 1,
+//     issue: 'Issue 01',
 
-  //   intro:
-  //     'A conversation about process, doubt, materials, and the private rhythm behind finished work.',
+//     artistSlug: 'ben-cowan',
 
-  //   heroImage: ben22,
+//     intro:
+//       'A short reflection on texture, architecture, and the emotional weight carried by painted surfaces.',
 
-  //   body: [
-  //     `The studio is often where the finished image begins to take shape, but the process is rarely as simple as the final work suggests.`,
+//     heroImage: ben22,
 
-  //     `Artists move through uncertainty, repetition, mistakes, and unexpected discoveries before arriving at something that feels complete`,
+//     body: [
+//       `A painted surface is never simply a background. Texture, color, and material can change the way an image is experienced.`,
 
-  //     `This conversation looks at the private rhythm behind the work and what it means to return to the studio every day.`,
-  //   ],
+//       `Across painting and architecture, surfaces carry traces of time, touch, construction, and memory.`,
 
-  //   images: [],
-  //   youtube: '',
-  //   audio: '',
-  // },
+//       `To look closely at a surface is to notice the physical history embedded within the work.`,
+//     ],
 
-  // SUPPORTING STORY
-  // 'why-surfaces-matter': {
-  //   category: 'Essay',
-  //   title: 'Why Surfaces Matter',
-  //   author: 'Editorial',
-  //   readTime: '4 min read',
-
-  //   issueNumber: 1,
-  //   issue: 'Issue 01',
-
-  //   intro:
-  //     'A short reflection on texture, architecture, and the emotional weight carried by painted surfaces.',
-
-  //   heroImage: ben22,
-
-  //   body: [
-  //     `A painted surface is never simply a background. Texture, color, and material can change the way an image is experienced.`,
-
-  //     `Across painting and architecture, surfaces carry traces of time, touch, construction, and memory.`,
-
-  //     `To look closely at a surface is to notice the physical history embedded within the work.`,
-  //   ],
-
-  //   images: [],
-  //   youtube: '',
-  //   audio: '',
-  // },
+//     images: [],
+//     youtube: '',
+//     audio: '',
+//   },
 
     // STUDIO NOTES — ISSUE 02
   'six-siblings': {
@@ -391,6 +400,8 @@ export const articles: Record<string, Article> = {
 
     issueNumber: 2,
     issue: 'Issue 02',
+
+    artistSlug: 'woolly-mo',
 
     intro:
       'An unreleased recording about family, memory, survival, and the different ways siblings carry the same history.',
@@ -565,6 +576,8 @@ Still chasing the light through the old cigarette smoke.`,
   issueNumber: 2,
 
   issue: 'Issue 02',
+
+  artistSlug: 'slawn',
 
   intro:
     'The first time I really tried to understand Slawn’s art, I wasn’t sure I did. Maybe I was looking too hard at the paintings.',

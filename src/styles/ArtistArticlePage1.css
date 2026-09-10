@@ -1,0 +1,540 @@
+/* =========================================================
+   ART ALL DAY — LIVING ARTIST PROFILE
+   Test version for ArtistArticlePage1.tsx
+   ========================================================= */
+
+.artistProfilePage {
+  min-height: 100vh;
+  background: #f4efe6;
+  color: #171717;
+}
+
+
+/* =========================================================
+   PROFILE HERO
+   ========================================================= */
+
+.artistProfileHero {
+  padding: 32px 5vw 80px;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.18);
+}
+
+.artistProfileBack {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0 0 54px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.artistProfileLabel {
+  margin: 0 0 18px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.artistProfileHeroGrid {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 0.8fr)
+    minmax(420px, 1.2fr);
+
+  align-items: end;
+  gap: 5vw;
+}
+
+.artistProfileHeroText {
+  padding-bottom: 18px;
+}
+
+.artistProfileHeroText h1 {
+  margin: 0;
+
+  font-size: clamp(72px, 10vw, 165px);
+  line-height: 0.82;
+  letter-spacing: -0.07em;
+  font-weight: 900;
+}
+
+.artistProfileLocation {
+  margin: 30px 0 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(22px, 2vw, 34px);
+  font-style: italic;
+}
+
+.artistProfileDisciplines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 30px;
+}
+
+.artistProfileDisciplines span {
+  padding: 8px 12px;
+
+  border: 1px solid #171717;
+  border-radius: 999px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.artistProfileBio {
+  max-width: 620px;
+  margin: 34px 0 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+.artistProfileHeroImage {
+  overflow: hidden;
+  min-height: 560px;
+
+  background: #171717;
+}
+
+.artistProfileHeroImage img {
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+
+  display: block;
+  object-fit: cover;
+}
+
+
+/* =========================================================
+   DETAILS
+   ========================================================= */
+
+.artistProfileDetails {
+  padding: 70px 5vw;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.18);
+}
+
+.artistProfileDetailsGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8vw;
+}
+
+.artistProfileSectionLabel {
+  margin: 0 0 18px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.artistProfileThemes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.artistProfileThemes span {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(25px, 3vw, 46px);
+  line-height: 1;
+}
+
+.artistProfileThemes span:not(:last-child)::after {
+  content: ' /';
+}
+
+.artistProfileStatus {
+  margin: 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(28px, 3vw, 45px);
+  line-height: 1;
+}
+
+
+/* =========================================================
+   SECTION HEADERS
+   ========================================================= */
+
+.artistProfileSectionHeader {
+  margin-bottom: 42px;
+}
+
+.artistProfileSectionHeader h2 {
+  margin: 0;
+
+  font-size: clamp(54px, 7vw, 110px);
+  line-height: 0.9;
+  letter-spacing: -0.055em;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   STORIES
+   ========================================================= */
+
+.artistProfileStories {
+  padding: 90px 5vw;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.18);
+}
+
+.artistProfileStoryGrid {
+  display: grid;
+  gap: 60px;
+}
+
+.artistProfileStoryCard {
+  display: grid;
+  grid-template-columns:
+    minmax(320px, 1.15fr)
+    minmax(300px, 0.85fr);
+
+  column-gap: 5vw;
+  align-items: end;
+}
+
+.artistProfileStoryImage {
+  display: block;
+  overflow: hidden;
+
+  background: #171717;
+}
+
+.artistProfileStoryImage img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+
+  display: block;
+  object-fit: cover;
+
+  transition: transform 0.4s ease;
+}
+
+.artistProfileStoryImage:hover img {
+  transform: scale(1.015);
+}
+
+.artistProfileStoryMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  margin-bottom: 16px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.artistProfileStoryMeta span:not(:last-child)::after {
+  content: ' /';
+  margin-left: 12px;
+}
+
+.artistProfileStoryCard h3 {
+  margin: 0 0 22px;
+
+  font-size: clamp(42px, 5vw, 78px);
+  line-height: 0.93;
+  letter-spacing: -0.05em;
+}
+
+.artistProfileStoryCard h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.artistProfileStoryIntro {
+  max-width: 620px;
+  margin: 0 0 28px;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+.artistProfileStoryLink {
+  display: inline-block;
+
+  color: #171717;
+  text-decoration: none;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  border-bottom: 2px solid #171717;
+  padding-bottom: 3px;
+}
+
+.artistProfileEmpty {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 22px;
+}
+
+
+/* =========================================================
+   VISUAL INDEX
+   ========================================================= */
+
+.artistProfileVisuals {
+  padding: 90px 5vw;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.18);
+}
+
+.artistProfileVisualGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.artistProfileVisual {
+  margin: 0;
+  overflow: hidden;
+  background: #171717;
+}
+
+.artistProfileVisual img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+
+  display: block;
+  object-fit: cover;
+
+  transition: transform 0.4s ease;
+}
+
+.artistProfileVisual:hover img {
+  transform: scale(1.015);
+}
+
+
+/* =========================================================
+   LIVING PROFILE / FUTURE
+   ========================================================= */
+
+.artistProfileFuture {
+  padding: 110px 5vw 130px;
+
+  background: #171717;
+  color: #f4efe6;
+}
+
+.artistProfileFuture > div {
+  max-width: 980px;
+}
+
+.artistProfileFuture h2 {
+  margin: 0 0 28px;
+
+  font-size: clamp(54px, 7vw, 110px);
+  line-height: 0.9;
+  letter-spacing: -0.055em;
+}
+
+.artistProfileFuture p:last-child {
+  max-width: 760px;
+  margin: 0;
+
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 21px;
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   MISSING PROFILE
+   ========================================================= */
+
+.artistProfileMissing {
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 5vw;
+}
+
+.artistProfileMissing h1 {
+  margin: 0 0 24px;
+
+  font-size: clamp(60px, 9vw, 140px);
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+  .artistProfileHeroGrid {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
+  .artistProfileHeroText {
+    padding-bottom: 0;
+  }
+
+  .artistProfileHeroImage {
+    min-height: 500px;
+  }
+
+  .artistProfileHeroImage img {
+    min-height: 500px;
+  }
+
+  .artistProfileDetailsGrid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .artistProfileStoryCard {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+
+  .artistProfileVisualGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .artistProfileHero {
+    padding:
+      22px
+      20px
+      48px;
+  }
+
+  .artistProfileBack {
+    margin-bottom: 38px;
+  }
+
+  .artistProfileHeroText h1 {
+    font-size: clamp(72px, 24vw, 110px);
+  }
+
+  .artistProfileLocation {
+    margin-top: 22px;
+    font-size: 21px;
+  }
+
+  .artistProfileDisciplines {
+    margin-top: 22px;
+  }
+
+  .artistProfileDisciplines span {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+
+  .artistProfileHeroImage {
+    min-height: 390px;
+  }
+
+  .artistProfileHeroImage img {
+    min-height: 390px;
+  }
+
+
+  .artistProfileDetails {
+    padding:
+      54px
+      20px;
+  }
+
+  .artistProfileThemes span {
+    font-size: 28px;
+  }
+
+  .artistProfileStatus {
+    font-size: 32px;
+  }
+
+
+  .artistProfileStories {
+    padding:
+      64px
+      20px;
+  }
+
+  .artistProfileSectionHeader {
+    margin-bottom: 30px;
+  }
+
+  .artistProfileSectionHeader h2 {
+    font-size: 58px;
+  }
+
+  .artistProfileStoryCard h3 {
+    font-size: 48px;
+  }
+
+  .artistProfileStoryIntro {
+    font-size: 18px;
+  }
+
+
+  .artistProfileVisuals {
+    padding:
+      64px
+      20px;
+  }
+
+  .artistProfileVisualGrid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .artistProfileFuture {
+    padding:
+      80px
+      20px
+      90px;
+  }
+
+  .artistProfileFuture h2 {
+    font-size: 58px;
+  }
+
+  .artistProfileFuture p:last-child {
+    font-size: 19px;
+  }
+}

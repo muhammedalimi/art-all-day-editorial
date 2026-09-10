@@ -255,7 +255,7 @@ import ArticleSection from './components/ArticleSection'
 import ArchivePage from './pages/ArchivePage'
 
 
-import ArtistArticlePage from './pages/ArtistArticlePage'
+// import ArtistArticlePage from './pages/ArtistArticlePage'
 import StudioHoursArticlePage from './pages/StudioHoursArticlePage'
 import SubmitPage from './pages/SubmitPage'
 import DepartmentArticlePage from './pages/DepartmentArticlePage'
@@ -266,6 +266,7 @@ import SubscribeSection from './components/SubscribeSection'
 // import BenCowanPrelude from './components/BenCowanPrelude'
 import IssuePage from './pages/IssuePage'
 import ArtistsPage from './pages/ArtistsPage'
+import ArtistArticlePage1 from './pages/ArtistArticlePage1'
 
 
 function HomePage() {
@@ -307,7 +308,8 @@ function App() {
         element={<ArchivePage />}
       />
         <Route path="/artists" element={<ArtistsPage />}/>
-        <Route path="/artists/:slug" element={<ArtistArticlePage />} />
+        {/* <Route path="/artists/:slug" element={<ArtistArticlePage />} /> */}
+        <Route path="/test-artists/:slug" element={<ArtistArticlePage1 />}/>
         {/* <Route path="/departments/:slug" element={<DepartmentArticlePage />} /> */}
         <Route path="/issues/:issueSlug/departments/:slug" element={<DepartmentArticlePage />}/>
         <Route path="/departments/:slug" element={<DepartmentArticlePage />}/>

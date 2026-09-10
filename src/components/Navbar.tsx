@@ -579,12 +579,227 @@
 
 /* New Nav */
 
+// import { Link } from 'react-router-dom'
+
+// import { artists } from '../data/artists'
+// import { issues } from '../data/issues'
+
+// function Navbar() {
+//   return (
+//     <nav className="navbar">
+
+//       {/* =========================
+//           LOGO
+//       ========================= */}
+
+//       <Link
+//         to="/"
+//         className="logo"
+//       >
+//         Art All Day
+//       </Link>
+
+
+//       {/* =========================
+//           MAIN NAVIGATION
+//       ========================= */}
+
+//       <div className="navLinks">
+
+//         {/* =========================
+//             ARTISTS
+//         ========================= */}
+
+//         <div className="navMenu">
+//           <button
+//             className="navMenuButton"
+//             type="button"
+//           >
+//             Artists <span>▾</span>
+//           </button>
+
+//           <div className="navDropdown artistDropdown">
+
+//             <p className="dropdownLabel">
+//               Featured Artists
+//             </p>
+
+//             {artists.map((artist) => {
+//               const issue = issues.find(
+//                 (item) =>
+//                   item.issueNumber ===
+//                   artist.issueNumber
+//               )
+
+//               return (
+//                 <Link
+//                   key={artist.slug}
+//                   to={`/artists/${artist.slug}`}
+//                   className="dropdownItem"
+//                 >
+//                   <div className="dropdownItemText">
+
+//                     <strong>
+//                       {artist.name}
+//                     </strong>
+
+//                     <span>
+//                       {issue?.number ||
+//                         'Artist Feature'}
+//                     </span>
+
+//                   </div>
+
+//                   <span className="dropdownArrow">
+//                     ↗
+//                   </span>
+//                 </Link>
+//               )
+//             })}
+//           </div>
+//         </div>
+
+
+//         {/* =========================
+//             WRITING
+//         ========================= */}
+
+//         <div className="navMenu">
+//           <button
+//             className="navMenuButton"
+//             type="button"
+//           >
+//             Writing <span>▾</span>
+//           </button>
+
+//           <div className="navDropdown">
+
+//             <p className="dropdownLabel">
+//               Writing
+//             </p>
+
+//             <a
+//               href="/#latest"
+//               className="dropdownItem"
+//             >
+//               <div className="dropdownItemText">
+
+//                 <strong>
+//                   Latest Writing
+//                 </strong>
+
+//                 <span>
+//                   Essays, criticism,
+//                   interviews, and observations
+//                 </span>
+
+//               </div>
+
+//               <span className="dropdownArrow">
+//                 ↗
+//               </span>
+//             </a>
+// {/* 
+//             <a
+//               href="/#departments"
+//               className="dropdownItem"
+//             >
+//               <div className="dropdownItemText">
+
+//                 <strong>
+//                   Departments
+//                 </strong>
+
+//                 <span>
+//                   Artist Pick, Faith &amp; Form,
+//                   Studio Notes, and more
+//                 </span>
+
+//               </div>
+
+//               <span className="dropdownArrow">
+//                 ↗
+//               </span>
+//             </a> */}
+
+//           </div>
+//         </div>
+
+
+//         {/* =========================
+//             ARCHIVE
+//         ========================= */}
+
+//         <div className="navMenu">
+//           <button
+//             className="navMenuButton"
+//             type="button"
+//           >
+//             Archive <span>▾</span>
+//           </button>
+
+//           <div className="navDropdown">
+
+//             <p className="dropdownLabel">
+//               Browse Archive
+//             </p>
+
+//             <Link to="/archive"
+//               className="dropdownItem"
+//             >
+//               <div className="dropdownItemText">
+
+//                 <strong>
+//                   Artist Archive
+//                 </strong>
+
+//                 <span>
+//                   Featured artists,
+//                   visual studies,
+//                   and previous work
+//                 </span>
+
+//               </div>
+
+//               <span className="dropdownArrow">
+//                 ↗
+//               </span>
+//             </Link>
+
+//           </div>
+//         </div>
+
+//       </div>
+
+
+//       {/* =========================
+//           SUBMIT CTA
+//       ========================= */}
+
+//       <Link
+//         to="/submit"
+//         className="navButton"
+//       >
+//         Submit Work
+//       </Link>
+
+//     </nav>
+//   )
+// }
+
+// export default Navbar
+
+
 import { Link } from 'react-router-dom'
 
-import { artists } from '../data/artists'
+import { artists } from '../data/artists1'
 import { issues } from '../data/issues'
 
 function Navbar() {
+  const featuredArtists = artists.filter(
+    (artist) => artist.status === 'featured'
+  )
+
   return (
     <nav className="navbar">
 
@@ -607,16 +822,18 @@ function Navbar() {
       <div className="navLinks">
 
         {/* =========================
-            ARTISTS
+            FEATURED ARTISTS
         ========================= */}
 
         <div className="navMenu">
+
           <button
             className="navMenuButton"
             type="button"
           >
-            Artists <span>▾</span>
+            Featured Artists <span>▾</span>
           </button>
+
 
           <div className="navDropdown artistDropdown">
 
@@ -624,7 +841,9 @@ function Navbar() {
               Featured Artists
             </p>
 
-            {artists.map((artist) => {
+
+            {featuredArtists.map((artist) => {
+
               const issue = issues.find(
                 (item) =>
                   item.issueNumber ===
@@ -634,7 +853,8 @@ function Navbar() {
               return (
                 <Link
                   key={artist.slug}
-                  to={`/artists/${artist.slug}`}
+                  // to={`/artists/${artist.slug}`}
+                  to={`/test-artists/${artist.slug}`}
                   className="dropdownItem"
                 >
                   <div className="dropdownItemText">
@@ -650,13 +870,17 @@ function Navbar() {
 
                   </div>
 
+
                   <span className="dropdownArrow">
                     ↗
                   </span>
+
                 </Link>
               )
             })}
+
           </div>
+
         </div>
 
 
@@ -665,6 +889,7 @@ function Navbar() {
         ========================= */}
 
         <div className="navMenu">
+
           <button
             className="navMenuButton"
             type="button"
@@ -672,11 +897,13 @@ function Navbar() {
             Writing <span>▾</span>
           </button>
 
+
           <div className="navDropdown">
 
             <p className="dropdownLabel">
               Writing
             </p>
+
 
             <a
               href="/#latest"
@@ -695,34 +922,15 @@ function Navbar() {
 
               </div>
 
+
               <span className="dropdownArrow">
                 ↗
               </span>
+
             </a>
-{/* 
-            <a
-              href="/#departments"
-              className="dropdownItem"
-            >
-              <div className="dropdownItemText">
-
-                <strong>
-                  Departments
-                </strong>
-
-                <span>
-                  Artist Pick, Faith &amp; Form,
-                  Studio Notes, and more
-                </span>
-
-              </div>
-
-              <span className="dropdownArrow">
-                ↗
-              </span>
-            </a> */}
 
           </div>
+
         </div>
 
 
@@ -730,7 +938,8 @@ function Navbar() {
             ARCHIVE
         ========================= */}
 
-        <div className="navMenu">
+        {/* <div className="navMenu">
+
           <button
             className="navMenuButton"
             type="button"
@@ -738,13 +947,16 @@ function Navbar() {
             Archive <span>▾</span>
           </button>
 
+
           <div className="navDropdown">
 
             <p className="dropdownLabel">
               Browse Archive
             </p>
 
-            <Link to="/archive"
+
+            <Link
+              to="/archive"
               className="dropdownItem"
             >
               <div className="dropdownItemText">
@@ -761,13 +973,16 @@ function Navbar() {
 
               </div>
 
+
               <span className="dropdownArrow">
                 ↗
               </span>
+
             </Link>
 
           </div>
-        </div>
+
+        </div> */}
 
       </div>
 
