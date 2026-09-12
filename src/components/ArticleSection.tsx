@@ -1,53 +1,66 @@
 
 
-// /* Version*/
 
 // import '../styles/StudioHours.css'
 
 // import { Link } from 'react-router-dom'
 
-// import { articles } from '../data/articles'
-// import { currentIssue } from '../data/issues'
+// import { articles } from '../data/articles1'
 
 // function ArticleSection() {
-//   // No current issue = nothing to display
-//   if (!currentIssue) {
+//   const articleEntries =
+//     Object.entries(articles)
+
+//   if (articleEntries.length === 0) {
 //     return null
 //   }
 
-//   // Lock current issue values so TypeScript
-//   // does not lose the narrowing later
-//   const currentIssueNumber =
-//     currentIssue.issueNumber
+//   // =========================================
+//   // LATEST ISSUE NUMBER
+//   // =========================================
 
-//   const currentIssueLabel =
-//     currentIssue.number
-
-//   // Only show Studio Hours writing
-//   // belonging to the current issue
-//   const currentIssueArticles =
-//     Object.entries(articles).filter(
-//       ([, article]) =>
-//         article.issueNumber ===
-//         currentIssueNumber
+//   const latestIssueNumber =
+//     Math.max(
+//       ...articleEntries.map(
+//         ([, article]) =>
+//           article.issueNumber
+//       )
 //     )
 
-//   // First article becomes the lead story
-//   const leadArticle =
-//     currentIssueArticles[0]
+//   // =========================================
+//   // LATEST ISSUE ARTICLES
+//   // =========================================
 
-//   // Next two become supporting stories
-//   const secondaryArticles =
-//     currentIssueArticles.slice(1, 3)
+//   const latestArticles =
+//     articleEntries.filter(
+//       ([, article]) =>
+//         article.issueNumber ===
+//         latestIssueNumber
+//     )
 
-//   // Don't render the section if the current
-//   // issue doesn't have any writing yet
-//   if (!leadArticle) {
+//   if (latestArticles.length === 0) {
 //     return null
 //   }
 
+//   // =========================================
+//   // LEAD STORY
+//   // First article from newest issue
+//   // =========================================
+
 //   const [leadSlug, lead] =
-//     leadArticle
+//     latestArticles[0]
+
+//   // =========================================
+//   // SECONDARY STORIES
+//   // =========================================
+
+//   const secondaryArticles =
+//     latestArticles
+//       .filter(
+//         ([slug]) =>
+//           slug !== leadSlug
+//       )
+//       .slice(0, 2)
 
 //   return (
 //     <section
@@ -91,8 +104,6 @@
 //           to={`/studio-hours/${leadSlug}`}
 //           className="studioLeadStory"
 //         >
-//           {/* TOP META */}
-
 //           <div className="studioLeadTop">
 //             <span className="studioKicker">
 //               Lead Story
@@ -103,8 +114,6 @@
 //             </span>
 //           </div>
 
-//           {/* LEAD ARTWORK */}
-
 //           {lead.heroImage && (
 //             <div className="studioLeadImage">
 //               <img
@@ -113,8 +122,6 @@
 //               />
 //             </div>
 //           )}
-
-//           {/* STORY CONTENT */}
 
 //           <div className="studioLeadContent">
 //             <h3>
@@ -126,12 +133,10 @@
 //             </p>
 //           </div>
 
-//           {/* STORY META */}
-
 //           <div className="studioLeadFooter">
 //             <div>
 //               <span>
-//                 {currentIssueLabel}
+//                 {lead.issue}
 //               </span>
 
 //               <span>
@@ -164,8 +169,6 @@
 //                 to={`/studio-hours/${articleSlug}`}
 //                 className="studioSecondaryStory"
 //               >
-//                 {/* STORY NUMBER + TYPE */}
-
 //                 <div className="studioSecondaryTop">
 //                   <span>
 //                     0{index + 2}
@@ -176,19 +179,13 @@
 //                   </span>
 //                 </div>
 
-//                 {/* STORY TITLE */}
-
 //                 <h3>
 //                   {article.title}
 //                 </h3>
 
-//                 {/* STORY INTRO */}
-
 //                 <p>
 //                   {article.intro}
 //                 </p>
-
-//                 {/* STORY META */}
 
 //                 <div className="studioSecondaryMeta">
 //                   <span>
@@ -211,72 +208,84 @@
 // export default ArticleSection
 
 
+
 import '../styles/StudioHours.css'
 
 import { Link } from 'react-router-dom'
 
-import { articles } from '../data/articles'
-import { currentIssue } from '../data/issues'
+import { articles } from '../data/articles1'
 
 function ArticleSection() {
-  if (!currentIssue) {
+  const articleEntries =
+    Object.entries(articles)
+
+  if (articleEntries.length === 0) {
     return null
   }
 
-  const currentIssueNumber =
-    currentIssue.issueNumber
-
-  const currentIssueLabel =
-    currentIssue.number
-
   // =========================================
-  // CURRENT ISSUE ARTICLES
+  // LATEST ISSUE NUMBER
   // =========================================
 
-  const currentIssueArticles =
-    Object.entries(articles).filter(
-      ([, article]) =>
-        article.issueNumber ===
-        currentIssueNumber
+  const latestIssueNumber =
+    Math.max(
+      ...articleEntries.map(
+        ([, article]) =>
+          article.issueNumber
+      )
     )
 
-  if (currentIssueArticles.length === 0) {
+  // =========================================
+  // LATEST ISSUE ARTICLES
+  // =========================================
+
+  const latestArticles =
+    articleEntries.filter(
+      ([, article]) =>
+        article.issueNumber ===
+        latestIssueNumber
+    )
+
+  if (latestArticles.length === 0) {
     return null
   }
 
   // =========================================
   // LEAD STORY
-  //
-  // Prefer Living Dangerously.
-  // If it cannot be found, fall back to
-  // the first article instead of hiding
-  // the entire Studio Hours section.
+  // First article from newest issue
   // =========================================
 
-  const preferredLead =
-    currentIssueArticles.find(
-      ([slug]) =>
-        slug === 'living-dangerously'
-    )
-
-  const leadArticle =
-    preferredLead ??
-    currentIssueArticles[0]
-
   const [leadSlug, lead] =
-    leadArticle
+    latestArticles[0]
 
   // =========================================
   // SECONDARY STORIES
+  //
+  // Prefer other stories from the latest issue.
+  // If there are none, fall back to the
+  // previous issue.
   // =========================================
 
-  const secondaryArticles =
-    currentIssueArticles
-      .filter(
-        ([slug]) =>
-          slug !== leadSlug
+  let secondaryArticles =
+    latestArticles.filter(
+      ([slug]) =>
+        slug !== leadSlug
+    )
+
+  if (secondaryArticles.length === 0) {
+    const previousIssueNumber =
+      latestIssueNumber - 1
+
+    secondaryArticles =
+      articleEntries.filter(
+        ([, article]) =>
+          article.issueNumber ===
+          previousIssueNumber
       )
-      .slice(0, 2)
+  }
+
+  secondaryArticles =
+    secondaryArticles.slice(0, 2)
 
   return (
     <section
@@ -358,7 +367,7 @@ function ArticleSection() {
           <div className="studioLeadFooter">
             <div>
               <span>
-                {currentIssueLabel}
+                {lead.issue}
               </span>
 
               <span>
@@ -410,6 +419,10 @@ function ArticleSection() {
                 </p>
 
                 <div className="studioSecondaryMeta">
+                  <span>
+                    {article.issue}
+                  </span>
+
                   <span>
                     {article.author}
                   </span>

@@ -23,6 +23,11 @@ import slawn12 from '../assets/slawn12.jpg'
 import slawn13 from '../assets/slawn13.jpg'
 import slawn14 from '../assets/slawn14.png'
 
+// import bekuti5 from '../assets/bekuti5.jpg'
+// import bekuti6 from '../assets/bekuti6.jpg'
+// import bekuti7 from '../assets/bekuti7.jpg'
+// import bekuti8 from '../assets/bekuti8.jpg'
+
 type BodyBlock =
   | string
   | {
@@ -991,4 +996,5 @@ Still chasing the light through the old cigarette smoke.`,
 
   audio: '',
 },
+
 }

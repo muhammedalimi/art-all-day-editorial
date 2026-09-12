@@ -22,7 +22,10 @@ import slawn11 from '../assets/slawn11.jpg'
 import slawn12 from '../assets/slawn12.jpg'
 import slawn13 from '../assets/slawn13.jpg'
 import slawn14 from '../assets/slawn14.png'
-
+import bekuti1 from '../assets/bekuti1.jpg'
+import bekuti2 from '../assets/bekuti2.jpg'
+import bekuti3 from '../assets/bekuti3.jpg'
+import bekuti4 from '../assets/bekuti4.jpg'
 type BodyBlock =
   | string
   | {
@@ -393,7 +396,7 @@ export const articles: Record<string, Article> = {
 
     // STUDIO NOTES — ISSUE 02
   'six-siblings': {
-    category: 'Inside the Studio Practice',
+    category: 'studio notes',
     title: 'Six Siblings ',
     author: ' Woolly Mo',
     readTime: 'Listen + Lyrics',
@@ -996,6 +999,244 @@ Still chasing the light through the old cigarette smoke.`,
     `Because once you realize the edge of the canvas is not actually the edge —`,
 
     `what exactly is supposed to stop you?`,
+  ],
+
+  images: [],
+
+  youtube: '',
+
+  audio: '',
+},
+
+
+'when-peace-has-a-history': {
+  category: 'Slow Looking',
+
+  title: 'When Peace Has a History',
+
+  author: 'Mo Alimi',
+
+  readTime: '7 min read',
+
+  issueNumber: 3,
+  artistSlug: 'jules-bekuti',
+
+  issue: 'Issue 03',
+
+  intro:
+    'There’s a serenity in staring at Jules Bekuti’s paintings. The longer I look, the more I wonder whether peace is really the absence of struggle.',
+
+  heroImage: bekuti1,
+
+  body: [
+    `There’s a serenity in staring at Jules Bekuti’s paintings.`,
+
+    `I don’t mean simply that they are beautiful. It is something quieter than that. Looking at them almost feels as though every traumatic experience I’ve carried has finally sat down with a therapist, and somewhere inside me, my inner child feels seen.`,
+
+    `The longer I stare, the more at peace I feel.`,
+
+    `Maybe it’s the softness of the colors. The closeness of the figures. The way they occupy the canvas without demanding anything from you. Dark faces sit against whites, warm yellows and pale greens. There is tenderness here, but there is also protection.`,
+
+    `They seem to belong to one another, and somehow, for a moment, I feel invited into that belonging too.`,
+
+    `Maybe that is what I am responding to: not happiness exactly, but safety.`,
+
+    {
+      type: 'image',
+      src: bekuti3,
+      alt: 'Painting by Jules Bekuti',
+      caption: 'Jules Bekuti',
+    },
+
+    `Bekuti creates that safety without making the figures overly expressive. Their faces are restrained, sometimes almost difficult to read. Instead, the tenderness seems to exist around them — in the bodies standing close together, in the repetition of white clothing, in the soft yellows surrounding dark skin.`,
+
+    `Even the small patterns across the fabric begin to feel intimate.`,
+
+    `Nothing is screaming for attention, yet the paintings hold you there.`,
+
+    `But the longer I look, the less certain I am that serenity is the whole story.`,
+
+    `Bekuti’s figures do not necessarily smile back at me. Their expressions can feel distant, guarded, even unreadable.`,
+
+    `I began by calling what I felt peace, but perhaps stillness and peace are not always the same thing.`,
+
+    {
+      type: 'heading',
+      text: 'The Face as an Exchange',
+    },
+
+    `That uncertainty becomes more interesting when you begin to understand who Jules Bekuti is.`,
+
+    `Born in 1993 and raised in France, Bekuti describes his practice through his experience as a Black person living in France. His work explores identity, discrimination, marginalization, memory and the experience of living within cultural boundaries that are becoming increasingly difficult to define.`,
+
+    `Blackness in these paintings is not incidental.`,
+
+    `Bekuti has spoken about using different shades of black to represent diversity.`,
+
+    `That feels important.`,
+
+    `Black identity is often spoken about as though it represents one experience, one culture, one history.`,
+
+    `Bekuti seems interested in the opposite.`,
+
+    `Difference within Blackness.`,
+
+    `Different shades. Different faces. Different stories.`,
+
+    `He has described his work as a call for greater inclusion and art itself as a powerful tool capable of changing how people think.`,
+
+    `The goal is not simply representation.`,
+
+    `It is reflection.`,
+
+    `That makes his attention to the face particularly interesting.`,
+
+    `Bekuti says he concentrates on the eyes, nose and mouth because these are the places through which emotion can travel between subject and viewer without words.`,
+
+    `The painting becomes an exchange.`,
+
+    `We look at the figure, but the figure also asks something of us.`,
+
+    `And perhaps that explains why I felt something before I understood what I was looking at.`,
+
+    {
+      type: 'image',
+      src: bekuti2,
+      alt: 'Artwork by Jules Bekuti',
+      caption: 'Jules Bekuti',
+    },
+
+    {
+      type: 'heading',
+      text: 'Child of Immigrant',
+    },
+
+    `There is something very telling about Jules Bekuti’s work, even when what it is telling you feels hidden.`,
+
+    `Child of Immigrant caught my attention, not because of the title, but because of the thought that came to me almost immediately:`,
+
+    `Immigrants often go through hell just to give their children a better life.`,
+
+    `There is sacrifice in that.`,
+
+    `Leaving what you know.`,
+
+    `Starting again.`,
+
+    `Carrying uncertainty, loneliness, rejection and sometimes humiliation, all while holding onto the belief that the person coming after you might have an easier life.`,
+
+    `What struck me was that I had already felt this strange sense of peace in Bekuti’s paintings before encountering Child of Immigrant.`,
+
+    `Suddenly, that peace began to make sense.`,
+
+    `Maybe the serenity in these paintings is not innocent.`,
+
+    `Maybe it has been earned.`,
+
+    {
+      type: 'image',
+      src: bekuti4,
+      alt: 'Child of Immigrant by Jules Bekuti',
+      caption: 'Child of Immigrant — Jules Bekuti',
+    },
+
+    `The figures appear composed. The colors remain gentle. There is closeness, softness and a sense of protection.`,
+
+    `Yet underneath that calm, I keep thinking about everything that might have had to happen for this moment of peace to exist.`,
+
+    `The struggle does not necessarily have to appear on the canvas.`,
+
+    `Perhaps that is what makes the work so affecting.`,
+
+    `You don’t need to see the journey to understand that somebody traveled.`,
+
+    `You don’t need to see the suffering to recognize what safety might have cost.`,
+
+    `And you don’t need to see the wounds to understand why tenderness can feel so precious.`,
+
+    `For an immigrant, giving your child a better life can mean hoping that some of what hurt you ends with you.`,
+
+    `That fear becomes security.`,
+
+    `That uncertainty becomes stability.`,
+
+    `That survival eventually becomes the freedom to simply exist.`,
+
+    `And perhaps that is why my inner child felt seen before I could explain what I was seeing.`,
+
+    `The paintings gave me the peace first.`,
+
+    `Child of Immigrant gave me a language for it.`,
+
+    {
+      type: 'heading',
+      text: 'Art Is Not Luxury',
+    },
+
+    `There is another part of Bekuti’s thinking that makes this feeling of connection particularly meaningful.`,
+
+    `For years, he made paintings knowing that most people who encountered them would never be able to take one home.`,
+
+    `He believes art should be available to everyone.`,
+
+    `That its value should not depend entirely on exclusivity or the ability to own an original.`,
+
+    `So he created a print club.`,
+
+    `It is a relatively simple decision, but philosophically it says a great deal about how he sees his role as an artist.`,
+
+    `The original can remain the original without access to the image belonging exclusively to whoever can afford it.`,
+
+    `For Bekuti, art is not simply luxury.`,
+
+    `It is connection.`,
+
+    `And connection runs through almost everything here.`,
+
+    `Between artist and viewer.`,
+
+    `Between one Black experience and another.`,
+
+    `Between different shades of Blackness.`,
+
+    `Between immigrant and child.`,
+
+    `Between memory and identity.`,
+
+    `Even his insistence on accessibility feels connected to the paintings themselves.`,
+
+    `If the work is supposed to encourage reflection, then it needs people in front of it.`,
+
+    `Art cannot change someone’s mind if access to it is reserved only for a few.`,
+
+    {
+      type: 'heading',
+      text: 'Peace Has a History',
+    },
+
+    `That changes the way I think about my own reaction to his paintings.`,
+
+    `Perhaps feeling seen is not accidental.`,
+
+    `Bekuti says his work should make the viewer engage with the subject’s story both physically and emotionally.`,
+
+    `He wants an exchange to happen without words.`,
+
+    `Mine happened before I knew anything about him.`,
+
+    `I encountered the peace first.`,
+
+    `Then the faces.`,
+
+    `Then Child of Immigrant.`,
+
+    `And only afterward did I encounter the artist explaining diversity, inclusion, access and his belief that art can change the way we see one another.`,
+
+    `There is something hidden inside Jules Bekuti’s softness — a history that does not announce itself loudly, but seems to sit quietly behind the figures.`,
+
+    `And the longer I look, the more I wonder whether peace is really the absence of struggle.`,
+
+    `Maybe sometimes, peace is evidence that someone survived it.`,
   ],
 
   images: [],

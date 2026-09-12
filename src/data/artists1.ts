@@ -15,7 +15,11 @@ import slawn7 from '../assets/slawn7.jpg'
 
 import wangechi1 from '../assets/wangechi1.jpg'
 import sixsiblings from '../assets/sixsiblings.png'
-
+import bekuti5 from '../assets/bekuti5.jpg'
+import bekuti6 from '../assets/bekuti6.jpg'
+import bekuti3 from '../assets/bekuti3.jpg'
+import bekuti8 from '../assets/bekuti8.jpg'
+import bekuti1 from '../assets/bekuti1.jpg'
 
 // ======================================================
 // ARTIST TYPES
@@ -293,6 +297,48 @@ export const artists: Artist[] = [
       'Memory',
       'Survival',
       'Identity',
+    ],
+
+    status: 'featured',
+  },
+
+
+
+  // ====================================================
+  // JULES BEKUTI
+  // ====================================================
+
+  {
+    slug: 'jules-bekuti',
+
+    name: 'Jules Bekuti',
+
+    issueNumber: 3,
+
+    heroImage: bekuti1,
+
+    images: [
+      bekuti5,
+      bekuti6,
+      bekuti3,
+      bekuti8,
+    ],
+
+    location: [
+      'France',
+    ],
+
+    disciplines: [
+      'Painting',
+    ],
+
+    themes: [
+      'Black Identity',
+      'Migration',
+      'Memory',
+      'Belonging',
+      'Inclusion',
+      'Representation',
     ],
 
     status: 'featured',
