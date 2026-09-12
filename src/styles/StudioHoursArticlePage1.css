@@ -702,3 +702,41 @@
 .studioArticleBlock {
   display: contents;
 }
+
+.studioArticleHeroFigure {
+  margin: 0;
+}
+
+/* .studioArticleHeroCaption {
+  max-width: 1180px;
+  margin: 8px auto 0;
+  padding: 0 24px;
+
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  align-items: center;
+
+  opacity: 0.65;
+} */
+
+
+.studioArticleHero {
+  margin: 0 auto;
+}
+
+.studioArticleHero img {
+  display: block;
+  width: 100%;
+}
+
+.studioArticleHeroCaption {
+  margin-top: 10px;
+  padding: 0;
+
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+
+  opacity: 0.65;
+}

@@ -49,6 +49,7 @@ type Article = {
   issue: string
   intro: string
   heroImage: string
+  heroImageCaption?: string
   body: BodyBlock[]
   images: string[]
   youtube: string
@@ -75,6 +76,7 @@ export const articles: Record<string, Article> = {
       'Ben Cowan’s Dear God takes inherited religious imagery apart and places it beside fragments of the material world, raising questions about faith, confinement, detachment, mortality, and what remains when belief is reconstructed.',
 
     heroImage: ben22,
+    heroImageCaption: 'Dear God (Helleborus), 2018',
 
     body: [
       `Religion is supposed to be sacred. It is protected by belief, ritual, tradition, and the people who inherit it. Artists, however, have always had a tendency to approach the things we are told not to disturb. Sometimes they preserve them. Sometimes they question them. Sometimes they take them apart completely.`,
@@ -586,6 +588,7 @@ Still chasing the light through the old cigarette smoke.`,
     'The first time I really tried to understand Slawn’s art, I wasn’t sure I did. Maybe I was looking too hard at the paintings.',
 
   heroImage: slawn12,
+  heroImageCaption: '5 Of Them, 2024',
   
  
 
@@ -1027,6 +1030,7 @@ Still chasing the light through the old cigarette smoke.`,
     'There’s a serenity in staring at Jules Bekuti’s paintings. The longer I look, the more I wonder whether peace is really the absence of struggle.',
 
   heroImage: bekuti1,
+  heroImageCaption: 'Echoes in the Eyes, 2025',
 
   body: [
     `There’s a serenity in staring at Jules Bekuti’s paintings.`,
