@@ -1,3 +1,5 @@
+
+
 import blu1 from '../assets/blu1.png'
 import blu2 from '../assets/blu2.png'
 import blu3 from '../assets/blu3.png'
@@ -5,6 +7,7 @@ import blu3 from '../assets/blu3.png'
 import ben1 from '../assets/benpro.png'
 import ben2 from '../assets/ben2.jpg'
 import ben3 from '../assets/ben3.jpg'
+import ben22 from '../assets/ben11.jpg'
 
 import luz1 from '../assets/Luz1.jpg'
 
@@ -15,13 +18,12 @@ import slawn7 from '../assets/slawn7.jpg'
 
 import wangechi1 from '../assets/wangechi1.jpg'
 import sixsiblings from '../assets/sixsiblings.png'
+
 import bekuti5 from '../assets/bekuti5.jpg'
 import bekuti6 from '../assets/bekuti6.jpg'
 import bekuti3 from '../assets/bekuti3.jpg'
 import bekuti8 from '../assets/bekuti8.jpg'
 import bekuti1 from '../assets/julespro.png'
-
-
 
 
 // ======================================================
@@ -32,6 +34,15 @@ export type ArtistStatus =
   | 'featured'
   | 'watching'
   | 'archive'
+
+
+export type ArtistImage =
+  | string
+  | {
+      src: string
+      alt?: string
+      caption?: string
+    }
 
 
 export type ArtistWork = {
@@ -57,7 +68,9 @@ export type Artist = {
   issueNumber?: number
 
   heroImage: string
-  images?: string[]
+  heroImageCaption?: string
+
+  images?: ArtistImage[]
 
   // ====================================================
   // LIVING ARTIST PROFILE
@@ -139,10 +152,30 @@ export const artists: Artist[] = [
 
     heroImage: ben1,
 
+    heroImageCaption:
+      'Ben Cowan. Photo via the artist’s Instagram.',
+
     images: [
-      ben1,
-      ben2,
-      ben3,
+      {
+        src: ben22,
+        alt: 'Ben Cowan',
+        caption:
+          'Individual Disposable Communion Cup On Shot Glass In Front Of Velasquez Tossers, 2021',
+      },
+
+      {
+        src: ben2,
+        alt: 'Artwork by Ben Cowan',
+        caption:
+          'Reach Out, 2026',
+      },
+
+      {
+        src: ben3,
+        alt: 'Artwork by Ben Cowan',
+        caption:
+          'Praying Hands 5, 2025',
+      },
     ],
 
     disciplines: [
@@ -195,7 +228,6 @@ export const artists: Artist[] = [
 
   // ====================================================
   // SLAWN
-  // FIRST FULL LIVING ARTIST PROFILE
   // ====================================================
 
   {
@@ -207,10 +239,30 @@ export const artists: Artist[] = [
 
     heroImage: slawn4,
 
+    heroImageCaption:
+      'Slawn. Photo via the artist’s Instagram.',
+
     images: [
-      slawn5,
-      slawn6,
-      slawn7,
+      {
+        src: slawn5,
+        alt: 'Artwork by Slawn',
+        caption:
+          'Hot Head, 2024',
+      },
+
+      {
+        src: slawn6,
+        alt: 'Artwork by Slawn',
+        caption:
+          'American Ice, 2024',
+      },
+
+      {
+        src: slawn7,
+        alt: 'Artwork by Slawn',
+        caption:
+          'Ben, 2024',
+      },
     ],
 
     location: [
@@ -306,7 +358,6 @@ export const artists: Artist[] = [
   },
 
 
-
   // ====================================================
   // JULES BEKUTI
   // ====================================================
@@ -320,11 +371,37 @@ export const artists: Artist[] = [
 
     heroImage: bekuti1,
 
+    heroImageCaption:
+      'Jules Bekuti. Photo via the artist’s Instagram.',
+
     images: [
-      bekuti5,
-      bekuti6,
-      bekuti3,
-      bekuti8,
+      {
+        src: bekuti5,
+        alt: 'Artwork by Jules Bekuti',
+        caption:
+          'Éclats d’un ailleurs, 2024',
+      },
+
+      {
+        src: bekuti6,
+        alt: 'Artwork by Jules Bekuti',
+        caption:
+          'Les sentiments partagés, 2026',
+      },
+
+      {
+        src: bekuti3,
+        alt: 'Artwork by Jules Bekuti',
+        caption:
+          'Closer Than Words, 2026',
+      },
+
+      {
+        src: bekuti8,
+        alt: 'Artwork by Jules Bekuti',
+        caption:
+          'Sous un parapluie de rêve , 2025',
+      },
     ],
 
     location: [

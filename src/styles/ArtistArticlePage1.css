@@ -311,22 +311,21 @@
 .artistProfileVisualGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: 28px 18px;
 }
 
 .artistProfileVisual {
   margin: 0;
-  overflow: hidden;
-  background: #171717;
+  background: transparent;
+  overflow: visible;
 }
 
 .artistProfileVisual img {
   width: 100%;
   aspect-ratio: 4 / 5;
-
   display: block;
   object-fit: cover;
-
+  background: #171717;
   transition: transform 0.4s ease;
 }
 
@@ -334,6 +333,17 @@
   transform: scale(1.015);
 }
 
+.artistProfileVisualCaption {
+  margin-top: 9px;
+
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+
+  color: #171717;
+  opacity: 0.62;
+}
 
 /* =========================================================
    LIVING PROFILE / FUTURE
@@ -537,4 +547,27 @@
   .artistProfileFuture p:last-child {
     font-size: 19px;
   }
+}
+.artistProfileHeroFigure {
+  margin: 0;
+  width: 100%;
+}
+
+.artistProfileHeroCaption {
+  margin-top: 8px;
+
+  font-size: 11px;
+  line-height: 1.4;
+
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+}
+
+
+.artistProfileVisualCaption {
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  opacity: 0.65;
 }
