@@ -1013,7 +1013,7 @@ Still chasing the light through the old cigarette smoke.`,
 
 
 'when-peace-has-a-history': {
-  category: 'Slow Looking',
+  category: 'quiet reflection',
 
   title: 'When Peace Has a History',
 

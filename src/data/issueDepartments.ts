@@ -259,7 +259,7 @@ export const issueDepartments: IssueDepartments = {
   issueNumber: 3,
 
   departments: {
-    'slow-looking': {
+    'quiet reflection': {
       artist: 'Jules Bekuti',
       title: 'When Peace Has a History',
 

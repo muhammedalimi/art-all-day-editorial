@@ -62,9 +62,9 @@ export const departments: Department[] = [
   },
 
   {
-    slug: 'slow-looking',
+    slug: 'quiet reflection',
     number: '04',
-    name: 'Slow Looking',
+    name: 'Quiet Reflection',
 
     subtitle:
       'Criticism that asks what happens when we stay with the work.',
