@@ -2,13 +2,13 @@ import blu1 from '../assets/blu1.png'
 import blu2 from '../assets/blu2.png'
 import blu3 from '../assets/blu3.png'
 
-import ben1 from '../assets/ben1.jpg'
+import ben1 from '../assets/benpro.png'
 import ben2 from '../assets/ben2.jpg'
 import ben3 from '../assets/ben3.jpg'
 
 import luz1 from '../assets/Luz1.jpg'
 
-import slawn4 from '../assets/slawn4.jpg'
+import slawn4 from '../assets/slawnpro.png'
 import slawn5 from '../assets/slawn5.jpg'
 import slawn6 from '../assets/slawn6.jpg'
 import slawn7 from '../assets/slawn7.jpg'
@@ -19,7 +19,10 @@ import bekuti5 from '../assets/bekuti5.jpg'
 import bekuti6 from '../assets/bekuti6.jpg'
 import bekuti3 from '../assets/bekuti3.jpg'
 import bekuti8 from '../assets/bekuti8.jpg'
-import bekuti1 from '../assets/bekuti1.jpg'
+import bekuti1 from '../assets/julespro.png'
+
+
+
 
 // ======================================================
 // ARTIST TYPES
