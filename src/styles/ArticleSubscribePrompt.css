@@ -229,7 +229,8 @@
   font-size: 15px;
   line-height: 1.6;
 
-  opacity: 0.7;
+  color: #c8c3bb;
+  opacity: 0.85;
 }
 
 .articleSubscribeForm {
@@ -275,13 +276,24 @@
   cursor: pointer;
 }
 
-.articleSubscribeMessage {
+/* .articleSubscribeMessage {
   margin: 16px 0 0;
 
   font-family: Inter, Arial, sans-serif;
   font-size: 13px;
-}
+} */
+.articleSubscribeMessage {
+  margin-top: 14px;
 
+  color: #f5f0e6;
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  opacity: 0.9;
+}
 .articleContinueButton {
   margin-top: 28px;
 
