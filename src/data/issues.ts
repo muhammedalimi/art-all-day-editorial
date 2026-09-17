@@ -129,7 +129,7 @@ export const issues: Issue[] = [
 
   date: 'September 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
 
   description:
     'Issue 03 looks at Jules Bekuti and the quiet emotional force of paintings shaped by identity, migration, memory, inclusion, and the desire to make art feel accessible rather than distant.',
@@ -142,6 +142,35 @@ export const issues: Issue[] = [
     'Behind the softness are questions of migration, Black identity, memory, inclusion, and what it means to feel seen.',
 
     'Issue 03 begins with that tension: the possibility that serenity is not the absence of struggle, but evidence that someone survived it.',
+  ],
+},
+
+{
+  slug: 'issue-04',
+
+  issueNumber: 4,
+  number: 'Issue 04',
+
+  title: 'The Good Old Days',
+
+  headline:
+    'Okereke paints memory, cultural identity, and the ordinary objects through which a generation remembers Nigeria.',
+
+  date: 'September 2026',
+
+  status: 'Current Issue',
+
+  description:
+    'Cabin biscuits, Coke bottles, NYSC uniforms, crowded gatherings, hair, and photographs that took weeks to return — Issue 04 looks at Okereke and a Nigeria that survives through memory.',
+
+  openingStatement: [
+    'Some histories announce themselves through major events. Others sit quietly on the table.',
+
+    'In Okereke’s paintings, Cabin biscuits, Coke bottles, hairstyles, NYSC uniforms, family photographs, and crowded gatherings become evidence of how a generation lived.',
+
+    'The work looks backward toward a pre-digital Nigeria while asking what memory means for a generation increasingly living through screens.',
+
+    'Issue 04 begins with a simple recognition: sometimes the things that looked most ordinary while we were living with them become the things we miss most.',
   ],
 },
 ]

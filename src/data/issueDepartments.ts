@@ -13,6 +13,7 @@ import slawn4 from '../assets/slawn4.jpg'
 import wangechi1 from '../assets/wangechi1.jpg'
 import sixsiblings from '../assets/sixsiblings.png'
 import bekuti1 from '../assets/bekuti1.jpg'
+import okereke1 from '../assets/okereke1.jpg'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -279,4 +280,29 @@ export const issueDepartments: IssueDepartments = {
 
     },
   },
+
+
+  // Issue 4 Departments
+'issue-04': {
+  issueNumber: 4,
+
+  departments: {
+    'memory and identity': {
+      artist: 'Okereke',
+      title: 'The Good Old Days',
+
+      description: [
+        'Cabin biscuits, Coke bottles, NYSC uniforms, and photographs that took weeks to return — Okereke paints a Nigeria that survives in memory.',
+
+        'Through cultural identity, human connection, and the ordinary objects of everyday life, his paintings document an African millennial experience caught between a pre-digital past and an increasingly digital present.',
+      ],
+
+      image: okereke1,
+      imageAlt: 'Artwork by Okereke',
+      caption: 'Okereke',
+
+      link: '/studio-hours/the-good-old-days',
+    },
+  },
+},
 }

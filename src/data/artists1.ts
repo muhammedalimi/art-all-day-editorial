@@ -25,6 +25,12 @@ import bekuti3 from '../assets/bekuti3.jpg'
 import bekuti8 from '../assets/bekuti8.jpg'
 import bekuti1 from '../assets/julespro.png'
 
+import okereke1 from '../assets/okereke1.jpg'
+import okereke3 from '../assets/okereke3.jpg'
+import okereke4 from '../assets/okereke4.jpg'
+import okereke6 from '../assets/okereke6.jpg'
+import okereke7 from '../assets/okereke7.jpg'
+
 
 // ======================================================
 // ARTIST TYPES
@@ -422,5 +428,83 @@ export const artists: Artist[] = [
     ],
 
     status: 'featured',
+  },
+
+
+   // ====================================================
+  // OKEREKE
+  // ====================================================
+
+  {
+    slug: 'okereke',
+
+    name: 'Okereke',
+
+    issueNumber: 4,
+
+    heroImage: okereke1,
+
+    // images: [
+    //   {
+    //     src: okereke1,
+    //     alt: 'Artwork by Okereke',
+    //     caption: 'Artwork by Okereke',
+    //   },
+    // ],
+
+    disciplines: [
+      'Painting',
+    ],
+
+    themes: [
+      'Cultural Identity',
+      'Memory',
+      'Human Connection',
+      'African Millennial Experience',
+      'Nigerian History',
+    ],
+
+
+    images: [
+    {
+      src: okereke1,
+      alt: 'Artwork by Okereke',
+      caption: 'The Beetle',
+    },
+
+    {
+      src: okereke3,
+      alt: 'Artwork by Okereke',
+      caption: 'The Christening II',
+    },
+
+    {
+      src: okereke4,
+      alt: 'Artwork by Okereke',
+      caption: 'Quiet Mind, no quiet time',
+    },
+
+    {
+      src: okereke6,
+      alt: 'Artwork by Okereke',
+      caption: 'Labyrinth of contemporary culture',
+    },
+
+    {
+      src: okereke7,
+      alt: 'Artwork by Okereke',
+      caption: 'My darling boy',
+    },
+  ],
+
+    
+
+    status: 'featured',
+
+    bio:
+      'Okereke is a Nigerian artist whose paintings explore cultural identity, memory, human connection, and the everyday histories embedded in African life. His work frequently returns to crowds, family photographs, hairstyles, familiar objects, and the visual language of a pre-digital Nigeria.',
+
+    website:
+      'https://okerekeart.com',
   },
 ]

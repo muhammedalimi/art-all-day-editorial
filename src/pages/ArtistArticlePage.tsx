@@ -8,6 +8,8 @@ import {
   useParams,
 } from 'react-router-dom'
 
+
+
 import { artists } from '../data/artists'
 import { issues } from '../data/issues'
 import { departments } from '../data/departments'
@@ -247,31 +249,7 @@ function ArtistArticlePage() {
                 )
               }
 
-              // =============================
-              // IMAGE
-              // =============================
-
-              // if (
-              //   block.type === 'image'
-              // ) {
-              //   return (
-              //     <figure
-              //       key={index}
-              //       className="artistArticleImage"
-              //     >
-              //       <img
-              //         src={block.src}
-              //         alt={block.alt}
-              //       />
-
-              //       {block.caption && (
-              //         <figcaption>
-              //           {block.caption}
-              //         </figcaption>
-              //       )}
-              //     </figure>
-              //   )
-              // }
+            
 
 
               if (block.type === 'image') {

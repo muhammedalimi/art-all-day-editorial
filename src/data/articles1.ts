@@ -26,6 +26,15 @@ import bekuti1 from '../assets/bekuti1.jpg'
 import bekuti2 from '../assets/bekuti2.jpg'
 import bekuti3 from '../assets/bekuti3.jpg'
 import bekuti4 from '../assets/bekuti4.jpg'
+import okereke1 from '../assets/okereke1.jpg'
+import okereke2 from '../assets/okereke2.jpg'
+import okereke3 from '../assets/okereke3.jpg'
+import okereke4 from '../assets/okereke4.jpg'
+import okereke6 from '../assets/okereke6.jpg'
+import okereke7 from '../assets/okereke7.jpg'
+
+
+
 type BodyBlock =
   | string
   | {
@@ -45,6 +54,7 @@ type Article = {
   title: string
   author: string
   readTime: string
+  publishedAt: string
   issueNumber: number
   issue: string
   intro: string
@@ -66,6 +76,7 @@ export const articles: Record<string, Article> = {
     title: 'Dear God: What Remains of Faith?',
     author: 'Mo Alimi',
     readTime: '9 min read',
+    publishedAt: '2026-09-10T12:00:00-06:00',
 
     issueNumber: 1,
     issue: 'Issue 01',
@@ -402,6 +413,7 @@ export const articles: Record<string, Article> = {
     title: 'Six Siblings ',
     author: ' Woolly Mo',
     readTime: 'Listen + Lyrics',
+    publishedAt: '2026-09-10T12:00:00-06:00',
 
     issueNumber: 2,
     issue: 'Issue 02',
@@ -577,6 +589,7 @@ Still chasing the light through the old cigarette smoke.`,
   author: 'Mo Alimi',
 
   readTime: '8 min read',
+  publishedAt: '2026-09-10T12:00:00-06:00',
 
   issueNumber: 2,
 
@@ -1020,6 +1033,7 @@ Still chasing the light through the old cigarette smoke.`,
   author: 'Mo Alimi',
 
   readTime: '7 min read',
+  publishedAt: '2026-09-10T12:00:00-06:00',
 
   issueNumber: 3,
   artistSlug: 'jules-bekuti',
@@ -1241,6 +1255,285 @@ Still chasing the light through the old cigarette smoke.`,
     `And the longer I look, the more I wonder whether peace is really the absence of struggle.`,
 
     `Maybe sometimes, peace is evidence that someone survived it.`,
+  ],
+
+  images: [],
+
+  youtube: '',
+
+  audio: '',
+},
+
+
+ 'the-good-old-days': {
+  category: 'Criticism',
+
+  title: 'The Good Old Days',
+
+  author: 'Mo Alimi',
+
+  readTime: '8 min read',
+
+  publishedAt: '2026-09-17T09:43:00-06:00',
+
+  issueNumber: 4,
+
+  issue: 'Issue 04',
+
+  artistSlug: 'okereke',
+
+  intro:
+    'Cabin biscuits, Coke bottles, NYSC uniforms, and photographs that took weeks to return: Okereke paints a Nigeria that survives in memory.',
+
+  // Keep this empty until you add an Okereke artwork to /assets.
+  // Then import it above and replace this with: heroImage: okereke1,
+  heroImage: okereke3,
+
+  heroImageCaption: 'The Christening II',
+
+  body: [
+    `I recognize Okereke’s paintings before I fully understand them.`,
+
+    `There are objects in them that do not need an introduction. A packet of Cabin biscuits. An old bottle of Coca-Cola. The clothes people wore to gatherings. The cars. The hairstyles. The crowded rooms. They belong to a Nigeria that feels close enough for me to remember and distant enough to already feel historical.`,
+
+    `For someone looking from the outside, a Coke bottle and a packet of biscuits might simply register as objects from another time. For me, they carry something else.`,
+
+    `Growing up in Nigeria, especially in a struggling or middle-class household, small things could announce that today was different. There was a birthday. Someone was visiting. A child was being celebrated. There might not have been an elaborate party or a table overflowing with food, but a bottle of Coke and some biscuits could still make the day feel like an occasion.`,
+
+    `Sometimes the smallest object was enough to tell you that something good was happening.`,
+
+    `That is where Okereke’s work begins to affect me personally. The objects in his paintings do not arrive as vintage props. I know them too well for that. They arrive as memory.`,
+
+    {
+      type: 'heading',
+      text: 'Before We Could See the Picture',
+    },
+
+    `There was also a time when taking a photograph required patience.`,
+
+    {
+        type: 'image',
+        src: okereke2,
+        alt: 'The Beetle',
+        caption:
+        'Sincerely speaking',
+      },
+
+    `A photographer could arrive at a birthday, a ceremony, a family gathering, or another important occasion. You stood where you were told to stand. You fixed your clothes. You tried to make the right face. The shutter clicked, and then the photographer left with the image.`,
+
+    `Sometimes it took days. Sometimes it took weeks before you saw the photograph.`,
+
+    `There was no screen to check. No instant retake. No way of knowing whether your eyes were closed, whether your smile looked strange, or whether the angle you thought was perfect had betrayed you completely.`,
+
+    `The photograph existed before you were allowed to see it.`,
+
+    `Memory had a delay to it.`,
+
+    `Looking at Okereke’s paintings reminds me of that delay. At times they feel like photographs that have taken years to return — images from a Nigeria that was never necessarily trying to preserve itself as history while it was being lived.`,
+
+    `The people inside these scenes were simply living. Dressing for an occasion. Standing beside a car. Sitting together. Holding a drink. Fixing their hair. Showing up for one another.`,
+
+    `Now those details carry the weight of evidence.`,
+
+    {
+      type: 'heading',
+      text: 'The Good Old Days',
+    },
+
+    `Older Nigerians have a phrase for this kind of remembering: “the good old days.”`,
+
+    `It is often said with affection and, sometimes, with disappointment at what came after. The phrase can contain childhood, family, old neighbourhoods, old music, ceremonies, lower prices, familiar routines, and versions of the country that seem to become more beautiful the further away they move.`,
+
+    `But memory is not an objective historian.`,
+
+    `The past can become softer once we have survived it. Scarcity becomes simplicity. Waiting becomes patience. Things that may have frustrated us at the time become charming because they have disappeared.`,
+
+    `That is what makes Okereke’s relationship with the past interesting to me. His paintings can make an older Nigeria feel desirable without needing to prove that everything about that time was better.`,
+
+    `The importance is in remembering that these things existed at all.`,
+
+    `The bottle on the table. The way people dressed. The texture of a family photograph. The hair. The crowd. The car behind the group. The things nobody thought would someday need to be preserved.`,
+
+    {
+      type: 'heading',
+      text: 'An NYSC Uniform Can Contain a Family',
+    },
+
+    `Some parts of Nigerian life become so familiar that it is easy to forget how dramatically they can shape individual histories.`,
+
+    `NYSC is one of them.`,
+    {
+        type: 'image',
+        src: okereke1,
+        alt: 'The Beetle',
+        caption:
+        'The Beetle',
+      },
+
+
+    `My father was serving in Benue State when he met my mother. They fell in love there. What began during a service year eventually became a marriage and a family of six children.`,
+
+    `Because of that, I cannot see NYSC only as khaki trousers, boots, orientation camps, or a government programme. Somewhere inside that uniform is one of the reasons I exist.`,
+
+    `That is what ordinary history can do.`,
+
+    `A Coke bottle can contain a birthday. A photograph can contain weeks of anticipation. An NYSC uniform can contain the beginning of a family.`,
+
+    `The objects remain small. Their consequences do not.`,
+
+    {
+      type: 'heading',
+      text: 'A Painter of Crowds',
+    },
+
+    `Okereke’s paintings are rarely only about objects. They are also about people being together.`,
+
+     {
+        type: 'image',
+        src: okereke6,
+        alt: 'The Beetle',                     
+        caption:
+        'Labyrinth of contemporary culture',
+      },
+                                                 
+
+    `Crowds recur in his work. Families, ceremonies, groups, gatherings — people occupying space in relation to one another rather than existing as isolated figures.`,
+
+    `Okereke has spoken about chaos as something that shaped him, and about his attraction to painting crowds. That makes the pandemic an especially interesting interruption in his development.`,
+
+    `The world stopped. Gathering became dangerous. The crowd — something his paintings repeatedly return to — suddenly became something people were being told to avoid.`,
+
+    `In that stillness, Okereke has described finding a stronger sense of purpose in himself and in his work.`,
+
+    `Perhaps that helps explain why human connection feels so important in the paintings. A crowd is never only a compositional device. It can also be evidence that people were once able to occupy the same space, touch one another, celebrate together, argue, laugh, dress up, and simply be present.`,
+
+    {
+      type: 'heading',
+      text: 'Documenting a Generation',
+    },
+
+    `Okereke has described his work as a way of documenting the African millennial experience.`,
+
+    `That word — documenting — changes the way I look at the paintings.`,
+
+    `A Coke bottle stops being only a Coke bottle. Hair stops being only hair. An NYSC uniform is no longer simply costume. A crowded celebration is not merely an attractive composition.`,
+
+    
+    `They become evidence.`,
+
+    `Evidence of how people lived. How they gathered. How they celebrated. How they presented themselves. What they consumed. What they considered beautiful. What they carried into adulthood. What disappeared before anyone realized it was disappearing.`,
+
+    `Official histories usually make room for governments, elections, conflicts, dates, and public figures. Personal history remembers what was sitting on the table.`,
+
+    {
+      type: 'heading',
+      text: 'What I Know, and What I Do Not',
+    },
+
+    `There are parts of Okereke’s cultural world that I cannot claim as lived experience.`,
+
+    `I did not grow up deeply immersed in Igbo traditions. Much of my relationship with that history has come through reading — through writers such as Chinua Achebe and Chimamanda Ngozi Adichie, and through the stories and histories that have travelled beyond their immediate communities.`,
+
+    `That distinction matters.`,
+
+    `Recognition does not mean ownership.`,
+
+    `I can recognize the wider Nigerian world surrounding these paintings without pretending that every symbol, tradition, or memory represented inside them belongs to me.`,
+
+    `Perhaps that is part of what makes the work compelling. Something can feel familiar while still containing histories that ask you to stop, look again, and learn.`,
+
+    {
+      type: 'heading',
+      text: 'Hair Is Also an Archive',
+    },
+
+    {
+        type: 'image',
+        src: okereke4,
+        alt: 'The Beetle',                     
+        caption:
+        'Quiet Mind, no quiet time',
+      },
+
+    `Okereke’s interest in cultural identity also appears through hair.`,
+
+    `He has spoken about African hair as a form of identity that predates colonial intervention, while also considering the ways Black hair has been policed, judged, and forced toward particular standards.`,
+
+    `Hair, then, becomes another archive.`,
+
+    `It can contain the history of what people were encouraged to abandon. What they were told was professional. What they were told was beautiful. What they learned to hide, straighten, cut, or change in order to move through particular spaces.`,
+
+    `The policing of Black hair does not only alter appearance. It can create an internal conflict between what is inherited and what a person has been taught to consider acceptable.`,
+
+    `This is where the nostalgia in Okereke’s work becomes more complicated. Looking backward is not only about recovering what was beautiful. It can also mean asking what was interrupted.`,
+
+    {
+      type: 'heading',
+      text: 'What Happens When Memory Goes Digital?',
+    },
+
+    `And yet this is also where I begin to question Okereke’s project.`,
+
+    `An artist does not have to paint the present in order to belong to it. Sometimes looking backward is itself a response to the times.`,
+
+    `There may even be something especially contemporary about Okereke’s affection for a pre-digital Nigeria at a moment when almost everything about memory is becoming instantaneous.`,
+
+    `The photographer who once disappeared with your image for weeks has been replaced by a phone that shows you the photograph before the moment is even over.`,
+
+    `Family albums have moved into cloud storage. Birthdays become Instagram stories. Relationships happen through screens. Algorithms decide which memories are resurfaced for us. Images are created, edited, distributed, and forgotten at extraordinary speed.`,
+
+    `So if Okereke sees his work as documenting the African millennial experience, what happens as that experience becomes increasingly digital?`,
+
+    `The question is not whether he should abandon painting for digital art.`,
+
+    `The more interesting question is whether his idea of documentation can expand with the generation he is trying to document.`,
+
+    `Can an artist whose work is so invested in analogue memory continue looking backward while also accounting for the ways Africans are now constructing memory in real time?`,
+
+    `The next chapter of the African millennial experience may not contain the photographer who made us wait weeks to find out whether we smiled correctly.`,
+
+    `It may contain thousands of photographs we never look at again.`,
+
+    {
+      type: 'heading',
+      text: 'What We Keep',
+    },
+
+    `Maybe that is why Okereke’s paintings matter now.`,
+
+    `They do not need to convince me that the past was perfect. I am not sure that is what “the good old days” ever really means.`,
+
+    `Perhaps the phrase is less about wanting everything back and more about realizing, too late, that the ordinary things around us were carrying a life we would eventually miss.`,
+
+    `A biscuit packet.`,
+
+    `A glass Coke bottle.`,
+
+       {
+        type: 'image',
+        src: okereke7,
+        alt: 'The Beetle',                     
+        caption:
+        'Quiet Mind, no quiet time',
+      },
+
+
+    `A hairstyle.`,
+
+    `An NYSC uniform.`,
+     
+
+    `A car parked behind a gathering.`,
+
+    `A photograph nobody knew would someday become evidence of an era.`,
+
+    `The history hidden in Okereke’s paintings is powerful precisely because much of it never looked like history while people were living through it.`,
+
+    `It just looked like life.`,
+
+    `And history does not always announce itself while we are living through it.`,
+
+    `Sometimes it is sitting quietly on the table.`,
   ],
 
   images: [],

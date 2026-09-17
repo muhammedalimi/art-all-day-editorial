@@ -16,3 +16,15 @@ export function getFullCurrentDate() {
     year: 'numeric',
   })
 }
+
+export function formatArticleDate(
+  publishedAt: string
+) {
+  const publishedDate = new Date(publishedAt)
+
+  return publishedDate.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  })
+}
