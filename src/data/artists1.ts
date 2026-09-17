@@ -30,6 +30,7 @@ import okereke3 from '../assets/okereke3.jpg'
 import okereke4 from '../assets/okereke4.jpg'
 import okereke6 from '../assets/okereke6.jpg'
 import okereke7 from '../assets/okereke7.jpg'
+import okereke10 from '../assets/okereke10.png'
 
 
 // ======================================================
@@ -442,7 +443,9 @@ export const artists: Artist[] = [
 
     issueNumber: 4,
 
-    heroImage: okereke1,
+    heroImage: okereke10,
+    heroImageCaption:
+      'Kelechi Emeka-Okereke . Photo via the artist’s Instagram.',
 
     // images: [
     //   {
