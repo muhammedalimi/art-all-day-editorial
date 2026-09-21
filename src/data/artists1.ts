@@ -34,10 +34,10 @@ import okereke10 from '../assets/okereke10.png'
 
 import sophia1 from '../assets/sophia1.jpg'
 import sophia2 from '../assets/sophia2.jpg'
-import sophia3 from '../assets/sophia3.jpg'
-import sophia4 from '../assets/sophia4.jpg'
-import sophia6 from '../assets/sophia6.jpg'
-import sophia7 from '../assets/sophia7.jpg'
+// import sophia3 from '../assets/sophia3.jpg'
+// import sophia4 from '../assets/sophia4.jpg'
+// import sophia6 from '../assets/sophia6.jpg'
+// import sophia7 from '../assets/sophia7.jpg'
 import sophia10 from '../assets/sophia10.png'
 
 
