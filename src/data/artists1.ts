@@ -32,6 +32,15 @@ import okereke6 from '../assets/okereke6.jpg'
 import okereke7 from '../assets/okereke7.jpg'
 import okereke10 from '../assets/okereke10.png'
 
+import sophia1 from '../assets/sophia1.jpg'
+import sophia2 from '../assets/sophia2.jpg'
+import sophia3 from '../assets/sophia3.jpg'
+import sophia4 from '../assets/sophia4.jpg'
+import sophia6 from '../assets/sophia6.jpg'
+import sophia7 from '../assets/sophia7.jpg'
+import sophia10 from '../assets/sophia10.png'
+
+
 
 // ======================================================
 // ARTIST TYPES
@@ -510,4 +519,57 @@ export const artists: Artist[] = [
     website:
       'https://okerekeart.com',
   },
+
+
+  {
+  slug: 'sophia-oshodin',
+
+  name: 'Sophia Oshodin',
+
+  issueNumber: 5,
+
+  heroImage: sophia10,
+
+  heroImageCaption:
+    'Sophia Oshodin. Artwork image via the artist’s website.',
+
+  disciplines: [
+    'Painting',
+  ],
+
+  themes: [
+    'Black Womanhood',
+    'Pleasure',
+    'Individuality',
+    'Everyday Life',
+    'Mental Health',
+    'Healing',
+  ],
+
+  images: [
+    {
+      src: sophia1,
+      alt:
+        'Black women gathered together in a painting by Sophia Oshodin',
+      caption:
+        'Conversation with Wisdom',
+    },
+
+    {
+      src: sophia2,
+      alt:
+        'Twelve apartment windows showing different scenes of everyday life in a painting by Sophia Oshodin',
+      caption:
+        'Story of Our Lives',
+    },
+  ],
+
+  status: 'featured',
+
+  bio:
+    'Sophia Oshodin is a Nigerian-British figurative painter based in London. Working with acrylic and oil, she captures intimate moments of everyday life through women contemplating, resting, riding, dressing, and simply existing. Drawing from imagination, memory, popular culture, African art, fashion, politics, and art history, her work explores Black womanhood, joy, hope, mental health, healing, and the freedom to occupy space on one’s own terms.',
+
+  website:
+    'https://www.sophiaoshodinart.com',
+},
 ]

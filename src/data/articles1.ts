@@ -32,6 +32,14 @@ import okereke3 from '../assets/okereke3.jpg'
 import okereke4 from '../assets/okereke4.jpg'
 import okereke6 from '../assets/okereke6.jpg'
 import okereke7 from '../assets/okereke7.jpg'
+import sophia1 from '../assets/sophia1.jpg'
+import sophia2 from '../assets/sophia2.jpg'
+import sophia3 from '../assets/sophia3.jpg'
+import sophia4 from '../assets/sophia4.jpg'
+import sophia5 from '../assets/sophia5.jpg'
+import sophia6 from '../assets/sophia6.jpg'
+import sophia7 from '../assets/sophia7.jpg'
+
 
 
 
@@ -346,66 +354,6 @@ export const articles: Record<string, Article> = {
     youtube: '',
     audio: '',
   },
-
-//   // SUPPORTING STORY
-//   'inside-the-studio-practice': {
-//     category: 'Interview',
-//     title: 'Inside the Studio Practice',
-//     author: 'Studio Hours',
-//     readTime: '6 min read',
-
-//     issueNumber: 1,
-//     issue: 'Issue 01',
-
-//     artistSlug: 'ben-cowan',
-
-//     intro:
-//       'A conversation about process, doubt, materials, and the private rhythm behind finished work.',
-
-//     heroImage: ben10,
-
-//     body: [
-//       `The studio is often where the finished image begins to take shape, but the process is rarely as simple as the final work suggests.`,
-
-//       `Artists move through uncertainty, repetition, mistakes, and unexpected discoveries before arriving at something that feels complete`,
-
-//       `This conversation looks at the private rhythm behind the work and what it means to return to the studio every day.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
-
-  // SUPPORTING STORY
-//   'why-surfaces-matter': {
-//     category: 'Essay',
-//     title: 'Why Surfaces Matter',
-//     author: 'Editorial',
-//     readTime: '4 min read',
-
-//     issueNumber: 1,
-//     issue: 'Issue 01',
-
-//     artistSlug: 'ben-cowan',
-
-//     intro:
-//       'A short reflection on texture, architecture, and the emotional weight carried by painted surfaces.',
-
-//     heroImage: ben22,
-
-//     body: [
-//       `A painted surface is never simply a background. Texture, color, and material can change the way an image is experienced.`,
-
-//       `Across painting and architecture, surfaces carry traces of time, touch, construction, and memory.`,
-
-//       `To look closely at a surface is to notice the physical history embedded within the work.`,
-//     ],
-
-//     images: [],
-//     youtube: '',
-//     audio: '',
-//   },
 
     // STUDIO NOTES — ISSUE 02
   'six-siblings': {
@@ -1534,6 +1482,266 @@ Still chasing the light through the old cigarette smoke.`,
     `And history does not always announce itself while we are living through it.`,
 
     `Sometimes it is sitting quietly on the table.`,
+  ],
+
+  images: [],
+
+  youtube: '',
+
+  audio: '',
+},
+
+
+'pleasure-without-performance': {
+  category: 'The Inner Image',
+
+  title: 'Pleasure Without Performance',
+
+  author: 'Mo Alimi',
+
+  readTime: '8 min read',
+
+  // Future date keeps it scheduled until Issue 05 is published.
+  // Replace this timestamp if you publish on a different day.
+  publishedAt: '2026-09-21T09:00:00-06:00',
+
+  issueNumber: 5,
+
+  issue: 'Issue 05',
+
+  artistSlug: 'sophia-oshodin',
+
+  intro:
+    'Sophia Oshodin paints Black women enjoying life without performing happiness for the viewer.',
+
+  heroImage: sophia3,
+
+  heroImageCaption: 'A Contemplation of the Unstated Fears',
+
+  body: [
+    `The women in Sophia Oshodin’s paintings are enjoying life, but they are not smiling for us.`,
+
+    `They smoke cigarettes, go shopping, gather around dinner tables, dress boldly, and move through scenes of leisure with a commanding presence. The colors are lively and the settings suggest pleasure, yet the women’s expressions often remain composed. Their enjoyment is visible, but it is not exaggerated for the viewer.`,
+
+    `That distinction is what makes the paintings feel powerful.`,
+
+    `Women are often expected to smile—to appear warm, approachable, and grateful while being observed. Oshodin’s figures do not accept that responsibility. They do not perform happiness to persuade us that their lives are good. They simply inhabit them.`,
+
+    `Their straight faces do not signal an absence of joy. Instead, they suggest that joy can be private, self-possessed, and free from explanation.`,
+
+    {
+      type: 'heading',
+      text: 'Joy Without the Smile',
+    },
+
+     {
+        type: 'image',
+        src: sophia4,
+        alt: 'The Beetle',                     
+        caption:
+        'What Was Said',
+      },
+
+    `There is a difference between experiencing pleasure and displaying it in a form other people recognize.`,
+
+    `A smile is commonly treated as proof: proof that someone is friendly, proof that a woman is content, proof that the viewer has been welcomed into her world. Oshodin removes that reassurance.`,
+
+    `Her women can enjoy a meal without looking delighted for an audience. They can shop without presenting consumption as a celebration. They can sit together without transforming friendship into a cheerful group portrait.`,
+
+    `Even when surrounded by bold color, fashion, food, or the material signs of a good life, they retain something for themselves.`,
+
+    `The result is not coldness.`,
+
+    `It is control.`,
+
+    `Oshodin’s women decide how much emotion becomes available to us. Their faces prevent pleasure from becoming spectacle. We can see that they are living, but we cannot demand that they make their lives emotionally legible for our comfort.`,
+
+    `This tension aligns with Oshodin’s broader practice. Her artist statement describes women “contemplating, resting, riding and simply existing.”`,
+
+    `Working across acrylic and oil, she draws from imagination, memory, everyday experience, and popular culture to explore joy, hope, space, mental health, and healing.`,
+
+    `In a 2021 interview with Cass Art, Oshodin also described her figurative storytelling as connected to family, love, strength, community, and the role of women in society.`,
+
+    {
+      type: 'heading',
+      text: 'Twelve Windows, Many Lives',
+    },
+
+       {
+        type: 'image',
+        src: sophia2,
+        alt: 'The Beetle',                     
+        caption:
+        'The Story Of Our Lives',
+      },
+
+    
+
+    `In Story of Our Lives, Oshodin arranges twelve windows into a three-by-four grid.`,
+
+    `Together, they resemble fragments from the same apartment building: separate lives unfolding beside one another, contained within similar architectural frames.`,
+
+    `Curtains, balconies, plants, furniture, clothing, and bodies offer partial views into spaces that would ordinarily remain private.`,
+
+    `In the first window, a man and woman stand closely together, appearing to kiss.`,
+
+    `The image can be read as conventional romantic partnership—the kind of companionship, marriage, and shared domestic life that society frequently presents as the expected destination for a woman.`,
+
+    `Yet Oshodin gives the couple only one window.`,
+
+    `Their relationship is not established as the complete story of womanhood, but as one possibility among many.`,
+
+    `Elsewhere, women appear alone without necessarily appearing lonely.`,
+
+    `One stands behind a balcony overflowing with plants. Another sits quietly at a table. A woman in a yellow two-piece stands confidently before an open curtain, while another, dressed in underwear and a headwrap, looks through a wardrobe.`,
+
+    `Their bodies are visible, but they do not feel arranged for the viewer’s pleasure. They appear comfortable within their own spaces.`,
+
+    `The empty windows matter too.`,
+
+    `Some curtains are closed; other rooms contain furniture but no visible person. These spaces suggest lives that cannot be fully accessed, stories still being formed, or identities that refuse to be completely revealed.`,
+
+    `Oshodin lets us look, but she does not let us know everything.`,
+
+    `The grid places partnership, solitude, domesticity, sensuality, and independence beside one another without creating a hierarchy.`,
+
+    `The title Story of Our Lives becomes especially significant: there is no single correct way for a woman’s life to look.`,
+
+    `The window also creates a tension between privacy and public judgment. We are allowed to look inside, but we are not given permission to discipline what we see.`,
+
+    `Each woman occupies her own frame, controls her own body, and lives within her own version of a full life.`,
+
+    {
+      type: 'heading',
+      text: 'A Nigerian-British Tension',
+    },
+
+    `Oshodin is frequently described as a Nigerian-British artist based in London, while her own biography identifies her as a British painter inspired by African art, art history, fashion, politics, and color.`,
+
+    `That position between cultures gives these scenes another layer of tension.`,
+
+    `As a Nigerian viewer, I cannot separate her women from the expectations women often encounter within conservative parts of Nigerian society.`,
+
+    `A woman smoking publicly, spending freely, dressing boldly, or simply prioritizing her own enjoyment can quickly become the subject of judgment.`,
+
+    `She may be called irresponsible, improper, or too independent—not because she has harmed anyone, but because she has stepped outside an accepted image of womanhood.`,
+
+    `Oshodin paints women who appear to resist that containment.`,
+
+    `They dine, shop, rest, ride, dress, and smoke without seeming ashamed of themselves. They do not pause to ask whether their pleasure looks respectable.`,
+
+    `Even their serious expressions feel important: they are not smiling to reassure us that they remain agreeable while exercising their freedom.`,
+
+    `Through a conservative lens, some of the women in Story of Our Lives might be described as immodest, undisciplined, or outside the boundaries of respectable womanhood.`,
+
+    `But that judgment belongs to society, not necessarily to the painting.`,
+
+    `Oshodin does not portray them as out of control. She portrays them as self-directed.`,
+
+    `This distinction matters.`,
+
+    `Freedom does not always look dramatic. Sometimes it looks like choosing what to wear, sitting alone, buying something for yourself, closing the curtain, or allowing your face to rest without worrying about how others will interpret it.`,
+
+    {
+      type: 'heading',
+      text: 'Red as Refusal',
+    },
+
+       {
+        type: 'image',
+        src: sophia7,
+        alt: 'The Beetle',                     
+        caption:
+        'What Was It That You Were Saying About Beauty',
+      },
+
+
+    `The repeated presence of red lipstick adds another layer to the women’s individuality.`,
+
+    `Dark-skinned women have often been discouraged from wearing vivid shades and directed toward colors considered safer or more flattering.`,
+
+    `A 2025 NecoleBitchie article titled “Can Black Women Wear Red Lipstick?” confronts that prejudice directly:`,
+
+    `“The notion that Black women cannot wear red lipstick is an outdated and harmful myth.”`,
+
+    `The article connects that belief to colorism and to the expectation that darker skin should be paired with muted colors.`,
+
+    `In Oshodin’s paintings, red lipstick can be read as a rejection of that restraint. Against dark skin, the color becomes a declaration of visibility—bold, deliberate, and unwilling to be softened for someone else’s comfort.`,
+
+    `It is important not to claim this as Oshodin’s stated intention unless she has discussed the lipstick herself.`,
+
+    `But as a recurring visual symbol, the red lip strengthens the paintings’ larger language of self-definition.`,
+
+    `These women decide how they will be seen. They do not restrict themselves to what others have decided is tasteful, appropriate, or flattering.`,
+
+    `The lipstick does not manufacture their confidence.`,
+
+    `It marks it.`,
+
+    {
+      type: 'heading',
+      text: 'The Right to an Ordinary Good Life',
+    },
+
+    `Across Oshodin’s work, shopping bags, dinner tables, cigarettes, fashionable clothing, private rooms, and moments of rest form a vocabulary of pleasure.`,
+
+    `None of these objects automatically equals empowerment.`,
+
+    `Shopping can become another demand placed on women. Smoking carries its own danger. Luxury can exclude as easily as it can liberate.`,
+
+    `The paintings are most interesting when these objects are not treated as simple symbols of success, but as evidence of choice.`,
+
+    `The women choose how to spend their time, how to dress their bodies, what to desire, and whether to reveal their feelings.`,
+
+    `Their strength does not come only from surviving hardship. It also appears in their ability to enjoy beauty, friendship, solitude, abundance, and leisure without apology.`,
+
+    `That is especially meaningful within a visual culture that often asks Black women to represent struggle.`,
+
+    `Oshodin does not deny complexity—her stated interests include mental health, healing, and the difficulty of navigating everyday life—but she refuses to make pain the only serious subject available to them.`,
+
+    `Joy, hope, rest, and ordinary domestic life deserve the scale and attention of painting too.`,
+
+    `Her women are not required to earn pleasure through suffering.`,
+
+    `They are not asked to make their independence charming.`,
+
+    `They do not need husbands, families, smiles, or respectable appearances to validate their existence.`,
+
+    `They are simply allowed to live.`,
+
+    {
+      type: 'heading',
+      text: 'Pleasure Without Performance',
+    },
+
+    {
+        type: 'image',
+        src: sophia6,
+        alt: 'The Beetle',                     
+        caption:
+        'Riding Towards Joy',
+      },
+
+
+    `Oshodin’s paintings propose a kind of girl power that does not need to announce itself.`,
+
+    `It can be found in the woman who stands alone at her window, the woman who chooses the red lipstick, the woman who enjoys dinner without smiling for the photograph, and the woman whose closed curtain tells us that not every part of her life is available for public judgment.`,
+
+    `The women take up space, embrace their individuality, and experience pleasure on their own terms.`,
+
+    `Their serious expressions keep that pleasure from becoming a service offered to the viewer.`,
+
+    `We may witness it, but we do not own it.`,
+
+    `Their happiness does not need to look cheerful.`,
+
+    `Their freedom does not need to look respectable.`,
+
+    `Their lives do not need to follow one approved story.`,
+
+    `Their pleasure belongs to them.`,
+
+    `It does not need to be explained, exaggerated, or performed.`,
   ],
 
   images: [],

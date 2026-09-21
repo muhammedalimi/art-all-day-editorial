@@ -48,6 +48,15 @@
   letter-spacing: -0.055em;
 }
 
+/* .artistsPageHero h1 {
+  max-width: 100%;
+  margin: 0 0 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(60px, 6.5vw, 100px);
+  line-height: 0.9;
+  letter-spacing: -0.055em;
+} */
+
 .artistsPageHero > p:last-child {
   max-width: 720px;
 

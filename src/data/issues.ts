@@ -158,7 +158,7 @@ export const issues: Issue[] = [
 
   date: 'September 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
 
   description:
     'Cabin biscuits, Coke bottles, NYSC uniforms, crowded gatherings, hair, and photographs that took weeks to return — Issue 04 looks at Okereke and a Nigeria that survives through memory.',
@@ -171,6 +171,35 @@ export const issues: Issue[] = [
     'The work looks backward toward a pre-digital Nigeria while asking what memory means for a generation increasingly living through screens.',
 
     'Issue 04 begins with a simple recognition: sometimes the things that looked most ordinary while we were living with them become the things we miss most.',
+  ],
+},
+
+{
+  slug: 'issue-05',
+
+  issueNumber: 5,
+  number: 'Issue 05',
+
+  title: 'Pleasure Without Performance',
+
+  headline:
+    'Sophia Oshodin paints Black women enjoying life without performing happiness for the viewer.',
+
+  date: 'September 2026',
+
+  status: 'Current Issue',
+
+  description:
+    'Issue 05 looks at Sophia Oshodin’s portraits of Black women shopping, dining, smoking, resting, and occupying pleasure on their own terms. Through bold color, composed expressions, and scenes of everyday freedom, her paintings challenge the expectations placed on how women should look, behave, and express happiness.',
+
+  openingStatement: [
+    'The women in Sophia Oshodin’s paintings are enjoying life, but they are not smiling for us.',
+
+    'They shop, dine, smoke, rest, dress boldly, and occupy their surroundings without turning their happiness into a performance for the viewer.',
+
+    'Viewed through Oshodin’s Nigerian-British identity, these scenes also carry questions about respectability, independence, and the traditional expectations placed upon women.',
+
+    'Issue 05 begins with a different understanding of pleasure: it does not need to look cheerful, respectable, or easily understood to be real.',
   ],
 },
 ]
