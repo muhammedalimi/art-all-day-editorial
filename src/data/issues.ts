@@ -202,6 +202,35 @@ export const issues: Issue[] = [
     'Issue 05 begins with a different understanding of pleasure: it does not need to look cheerful, respectable, or easily understood to be real.',
   ],
 },
+
+{
+  slug: 'issue-06',
+
+  issueNumber: 6,
+  number: 'Issue 06',
+
+  title: 'Kids Are Born Painters',
+
+  headline:
+    'What happens to the freedom to create when we learn there is a proper way to do everything?',
+
+  date: 'September 2026',
+
+  status: 'Coming Next',
+
+  description:
+    'Issue 06 explores the creative freedom we begin with as children and the rules, habits, and expectations that can slowly reshape it. Through childhood memory, The Wa’s A Kid Could Do It series, and the story of Ghanaian child artist Ace-Liam Nana Sam Ankrah, the issue asks when making art stops feeling natural and starts feeling like something we need permission to do.',
+
+  openingStatement: [
+    'Before there were canvases, there were sheets of paper, crayons, blunt pencils, and coloring books.',
+
+    'As children, we made things without asking whether they were good enough, correct enough, or even understandable to anyone else.',
+
+    'Then came the lines, the margins, the repetition, and the growing idea that there was a proper way to do things.',
+
+    'Issue 06 asks what happens to creativity when learning structure slowly becomes learning restraint.',
+  ],
+},
 ]
 
 export const currentIssue =

@@ -39,7 +39,15 @@ import sophia4 from '../assets/sophia4.jpg'
 // import sophia5 from '../assets/sophia5.jpg'
 import sophia6 from '../assets/sophia6.jpg'
 import sophia7 from '../assets/sophia7.jpg'
-
+// import liam7 from '../assets/liam7.png'
+// import liam8 from '../assets/liam8.png'
+import liam9 from '../assets/liam9.png'
+// import liam10 from '../assets/liam10.png'
+import liam11 from '../assets/liam11.jpeg'
+import liam2 from '../assets/liam2.jpeg'
+import wa2 from '../assets/wa2.jpg'
+import wa3 from '../assets/wa3.jpg'
+import mo1 from '../assets/mo1.png'
 
 
 
@@ -72,6 +80,7 @@ type Article = {
   images: string[]
   youtube: string
   audio: string
+  
 
   // Connects this story to a Living Artist Profile
   artistSlug?: string
@@ -1750,4 +1759,299 @@ Still chasing the light through the old cigarette smoke.`,
 
   audio: '',
 },
+
+'kids-are-born-painters': {
+  category: 'Essay',
+
+  title: 'Kids Are Born Painters',
+
+  author: 'Mo Alimi',
+
+  readTime: '8 min read',
+
+  publishedAt: '2026-09-24T12:00:00-06:00',
+
+  issueNumber: 6,
+
+  issue: 'Issue 06',
+
+  intro:
+    'An essay on crayons, rules, and the creativity we learn to leave behind.',
+
+  heroImage: wa3,
+
+  heroImageCaption:
+    'The Wa, A Kid Could Do It, 2021, Atlantic Wall. Image via the artist’s official website.',
+
+  body: [
+    `Before there were canvases, there were sheets of paper. Before acrylic and oil, there were crayons with the wrappers peeling off, half-used coloring books, blunt pencils and little boxes of watercolor paint.`,
+
+    `We drew houses with square windows. The sun lived in the corner of the page. Trees were green. Clouds were blue. People were circles and lines.`,
+
+    `Nobody asked whether any of it was contemporary art.`,
+
+    `We just made things.`,
+    `While writing this, I realized how long it had been since I made something without worrying whether it was good enough. So I painted this.`,
+
+       {
+      type: 'image',
+      src: mo1,
+      alt: 'The Wa painted vacant house for A Kid Could Do It at PFFFestival 2026 in Stuttgart',
+      
+      caption:
+        'Country Road, 2026. Painted by Mo Alimi while writing “Kids Are Born Painters”.',
+
+    },
+    `It is not technically perfect. That is partly the point. I spend a lot of time writing about artists whose command of their work is far beyond mine. But somewhere along the way, I had also become one of those adults who hesitated before drawing because I already knew what “good” was supposed to look like.`,
+    `This time, I just made something.`,
+  
+
+    `Growing up in Nigeria, school slowly introduced another relationship with the page.`,
+
+    `We had handwriting books filled with lines. Letters, words and sentences were repeated again and again across pages until they looked the way they were supposed to look. The purpose was practical: your handwriting needed to be clear enough for another person to read.`,
+
+    `We were taught to write properly.`,
+
+    `At the time, I never thought much about it. It was simply school. You followed the lines. You copied what was written above. You repeated it until your handwriting became consistent.`,
+
+    `But years later, I find myself thinking about what else those pages were teaching us.`,
+
+    `Consistency.`,
+
+    `Order.`,
+
+    `Legibility.`,
+
+    `How to make one line resemble the line before it.`,
+
+    `There was a correct way for the letters to sit on the page, and our job was to reproduce it.`,
+
+    `Meanwhile, at the back of my notebooks, another education was happening.`,
+
+    `That was where the drawings lived.`,
+
+    `Faces. Shapes. Names written in strange lettering. Signatures I kept redesigning. Little images that had nothing to do with whatever lesson was happening at the front of the book.`,
+
+    `Nobody assigned those pages.`,
+
+    `There was no mark for them. No teacher had asked me to make them.`,
+
+    `I made them because I wanted to.`,
+
+    `Most of my elementary-school notebooks had something happening at the back. Drawings, scribbles, signatures — whatever came into my head.`,
+
+    `And then, slowly, they disappeared.`,
+
+    `The further I moved through school, the cleaner the notebooks became.`,
+
+    `There was more to learn. More to memorize. More that could be right or wrong.`,
+
+    `The drawings at the back became fewer until eventually there were hardly any at all.`,
+
+    `For a long time, I thought that was simply growing up.`,
+
+    `Now I wonder whether it was also conditioning.`,
+
+    `As children, we are constantly being taught how to make ourselves understandable.`,
+
+    `Write on the line.`,
+
+    `Form the letter properly.`,
+
+    `Follow the example.`,
+
+    `Stay within the margin.`,
+
+    `And these lessons are necessary. Being understood matters. Learning structure matters.`,
+
+    `But somewhere inside all that instruction, I wonder if we begin to confuse being understood with being correct — and being correct with being good.`,
+
+    `Maybe that is where some of us first learn not to create like artists, but like conformists.`,
+
+    `The strange thing is that before anybody teaches us how to write properly, most of us are already drawing.`,
+
+    `We pick up crayons before we understand composition. We make people out of circles and lines before anyone explains proportion. We put the sun in the corner of the page because that is where the sun belongs in the world we have made.`,
+
+    `Nobody needs to tell us to make something.`,
+
+    `We just do.`,
+
+    {
+      type: 'heading',
+      text: 'A Kid Could Do It',
+    },
+
+    `If we are artists first, and children are naturally comfortable making things, why do so many adults eventually say, “I can’t draw”?`,
+
+    `Maybe because somewhere along the way, making becomes something we believe we have to know how to do properly.`,
+
+    `We learn that there is a correct way to write, a correct way to solve a problem, a correct way to structure an answer. Eventually, that instinct can follow us into art.`,
+
+    `The question changes from “What do I want to make?” to “Do I know how to make this correctly?”`,
+
+    `French artist The Wa seems interested in reversing that question.`,
+
+    `For PFFFestival 2026 in Stuttgart, he painted an entire vacant house as part of his ongoing series, A Kid Could Do It.`,
+
+    `The title almost sounds like an insult — the sort of thing somebody might say while standing in front of contemporary art they do not understand.`,
+
+    `A kid could do that.`,
+
+    `But in The Wa’s work, that sentence becomes something closer to a compliment.`,
+
+    {
+      type: 'image',
+      src: wa2,
+      alt: 'The Wa painted vacant house for A Kid Could Do It at PFFFestival 2026 in Stuttgart',
+      
+      caption:
+        'The Wa, A Kid Could Do It, 2021. Atlantic Wall. Image via The Wa’s official website.',
+    },
+
+    `The house is covered in broad shapes, bright colors and marks that refuse to behave like architecture is supposed to behave. Windows do not interrupt the painting. Doors are not boundaries. Grass, flowers and the structure of the building itself become part of the image.`,
+
+    `It does not seem particularly interested in perspective, balance or refinement.`,
+
+    `That is the point.`,
+
+    `The series began with The Wa and his mother along the Atlantic Wall. Its premise follows something close to the unfiltered creative logic of a child. In Stuttgart, that logic takes over an entire house.`,
+
+    `Looking at it reminded me of those pages at the back of my schoolbooks.`,
+
+    `There was no concern then about whether a face had the right proportions. A house could be larger than a tree. The sun could sit permanently in the corner of the page. A person could be nothing more than a circle with four lines attached to it.`,
+
+    `And somehow, we still knew exactly what everything was.`,
+
+    `Children do not necessarily misunderstand the rules of art.`,
+
+    `They simply have not learned to be intimidated by them yet.`,
+
+    `There is something powerful about an adult artist trying to return to that place.`,
+
+    `But what happens when the artist is still a child?`,
+
+    {
+      type: 'heading',
+      text: 'Before the Rules Arrive',
+    },
+
+    `The Wa is an adult artist trying to return to the freedom of a child.`,
+
+    `Ace-Liam Nana Sam Ankrah never had to return to it.`,
+
+    `The Ghanaian artist began painting when he was six months old. His mother, visual artist Chantelle Kuukua Eghan, was working on a commission when she placed a canvas and paint on the floor beside him. As he crawled through the colors, he spread the paint across the canvas.`,
+
+    `The resulting work became his first painting, The Crawl.`,
+
+    {
+      type: 'image',
+      src: liam9,
+      alt: 'Ghanaian child artist Ace-Liam Nana Sam Ankrah painting',
+    
+      caption:
+        'Ace-Liam Nana Sam Ankrah painting at an early age. Image via @ace_liam_paints on Instagram',
+    },
+
+    `Think about that for a moment.`,
+
+    `Six months old.`,
+
+    `There was no formal understanding of composition. No art history. No concern about whether the colors belonged together. No anxiety about whether somebody would understand the work.`,
+
+    `There was paint.`,
+
+    `There was a surface.`,
+
+    `And there was curiosity.`,
+
+    `By the time he was one year and 152 days old, Guinness World Records had recognized Ace-Liam with a record for his age as an artist.`,
+
+    `His debut came at the Soundout Premium Exhibition at Ghana’s Museum of Science and Technology, where nine of the ten works he exhibited sold within three days.`,
+
+    `His work would go on to appear in exhibitions and private collections, and he was later recognized among the young achievers featured by Guinness World Records.`,
+
+    `The record itself is extraordinary.`,
+
+      {
+      type: 'image',
+      src: liam11,
+      alt: 'Ghanaian child artist Ace-Liam Nana Sam Ankrah painting',
+    
+      caption:
+        'Image via Ace-Liam Nana Sam Ankrah’s official website, aceliam.com.',
+    },
+
+    `But for me, the more interesting part of Ace-Liam’s story is not how young he was when the world decided to call him an artist.`,
+
+    `It is that he was making art long before he could possibly understand what being an artist meant.`,
+
+    `He could paint before he could explain painting.`,
+
+    `And maybe that is the point.`,
+
+    `When an adult stands in front of a work and says, “A kid could do that,” the sentence is usually meant to diminish the work.`,
+
+    `But what if we have it backwards?`,
+
+    `What if the remarkable thing is that a kid could do it?`,
+
+    `A child has not yet accumulated all the reasons an adult gives for not making something.`,
+
+    `They have not decided that they cannot draw.`,
+
+    `They have not learned which colors supposedly clash.`,
+
+    `They are not embarrassed by the crooked line.`,
+
+    `They have not learned to look over their shoulder for approval before putting something onto the page.`,
+
+    `Ace-Liam’s paintings make that freedom literal.`,
+    
+      {
+      type: 'image',
+      src: liam2,
+      alt: 'Ghanaian child artist Ace-Liam Nana Sam Ankrah painting',
+    
+      caption:
+        'Whispers of Colour',
+    },
+
+    `His hands meet the paint before judgment does.`,
+
+    `And suddenly The Wa’s title, A Kid Could Do It, begins to sound different.`,
+
+    `A kid could do it.`,
+
+    `Perhaps the question is why so many of us eventually believe we cannot.`,
+
+    `Not because technique does not matter.`,
+
+    `Not because education has no value.`,
+
+    `Formal training can sharpen an artist’s eye, deepen their knowledge of history and give them tools they may never have discovered alone.`,
+
+    `But tools are different from permission.`,
+
+    `The problem begins when learning how something is traditionally done becomes a belief that it is the only way it can be done.`,
+
+    `Art has always made room for the crooked line, the strange proportion, the unexpected color and the thing that initially looks wrong.`,
+
+    `One person can walk past a painting and say, “My child could do that.”`,
+
+    `Another person can stand in front of the same painting for twenty minutes.`,
+
+    `Perhaps both responses tell us something about art.`,
+
+    `But I keep returning to the child.`,
+
+    `The child would probably just pick up the crayon.`,
+
+    `And draw.`,
+  ],
+
+images: [],
+youtube: "",
+audio: "",
+}
+
 }
