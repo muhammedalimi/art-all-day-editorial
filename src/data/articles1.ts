@@ -1769,7 +1769,7 @@ Still chasing the light through the old cigarette smoke.`,
 
   readTime: '8 min read',
 
-  publishedAt: '2026-09-24T12:00:00-06:00',
+  publishedAt: '2026-09-27T12:00:00-06:00',
 
   issueNumber: 6,
 
