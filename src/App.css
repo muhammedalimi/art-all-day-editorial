@@ -3882,3 +3882,39 @@ a {
   }
 }
 
+/* =========================================
+   NAVBAR ACTIONS
+   ========================================= */
+
+   .navActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navMemberButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 20px;
+
+  border: 1px solid #111;
+  border-radius: 999px;
+
+  color: #111;
+  background: transparent;
+
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.navMemberButton:hover {
+  background: #111;
+  color: #fff;
+}
