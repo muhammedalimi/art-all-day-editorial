@@ -201,7 +201,7 @@ function Navbar() {
       {/* =========================
           SUBMIT CTA
       ========================= */}
-
+{/* 
       <div className="navActions">
 
       <a
@@ -223,6 +223,38 @@ function Navbar() {
 
     </nav>
   )
+}
+
+export default Navbar */}
+
+{/* =========================
+    CTA
+========================= */}
+
+<div className="navActions">
+
+  <a
+    href="https://artalldaystudio.substack.com/subscribe"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="navMemberButton"
+  >
+    Become a Member
+  </a>
+
+  {/*
+  <Link
+    to="/submit"
+    className="navButton"
+  >
+    Submit Work
+  </Link>
+  */}
+
+</div>
+
+</nav>
+)
 }
 
 export default Navbar
