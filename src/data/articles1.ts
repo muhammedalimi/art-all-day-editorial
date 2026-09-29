@@ -58,8 +58,9 @@ import blu3 from '../assets/blu3.png'
 // import blu8 from '../assets/blu8.png'
 import blu9 from '../assets/blu9.png'
 // import blu10 from '../assets/blu10.png'
-import bluIntro from '../assets/blu-intro.mp3'
+import bluIntro from '../assets/blu-intro-mastered.mp3'
 import bekutiAudio from '../assets/bekuti-intro.mp3'
+
 
 
 // type BodyB
