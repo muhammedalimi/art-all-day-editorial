@@ -1,15 +1,15 @@
 
 
-import blu1 from '../assets/blu1.png'
-import blu2 from '../assets/blu2.png'
-import blu3 from '../assets/blu3.png'
+// import blu1 from '../assets/blu1.png'
+// import blu2 from '../assets/blu2.png'
+// import blu3 from '../assets/blu3.png'
 
 import ben1 from '../assets/benpro.png'
 import ben2 from '../assets/ben2.jpg'
 import ben3 from '../assets/ben3.jpg'
 import ben22 from '../assets/ben11.jpg'
 
-import luz1 from '../assets/Luz1.jpg'
+// import luz1 from '../assets/Luz1.jpg'
 
 import slawn4 from '../assets/slawnpro.png'
 import slawn5 from '../assets/slawn5.jpg'
@@ -17,7 +17,7 @@ import slawn6 from '../assets/slawn6.jpg'
 import slawn7 from '../assets/slawn7.jpg'
 
 import wangechi1 from '../assets/wangechi1.jpg'
-import sixsiblings from '../assets/sixsiblings.png'
+// import sixsiblings from '../assets/sixsiblings.png'
 
 import bekuti5 from '../assets/bekuti5.jpg'
 import bekuti6 from '../assets/bekuti6.jpg'
@@ -39,8 +39,11 @@ import sophia2 from '../assets/sophia2.jpg'
 // import sophia6 from '../assets/sophia6.jpg'
 // import sophia7 from '../assets/sophia7.jpg'
 import sophia10 from '../assets/sophia10.png'
-
-
+import blu7 from '../assets/blu7.png'
+import blu8 from '../assets/blu8.png'
+import blu9 from '../assets/blu9.png'
+import blu10 from '../assets/blu10.png'
+import blu2 from '../assets/blu2.png'
 
 
 // ======================================================
@@ -127,33 +130,33 @@ export const artists: Artist[] = [
   // BLU THE GENIUS
   // ====================================================
 
-  {
-    slug: 'blu-the-genius',
+  // {
+  //   slug: 'blu-the-genius',
 
-    name: 'BLU The Genius',
+  //   name: 'BLU The Genius',
 
-    issueNumber: 1,
+  //   issueNumber: 1,
 
-    heroImage: blu1,
+  //   heroImage: blu1,
 
-    images: [
-      blu1,
-      blu2,
-      blu3,
-    ],
+  //   images: [
+  //     blu1,
+  //     blu2,
+  //     blu3,
+  //   ],
 
-    disciplines: [
-      'Painting',
-    ],
+  //   disciplines: [
+  //     'Painting',
+  //   ],
 
-    themes: [
-      'Color',
-      'Emotion',
-      'Visibility',
-    ],
+  //   themes: [
+  //     'Color',
+  //     'Emotion',
+  //     'Visibility',
+  //   ],
 
-    status: 'archive',
-  },
+  //   status: 'archive',
+  // },
 
 
   // ====================================================
@@ -215,32 +218,32 @@ export const artists: Artist[] = [
   // LUZ CARABANO
   // ====================================================
 
-  {
-    slug: 'luz-carabano',
+  // {
+  //   slug: 'luz-carabano',
 
-    name: 'Luz Carabano',
+  //   name: 'Luz Carabano',
 
-    issueNumber: 1,
+  //   issueNumber: 1,
 
-    heroImage: luz1,
+  //   heroImage: luz1,
 
-    images: [
-      luz1,
-    ],
+  //   images: [
+  //     luz1,
+  //   ],
 
-    disciplines: [
-      'Painting',
-    ],
+  //   disciplines: [
+  //     'Painting',
+  //   ],
 
-    themes: [
-      'Intimacy',
-      'Color',
-      'Gesture',
-      'Emotion',
-    ],
+  //   themes: [
+  //     'Intimacy',
+  //     'Color',
+  //     'Gesture',
+  //     'Emotion',
+  //   ],
 
-    status: 'archive',
-  },
+  //   status: 'archive',
+  // },
 
 
   // ====================================================
@@ -345,34 +348,34 @@ export const artists: Artist[] = [
   // WOOLLY MO
   // ====================================================
 
-  {
-    slug: 'woolly-mo',
+  // {
+  //   slug: 'woolly-mo',
 
-    name: 'Woolly Mo',
+  //   name: 'Woolly Mo',
 
-    issueNumber: 2,
+  //   issueNumber: 2,
 
-    heroImage: sixsiblings,
+  //   heroImage: sixsiblings,
 
-    images: [
-      sixsiblings,
-    ],
+  //   images: [
+  //     sixsiblings,
+  //   ],
 
-    disciplines: [
-      'Music',
-      'Writing',
-      'Visual Storytelling',
-    ],
+  //   disciplines: [
+  //     'Music',
+  //     'Writing',
+  //     'Visual Storytelling',
+  //   ],
 
-    themes: [
-      'Family',
-      'Memory',
-      'Survival',
-      'Identity',
-    ],
+  //   themes: [
+  //     'Family',
+  //     'Memory',
+  //     'Survival',
+  //     'Identity',
+  //   ],
 
-    status: 'featured',
-  },
+  //   status: 'featured',
+  // },
 
 
   // ====================================================
@@ -572,5 +575,78 @@ export const artists: Artist[] = [
 
   website:
     'https://www.sophiaoshodinart.com',
+},
+
+{
+  slug: 'blu-the-genius',
+
+  name: 'BLU The Genius',
+
+  issueNumber: 7,
+
+  heroImage: blu7,
+
+  heroImageCaption:
+    'BLU The Genius. Artwork image via the artist.',
+
+  disciplines: [
+    'Painting',
+  ],
+
+  themes: [
+    'Emotion',
+    'Contradiction',
+    'Color',
+    'Inner Life',
+    'Identity',
+    'Vulnerability',
+  ],
+
+  images: [
+    {
+      src: blu8,
+      alt:
+        'Artwork by BLU The Genius',
+      caption:
+        '💙',
+    },
+
+    {
+      src: blu9,
+      alt:
+        'Painting by BLU The Genius exploring color and emotion',
+      caption:
+        'Woman With A Cane (2021)',
+    },
+
+    {
+      src: blu2,
+      alt:
+        'Artwork by BLU The Genius',
+      caption:
+        'LOST IN A BEAUTIFUL DREAM',
+    },
+
+    // {
+    //   src: blu8,
+    //   alt:
+    //     'Painting by BLU The Genius',
+    //   caption:
+    //     'BLU The Genius',
+    // },
+
+    {
+      src: blu10,
+      alt:
+        'Artwork by BLU The Genius',
+      caption:
+        'THE PERFECT FAMILY',
+    },
+  ],
+
+  status: 'featured',
+
+  bio:
+    'BLU The Genius is a contemporary painter whose work uses bold color, recurring characters, and emotionally charged imagery to explore what people carry beneath the surface. His paintings move between playfulness and heaviness, allowing seemingly opposing feelings to exist within the same image. In Issue 07 of Art All Day, “What We Carry Inside,” we look at how BLU uses color and character to give form to contradiction, vulnerability, and inner life.',
 },
 ]

@@ -48,9 +48,55 @@ import liam2 from '../assets/liam2.jpeg'
 import wa2 from '../assets/wa2.jpg'
 import wa3 from '../assets/wa3.jpg'
 import mo1 from '../assets/mo1.png'
+import blu1 from '../assets/blu1.png'
+import blu2 from '../assets/blu2.png'
+import blu3 from '../assets/blu3.png'
+// import blu4 from '../assets/blu4.png'
+// import blu5 from '../assets/blu5.png'
+// import blu6 from '../assets/blu6.png'
+// import blu7 from '../assets/blu7.png'
+// import blu8 from '../assets/blu8.png'
+import blu9 from '../assets/blu9.png'
+// import blu10 from '../assets/blu10.png'
+import bluIntro from '../assets/blu-intro.mp3'
+import bekutiAudio from '../assets/bekuti-intro.mp3'
 
 
-
+// type BodyB
+// lock =
+//   | string
+//   | {
+//       type: 'heading'
+//       text: string
+//     }
+//   | {
+//       type: 'image'
+//       src: string
+//       alt: string
+//       caption?: string
+//       title?: string
+//       details?: string
+//     }
+// type Article = {
+//   category: string
+//   title: string
+//   author: string
+//   readTime: string
+//   publishedAt: string
+//   issueNumber: number
+//   issue: string
+//   intro: string
+//   heroImage: string
+//   heroImageCaption?: string
+//   body: BodyBlock[]
+//   images: string[]
+//   youtube: string
+//   audio?: {
+//   src: string
+//   type: 'intro' | 'music'
+//   label?: string
+// }
+  
 type BodyBlock =
   | string
   | {
@@ -65,6 +111,8 @@ type BodyBlock =
       title?: string
       details?: string
     }
+
+
 type Article = {
   category: string
   title: string
@@ -79,18 +127,32 @@ type Article = {
   body: BodyBlock[]
   images: string[]
   youtube: string
-  audio: string
-  
 
-  // Connects this story to a Living Artist Profile
+  audio?:
+    | string
+    | {
+        src: string
+        type: 'intro' | 'music'
+        label?: string
+      }
+
   artistSlug?: string
 }
+
+  // Connects this story to a Living Artist Profile
+//   artistSlug?: string
+// }
 
 export const articles: Record<string, Article> = {
   // LEAD STORY
   'dear-god-what-remains-of-faith': {
     category: 'Criticism',
     title: 'Dear God: What Remains of Faith?',
+    //     audio: {
+    //   src: bluIntro,
+    //   type: 'intro',
+    //   label: 'Hear Mo Introduce This Story',
+    // },
     author: 'Mo Alimi',
     readTime: '9 min read',
     publishedAt: '2026-09-10T12:00:00-06:00',
@@ -361,13 +423,17 @@ export const articles: Record<string, Article> = {
 
     images: [],
     youtube: '',
-    audio: '',
+ 
   },
 
     // STUDIO NOTES — ISSUE 02
   'six-siblings': {
     category: 'studio notes',
     title: 'Six Siblings ',
+      audio: {
+        src: sixsiblingsAudio,
+        type: 'music',
+      },
     author: ' Woolly Mo',
     readTime: 'Listen + Lyrics',
     publishedAt: '2026-09-10T12:00:00-06:00',
@@ -536,12 +602,18 @@ Still chasing the light through the old cigarette smoke.`,
 
     images: [],
     youtube: '',
-    audio: sixsiblingsAudio,
+
   },
+
 'living-dangerously': {
   category: 'Street to Studio',
 
   title: 'Living Dangerously',
+    // audio: {
+    //   src: bluIntro,
+    //   type: 'intro',
+    //   label: 'Hear Mo Introduce This Story',
+    // },
 
   author: 'Mo Alimi',
 
@@ -978,7 +1050,6 @@ Still chasing the light through the old cigarette smoke.`,
 
   youtube: '',
 
-  audio: '',
 },
 
 
@@ -986,6 +1057,11 @@ Still chasing the light through the old cigarette smoke.`,
   category: 'quiet reflection',
 
   title: 'When Peace Has a History',
+    audio: {
+      src: bekutiAudio,
+      type: 'intro',
+      label: 'Hear Mo Introduce This Story',
+    },
 
   author: 'Mo Alimi',
 
@@ -1218,7 +1294,7 @@ Still chasing the light through the old cigarette smoke.`,
 
   youtube: '',
 
-  audio: '',
+
 },
 
 
@@ -1226,6 +1302,11 @@ Still chasing the light through the old cigarette smoke.`,
   category: 'Criticism',
 
   title: 'The Good Old Days',
+    // audio: {
+    //   src: bluIntro,
+    //   type: 'intro',
+    //   label: 'Hear Mo Introduce This Story',
+    // },
 
   author: 'Mo Alimi',
 
@@ -1497,7 +1578,6 @@ Still chasing the light through the old cigarette smoke.`,
 
   youtube: '',
 
-  audio: '',
 },
 
 
@@ -1505,6 +1585,11 @@ Still chasing the light through the old cigarette smoke.`,
   category: 'The Inner Image',
 
   title: 'Pleasure Without Performance',
+    // audio: {
+    //   src: bluIntro,
+    //   type: 'intro',
+    //   label: 'Hear Mo Introduce This Story',
+    // },
 
   author: 'Mo Alimi',
 
@@ -1757,13 +1842,18 @@ Still chasing the light through the old cigarette smoke.`,
 
   youtube: '',
 
-  audio: '',
+ 
 },
 
 'kids-are-born-painters': {
   category: 'Essay',
 
   title: 'Kids Are Born Painters',
+    // audio: {
+    //   src: bluIntro,
+    //   type: 'intro',
+    //   label: 'Hear Mo Introduce This Story',
+    // },
 
   author: 'Mo Alimi',
 
@@ -2051,7 +2141,483 @@ Still chasing the light through the old cigarette smoke.`,
 
 images: [],
 youtube: "",
-audio: "",
-}
+
+},
+
+
+
+
+'What We Carry Inside': {
+  category: 'Essay',
+
+  title: 'What We Carry Inside',
+  audio: {
+  src: bluIntro,
+  type: 'intro',
+  label: 'Before You Read',
+},
+
+
+  author: 'Mo Alimi',
+
+  readTime: '9 min read',
+
+  publishedAt: '2026-09-28T12:00:00-06:00',
+
+  issueNumber: 7,
+
+  issue: 'Issue 07',
+intro:
+    'Before BLU became a language of blue figures, dark eyes, and interior worlds, I knew him as a teenager in Debrecen, Hungary.',
+
+  heroImage: blu9,
+
+  heroImageCaption:
+    'Woman With A Cane” ( 2021 )',
+
+  body: [
+    'BLU hails from Benin City, Nigeria, a place known for its deep artistic heritage. He moved to Debrecen, Hungary at a young age to study electrical engineering at University of Debrecen(Debreceni Egyetem).',
+
+    'We became friends quickly.',
+
+    'We were both young Nigerians trying to understand Europe, its social codes, its institutions, and the power structures that came with moving through a place that was not originally ours. There were difficult moments, but there was also freedom in those years. Looking back, it is an experience we both still cherish.',
+
+    'Art was one of the things that made those years easier to understand.',
+
+    'We spent endless hours picking beats, talking about music, trying to express ideas, and finding different ways to turn whatever we were experiencing into something creative. Sometimes there was no finished song or grand idea at the end of it. We were simply young people trying to make sense of ourselves.',
+
+    'Years later, when I look at BLU’s paintings, I sometimes feel as though those conversations never completely disappeared.',
+
+    'They simply changed form.',
+
+    'His work is bright, immediately recognizable, and filled with characters that can seem playful at first. Electric blue sits beside orange, yellow, red, green, and purple. The figures have oversized heads, dark circular eyes, simplified bodies, and an almost childlike softness.',
+
+    'You can look at them quickly and enjoy the color.',
+
+    'But I do not think they are paintings that should be looked at quickly.',
+
+    'Stay with them long enough and something else begins to emerge.',
+
+    'The figures can feel quiet even when the paintings are loud. They can appear surrounded and still somehow alone. Their faces rarely tell you exactly what they are feeling, yet you sense that something is happening underneath.',
+
+    'That tension feels familiar to me.',
+
+    'During BLU’s early years in America, I remember him telling me about experiencing anxiety at a social gathering.',
+
+    'It was not some dramatic confession. It was just a conversation between friends.',
+
+    'But I remembered it.',
+
+    'And later, looking through his work, I began noticing small traces of that emotional sensitivity everywhere.',
+
+    'Not because I believe every painting is secretly about anxiety.',
+
+    'That would be too easy.',
+
+    'What interests me is something broader: BLU seems deeply interested in the distance between what a person looks like from the outside and what they may be carrying internally.',
+
+    {
+      type: 'heading',
+      text: 'BLU',
+    },
+
+    'Blue is a color.',
+
+    'But it is also one of the words we have given to feeling.',
+
+    'We say someone feels blue. The color can suggest sadness, quiet, distance, melancholy, calm, depth, even spirituality.',
+
+    'I do not know whether any of that explains why he chose the name BLU, and I would not want to invent an explanation for him.',
+
+    'But knowing him has made it difficult for me to see the name as merely branding.',
+
+    'It feels emotional.',
+
+    'And once you begin looking at the paintings through that possibility, the blue figure starts to become more than a recurring character.',
+
+    'Sometimes it feels like an emotional body.',
+
+    'A place where something internal has been given a physical form.',
+
+    {
+      type: 'heading',
+      text: 'Lost in a Beautiful Dream',
+    },
+
+    'One painting made me think about this more deeply than most.',
+
+    'BLU calls it Lost in a Beautiful Dream.',
+
+    {
+      type: 'image',
+      src: blu2,
+      alt: 'Lost in a Beautiful Dream by BLU The Genius',
+      title: 'Lost in a Beautiful Dream',
+      // caption: 'BLU The Genius',
+    },
+
+    'A young girl stands against an intense orange-red background. She wears yellow. Flowers rise from the ground around her feet. The entire painting feels alive with color.',
+
+    'But under one arm, she carries a smaller BLU figure.',
+
+    'That is the detail I keep returning to.',
+
+    'She does not appear to cradle it carefully.',
+
+    'Her arm closes around it firmly, almost possessively, pressing the smaller figure against her body.',
+
+    'It looks less like the casual way a child might carry a toy and more like the way someone holds onto something they are not prepared to lose.',
+
+    'That distinction changes the painting for me.',
+
+    'Maybe it is simply a doll.',
+
+    'But the longer I look at it, the less interested I become in whether the object is literally a toy.',
+
+    'I am interested in the grip.',
+
+    'She is holding on.',
+
+    'People do that emotionally all the time.',
+
+    'We hold onto memories. We hold onto people. We hold onto fear. We hold onto younger versions of ourselves. We hold onto dreams that have not happened yet.',
+
+    'Sometimes we carry these things so closely that they begin to feel inseparable from who we are.',
+
+    'The smaller BLU figure even resembles the person carrying it.',
+
+    'That opens another possibility.',
+
+    'Perhaps she is not carrying somebody else at all.',
+
+    'Perhaps she is carrying some smaller version of herself.',
+
+    'That thought takes me back to the conversation about anxiety.',
+
+    'Someone can walk into a room full of people and still be carrying an entirely separate world inside.',
+
+    'From the outside, there is simply a person attending a social gathering.',
+
+    'Inside, there may be discomfort, noise, insecurity, pressure, memory, or the sudden desire to disappear.',
+
+    'You can be physically present while emotionally somewhere else.',
+
+    'Maybe that is what makes the title Lost in a Beautiful Dream so compelling.',
+
+    'There is beauty.',
+
+    'There is dreaming.',
+
+    'And there is still the possibility of being lost.',
+
+    {
+      type: 'heading',
+      text: 'The Perfect Family',
+    },
+
+    'There is another painting by BLU that complicates the idea of what a family is supposed to look like.',
+
+    'He calls it The Perfect Family.',
+
+    {
+      type: 'image',
+      src: blu1,
+      alt: 'The Perfect Family by BLU The Genius',
+      title: 'The Perfect Family',
+      // caption: 'BLU The Genius',
+    },
+
+    'At the center stands a mother, surrounded by children. She is considerably larger than everyone around her, almost architectural in the way she holds the composition together. The children gather around her body as though she is not simply another member of the family but its structure.',
+
+    'Behind them, however, another figure appears.',
+
+    'It is much darker, almost swallowed by the purple background. Its features are familiar — the same circular eyes, the same simplified BLU form — but unlike the rest of the family, it does not fully occupy the foreground.',
+
+    'It watches.',
+
+    'Knowing that BLU grew up with a single mother makes the painting difficult for me to see in conventional terms.',
+
+    'The mother appears to occupy both maternal and paternal space. She is the visible authority, protector and physical center of the household.',
+
+    'And yet the shadowed figure behind the family creates another possibility.',
+
+    'I read it almost spiritually.',
+
+    'Not necessarily as an absent father in the literal sense, but as the idea that family can contain people who are no longer physically standing beside us. Ancestors, memories, inherited presence — those who remain part of a family even when they exist somewhere beyond the visible world.',
+
+    'That makes the title The Perfect Family especially important.',
+
+    'BLU does not seem to define perfection through the conventional picture of mother, father and children standing neatly together.',
+
+    'His perfect family is already complete.',
+
+    'The mother is there.',
+
+    'The children are there.',
+
+    'And behind them, perhaps, are the people and histories that helped make them who they are.',
+
+    'Perfection here is not symmetry.',
+
+    'It is belonging.',
+
+    {
+      type: 'heading',
+      text: 'The Invisible Things',
+    },
+
+    'That sense of belonging — of carrying people, memories, and emotions even when they are not physically present — begins to feel like a thread running through BLU’s work.',
+
+    'In Lost in a Beautiful Dream, the smaller figure is held tightly against the body.',
+
+    'In The Perfect Family, another figure exists quietly in the background.',
+
+    'One is carried.',
+
+    'The other watches.',
+
+    'Both are present without demanding the center of the painting.',
+
+    'That interests me because so much of emotional life works the same way. The things that shape us are not always the things other people can immediately see.',
+
+    'We carry our childhood.',
+
+    'We carry our families.',
+
+    'We carry the people who raised us.',
+
+    'We carry the places we have left.',
+
+    'We carry old fears into new rooms.',
+
+    'Sometimes we even carry versions of ourselves that no longer fully exist.',
+
+    'BLU seems to understand that people are rarely only what is visible in front of you.',
+
+    'Perhaps that is why his characters can look so simple while feeling emotionally complicated.',
+
+    'The circular eyes rarely tell us exactly what is happening. They do not smile for reassurance. They do not cry to announce sadness. They simply look.',
+
+    'And in that lack of explanation, the viewer is forced to stay a little longer.',
+
+    'You begin wondering what sits behind the expression.',
+
+    {
+      type: 'heading',
+      text: 'Budapest',
+    },
+
+    'I think back to Budapest.',
+
+    'Before the paintings, before the recurring blue characters, there were two young Nigerians far from home, trying to understand a new continent and ourselves inside it.',
+
+    'We spent hours picking beats, talking about art, music, ideas, and whatever else young people talk about when they are still becoming who they will eventually be.',
+
+    'Neither of us could have fully understood then what migration, friendship, family, anxiety, ambition, or distance would eventually mean to us.',
+
+    'You understand some experiences only after you have left them.',
+
+    'And perhaps art is one of the places those experiences return.',
+
+    {
+      type: 'heading',
+      text: 'Feeling in Color',
+    },
+
+    'What makes BLU’s emotional language particularly interesting is that none of it arrives quietly.',
+
+    'The paintings are alive with color.',
+
+    'Blue dominates, but it is constantly pushed against yellow, orange, red, green, and purple.',
+
+    'There is almost a contradiction between what the paintings look like and what they can make you feel.',
+
+    'We often give difficult emotions dark colors.',
+
+    'Sadness becomes grey.',
+
+    'Fear becomes black.',
+
+    'Loneliness becomes an empty room.',
+
+    'BLU does not seem interested in that visual shorthand.',
+
+    'His difficult feelings can exist beneath an orange sky.',
+
+    'A family can carry absence while surrounded by purple.',
+
+    'A figure can appear lost while standing inside something beautiful.',
+
+    'That feels closer to real life.',
+
+    'A beautiful day does not prevent anxiety.',
+
+    'A loving family does not mean nobody is missing.',
+
+    'Success does not erase insecurity.',
+
+    'Moving somewhere new can be exciting and isolating at the same time.',
+
+    'Human beings are capable of holding opposing feelings together.',
+
+    'BLU paints as though color can hold those contradictions too.',
+
+    //     {
+    //   type: 'heading',
+    //   text: 'Timelines',
+    // },
+
+    // 'Earlier today, BLU and I got on a call.',
+
+    // 'We spoke about timelines, numbers, combinations, permutations — all the different ways a life can come together.',
+
+    // 'At one point, he said something that stayed with me: do not spend your time simply asking for money. Ask for the wisdom to recognize the right timeline, and the wisdom to place yourself inside it.',
+
+    // 'I understood what he meant.',
+
+    // 'Roll the dice.',
+
+    // 'Try different things.',
+
+    // 'Change the combination.',
+
+    // 'Move the pieces around.',
+
+    // 'There is rarely only one permutation through which a life can work.',
+
+    // 'The opportunity might come through art. Through engineering. Through a friendship. Through moving countries. Through a conversation you did not expect to have. Through something you tried almost accidentally and decided to keep pursuing.',
+
+    // 'You cannot always know beforehand which combination will open the next door.',
+
+    // 'Maybe the point is not to become obsessed with predicting the exact route.',
+
+    // 'Maybe you keep moving with enough curiosity and enough wisdom to recognize the moment when your timeline changes.',
+
+    // 'BLU and I met years ago as two Nigerian students in Europe, picking beats and trying to understand ourselves. Neither of us could have calculated where those conversations would eventually lead.',
+
+    // 'And yet here we are, years later, still talking about art, possibility, numbers, ideas, and what comes next.',
+
+    // 'There is something beautiful about that.',
+
+    // 'Keep trying the combinations. Keep rolling the dice. Keep making things.',
+
+    // 'Life has more than one way of arriving.',
+
+    // 'And perhaps, when you remain open enough to its possibilities, it begins to arrive in abundance.',
+
+    {
+  type: 'heading',
+  text: 'Timelines',
+},
+
+'Earlier today, BLU and I got on a call.',
+
+'We spoke about timelines, numbers, combinations, permutations — all the different ways a life can come together.',
+
+'At one point, he said something that stayed with me: do not spend your time simply asking for money. Ask for the wisdom to recognize the right timeline, and the wisdom to place yourself inside it.',
+
+'Then he said something else:',
+  '“Even Jesus sef almost break character.”',
+
+'I understood the point less as theology and more as a reminder that pressure can reach anyone.',
+
+'Even the person trying to stay disciplined, faithful to a path, or committed to who they believe they are can reach a moment where the weight of things becomes difficult to carry.',
+
+'So maybe wisdom is not about never bending.',
+
+'Maybe it is about knowing who you are well enough to return to yourself.',
+
+'Roll the dice.',
+
+'Try different things.',
+
+'Change the combination.',
+
+'Move the pieces around.',
+
+'There is rarely only one permutation through which a life can work.',
+
+'The opportunity might come through art. Through engineering. Through a friendship. Through moving countries. Through a conversation you did not expect to have.',
+
+'You cannot always know beforehand which combination will open the next door.',
+
+'Maybe the point is not to become obsessed with predicting the exact route.',
+
+'Maybe you keep moving with enough curiosity and enough wisdom to recognize the moment when your timeline changes.',
+
+'Keep trying the combinations. Keep rolling the dice. Keep making things.',
+
+'Life has more than one way of arriving.',
+
+'And perhaps, when you remain open enough to its possibilities, it begins to arrive in abundance.',
+
+    {
+      type: 'heading',
+      text: 'What We Carry Inside',
+    },
+
+    'The longer I look at BLU’s work, the less I think the blue character is simply a signature.',
+
+    'For me, it has started to feel like a container.',
+
+    'Something capable of holding whatever cannot easily be explained.',
+
+    'Anxiety.',
+
+    'Memory.',
+
+    'Family.',
+
+    'Protection.',
+
+    'Absence.',
+
+    'Belonging.',
+
+    'Perhaps even the younger self.',
+
+    'That does not mean every blue figure represents the same thing. Part of the strength of the character is that it does not have to.',
+
+    'It can change depending on the painting.',
+
+    'And depending on who is looking.',
+
+    'That is why I return again to the name.',
+
+    'BLU.',
+
+    'Blue is a color.',
+
+    'But it is also one of the words we have given to feeling.',
+
+    'I do not know whether BLU chose the name for that reason.',
+
+    'Maybe he did.',
+
+    'Maybe he did not.',
+
+    'But after knowing him across different places and different stages of life, and after spending time with these paintings, it has become difficult for me to separate the color from the emotional world he has built around it.',
+
+    'Perhaps that is what stays with me most.',
+
+    'BLU’s paintings remind me that what makes a person whole is not always visible.',
+
+    'Sometimes it is the memory standing behind us.',
+
+    'Sometimes it is the smaller version of ourselves we are still holding onto.',
+
+    'Sometimes it is the family that does not look the way the world expects it to look.',
+
+    'And sometimes it is simply a feeling we have carried for so long that, eventually, we have to give it a color.',
+  ],
+
+  images: [blu1, blu2, blu3],
+
+  youtube: '',
+
+  
+
+  artistSlug: 'blu-the-genius',
+},
 
 }

@@ -231,6 +231,31 @@ export const issues: Issue[] = [
     'Issue 06 asks what happens to creativity when learning structure slowly becomes learning restraint.',
   ],
 },
+
+{
+  slug: 'issue-07',
+
+  issueNumber: 7,
+  number: 'Issue 07',
+
+  title: 'What We Carry Inside',
+
+  headline:
+    'BLU The Genius paints the invisible things we carry — memory, anxiety, family, absence, and belonging.',
+
+  date: 'September 2026',
+
+  status: 'Coming Next',
+
+  description:
+    'Issue 07 looks closely at the emotional world of BLU The Genius, from his recurring blue figures to the personal histories that sit quietly behind them. Through works including Lost in a Beautiful Dream and The Perfect Family, the issue considers how memory, family, anxiety, migration, and belonging can remain present even when they are not immediately visible.',
+
+  openingStatement: [
+    'Some of the most important things we carry cannot be seen.',
+    'They live in memory, family, fear, absence, and the versions of ourselves we refuse to leave behind.',
+    'In the work of BLU The Genius, those invisible things are given color, bodies, and somewhere to exist.',
+  ],
+},
 ]
 
 export const currentIssue =

@@ -1,4 +1,5 @@
 
+
 import {
   Fragment,
   useEffect,
@@ -16,6 +17,7 @@ import {
 
 import { articles } from '../data/articles1'
 import { issues } from '../data/issues'
+
 import {
   formatArticleDate,
 } from '../utils/date'
@@ -40,14 +42,19 @@ import '../styles/StudioHoursArticlePage.css'
 
 
 function StudioHoursArticlePage() {
+
   const { slug } = useParams()
+
   const navigate = useNavigate()
+
 
   const articleBodyRef =
     useRef<HTMLElement | null>(null)
 
+
   const hasTracked50 =
     useRef(false)
+
 
   const hasTracked90 =
     useRef(false)
@@ -64,11 +71,14 @@ function StudioHoursArticlePage() {
   // =========================================
 
   useEffect(() => {
+
     if (!article || !slug) return
+
 
     trackPageView(
       `${article.title} | Art All Day`
     )
+
 
     trackArticleView({
       articleSlug: slug,
@@ -77,6 +87,7 @@ function StudioHoursArticlePage() {
       issueNumber: article.issueNumber,
       artistSlug: article.artistSlug,
     })
+
   }, [article, slug])
 
 
@@ -85,31 +96,44 @@ function StudioHoursArticlePage() {
   // =========================================
 
   useEffect(() => {
+
     if (!article || !slug) return
 
+
     hasTracked50.current = false
+
     hasTracked90.current = false
 
+
     const handleScroll = () => {
+
       const articleBody =
         articleBodyRef.current
 
+
       if (!articleBody) return
+
 
       const articleTop =
         articleBody.offsetTop
 
+
       const articleHeight =
         articleBody.offsetHeight
 
+
       if (articleHeight <= 0) return
+
 
       const viewportBottom =
         window.scrollY +
         window.innerHeight
 
+
       const distanceThroughArticle =
-        viewportBottom - articleTop
+        viewportBottom -
+        articleTop
+
 
       const progress =
         Math.max(
@@ -132,7 +156,10 @@ function StudioHoursArticlePage() {
         progress >= 50 &&
         !hasTracked50.current
       ) {
-        hasTracked50.current = true
+
+        hasTracked50.current =
+          true
+
 
         trackArticleRead50({
           articleSlug: slug,
@@ -141,6 +168,7 @@ function StudioHoursArticlePage() {
           issueNumber: article.issueNumber,
           artistSlug: article.artistSlug,
         })
+
       }
 
 
@@ -152,7 +180,10 @@ function StudioHoursArticlePage() {
         progress >= 90 &&
         !hasTracked90.current
       ) {
-        hasTracked90.current = true
+
+        hasTracked90.current =
+          true
+
 
         trackArticleRead90({
           articleSlug: slug,
@@ -161,34 +192,45 @@ function StudioHoursArticlePage() {
           issueNumber: article.issueNumber,
           artistSlug: article.artistSlug,
         })
+
       }
+
     }
 
 
     window.addEventListener(
       'scroll',
       handleScroll,
-      { passive: true }
+      {
+        passive: true,
+      }
     )
+
 
     window.addEventListener(
       'resize',
       handleScroll
     )
 
+
     handleScroll()
 
+
     return () => {
+
       window.removeEventListener(
         'scroll',
         handleScroll
       )
 
+
       window.removeEventListener(
         'resize',
         handleScroll
       )
+
     }
+
   }, [article, slug])
 
 
@@ -197,7 +239,9 @@ function StudioHoursArticlePage() {
   // =========================================
 
   if (!article) {
+
     return (
+
       <main className="studioArticlePage">
 
         <Link
@@ -212,7 +256,9 @@ function StudioHoursArticlePage() {
         </h1>
 
       </main>
+
     )
+
   }
 
 
@@ -220,11 +266,60 @@ function StudioHoursArticlePage() {
   // CURRENT ARTICLE ISSUE
   // =========================================
 
-  const issue = issues.find(
-    (item) =>
-      item.issueNumber ===
-      article.issueNumber
-  )
+  const issue =
+    issues.find(
+      (item) =>
+        item.issueNumber ===
+        article.issueNumber
+    )
+
+
+  // =========================================
+  // NORMALIZE AUDIO
+  //
+  // Supports:
+  // audio: sixsiblingsAudio
+  //
+  // AND:
+  //
+  // audio: {
+  //   src: bluIntro,
+  //   type: 'intro'
+  // }
+  // =========================================
+
+  const audioConfig =
+    typeof article.audio === 'string'
+
+      ? article.audio
+
+        ? {
+            src: article.audio,
+            type: 'music' as const,
+          }
+
+        : undefined
+
+      : article.audio
+
+
+  const isEditorIntro =
+    audioConfig?.type === 'intro'
+
+
+  const isMusicFeature =
+    audioConfig?.type === 'music'
+
+
+  // =========================================
+  // SIX SIBLINGS
+  //
+  // Only this article should receive
+  // lyrics heading + lyrics styling.
+  // =========================================
+
+  const isSixSiblings =
+    slug === 'six-siblings'
 
 
   // =========================================
@@ -233,22 +328,31 @@ function StudioHoursArticlePage() {
 
   const bodyText =
     article.body
+
       .map((block) => {
 
         if (
           typeof block === 'string'
         ) {
+
           return block
+
         }
+
 
         if (
           block.type === 'heading'
         ) {
+
           return block.text
+
         }
 
+
         return ''
+
       })
+
       .filter(Boolean)
 
 
@@ -265,7 +369,8 @@ function StudioHoursArticlePage() {
 
   const subscribePromptIndex =
     Math.floor(
-      article.body.length * 0.6
+      article.body.length *
+      0.6
     )
 
 
@@ -275,10 +380,12 @@ function StudioHoursArticlePage() {
 
   const moreArticles =
     Object.entries(articles)
+
       .filter(
         ([articleSlug]) =>
           articleSlug !== slug
       )
+
       .sort(
         (
           [, articleA],
@@ -287,10 +394,12 @@ function StudioHoursArticlePage() {
           articleB.issueNumber -
           articleA.issueNumber
       )
+
       .slice(0, 7)
 
 
   return (
+
     <main className="studioArticle">
 
       <ReadingProgress />
@@ -323,7 +432,7 @@ function StudioHoursArticlePage() {
         </h1>
 
 
-        {/* <div className="studioArticleInfo">
+        <div className="studioArticleInfo">
 
           <span>
             {issue?.number ||
@@ -331,43 +440,33 @@ function StudioHoursArticlePage() {
               'Issue'}
           </span>
 
+
           <span>
             {article.author ||
               'Art All Day'}
           </span>
 
+
+          {article.publishedAt && (
+
+            <time
+              dateTime={
+                article.publishedAt
+              }
+            >
+              {formatArticleDate(
+                article.publishedAt
+              )}
+            </time>
+
+          )}
+
+
           <span>
             {article.readTime}
           </span>
 
-        </div> */}
-
-        <div className="studioArticleInfo">
-
-        <span>
-          {issue?.number ||
-            article.issue ||
-            'Issue'}
-        </span>
-
-        <span>
-          {article.author ||
-            'Art All Day'}
-        </span>
-
-        {article.publishedAt && (
-          <time dateTime={article.publishedAt}>
-            {formatArticleDate(
-              article.publishedAt
-            )}
-          </time>
-        )}
-
-        <span>
-          {article.readTime}
-        </span>
-
-      </div>
+        </div>
 
       </section>
 
@@ -377,6 +476,7 @@ function StudioHoursArticlePage() {
           ===================================== */}
 
       {article.heroImage && (
+
         <figure className="studioArticleHero">
 
           <img
@@ -384,58 +484,18 @@ function StudioHoursArticlePage() {
             alt={article.title}
           />
 
+
           {article.heroImageCaption && (
-            <figcaption className="studioArticleHeroCaption">
+
+            <figcaption
+              className="studioArticleHeroCaption"
+            >
               {article.heroImageCaption}
             </figcaption>
+
           )}
 
         </figure>
-      )}
-
-
-      {/* =====================================
-          MUSIC PLAYER
-          ===================================== */}
-
-      {article.audio && (
-
-        <section className="studioAudioFeature">
-
-          <div className="studioAudioHeader">
-
-            <p className="studioAudioLabel">
-              Art All Day / Studio Notes
-            </p>
-
-
-            <h2>
-              {article.title}
-            </h2>
-
-
-            <p className="studioAudioMeta">
-              {article.author}
-              {' · '}
-              Unreleased
-              {' · '}
-              2026
-            </p>
-
-          </div>
-
-
-          <audio
-            className="studioAudioPlayer"
-            controls
-            preload="metadata"
-            src={article.audio}
-          >
-            Your browser does not support
-            the audio element.
-          </audio>
-
-        </section>
 
       )}
 
@@ -449,28 +509,171 @@ function StudioHoursArticlePage() {
         className="studioArticleBody"
       >
 
-        <ListenButton
-          text={articleText}
-          title={article.title}
-          articleSlug={slug}
-          artistSlug={article.artistSlug}
-        />
 
+        {/* =====================================
+            EDITOR AUDIO INTRO
+
+            BLU / future editor intros
+            ===================================== */}
+
+        {audioConfig &&
+          isEditorIntro && (
+
+          <section
+            className="studioAudioFeature"
+          >
+
+            <div
+              className="studioAudioHeader"
+            >
+
+              <p
+                className="studioAudioLabel"
+              >
+                Art All Day / From the Editor
+              </p>
+
+
+              <h2>
+
+                {audioConfig.label ??
+                  'Hear Mo Introduce This Story'}
+
+              </h2>
+
+
+              <p
+                className="studioAudioMeta"
+              >
+                Mo Alimi
+                {' · '}
+                Editor’s Note
+                {' · '}
+                2026
+              </p>
+
+            </div>
+
+
+            <audio
+              className="studioAudioPlayer"
+              controls
+              preload="metadata"
+              src={audioConfig.src}
+            >
+              Your browser does not
+              support the audio element.
+            </audio>
+
+          </section>
+
+        )}
+
+
+        {/* =====================================
+            NORMAL LISTEN BUTTON
+
+            Hide this when there is already
+            a recorded editor intro.
+            ===================================== */}
+
+        {!isEditorIntro && (
+
+          <ListenButton
+            text={articleText}
+            title={article.title}
+            articleSlug={slug}
+            artistSlug={article.artistSlug}
+          />
+
+        )}
+
+
+        {/* =====================================
+            ARTICLE INTRO
+            ===================================== */}
 
         <p className="studioArticleIntro">
           {article.intro}
         </p>
 
 
-        {/* ONLY SHOW THIS FOR MUSIC FEATURES */}
+        {/* =====================================
+            MUSIC PLAYER
 
-        {article.audio && (
+            Can be used for Six Siblings
+            or future music features.
+            ===================================== */}
 
-          <div className="studioLyricsHeading">
+        {audioConfig &&
+          isMusicFeature && (
 
-            <p className="studioSectionLabel">
+          <section
+            className="studioAudioFeature"
+          >
+
+            <div
+              className="studioAudioHeader"
+            >
+
+              <p
+                className="studioAudioLabel"
+              >
+                Art All Day / Studio Notes
+              </p>
+
+
+              <h2>
+                {article.title}
+              </h2>
+
+
+              <p
+                className="studioAudioMeta"
+              >
+                {article.author}
+                {' · '}
+                Unreleased
+                {' · '}
+                2026
+              </p>
+
+            </div>
+
+
+            <audio
+              className="studioAudioPlayer"
+              controls
+              preload="metadata"
+              src={audioConfig.src}
+            >
+              Your browser does not
+              support the audio element.
+            </audio>
+
+          </section>
+
+        )}
+
+
+        {/* =====================================
+            LYRICS
+
+            ONLY SIX SIBLINGS
+            ===================================== */}
+
+        {isSixSiblings && (
+
+          <div
+            className="studioLyricsHeading"
+          >
+
+            <p
+              className="studioSectionLabel"
+            >
               Words
             </p>
+
 
             <h2>
               Lyrics
@@ -481,25 +684,41 @@ function StudioHoursArticlePage() {
         )}
 
 
+        {/* =====================================
+            ARTICLE BODY
+            ===================================== */}
+
         <div
           className={
-            article.audio
+            isSixSiblings
+
               ? 'studioArticleText studioLyrics'
+
               : 'studioArticleText'
           }
         >
 
+
           {article.body.map(
-            (block, index) => {
+            (
+              block,
+              index
+            ) => {
+
 
               const showSubscribePrompt =
-                !article.audio &&
+
+                !isSixSiblings &&
+
                 index ===
-                  subscribePromptIndex
+                subscribePromptIndex
 
 
               return (
-                <Fragment key={index}>
+
+                <Fragment
+                  key={index}
+                >
 
 
                   {/* =============================
@@ -511,8 +730,10 @@ function StudioHoursArticlePage() {
 
                     <p
                       className={
-                        article.audio
+                        isSixSiblings
+
                           ? 'studioLyricsBlock'
+
                           : undefined
                       }
                     >
@@ -528,16 +749,17 @@ function StudioHoursArticlePage() {
 
                   {typeof block !==
                     'string' &&
+
                     block.type ===
                     'heading' && (
 
-                      <h2
-                        className="studioArticleSectionTitle"
-                      >
-                        {block.text}
-                      </h2>
+                    <h2
+                      className="studioArticleSectionTitle"
+                    >
+                      {block.text}
+                    </h2>
 
-                    )}
+                  )}
 
 
                   {/* =============================
@@ -546,54 +768,69 @@ function StudioHoursArticlePage() {
 
                   {typeof block !==
                     'string' &&
+
                     block.type ===
                     'image' && (
 
-                      <figure
-                        className="studioArticleArtwork"
-                      >
+                    <figure
+                      className="studioArticleArtwork"
+                    >
 
-                        <img
-                          src={block.src}
-                          alt={block.alt}
-                        />
-
-
-                        {(
-                          block.title ||
-                          block.details ||
-                          block.caption
-                        ) && (
-
-                          <figcaption>
-
-                            {block.title && (
-                              <div className="artworkTitle">
-                                {block.title}
-                              </div>
-                            )}
+                      <img
+                        src={block.src}
+                        alt={block.alt}
+                      />
 
 
-                            {block.details && (
-                              <div className="artworkDetails">
-                                {block.details}
-                              </div>
-                            )}
+                      {(
+                        block.title ||
+                        block.details ||
+                        block.caption
+                      ) && (
+
+                        <figcaption>
 
 
-                            {block.caption && (
-                              <div className="artworkCaption">
-                                {block.caption}
-                              </div>
-                            )}
+                          {block.title && (
 
-                          </figcaption>
+                            <div
+                              className="artworkTitle"
+                            >
+                              {block.title}
+                            </div>
 
-                        )}
+                          )}
 
-                      </figure>
 
-                    )}
+                          {block.details && (
+
+                            <div
+                              className="artworkDetails"
+                            >
+                              {block.details}
+                            </div>
+
+                          )}
+
+
+                          {block.caption && (
+
+                            <div
+                              className="artworkCaption"
+                            >
+                              {block.caption}
+                            </div>
+
+                          )}
+
+
+                        </figcaption>
+
+                      )}
+
+                    </figure>
+
+                  )}
 
 
                   {/* =============================
@@ -610,10 +847,14 @@ function StudioHoursArticlePage() {
 
                   )}
 
+
                 </Fragment>
+
               )
+
             }
           )}
+
 
         </div>
 
@@ -634,11 +875,19 @@ function StudioHoursArticlePage() {
         <div className="studioArticleGrid">
 
           {moreArticles.map(
-            ([articleSlug, item]) => {
+            (
+              [
+                articleSlug,
+                item,
+              ]
+            ) => {
+
 
               const itemIssue =
                 issues.find(
-                  (issueItem) =>
+                  (
+                    issueItem
+                  ) =>
                     issueItem.issueNumber ===
                     item.issueNumber
                 )
@@ -673,6 +922,7 @@ function StudioHoursArticlePage() {
                 </Link>
 
               )
+
             }
           )}
 
@@ -684,7 +934,9 @@ function StudioHoursArticlePage() {
       <Footer />
 
     </main>
+
   )
+
 }
 
 

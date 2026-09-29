@@ -20,7 +20,7 @@ import ArchivePage from './pages/ArchivePage'
 
 
 // import ArtistArticlePage from './pages/ArtistArticlePage'
-import StudioHoursArticlePage from './pages/StudioHoursArticlePage'
+import StudioHoursArticlePage from './pages/StudioHoursArticlePage1'
 import SubmitPage from './pages/SubmitPage'
 import DepartmentArticlePage from './pages/DepartmentArticlePage'
 import ScrollToTop from './components/ScrollToTop'
