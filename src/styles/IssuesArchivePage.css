@@ -1,0 +1,105 @@
+.issuesArchive {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+  padding: 60px 0 100px;
+}
+
+.issuesArchiveBack {
+  display: inline-block;
+  margin-bottom: 50px;
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.issuesArchiveHeader {
+  margin-bottom: 50px;
+}
+
+.issuesArchiveHeader p {
+  margin: 0 0 10px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.issuesArchiveHeader h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(52px, 7vw, 110px);
+  font-weight: 400;
+}
+
+.issuesArchiveIntro {
+  margin-top: 18px !important;
+  max-width: 620px;
+  font-size: 18px !important;
+  line-height: 1.5;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.issuesArchiveGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 55px 28px;
+}
+
+.issuesArchiveCard {
+  color: #111;
+  text-decoration: none;
+}
+
+.issuesArchiveCover {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.issuesArchiveCover img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.issuesArchiveMeta {
+  padding-top: 14px;
+}
+
+.issuesArchiveMeta span {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.issuesArchiveMeta h2 {
+  margin: 7px 0 8px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.issuesArchiveMeta p {
+  margin: 0 0 14px;
+  font-size: 13px;
+}
+
+.issuesArchiveMeta strong {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .issuesArchiveGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .issuesArchiveGrid {
+    grid-template-columns: 1fr;
+  }
+}

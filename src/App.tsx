@@ -13,7 +13,7 @@ import ArtistPick from './components/ArtistPick'
 // import BenCowanFeature from './components/BenCowanFeature'
 // import WorksInView from './components/WorksInView'
 // import EditorsNote from './components/EditorsNote'
-import ArticleSection from './components/ArticleSection'
+// import ArticleSection from './components/ArticleSection'
 // import ArtistArchive from './components/ArtistArchive'
 // import SubmitSection from './components/SubmitSection'
 import ArchivePage from './pages/ArchivePage'
@@ -31,7 +31,8 @@ import SubscribeSection from './components/SubscribeSection'
 import IssuePage from './pages/IssuePage'
 import ArtistsPage from './pages/ArtistsPage'
 import ArtistArticlePage1 from './pages/ArtistArticlePage1'
-
+import LatestIssues from './components/LatestIssues'
+import IssuesArchivePage from './pages/IssuesArchivePage'
 
 function HomePage() {
   return (
@@ -42,7 +43,8 @@ function HomePage() {
       <ArtistPick />
       {/* <IssueIntro /> */}
       
-      <ArticleSection />
+      {/* <ArticleSection /> */}
+      <LatestIssues />
       {/* <BenCowanPrelude /> */}
       {/* <IssueIntro /> */}
       {/* <Departments /> */}
@@ -74,6 +76,7 @@ function App() {
         <Route path="/artists" element={<ArtistsPage />}/>
         {/* <Route path="/artists/:slug" element={<ArtistArticlePage />} /> */}
         <Route path="/test-artists/:slug" element={<ArtistArticlePage1 />}/>
+        <Route path="/issues" element={<IssuesArchivePage />}/>
         {/* <Route path="/departments/:slug" element={<DepartmentArticlePage />} /> */}
         <Route path="/issues/:issueSlug/departments/:slug" element={<DepartmentArticlePage />}/>
         <Route path="/departments/:slug" element={<DepartmentArticlePage />}/>

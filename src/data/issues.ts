@@ -2,6 +2,13 @@
 
 
 import sixsiblings from '../assets/sixsiblings.png'
+import benCover from '../assets/ben-cover.png'
+import slawnCover from '../assets/slawn-cover.png'
+import julesCover from '../assets/jules-cover.png'
+import okerekeCover from '../assets/okereke-cover.png'
+import sophiaCover from '../assets/sophia-cover.png'
+import waCover from '../assets/wa-cover.png'
+import bluCover from '../assets/blu-cover.png'
 
 type StudioNoteTeaser = {
   title: string
@@ -25,6 +32,10 @@ export type Issue = {
     | 'Current Issue'
     | 'Coming Next'
     | 'Archive'
+
+  coverImage: string
+  articleSlug?: string
+
   description: string
   openingStatement: string[]
 
@@ -38,61 +49,74 @@ export const issues: Issue[] = [
     issueNumber: 1,
     number: 'Issue 01',
 
-    title: 'Feeling in Color',
+    title: 'Dear God What Remains of Faith?',
 
     headline:
-      'Four Artists Who Are Teaching Us How to Feel Again',
-
-    date: 'July 2026',
-
-    status: 'Archive',
-
-    description:
-      'This issue follows artists who turn pressure into pigment, faith into structure, memory into surface, and emotion into something the eye can hold.',
-
-    openingStatement: [
-      'It is happening quietly—in studios, bedrooms, streets, archives, and sacred spaces.',
-
-      'Four artists are making work about memory, faith, identity, desire, history, and the strange things we carry with us.',
-    ],
-  },
-
-  {
-    slug: 'issue-02',
-
-    issueNumber: 2,
-    number: 'Issue 02',
-
-    title: 'Africa Is Not the Periphery',
-
-    headline:
-      'Contemporary African art and the artists reshaping the center.',
+     'Ben Cowan paints faith, doubt, sacred imagery, and the uneasy space between belief and contemporary life.',
 
     date: 'September 2026',
 
     status: 'Archive',
+    coverImage: benCover,
+    articleSlug: 'dear-god-what-remains-of-faith',
 
     description:
-      'African contemporary art is already shaping the visual language of the world. Issue 02 looks at artists across the continent and its diasporas whose work moves through painting, photography, sculpture, fashion, music, design, history, and the street.',
+      'Issue 01 looks at Ben Cowan and the way religious imagery, memory, doubt, beauty, and contradiction move through his paintings. Sacred references sit beside contemporary anxieties, asking what remains of faith when inherited symbols no longer feel simple.',
 
     openingStatement: [
-      'African contemporary art does not need permission to enter the conversation. It is already shaping it.',
+      'Faith rarely disappears all at once.',
 
-      'Across Lagos, Accra, Dakar, Johannesburg, Nairobi, London, New York, and everywhere between, artists connected to Africa are building visual languages that move through painting, photography, sculpture, fashion, music, film, design, and the street.',
+      'Sometimes it remains in fragments — an image, a ritual, a memory, a symbol we no longer know exactly what to do with.',
 
-      'Their influence travels far beyond the borders used to categorize their work. Yet there remains a strange imbalance: African artists can influence global culture while still fighting for the institutional space, critical attention, and historical recognition given more automatically elsewhere.',
+      'In Ben Cowan’s paintings, Christian imagery is not treated as something settled or easily understood. Angels, biblical references, sacred gestures, and familiar symbols become places where belief and uncertainty meet.',
 
-      'Issue 02 begins there—not with the question of whether African contemporary art has arrived, but with the recognition that it has been here.',
+      'The work can feel reverent and questioning at the same time.',
 
-      'This issue does not treat Africa as a single aesthetic. There is no single African image, material, story, city, generation, or way of making. The continent and its diasporas contain different histories, languages, traditions, economies, tensions, and artistic positions.',
+      'Issue 01 begins there: with the possibility that faith can survive even when certainty does not.',
 
-      'What connects these pages is something larger: artists creating from their own positions while participating in—and increasingly shaping—the visual language of the world.',
+      'Dear God asks what remains when belief becomes complicated, when sacred imagery enters contemporary life, and when the questions begin to matter as much as the answers.',
+      ],
+  },
 
-      'The center is changing.',
+{
+  slug: 'issue-02',
 
-      'Maybe the problem was never that Africa existed outside it. Maybe we were looking at the map wrong.',
-    ],
+  issueNumber: 2,
+  number: 'Issue 02',
 
+  title: 'Living Dangerously',
+
+  headline:
+    'Slawn turns chaos, humor, provocation, and street energy into a visual language that refuses to behave.',
+
+  date: 'September 2026',
+
+  status: 'Archive',
+
+  coverImage: slawnCover,
+
+  articleSlug: 'living-dangerously',
+
+  description:
+    'Issue 02 focuses on Slawn and the unruly visual language behind his work — part painting, part performance, part provocation. Moving between Lagos, London, street culture, fashion, music, and the gallery world, his practice resists neat categories and treats irreverence as a creative position.',
+
+  openingStatement: [
+    'Slawn’s work does not enter a room quietly.',
+
+    'The faces are exaggerated, the gestures are loud, and the paintings often seem to arrive with the energy of something made before anyone had time to ask whether it was appropriate.',
+
+    'That refusal to behave properly around art is part of the point.',
+
+    'From Lagos skate culture to London, from spray paint and cartoon-like faces to collaborations across music and fashion, Slawn has built a visual language that feels immediate, disruptive, and difficult to separate from the culture surrounding it.',
+
+    'His work can look playful at first, even reckless, but beneath that surface is a sharp understanding of image, attention, branding, and what it means to make art inside a culture that moves quickly.',
+
+    'Issue 02 looks at that tension — between chaos and control, joke and seriousness, street and studio.',
+
+    'Living dangerously is not only an attitude in Slawn’s work.',
+
+    'It is part of the method.',
+  ],
     studioNoteTeaser: {
       title: 'Six Siblings',
 
@@ -130,6 +154,8 @@ export const issues: Issue[] = [
   date: 'September 2026',
 
   status: 'Archive',
+  coverImage: julesCover,
+  articleSlug: 'when-peace-has-a-history',
 
   description:
     'Issue 03 looks at Jules Bekuti and the quiet emotional force of paintings shaped by identity, migration, memory, inclusion, and the desire to make art feel accessible rather than distant.',
@@ -152,6 +178,7 @@ export const issues: Issue[] = [
   number: 'Issue 04',
 
   title: 'The Good Old Days',
+  articleSlug: 'the-good-old-days',
 
   headline:
     'Okereke paints memory, cultural identity, and the ordinary objects through which a generation remembers Nigeria.',
@@ -159,6 +186,7 @@ export const issues: Issue[] = [
   date: 'September 2026',
 
   status: 'Archive',
+  coverImage: okerekeCover,
 
   description:
     'Cabin biscuits, Coke bottles, NYSC uniforms, crowded gatherings, hair, and photographs that took weeks to return — Issue 04 looks at Okereke and a Nigeria that survives through memory.',
@@ -181,13 +209,15 @@ export const issues: Issue[] = [
   number: 'Issue 05',
 
   title: 'Pleasure Without Performance',
+  articleSlug: 'pleasure-without-performance',
 
   headline:
     'Sophia Oshodin paints Black women enjoying life without performing happiness for the viewer.',
 
   date: 'September 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
+  coverImage: sophiaCover,
 
   description:
     'Issue 05 looks at Sophia Oshodin’s portraits of Black women shopping, dining, smoking, resting, and occupying pleasure on their own terms. Through bold color, composed expressions, and scenes of everyday freedom, her paintings challenge the expectations placed on how women should look, behave, and express happiness.',
@@ -210,13 +240,15 @@ export const issues: Issue[] = [
   number: 'Issue 06',
 
   title: 'Kids Are Born Painters',
+  articleSlug: 'kids-are-born-painters',
 
   headline:
     'What happens to the freedom to create when we learn there is a proper way to do everything?',
 
   date: 'September 2026',
 
-  status: 'Coming Next',
+  status: 'Archive',
+  coverImage: waCover,
 
   description:
     'Issue 06 explores the creative freedom we begin with as children and the rules, habits, and expectations that can slowly reshape it. Through childhood memory, The Wa’s A Kid Could Do It series, and the story of Ghanaian child artist Ace-Liam Nana Sam Ankrah, the issue asks when making art stops feeling natural and starts feeling like something we need permission to do.',
@@ -239,13 +271,15 @@ export const issues: Issue[] = [
   number: 'Issue 07',
 
   title: 'What We Carry Inside',
+  articleSlug: 'What We Carry Inside',
 
   headline:
     'BLU The Genius paints the invisible things we carry — memory, anxiety, family, absence, and belonging.',
 
   date: 'September 2026',
 
-  status: 'Coming Next',
+  status: 'Current Issue',
+  coverImage: bluCover,
 
   description:
     'Issue 07 looks closely at the emotional world of BLU The Genius, from his recurring blue figures to the personal histories that sit quietly behind them. Through works including Lost in a Beautiful Dream and The Perfect Family, the issue considers how memory, family, anxiety, migration, and belonging can remain present even when they are not immediately visible.',

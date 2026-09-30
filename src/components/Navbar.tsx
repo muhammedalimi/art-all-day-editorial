@@ -68,7 +68,7 @@ function Navbar() {
                   to={`/test-artists/${artist.slug}`}
                   className="dropdownItem"
                 >
-                  <div className="dropdownItemText">
+                  {/* <div className="dropdownItemText">
 
                     <strong>
                       {artist.name}
@@ -84,7 +84,38 @@ function Navbar() {
 
                   <span className="dropdownArrow">
                     ↗
+                  </span> */}
+
+                  {/* <div className="dropdownItemText">
+
+                  <strong className="dropdownArtistName">
+                    {artist.name}
+                  </strong>
+
+                  <span className="dropdownIssueNumber">
+                    {issue?.number?.replace('Issue ', '') ||
+                      'Feature'}
                   </span>
+
+                </div>
+
+                <span className="dropdownArrow">
+                  ↗
+                </span> */}
+
+                <div className="dropdownItemText">
+                <strong className="dropdownArtistName">
+                  {artist.name}
+                </strong>
+
+                <span className="dropdownIssueNumber">
+                  {issue?.number?.replace('Issue ', '') || '—'}
+                </span>
+              </div>
+
+              <span className="dropdownArrow">
+                ↗
+              </span>
 
                 </Link>
               )
