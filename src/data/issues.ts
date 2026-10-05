@@ -10,6 +10,8 @@ import sophiaCover from '../assets/sophia-cover.png'
 import waCover from '../assets/wa-cover.png'
 import bluCover from '../assets/blu-cover.png'
 
+import oyeleye5 from '../assets/oyeleye5.png'
+
 type StudioNoteTeaser = {
   title: string
   artist: string
@@ -278,7 +280,7 @@ export const issues: Issue[] = [
 
   date: 'September 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
   coverImage: bluCover,
 
   description:
@@ -290,6 +292,38 @@ export const issues: Issue[] = [
     'In the work of BLU The Genius, those invisible things are given color, bodies, and somewhere to exist.',
   ],
 },
+
+  {
+    slug: 'issue-08',
+
+    issueNumber: 8,
+    number: 'Issue 08',
+
+    title: 'Black Utopia',
+
+    headline:
+      'Joshua Oyeleye and the freedom to exist without perfection.',
+
+    date: 'October 2026',
+
+    status: 'Current Issue',
+
+    coverImage: oyeleye5,
+
+    // lead story
+    articleSlug: 'black-utopia',
+
+    description:
+      'Black Utopia looks at individuality, beauty, knowledge and the possibility of seeing Black identity beyond perfection, performance and imposed standards.',
+
+    openingStatement: [
+      'What if Black freedom is not the freedom to become perfect, but the freedom to exist without being required to be?',
+
+      'Through the work of Joshua Oyeleye, Issue 08 looks at beauty, individuality, hair, knowledge and the many ways Black people can recognize themselves without becoming the same.',
+
+      'This is not a search for one Black image. It is a search for the freedom to have many.',
+    ],
+  },
 ]
 
 export const currentIssue =

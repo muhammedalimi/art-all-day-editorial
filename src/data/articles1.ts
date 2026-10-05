@@ -58,8 +58,15 @@ import blu3 from '../assets/blu3.png'
 // import blu8 from '../assets/blu8.png'
 import blu9 from '../assets/blu9.png'
 // import blu10 from '../assets/blu10.png'
-import bluIntro from '../assets/blu-intro-mastered.mp3'
+// import bluIntro from '../assets/blu-intro-mastered.mp3'
 import bekutiAudio from '../assets/bekuti-intro.mp3'
+import supportingCover from '../assets/supporting-cover.png'
+import oyeleye4 from '../assets/oyeleye4.png'
+import oyeleye3 from '../assets/oyeleye3.png'
+
+import oyeleye1 from '../assets/oyeleye1.png'
+// import oyeleyeCover from '../assets/oyeleye-cover.png'
+import oyeleye5 from '../assets/oyeleye5.png'
 
 
 
@@ -2152,11 +2159,11 @@ youtube: "",
   category: 'Essay',
 
   title: 'What We Carry Inside',
-  audio: {
-  src: bluIntro,
-  type: 'intro',
-  label: 'Before You Read',
-},
+//   audio: {
+//   // src: bluIntro,
+//   type: 'intro',
+//   label: 'Before You Read',
+// },
 
 
   author: 'Mo Alimi',
@@ -2621,4 +2628,536 @@ intro:
   artistSlug: 'blu-the-genius',
 },
 
+'black-utopia': {
+  category: 'Criticism',
+
+  title: 'Black Utopia',
+
+  author: 'Mo Alimi',
+
+  readTime: '9 min read',
+
+  publishedAt: '2026-10-05T12:00:00-06:00',
+
+  issueNumber: 8,
+
+  issue: 'Issue 08',
+
+  // Add this after you create his artist profile
+  artistSlug: 'joshua-oyeleye',
+
+  intro:
+    'Joshua Oyeleye paints Black figures with a sense of individuality that resists perfection, uniformity and the pressure to perform identity. The longer I spend with the work, the more I begin to wonder whether Black utopia is not Black perfection at all, but Black permission.',
+
+  heroImage: oyeleye5,
+
+  heroImageCaption:
+    '"A Reader" Artwork by Joshua Oyeleye',
+
+  body: [
+    `Lately, I have been spending time with Joshua Oyeleye’s work, and the first thing that came to my mind was Black Utopia.`,
+
+    `I called it that because I began to see in Oyeleye’s work something close to the transformative power of art — the possibility for Black people to see themselves as whole, and perhaps reconnect with an identity that history has repeatedly tried to strip away.`,
+
+    `The more I stare into the paintings, though, the less this utopia seems to be about perfection.`,
+
+    `Oyeleye paints as though beauty has room for flaws. His figures feel alive, confident and individual.`,
+
+    `There are bald-headed women, Afros, braids and hairstyles that might, in another context, be considered rebellious.`,
+
+    `But what interests me is that Oyeleye’s Blackness does not always announce itself through confrontation.`,
+
+    `There is softness here.`,
+
+    `The figures do not seem to be performing Blackness for anybody. They simply exist inside it.`,
+
+    {
+      type: 'heading',
+      text: 'Beyond the Surface',
+    },
+
+    `Oyeleye describes his practice as an exploration of human nature through realism, figures and expression.`,
+
+    `He believes art should reflect reality while also becoming a space for emotional and intellectual exploration.`,
+
+    `In his own description of the work, each piece becomes a dialogue between artist and observer — a place where personal stories and universal themes intersect.`,
+
+    `That matters to the way I have been reading these paintings.`,
+
+    `Oyeleye does not seem interested in prescribing one meaning for every figure. The viewer is given room to bring something of themselves into the image.`,
+
+    `Perhaps that is why I arrived at Black Utopia.`,
+
+    `Not because Oyeleye himself calls the work utopian, and not because I believe every figure represents some ideal Black future. The phrase emerged from what happened to me while looking.`,
+
+    `His figures made me imagine a world in which Black people could occupy an image without being reduced to stereotype, explanation or performance.`,
+
+    {
+      type: 'image',
+      src: oyeleye3,
+      alt: 'Artwork by Joshua Oyeleye',
+      caption: '"Beauty in Virtue II" Artwork by Joshua Oyeleye',
+    },
+
+    `This becomes especially interesting when placed beside his commitment to realism.`,
+
+    `Realism usually suggests accuracy — an attempt to represent the world as it is.`,
+
+    `But Oyeleye’s paintings make me wonder whether realism can also reveal possibilities hidden inside reality.`,
+
+    `Can a portrait show us not only who we are, but who we have been prevented from imagining ourselves to be?`,
+
+    {
+      type: 'heading',
+      text: 'The Free World of Art',
+    },
+
+    `While reading bell hooks’ Art on My Mind, I came across an idea that stayed with me: art as a space where, even momentarily, we might become whatever we wanted to be.`,
+
+    `That idea began to change the way I looked at Oyeleye’s paintings.`,
+
+    `What happens when Black people enter an image and are allowed to become whatever they want to be?`,
+
+    `A bald Black woman does not necessarily have to symbolize resistance.`,
+
+    `An Afro does not always have to announce militancy.`,
+
+    `Braids do not have to explain Africa.`,
+
+    `Dark skin does not have to carry the burden of becoming a political statement.`,
+
+    `A Black person can simply be beautiful, strange, thoughtful, soft, imperfect, stylish, serious, uncertain, intelligent or completely self-contained.`,
+
+    `Maybe that is part of the utopia.`,
+
+    `Not the disappearance of history, but freedom from having every part of your existence explained through it.`,
+
+    {
+      type: 'heading',
+      text: 'Hair, Freedom and the Right to Appear',
+    },
+
+    `Hair has never been neutral in the history of Black identity.`,
+
+    `Afros, braids, shaved heads, natural textures and hairstyles outside European beauty standards have often carried social and political meaning.`,
+
+    `That history makes it tempting to approach every unconventional hairstyle in Oyeleye’s work as an act of defiance.`,
+
+    `But I am not sure that is always necessary.`,
+
+    `Perhaps there is another kind of freedom in allowing Black hair to exist without requiring it to constantly symbolize struggle.`,
+
+    `The Afro can carry history and still just be somebody’s hair.`,
+
+    `Braids can hold cultural memory and still be beautiful without explanation.`,
+
+    `A shaved head does not have to prove rebellion.`,
+
+    {
+      type: 'image',
+      src: oyeleye4,
+      alt: 'Portrait painting by Joshua Oyeleye',
+      caption: '"The African bald" Artwork by Joshua Oyeleye',
+    },
+
+    `Maybe one of the freedoms these paintings offer is the freedom from constant interpretation.`,
+
+    `The figures can carry history without becoming trapped inside it.`,
+
+    {
+      type: 'heading',
+      text: 'Black Permission',
+    },
+
+    `The more time I spend with Oyeleye’s work, the more I return to one thought:`,
+
+    `Black Utopia is not Black perfection. It is Black permission.`,
+
+    `Permission to be bald.`,
+
+    `Permission to wear braids.`,
+
+    `Permission to wear an Afro.`,
+
+    `Permission to be soft.`,
+
+    `Permission to be difficult.`,
+
+    `Permission to be beautiful without becoming ornamental.`,
+
+    `Permission to carry history without allowing history to determine the limits of who you can become.`,
+
+    `Perhaps the transformative power of art is not that it gives Black people a new identity.`,
+
+    `Perhaps it reminds us that there was never only one version of us to begin with.`,
+
+    `Not a perfect Black world.`,
+
+    `Not a world where everybody looks the same, thinks the same or speaks with one voice.`,
+
+    `A world where difference does not threaten belonging.`,
+
+    `A world where Black people can exist in many forms and still recognize one another.`,
+
+    `A world where beauty can contain flaws.`,
+
+    `A world where Blackness can be political, but does not always have to announce itself politically.`,
+
+    `Not momentarily.`,
+
+    `But fully.`,
+  ],
+
+  images: [
+    oyeleye1,
+    oyeleye3,
+    oyeleye4,
+  ],
+
+  youtube: '',
+},
+
+'who-taught-you-what-success-looks-like': {
+  category: 'Studio Notes',
+
+  title: 'Who Taught You What Success Looks Like?',
+
+  author: 'Mo Alimi',
+
+  readTime: '5 min read',
+
+  publishedAt: '2026-10-05T12:00:00-06:00',
+
+  issueNumber: 8,
+
+  issue: 'Issue 08',
+
+  artistSlug: 'joshua-oyeleye',
+
+  intro:
+    'Joshua Oyeleye’s We Have Ambition made me question why we so quickly associate knowledge with books, institutions and formal education — and what happens when education becomes tied to migration, survival and the idea of success.',
+
+  heroImage: supportingCover,
+
+  heroImageCaption:
+    '"We Have Ambition" Artwork by Joshua Oyeleye',
+
+  body: [
+    `There is a painting in Joshua Oyeleye’s work that made me hesitate.`,
+
+    `In We Have Ambition, a young Black boy stands against a vivid red background. He is formally dressed, books pressed tightly against his chest, his eyes looking upward.`,
+
+    `You almost know how to read the image before you begin looking.`,
+
+    `Education.`,
+
+    `Ambition.`,
+
+    `Possibility.`,
+
+    `A future.`,
+
+    `And perhaps that familiarity is precisely what interests me.`,
+
+    `Oyeleye is Nigerian and connected to Ibadan, a city deeply associated with higher education in Nigeria.`,
+
+    `So when I look at this boy holding books, the image feels particularly familiar.`,
+
+    `For many of us who grew up around African ideas of success, education was rarely presented as just one possible path through life.`,
+
+    `It could feel like the path.`,
+
+    `You went to school.`,
+
+    `Then university.`,
+
+    `Then perhaps a master’s.`,
+
+    `Then perhaps a PhD.`,
+
+    `And increasingly, somewhere inside that progression sits another dream:`,
+
+    `Leave.`,
+
+    {
+      type: 'heading',
+      text: 'Education as a Way Out',
+    },
+
+    `There is a particular relationship many African families have with education.`,
+
+    `A degree does not simply represent knowledge.`,
+
+    `It can represent security.`,
+
+    `It can represent status.`,
+
+    `It can represent a visa.`,
+
+    `It can represent the possibility of entering another country, another economy, another life.`,
+
+    `Sometimes academia becomes refuge.`,
+
+    `A master’s program abroad can become an entry point.`,
+
+    `A PhD can become another.`,
+
+    `Scholarships, research positions and universities can offer routes through borders that might otherwise be difficult to cross.`,
+
+    `And so education becomes tangled with something larger than learning.`,
+
+    `Survival.`,
+
+    `Migration.`,
+
+    `Escape.`,
+
+    `The Nigerian word japa has come to describe the desire — and increasingly the strategy — to leave in search of opportunity elsewhere.`,
+
+    `And there is a version of the japa dream that looks remarkably similar to the traditional American Dream.`,
+
+    `Study hard.`,
+
+    `Acquire qualifications.`,
+
+    `Leave home.`,
+
+    `Work.`,
+
+    `Become successful.`,
+
+    `Send something back.`,
+
+    `Build a different life.`,
+
+    `For many people, that path is real.`,
+
+    `Education has transformed families, opened borders and created possibilities that previous generations could not access.`,
+
+    `I would never dismiss that.`,
+
+    `But We Have Ambition made me ask another question:`,
+
+    `When education becomes one of our most dependable routes toward freedom, what happens to the way we define ambition itself?`,
+
+    {
+      type: 'heading',
+      text: 'What Does Ambition Look Like?',
+    },
+
+    `Look again at the boy.`,
+
+    `The suit.`,
+
+    `The tie.`,
+
+    `The books.`,
+
+    `The upward gaze.`,
+
+    `Even before knowing the title, the visual language feels legible.`,
+
+    `This child is going somewhere.`,
+
+    `But why?`,
+
+    `Would I have understood him as ambitious without the books?`,
+
+    `Would I have understood him as successful without the formal clothes?`,
+
+    `Would the same upward gaze mean something different if he were holding a paintbrush, learning a trade, working beside his mother, or simply standing alone?`,
+
+    `That is where the painting begins to turn back toward me.`,
+
+    `Perhaps Oyeleye is not telling us what ambition must look like.`,
+
+    `Perhaps I have already been taught.`,
+
+    {
+      type: 'heading',
+      text: 'Knowledge Before the Classroom',
+    },
+
+    `That becomes uncomfortable because many of the people who taught us how to survive did not necessarily have the qualifications we later learned to associate with intelligence.`,
+
+    `Many of our mothers and grandmothers did not experience Western education in the way later generations did.`,
+
+    `That did not make them without knowledge.`,
+
+    `They understood people.`,
+
+    `Family.`,
+
+    `Trade.`,
+
+    `Community.`,
+
+    `Memory.`,
+
+    `Language.`,
+
+    `Responsibility.`,
+
+    `Faith.`,
+
+    `Survival.`,
+
+    `Knowledge could move through storytelling, observation, apprenticeship, repetition and oral tradition.`,
+
+    `Sometimes you learned because somebody sat you down and explained something.`,
+
+    `Sometimes you learned because nobody explained anything at all.`,
+
+    `You watched until you understood.`,
+
+    `Some wisdom never entered a textbook.`,
+
+    `Some intelligence never received a certificate.`,
+
+    `A person can be educated without being Westernized.`,
+
+    `And wisdom does not begin when somebody learns how to read a book.`,
+
+    {
+      type: 'heading',
+      text: 'The Loop',
+    },
+
+    `Still, I understand why we hold onto formal education so tightly.`,
+
+    `Because sometimes it works.`,
+
+    `You study because education offers mobility.`,
+
+    `You pursue another degree because the previous one did not provide enough mobility.`,
+
+    `Then perhaps another qualification creates access to another country.`,
+
+    `But there is a strange contradiction there.`,
+
+    `The thing intended to move us beyond survival can sometimes keep us permanently preparing to survive.`,
+
+    `Bachelor’s.`,
+
+    `Master’s.`,
+
+    `PhD.`,
+
+    `Postdoc.`,
+
+    `Another application.`,
+
+    `Another visa.`,
+
+    `Another institution.`,
+
+    `Another threshold to cross before life supposedly begins.`,
+
+    `Education can liberate us while also becoming a loop.`,
+
+    `That tension is more interesting to me than simply criticizing Western education.`,
+
+    `The question is not whether university is good or bad.`,
+
+    `The question is what happens when education becomes one of the only futures we know how to imagine.`,
+
+    {
+      type: 'heading',
+      text: 'The Painting Is Not the Accusation',
+    },
+
+    `I want to be careful here.`,
+
+    `I do not know that Oyeleye intended We Have Ambition as a critique of education, migration or Western ideas of success.`,
+
+    `I would be placing too much on the painting if I claimed that.`,
+
+    `Oyeleye has described his work as a dialogue between the artist and the observer.`,
+
+    `So perhaps this is my side of the conversation.`,
+
+    `He gives me a boy.`,
+
+    `Books.`,
+
+    `A suit.`,
+
+    `A gaze turned upward.`,
+
+    `And my own history supplies the rest.`,
+
+    `University.`,
+
+    `Success.`,
+
+    `Migration.`,
+
+    `The American Dream.`,
+
+    `Japa.`,
+
+    `That may tell me as much about the world that taught me to look as it does about the painting itself.`,
+
+    {
+      type: 'heading',
+      text: 'What Does Black Utopia Know?',
+    },
+
+    `This is where We Have Ambition begins to speak to the larger question of Black Utopia.`,
+
+    `If Black Utopia means freedom from externally imposed standards, then we cannot stop with beauty.`,
+
+    `We cannot only ask who taught us what beautiful Black people should look like.`,
+
+    `We also have to ask:`,
+
+    `Who taught us what an intelligent Black person looks like?`,
+
+    `Who taught us what success looks like?`,
+
+    `Who taught us what ambition looks like?`,
+
+    `And who taught us that moving farther away from home could sometimes be evidence that we had made it?`,
+
+    `There is nothing wrong with books.`,
+
+    `There is nothing wrong with master’s degrees.`,
+
+    `There is nothing wrong with PhDs.`,
+
+    `There is nothing wrong with leaving.`,
+
+    `For generations, these things have opened real doors.`,
+
+    `But perhaps freedom also means being able to imagine a life in which they are possibilities rather than requirements.`,
+
+    `Maybe the books in Oyeleye’s painting represent access.`,
+
+    `Maybe curiosity.`,
+
+    `Maybe aspiration.`,
+
+    `Maybe they simply belong to this boy.`,
+
+    `I do not need the painting to resolve that for me.`,
+
+    `What interests me is that I knew what I thought those books meant before I had even finished looking.`,
+
+    `And perhaps that is what compelling art can do.`,
+
+    `It gives us an image.`,
+
+    `Then it makes us examine the world that taught us how to read it.`,
+
+    `Who taught you what knowledge looks like?`,
+
+    `And perhaps the harder question:`,
+
+    `Who taught you what a successful life is supposed to look like?`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
 }

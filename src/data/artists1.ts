@@ -44,6 +44,10 @@ import blu8 from '../assets/blu8.png'
 import blu9 from '../assets/blu9.png'
 import blu10 from '../assets/blu10.png'
 import blu2 from '../assets/blu2.png'
+import oyeleyeCover from  '../assets/supporting-cover.png'
+import oyeleye3 from '../assets/oyeleye3.png'
+// import oyeleye4 from '../assets/oyeleye4.png'   
+import oyeleye5 from '../assets/oyeleye5.png'
 
 
 // ======================================================
@@ -648,5 +652,61 @@ export const artists: Artist[] = [
 
   bio:
     'BLU The Genius is a contemporary painter whose work uses bold color, recurring characters, and emotionally charged imagery to explore what people carry beneath the surface. His paintings move between playfulness and heaviness, allowing seemingly opposing feelings to exist within the same image. In Issue 07 of Art All Day, “What We Carry Inside,” we look at how BLU uses color and character to give form to contradiction, vulnerability, and inner life.',
+},
+
+{
+  slug: 'joshua-oyeleye',
+
+  name: 'Joshua Oyeleye',
+
+  issueNumber: 8,
+
+  heroImage: oyeleyeCover,
+
+  heroImageCaption:
+    '"We Have Ambition" Artwork by Joshua Oyeleye',
+
+
+    disciplines: [
+    'Painting',
+    'Figurative Art',
+  ],
+
+  themes: [
+    'Black Identity',
+    'Realism',
+    'Individuality',
+    'Beauty',
+    'Education',
+    'Ambition',
+    'Human Experience',
+    'Culture',
+  ],
+
+  images: [
+    {
+      src: oyeleye5,
+      alt:
+        'Young Black boy in formal clothing holding books in a painting by Joshua Oyeleye',
+      caption:
+        '"A Reader" Artwork by Joshua Oyeleye',
+    },
+
+    {
+      src: oyeleye3,
+      alt:
+        'Black figure depicted in a figurative painting by Joshua Oyeleye',
+      caption:
+        '"Beauty in Virtue II" Artwork by Joshua Oyeleye',
+    },
+  ],
+
+  status: 'featured',
+
+  bio:
+    'Joshua Oyeleye is a Nigerian self-taught figurative painter from Oyo State whose practice explores identity, culture, human experience, and contemporary life through realism. Working primarily with acrylic, charcoal, and other available media, Oyeleye uses figures and expressions to create narratives that invite viewers into emotional and intellectual reflection. His work is concerned not only with representing people as they appear, but with the meanings, histories, aspirations, and individual experiences carried through the body, gaze, gesture, and presence of his subjects.',
+
+  // website:
+  //   'PASTE_JOSHUA_WEBSITE_HERE',
 },
 ]

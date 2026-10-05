@@ -14,6 +14,7 @@ import wangechi1 from '../assets/wangechi1.jpg'
 import sixsiblings from '../assets/sixsiblings.png'
 import bekuti1 from '../assets/bekuti1.jpg'
 import okereke1 from '../assets/okereke1.jpg'
+import supportingCover from '../assets/supporting-cover.png'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -302,6 +303,37 @@ export const issueDepartments: IssueDepartments = {
       caption: 'Okereke',
 
       link: '/studio-hours/the-good-old-days',
+    },
+  },
+},
+
+
+'issue-08': {
+  issueNumber: 8,
+
+  departments: {
+    'studio-notes': {
+      artist: 'Mo Alimi',
+
+      title: 'Who Taught You What Success Looks Like?',
+
+      description: [
+        'A painting of a young Black girl beside a stack of books raised a question: why do we so quickly associate knowledge with books, classrooms and formal education?',
+
+        'This supporting story considers mothers, oral tradition, lived experience and the forms of intelligence that exist beyond Western institutions.',
+      ],
+
+      image: supportingCover,
+
+      imageAlt:
+        'Artwork by Joshua Oyeleye featuring a young girl and books',
+
+      caption:
+        'Artwork by Joshua Oyeleye',
+
+      link:
+        // '/studio-hours/who-taught-you-what-knowledge-looks-like',
+        '/studio-hours/black-utopia'
     },
   },
 },
