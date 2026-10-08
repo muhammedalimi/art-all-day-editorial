@@ -12,7 +12,7 @@ import Hero from './components/Hero'
 import ArtistPick from './components/ArtistPick'
 // import BenCowanFeature from './components/BenCowanFeature'
 // import WorksInView from './components/WorksInView'
-// import EditorsNote from './components/EditorsNote'
+import EditorsNote from './components/EditorsNote'
 // import ArticleSection from './components/ArticleSection'
 // import ArtistArchive from './components/ArtistArchive'
 // import SubmitSection from './components/SubmitSection'
@@ -52,7 +52,7 @@ function HomePage() {
       
       {/* <BenCowanFeature /> */}
       {/* <WorksInView /> */}
-      {/* <EditorsNote /> */}
+      <EditorsNote />
       
       {/* <ArtistArchive /> */}
       {/* <SubmitSection /> */}
