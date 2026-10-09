@@ -11,6 +11,7 @@ import waCover from '../assets/wa-cover.png'
 import bluCover from '../assets/blu-cover.png'
 
 import oyeleye5 from '../assets/oyeleye5.png'
+import okadaMan from '../assets/okadaMan.png'
 
 type StudioNoteTeaser = {
   title: string
@@ -288,8 +289,7 @@ export const issues: Issue[] = [
 
   openingStatement: [
     'Some of the most important things we carry cannot be seen.',
-    'They live in memory, family, fear, absence, and the versions of ourselves we refuse to leave behind.',
-    'In the work of BLU The Genius, those invisible things are given color, bodies, and somewhere to exist.',
+        'In the work of BLU The Genius, those invisible things are given color, bodies, and somewhere to exist.',
   ],
 },
 
@@ -306,7 +306,7 @@ export const issues: Issue[] = [
 
     date: 'October 2026',
 
-    status: 'Current Issue',
+    status: 'Archive',
 
     coverImage: oyeleye5,
 
@@ -319,11 +319,47 @@ export const issues: Issue[] = [
     openingStatement: [
       'What if Black freedom is not the freedom to become perfect, but the freedom to exist without being required to be?',
 
-      'Through the work of Joshua Oyeleye, Issue 08 looks at beauty, individuality, hair, knowledge and the many ways Black people can recognize themselves without becoming the same.',
-
-      'This is not a search for one Black image. It is a search for the freedom to have many.',
+      
     ],
   },
+
+  
+{
+  slug: 'issue-09',
+
+  issueNumber: 9,
+  number: 'Issue 09',
+
+  title: 'Okada Man',
+
+  headline:
+    'Pelumi Adekoya  and the lives we overlook behind the handlebars.',
+
+  date: 'October 2026',
+
+  status: 'Current Issue',
+
+  coverImage: okadaMan,
+
+  // lead story
+  articleSlug: 'okada-man',
+
+  description:
+    'Through Pelumi Adekoya’s Okada Man, Issue 09 explores movement, memory, labor, and the people who carry us through everyday life. A reflection on Nigerian Okada rides, conversations about the state of the nation, and the human lives we often overlook.',
+
+
+openingStatement: [
+  'I remember riding Okadas in Nigeria, feeling the wind against my face and shouting, “Oga, take am easy!” whenever the rider went too fast.',
+
+  'But I rarely thought about the man behind the handlebars. Pelumi Adekoya’s drawing made me remember those journeys, the conversations, and the lives I knew so little about.',
+
+  'Issue 09 is about the people who carry us through everyday life, often without being truly seen.',
+
+  '— Mo Alimi, Editor, Art All Day',
+],
+
+},
+
 ]
 
 export const currentIssue =

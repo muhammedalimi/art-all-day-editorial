@@ -67,8 +67,11 @@ import oyeleye3 from '../assets/oyeleye3.png'
 import oyeleye1 from '../assets/oyeleye1.png'
 // import oyeleyeCover from '../assets/oyeleye-cover.png'
 import oyeleye5 from '../assets/oyeleye5.png'
-
-
+import pelumi1 from '../assets/pelumi1.jpeg'
+import pelumi2 from '../assets/pelumi2.jpeg'
+import pelumi3 from '../assets/pelumi3.jpeg'
+import pelumi4 from '../assets/pelumi4.png'
+import pelumi5 from '../assets/pelumi5.png'
 
 // type BodyB
 // lock =
@@ -3160,4 +3163,319 @@ intro:
 
   youtube: '',
 },
+
+
+'okada-man': {
+  category: 'street-to-studio',
+
+  title: 'Okada Man',
+
+  author: 'Mo Alimi',
+
+  readTime: '7 min read',
+
+  publishedAt: '2026-10-08T09:00:00-06:00',
+
+  issueNumber: 9,
+
+  issue: 'Issue 09',
+
+  artistSlug: 'adekoya-pelumi',
+
+  intro:
+    'I remember the sensation of being carried more clearly than the people who carried me. Through Pelumi Adekoya’s Artwork, a familiar Nigerian journey becomes a reflection on labor, memory, and the lives behind the handlebars.',
+
+  // Import the artwork at the top of Article1.tsx:
+  // import okadaMan from '../assets/okada-man.jpg';
+  // Adjust the path and extension to match your file.
+
+  heroImage: pelumi1,
+
+  heroImageCaption: 'Happiness in the garage',
+
+  body: [
+    {
+      type: 'heading',
+      text: 'Oga, take am easy!',
+    },
+
+    `I remember hopping on the back of an Okada without a helmet, fully aware that anything could happen.`,
+
+    `There was nothing between my head and the road but hope, perhaps a little prayer.`,
+
+    `Yet there was something about those rides that made the risk feel worthwhile. The wind against my face, the sound of the engine, the adrenaline rushing through my body, and the occasional small talk with a man whose name I would probably never know.`,
+
+    `Whenever the rider stepped too hard on the accelerator, I would shout, "Oga, take am easy!"`,
+
+    `Sometimes he listened. Sometimes I found myself holding on a little tighter.`,
+
+    `There was something strangely exciting about it all. The uncertainty of the road, the speed, the freedom of moving through a familiar place in a way that made it feel unfamiliar again.`,
+
+    `For a few minutes, my destination was in the hands of a stranger, and somehow, that felt like freedom.`,
+
+    `But looking back, I have come to realize something.`,
+
+    `I hardly ever thought about the man whose hands held the handlebars.`,
+
+    `Where was he coming from? How many passengers had he carried that day? Was he going home to someone? Was he tired?`,
+
+    `I never really asked.`,
+
+    `To me, he was the Okada man. The person who got me from one place to another.`,
+
+    `And once I arrived, I paid my fare and continued with my day.`,
+
+    `He waited for the next passenger.`,
+
+    {
+      type: 'heading',
+      text: 'The Men Behind the Handlebars',
+    },
+
+    
+    {
+      type: 'image',
+      src: pelumi4,
+      alt: 'Artwork by Pelumi Adekoya',
+      caption: '"The Queue" Artwork by Pelumi Adekoya',
+    },
+
+
+    `Looking at Pelumi Adekoya's Okada Man, I find myself thinking less about the motorcycles and more about the men sitting on them.`,
+
+    `The drawing presents several riders gathered on their motorcycles. The man closest to us appears to be speaking, his hand raised in a gesture that suggests a conversation already underway.`,
+
+    `Another turns his head away from the viewer. Behind him, other figures seem to be engaged in their own moments.`,
+
+    `There is no obvious urgency to the scene.`,
+
+    `For men whose work depends on movement, the artist has captured an interesting moment of stillness.`,
+
+    `The motorcycles are rendered with remarkable precision. We can follow the spokes of the wheels, the mechanical arrangements of the engines, the worn surfaces, and the folds of clothing.`,
+
+    `Meanwhile, the background almost disappears into the white paper.`,
+
+    `The surrounding city is barely visible, yet the men remain.`,
+
+    `It is as though the artist has momentarily removed the noise of the streets so that we might finally look at the people who move through them.`,
+
+    `And that makes me wonder how often we actually do.`,
+
+    {
+      type: 'heading',
+      text: 'The State of the Nation',
+    },
+
+    `I remember that conversations with Okada riders often found their way to Nigerian politics.`,
+
+    `The state of the nation was never too far from anybody's lips.`,
+
+    `You could begin a journey as complete strangers and, before reaching your destination, find yourselves discussing the economy, the government, employment, or the direction the country was heading.`,
+
+    `There was something informal about these conversations. No introductions were necessary. No one needed to explain why politics mattered.`,
+
+    `The condition of the country was already part of everyday life.`,
+
+    `Other times, a rider would begin telling me about his education.`,
+
+    `He had gone to school. He had studied something. He had imagined a different future.`,
+
+    `And somehow, life had brought him to the handlebars of an Okada.`,
+
+    `I remember these conversations, but I don't remember asking many questions.`,
+
+    `Perhaps I was too occupied with the road, the wind against my face, and the occasional need to remind him to slow down.`,
+
+    `But looking back, I wonder whether those men were trying to tell me something beyond their educational qualifications.`,
+
+    `Perhaps they wanted me to know that their lives had not begun with the motorcycle.`,
+
+    `That before the handlebars, there were classrooms, examinations, expectations, and imagined futures.`,
+
+    `There were probably people who celebrated their admission into school, encouraged them through difficult examinations, and believed that education would open certain doors.`,
+
+    `And here they were, telling a stranger about those experiences while transporting him through the city.`,
+
+    `I cannot say what each man intended by sharing his story. Perhaps it was simply conversation. Perhaps it was frustration. Perhaps it was pride in an education he had worked hard to obtain.`,
+
+    `But I wonder whether part of it was a desire to be seen beyond the work he was doing.`,
+
+    {
+      type: 'heading',
+      text: 'What Does a Man Become When His Dreams Change?',
+    },
+
+    `There is a temptation to look at a graduate riding an Okada and immediately interpret his life as a story of failure.`,
+
+    `But whose failure would that be?`,
+
+    `The man who found a way to earn a living, or the expectations that told him his education should lead somewhere else?`,
+
+    `We often speak of work as though it gives us a complete understanding of a person.`,
+
+    `A teacher teaches. A driver drives. A mechanic repairs engines. An Okada rider carries passengers.`,
+
+      {
+      type: 'image',
+      src: pelumi3,
+      alt: 'Artwork by Pelumi Adekoya',
+      caption: '"Happiness in the garage" Artwork by Pelumi Adekoya',
+    },
+  
+
+    `We identify people by what they do, sometimes forgetting that work is only one part of a life.`,
+
+    `The man riding an Okada might also be a father, a musician, a university graduate, a football enthusiast, a storyteller, or someone saving money to begin another chapter.`,
+
+    `He may love his work. He may be frustrated by it. He may have chosen it deliberately, or arrived there because other opportunities were unavailable.`,
+
+    `We cannot know simply by looking at him.`,
+
+    `And perhaps that is why I find this drawing so interesting.`,
+
+    `The artist does not present these men as helpless figures waiting for our sympathy.`,
+
+    `They occupy the picture with presence.`,
+
+    `The man on the right is expressive, almost theatrical. His raised hand commands attention. The other men appear absorbed in the world around them.`,
+
+    `They are not reduced to their economic circumstances.`,
+
+    `They are simply there, existing as people.`,
+
+    {
+      type: 'heading',
+      text: 'The Freedom of One, the Labor of Another',
+    },
+
+    `There is another contradiction in my memory that I cannot ignore.`,
+
+    `For me, riding an Okada could feel like an adventure.`,
+
+    `The speed, the wind, the closeness to the road. It was an experience I could enjoy precisely because I knew it would eventually end.`,
+
+    `I would reach my destination, step off the motorcycle, and return to whatever occupied my day.`,
+
+    `For the rider, however, my exciting journey was part of his working day.`,
+
+    `The road I experienced for a few minutes might be one he travelled repeatedly for hours.`,
+
+    `The same traffic, the same uncertainty, the same exposure to danger.`,
+
+    `I was worried about getting to my destination safely.`,
+
+    `He had to think about getting me there safely, finding another passenger, and earning enough to make the day worthwhile.`,
+
+    `Two people sat on the same motorcycle, feeling the same wind, travelling along the same road, but experiencing the journey from entirely different positions.`,
+
+    `I wonder how much of everyday life works this way.`,
+
+    `How often does one person's convenience depend on another person's labor?`,
+
+    `How often do we remember the service and forget the person?`,
+
+    {
+      type: 'heading',
+      text: 'A Moment Before the Next Passenger',
+    },
+
+      {
+      type: 'image',
+      src: pelumi5,
+      alt: 'Artwork by Pelumi Adekoya',
+      caption: '"Our Comfort Zone" Artwork by Pelumi Adekoya',
+    },
+
+
+    `What I appreciate about Okada Man is that Pelumi allows these men a moment outside the immediate act of transporting somebody.`,
+
+    `They are not racing through traffic.`,
+
+    `They are not being defined by the passenger sitting behind them.`,
+
+    `They are gathered, speaking, listening, looking around.`,
+
+    `Perhaps they are discussing the day's earnings. Perhaps politics has entered the conversation again. Perhaps someone is telling a joke.`,
+
+    `We do not know.`,
+
+    `And I think it is important that we do not pretend to know.`,
+
+    `The drawing gives us enough to become curious without telling us everything.`,
+
+    `Its remarkable attention to mechanical detail initially draws our eyes toward the motorcycles, but the gestures and expressions of the riders invite us to stay with the people.`,
+
+    `There is something significant about that shift.`,
+
+    `The Okada is the reason we encounter these men, but it does not have to be the limit of our understanding of them.`,
+
+    `Pelumi has drawn the machines that make their work possible while giving us a reason to look beyond the machines.`,
+
+    {
+      type: 'heading',
+      text: 'The People We Pass Through',
+    },
+
+       {
+      type: 'image',
+      src: pelumi2,
+      alt: 'Artwork by Pelumi Adekoya',
+      caption: '"Happiness in the Garage" Artwork by Pelumi Adekoya',
+    },
+
+    `I have spent a considerable amount of time thinking about those rides since encountering this drawing.`,
+
+    `Not because I can suddenly remember every rider or every conversation.`,
+
+    `I cannot.`,
+
+    `Most of their faces have disappeared from my memory.`,
+
+    `I do not remember their names, where they lived, or what happened after they dropped me off.`,
+
+    `But I remember the wind.`,
+
+    `I remember the sound of the engines.`,
+
+    `I remember conversations about Nigerian politics and men telling me about their education.`,
+
+    `And, perhaps most vividly, I remember myself shouting, "Oga, take am easy!" whenever the motorcycle began moving faster than I was comfortable with.`,
+
+    `It is strange how memory works.`,
+
+    `I remember the sensation of being carried more clearly than the people who carried me.`,
+
+    `Perhaps this is what art can sometimes do. It does not necessarily return us to the past exactly as it happened. Instead, it changes what we notice when we look back.`,
+
+    `Where I once saw a motorcycle and a means of reaching my destination, I now find myself thinking about the person at the front.`,
+
+    `Not as a symbol of suffering. Not as evidence of a country's failures. Not even necessarily as a man whose dreams did not come true.`,
+
+    `But as someone with a life that continued long after I stepped off his motorcycle.`,
+
+    `I paid my fare and went on with my day.`,
+
+    `He probably called out for another passenger.`,
+
+    `And somewhere between one destination and the next, there was an entire human life I never really stopped to consider.`,
+
+    {
+      type: 'heading',
+      text: 'About the Artist — Pelumi Adekoya',
+    },
+
+    `Born on September 28, 2001, in Lagos, Nigeria, Pelumi Adekoya  is a visual artist originally from Ijebu East, Ogun State.`,
+
+    `His passion for drawing began at an early age, eventually leading him to pursue formal art education in Lagos.`,
+
+    `For Pelumi, art is a way of documenting personal experiences and interpreting the world around him. His practice is rooted in observation, capturing scenes as he sees them while sharing the beauty and diversity of everyday life.`,
+
+    `In Okada Man, this interest in ordinary experience comes into focus. Through detailed drawing and careful attention to human presence, Pelumi invites viewers to look more closely at figures who are familiar within Nigerian society but whose individual stories may remain largely unknown.`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
+
 }

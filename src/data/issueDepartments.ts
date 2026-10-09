@@ -15,6 +15,7 @@ import sixsiblings from '../assets/sixsiblings.png'
 import bekuti1 from '../assets/bekuti1.jpg'
 import okereke1 from '../assets/okereke1.jpg'
 import supportingCover from '../assets/supporting-cover.png'
+import okadaMan from '../assets/okadaMan.png'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -337,4 +338,35 @@ export const issueDepartments: IssueDepartments = {
     },
   },
 },
+
+
+'issue-09': {
+  issueNumber: 9,
+
+  departments: {
+    'studio-notes': {
+      artist: 'Mo Alimi',
+
+      title: 'Before the Handlebars',
+
+      description: [
+        'Some Okada riders speak of classrooms, examinations and the futures they once imagined. Their stories raise a question: how much of a person can we understand from the work they do?',
+
+        'A reflection on education, ambition, dignity and the distance between the lives people imagined and the lives they now navigate.',
+      ],
+
+      image: okadaMan,
+
+      imageAlt:
+        'Okada Man drawing by Adekoya Pelumi featuring motorcycle riders',
+
+      caption:
+        'Okada Man — Artwork by Adekoya Pelumi',
+
+      link:
+        '/studio-hours/okada-man',
+    },
+  },
+},
+
 }

@@ -247,14 +247,14 @@ function IssuePage() {
       <section className="magazineOpening">
 
         <div className="magazineSectionLabel">
-          <span>Opening Note</span>
+          <span>Editor's Note</span>
           <span>{issue.number}</span>
         </div>
 
         <div className="magazineOpeningGrid">
 
           <h2>
-            {issue.title}
+            {/* {issue.title} */}
           </h2>
 
           <div className="magazineOpeningText">
@@ -278,7 +278,7 @@ function IssuePage() {
           ISSUE INTRODUCTION
       ====================================== */}
 
-      <section className="magazineIntroduction">
+      {/* <section className="magazineIntroduction">
 
         <div className="magazineSectionLabel">
           <span>Inside This Issue</span>
@@ -289,7 +289,7 @@ function IssuePage() {
         </p>
 
       </section>
-
+ */}
 
       {/* =====================================
           FEATURED STORY
