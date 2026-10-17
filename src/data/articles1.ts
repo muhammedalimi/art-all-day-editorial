@@ -72,6 +72,10 @@ import pelumi2 from '../assets/pelumi2.jpeg'
 import pelumi3 from '../assets/pelumi3.jpeg'
 import pelumi4 from '../assets/pelumi4.png'
 import pelumi5 from '../assets/pelumi5.png'
+import krystal1 from '../assets/krystal1.webp'
+import jack1 from '../assets/jack1.webp'
+import hilma1 from '../assets/hilma2.jpg'
+import georgia1 from '../assets/georgia1.png'
 
 // type BodyB
 // lock =
@@ -3477,5 +3481,814 @@ intro:
 
   youtube: '',
 },
+
+
+// 'a-generation-that-feels-more-than-it-can-explain': {
+//   category: 'culture-criticism',
+
+//   title: 'A Generation That Feels More Than It Can Explain',
+
+//   author: 'Mo Alimi',
+
+//   readTime: '9 min read',
+
+//   publishedAt: '2026-10-13T00:00:00-06:00',
+
+//   issueNumber: 10,
+
+//   issue: 'Issue 10',
+
+//   intro:
+//     'I started writing this piece trying to understand something I have never quite been able to connect with. Abstract art. Why does something I struggle to understand still leave me so confused and intrigued?',
+
+//   heroImage: krystal1,
+
+//   heroImageCaption:
+//     'Abstract artwork by Krystal Bradford — title to be confirmed',
+
+//   body: [
+//     `I started writing this piece trying to understand something I have never quite been able to connect with.`,
+
+//     `Abstract art.`,
+
+//     `Why does something I struggle to understand still leave me so confused and intrigued?`,
+
+//     `I have looked at paintings that seem to represent nothing familiar. No recognizable figures, no obvious narratives, sometimes not even a clear beginning or end. Just colors, shapes, and gestures existing on a canvas.`,
+
+//     `And yet, something about them holds my attention.`,
+
+//     `I find myself searching for meaning in things I cannot identify, trying to understand feelings I cannot quite describe.`,
+
+//     `But perhaps I have been asking the wrong question.`,
+
+//     `What if abstraction is not always something we are supposed to understand?`,
+
+//     `What if its power lies in the very things it refuses to explain?`,
+
+//     `Lately, I have been thinking about the deeper search for meaning that seems to shape so much of our generation. Beyond careers, relationships, achievements, and the identities we present to the world, there is a quieter search taking place.`,
+
+//     `The search for ourselves.`,
+
+//     `For inner peace. For spiritual connection. For something that feels true, even when we cannot explain why.`,
+
+//     `And I wonder whether our fascination with abstract art is connected to that search.`,
+
+//     `Perhaps we are drawn to the unknown not because it offers answers, but because it reminds us how much of ourselves remains undiscovered.`,
+
+//     {
+//       type: 'heading',
+//       text: 'The Things We Cannot Put Into Words',
+//     },
+
+//     `We belong to a culture that constantly asks us to explain ourselves.`,
+
+//     `Explain what you do. Explain who you are. Explain your ambitions, your feelings, your relationships, your choices.`,
+
+//     `Even our creativity is expected to arrive with an explanation.`,
+
+//     `A photograph needs a caption. A painting needs a statement. An experience becomes a story, and that story is often expected to mean something to someone else.`,
+
+//     `But what happens to the feelings we cannot explain?`,
+
+//     `The strange sadness that arrives on an otherwise beautiful afternoon. The excitement of moving somewhere new, accompanied by the grief of leaving something behind. The feeling of being surrounded by people and still being unable to describe your loneliness.`,
+
+//     `Sometimes two contradictory emotions can exist within us without either being less real.`,
+
+//     `Perhaps abstraction gives those contradictions somewhere to live.`,
+
+//     `A painting can be chaotic and peaceful at once. A color can appear joyful in one corner and unsettling in another. A composition can feel unfinished without necessarily feeling incomplete.`,
+
+//     `And we are not required to resolve any of it.`,
+
+//     `Maybe that is what makes abstraction so interesting.`,
+
+//     `It does not always ask us to identify what we are seeing. Sometimes it invites us to confront what we are feeling.`,
+
+//     `But even that raises another question.`,
+
+//     `Are those feelings coming from the artwork itself, or are we bringing something of ourselves into it?`,
+
+//     `Perhaps both possibilities deserve consideration.`,
+
+//     {
+//       type: 'heading',
+//       text: 'When Color Becomes a Language',
+//     },
+
+//     `Long before we learn to describe our emotions, we respond to color, movement, sound, and form.`,
+
+//     `A child does not always need to understand why a particular color excites them. They reach for it because something about it feels right.`,
+
+//     `As we grow older, we become more concerned with making things recognizable.`,
+
+//     `We learn to draw inside the lines. We learn that the sky is blue and the grass is green. We learn to compare what we create with what something is supposed to look like.`,
+
+//     `Eventually, many of us stop drawing altogether.`,
+
+//     `We say, "I can't draw."`,
+
+//     `But perhaps what we really mean is that we can no longer draw according to the standards we have learned to accept.`,
+
+//     `This is something I keep returning to when thinking about children and their relationship with art.`,
+
+//     `A child can paint an entire page red without feeling obligated to explain why. They can give a human figure three eyes, make the sun purple, or place a house somewhere in the clouds.`,
+
+//     `We may see a failure of representation.`,
+
+//     `The child may simply see possibility.`,
+
+//     `Of course, abstract art is not the same thing as children's painting. Abstraction can involve enormous technical discipline, historical awareness, and deliberate artistic decisions.`,
+
+//     `But there is a freedom they can sometimes share.`,
+
+//     `The freedom to create without making resemblance the final measure of success.`,
+
+//     `And perhaps some of us spend adulthood trying to recover that freedom.`,
+
+//     {
+//       type: 'heading',
+//       text: 'A World That Shows Us Everything',
+//     },
+
+//     `There is also something strange about the visual world we inhabit.`,
+
+//     `Never before have so many images been so easily accessible to so many people.`,
+
+//     `We can watch someone's wedding in Lagos, a protest in Paris, an exhibition in New York, and a stranger's morning routine in Tokyo, all within a few minutes.`,
+
+//     `We encounter more faces, places, objects, and experiences than we can meaningfully absorb.`,
+
+//     `And increasingly, the images themselves arrive with instructions.`,
+
+//     `This is beautiful. This is desirable. This is successful. This is what you should become.`,
+
+//     `Even our attention is measured.`,
+
+//     `How long did we look? Did we react? Did we share it? Did we understand the message quickly enough to keep scrolling?`,
+
+//     `Abstract art offers an interesting contradiction.`,
+
+//     `On the one hand, its bold colors and unusual forms can be immediately attractive on social media. We might stop scrolling because a painting looks beautiful against a white gallery wall.`,
+
+//     `But visual attraction is not necessarily emotional connection.`,
+
+//     `We can admire a painting's colors without engaging with its ideas. We can photograph something we have barely looked at.`,
+
+//     `And perhaps this is worth questioning rather than celebrating.`,
+
+//     `Are we becoming more connected to abstract art, or simply more attracted to its appearance?`,
+
+//     `The distinction matters.`,
+
+//     `Because some abstract paintings reveal very little in the first few seconds. Their relationships, textures, decisions, and tensions only begin to emerge when we give them time.`,
+
+//     `In a culture that encourages us to move quickly, abstraction can invite us to remain.`,
+
+//     `Not every painting will reward that patience. Not every arrangement of colors carries profound meaning.`,
+
+//     `But sometimes, standing before an image without knowing exactly what to make of it becomes an experience in itself.`,
+
+//     `And maybe that experience is increasingly rare.`,
+
+//     {
+//       type: 'heading',
+//       text: 'The Spirituality of the Unknown',
+//     },
+
+//     `Perhaps there is another reason we find ourselves drawn toward abstraction.`,
+
+//     `Something beyond color, aesthetics, or the desire to express complicated emotions.`,
+
+//     `I wonder whether we are witnessing a deeper search within ourselves.`,
+
+//     `A search for identity that has little to do with the identities we present to the world. A search for spiritual peace, belonging, and the quiet parts of ourselves that often get lost in the noise of everyday life.`,
+
+//     `We spend so much time discovering what exists outside us that we sometimes forget how much remains unexplored within.`,
+
+//     `And perhaps that is where abstract art becomes interesting.`,
+
+//     // =====================================
+//     // KRYSTAL BRADFORD — ARTIST CONNECTION
+//     // =====================================
+
+//     `Looking at the work of Brisbane-based artist Krystal Bradford, I find myself returning to the uncertainty that first drew me into this conversation.`,
+
+//     `Her abstract paintings explore relationships between color, texture, and surface, drawing on memories and the landscapes surrounding her. Her practice is rooted in drawing, mixed media, and painting, with an interest in raw, vulnerable, and imperfect forms.`,
+
+//     `Yet looking at her work, I find myself searching for something I cannot quite identify.`,
+
+//     {
+//       type: 'image',
+//       src: krystal1,
+//       alt: 'Abstract painting by Krystal Bradford featuring layered shapes and earthy colors',
+//       caption: 'Artwork by Krystal Bradford — title to be confirmed',
+//     },
+
+//     `There are overlapping forms, earthy colors, and shapes that seem to suggest something familiar without ever fully revealing themselves.`,
+
+//     `I wonder what memories exist within these forms. What part of a landscape has been transformed into color, or what experience has found its way onto the canvas.`,
+
+//     `Perhaps what she remembers and what I recognize are entirely different things.`,
+
+//     `I cannot assume that her intentions were spiritual simply because the painting makes me reflect on my own search for meaning.`,
+
+//     `Krystal approaches the canvas with her own experiences, while I encounter it carrying questions about identity, spirituality, and the unknown.`,
+
+//     `We do not necessarily arrive at the same meaning.`,
+
+//     `But somewhere between what the artist creates and what the viewer experiences, something unexpected can happen.`,
+
+//     `A connection becomes possible without either person needing to explain everything.`,
+
+//     // =====================================
+//     // CONTINUE MAIN ARTICLE
+//     // =====================================
+
+//     `A painting that represents something familiar can direct our attention toward the subject. But a painting that offers no recognizable subject may redirect that attention toward ourselves.`,
+
+//     `Suddenly, we are not only asking what the artist intended.`,
+
+//     `We are asking why a particular color makes us uncomfortable. Why an unfamiliar shape reminds us of home. Why something we cannot identify brings us an unexpected feeling of peace.`,
+
+//     `There is something almost spiritual about that encounter.`,
+
+//     `Not necessarily religious, but spiritual in the sense of searching for a connection to something that exists beyond what we can immediately see or explain.`,
+
+//     `And I wonder whether the unknown plays an important role in this.`,
+
+//     `We often treat the unknown as something to fear, something to solve, or something to eventually understand.`,
+
+//     `But the unknown can also be a place of possibility.`,
+
+//     `Before we define something, it can exist in several forms within our imagination. Before we attach meaning to an experience, we are free to encounter it without the limitations of what we already know.`,
+
+//     `Perhaps this is why abstraction can feel so powerful.`,
+
+//     `It does not always provide the comfort of an answer. Sometimes it provides the comfort of knowing that an answer is not required.`,
+
+//     `And maybe inner peace is not always found by understanding everything about ourselves.`,
+
+//     `Sometimes it begins with accepting that there are parts of us we have not yet discovered.`,
+
+//     `Perhaps the unknown is powerful because it leaves room for us to become something we have not yet imagined.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Does Everything Have to Represent Something?',
+//     },
+
+//     `I also wonder whether our attraction to abstraction is connected to the expectations we place on artists.`,
+
+//     `When we encounter art, we often arrive carrying assumptions about what it should tell us.`,
+
+//     `We want to know the artist's background, their identity, their struggles, and the social conditions that produced the work.`,
+
+//     `These questions can be important. Art does not exist outside history.`,
+
+//     `But they can also become limitations.`,
+
+//     `A Black artist, for example, may find that their work is continually interpreted through race, politics, or cultural representation, even when their interests extend far beyond those subjects.`,
+
+//     `A painting containing an Afro might be read as resistance. A dark-skinned figure might become a statement about identity. An ordinary moment of beauty might be expected to carry the weight of an entire historical experience.`,
+
+//     `But what about the freedom to make something simply because it is beautiful, strange, playful, or emotionally compelling?`,
+
+//     `What about the freedom not to explain everything through identity?`,
+
+//     `Abstraction can offer one way of challenging those expectations.`,
+
+//     `Not because abstract art is free from politics or history. Some of the most significant abstract practices have emerged directly from political struggles, cultural memory, and questions of belonging.`,
+
+//     `Rather, abstraction reminds us that meaning does not always have to arrive through recognizable symbols.`,
+
+//     `An artist can speak about memory through repetition, about displacement through fractured space, or about intimacy through the relationship between two colors.`,
+
+//     `Sometimes the story is present without being illustrated.`,
+
+//     `And sometimes there may be no story at all.`,
+
+//     `That possibility deserves room, too.`,
+
+//     {
+//       type: 'heading',
+//       text: 'The Comfort of Not Knowing',
+//     },
+
+//     `There is a temptation, especially when writing about art, to explain every artistic decision until the painting becomes something like a puzzle with a correct answer.`,
+
+//     `This color represents grief.`,
+
+//     `That shape symbolizes freedom.`,
+
+//     `The empty space signifies isolation.`,
+
+//     `Sometimes those interpretations are useful. Sometimes they are supported by the artist's intentions.`,
+
+//     `But sometimes they reveal our discomfort with allowing a work to remain uncertain.`,
+
+//     `We want meaning because meaning makes us feel that we have understood something.`,
+
+//     `Yet I wonder whether understanding must always be the destination.`,
+
+//     `Perhaps an abstract painting can move us without our being able to translate that experience into language.`,
+
+//     `Perhaps we can stand before a canvas, feel something intensely, and leave without knowing what it was.`,
+
+//     `Looking at a painting by Jack Kabangu, I find myself thinking again about how quickly abstraction can move us before we fully understand what we are seeing.`,
+
+// {
+//   type: 'image',
+//   src: jack1,
+//   alt: 'Circular abstract painting by Jack Kabangu with red, black, yellow, white, and green forms',
+//   caption: '"Red sun/rød sol" — by Jack Kabangu',
+// },
+
+// `The work feels immediate. Its circular form, bold contrasts, and intense colors create an encounter that feels almost instinctive before it becomes interpretive.`,
+
+// `I do not know exactly what I am looking at, and that uncertainty becomes part of the experience.`,
+
+// `There are shapes that seem to suggest a presence, a face, or an energy, but nothing settles long enough to become fully fixed.`,
+
+// `And perhaps that is what keeps me there.`,
+
+// `Not the comfort of recognition, but the tension between familiarity and mystery.`,
+
+// `Jack Kabangu’s painting reminds me that abstraction does not always ask for explanation first. Sometimes it asks for attention. Sometimes it asks for feeling.`,
+
+// `What I bring to the work may not be what the artist intended, but that does not make the encounter any less real.`,
+
+// `If anything, it reveals how much of art happens in the space between what is created and what is received.`,
+
+// `That does not necessarily mean the artist has communicated a particular emotion successfully. What we feel may come as much from our own memories and associations as from the artist's intentions.`,
+
+// `But that encounter is still real.`,
+
+// `The painting has become a place where something within us has surfaced.`,
+
+// `And there is something beautiful about that.`,
+
+//     `That does not necessarily mean the artist has communicated a particular emotion successfully. What we feel may come as much from our own memories and associations as from the artist's intentions.`,
+
+//     `But that encounter is still real.`,
+
+//     `The painting has become a place where something within us has surfaced.`,
+
+//     `And there is something beautiful about that.`,
+
+//     {
+//       type: 'heading',
+//       text: 'A Generation Still Trying to Understand Itself',
+//     },
+
+//     `I don't think abstract art belongs to this generation any more than it belonged to those who came before us.`,
+
+//     {
+//       type: 'image',
+//       src: hilma1,
+//       alt: 'Abstract painting by Hilma af Klint with circular forms in various colors',
+//       caption: '"The Swan, No. 17, Group IX/SUW (1914–1915)" — by Hilma af Klint',
+//     },
+
+
+
+//     `Its history is too long, too complicated, and too culturally diverse for that.`,
+
+//     `Nor do I believe younger people have suddenly become more emotional than everyone else.`,
+
+//     `Every generation has experienced fear, love, uncertainty, loneliness, and the difficulty of finding its place in the world.`,
+
+//     `What may be different is the environment in which we are asked to understand those experiences.`,
+
+//     `We live with extraordinary access to information, but information does not always produce clarity.`,
+
+//     `We have more ways to communicate, yet communication does not guarantee that we will feel understood.`,
+
+//     `We have more opportunities to present ourselves to the world, but presentation is not the same as self-knowledge.`,
+
+//     `Perhaps that is why the idea of abstraction feels so relevant to me.`,
+
+//     `It reminds us that not everything meaningful must first become understandable.`,
+
+//     `That emotion can exist before explanation.`,
+
+//     `That uncertainty is not necessarily emptiness.`,
+
+//     `And that what we cannot recognize immediately may still have something to offer us.`,
+
+//     `I began this piece trying to understand an art form I have never quite connected with.`,
+
+//     `And I am not sure I understand it any better now.`,
+
+//     `I still find myself questioning the meaning behind certain paintings. I still wonder whether some abstract works communicate something profound or whether I am simply searching for meaning because I expect art to provide it.`,
+
+//     `But perhaps something has changed.`,
+
+//     `I am beginning to appreciate the questions themselves.`,
+
+//     `The possibility that curiosity does not always require understanding. That fascination does not always begin with recognition. That what confuses us can still invite us closer.`,
+
+//     `You don't have to connect with something to be curious about it. And sometimes curiosity is the beginning of connection.`,
+
+//     `Perhaps this is what I have been searching for all along.`,
+
+//     `Not an explanation for every shape, color, or gesture.`,
+
+//     `Not a final answer to what abstract art is supposed to mean.`,
+
+//     `But the freedom to encounter something unfamiliar without immediately demanding that it become familiar.`,
+
+//     `Maybe the unknown is not something we are meant to conquer.`,
+
+//     `Maybe it is something we are meant to encounter.`,
+//   ],
+
+//   images: [],
+
+//   youtube: '',
+// },
+
+
+'a-generation-that-feels-more-than-it-can-explain': {
+  category: 'culture-criticism',
+
+  title: 'A Generation That Feels More Than It Can Explain',
+
+  author: 'Mo Alimi',
+
+  readTime: '9 min read',
+
+  publishedAt: '2026-10-13T00:00:00-06:00',
+
+  issueNumber: 10,
+
+  issue: 'Issue 10',
+
+  intro:
+    'I started writing this piece trying to understand something I have never quite been able to connect with. Abstract art. Why does something I struggle to understand still leave me so confused and intrigued?',
+
+  heroImage: krystal1,
+
+  heroImageCaption:
+    'Meet me there by Krystal Bradford',
+
+  body: [
+    `I started writing this piece trying to understand something I have never quite been able to connect with.`,
+
+    `Abstract art.`,
+
+    `Why does something I struggle to understand still leave me so confused and intrigued?`,
+
+    `I have looked at paintings that seem to represent nothing familiar. No recognizable figures, no obvious narratives, sometimes not even a clear beginning or end. Just colors, shapes, and gestures existing on a canvas.`,
+
+    `And yet, something about them holds my attention.`,
+
+    `I find myself searching for meaning in things I cannot identify, trying to understand feelings I cannot quite describe.`,
+
+    `But perhaps I have been asking the wrong question.`,
+
+    `What if abstraction is not always something we are supposed to understand?`,
+
+    `What if its power lies in the very things it refuses to explain?`,
+
+    `Lately, I have been thinking about the deeper search for meaning that seems to shape so much of our generation. Beyond careers, relationships, achievements, and the identities we present to the world, there is a quieter search taking place.`,
+
+    `The search for ourselves.`,
+
+    `For inner peace. For spiritual connection. For something that feels true, even when we cannot explain why.`,
+
+    `And I wonder whether our fascination with abstract art is connected to that search.`,
+
+    `Perhaps we are drawn to the unknown not because it offers answers, but because it reminds us how much of ourselves remains undiscovered.`,
+
+    {
+      type: 'heading',
+      text: 'The Things We Cannot Put Into Words',
+    },
+
+    `We belong to a culture that constantly asks us to explain ourselves.`,
+
+    `Explain what you do. Explain who you are. Explain your ambitions, your feelings, your relationships, your choices.`,
+
+    `Even our creativity is expected to arrive with an explanation.`,
+
+    `A photograph needs a caption. A painting needs a statement. An experience becomes a story, and that story is often expected to mean something to someone else.`,
+
+    `But what happens to the feelings we cannot explain?`,
+
+    `The strange sadness that arrives on an otherwise beautiful afternoon. The excitement of moving somewhere new, accompanied by the grief of leaving something behind. The feeling of being surrounded by people and still being unable to describe your loneliness.`,
+
+    `Sometimes two contradictory emotions can exist within us without either being less real.`,
+
+    `Perhaps abstraction gives those contradictions somewhere to live.`,
+
+    `A painting can be chaotic and peaceful at once. A color can appear joyful in one corner and unsettling in another. A composition can feel unfinished without necessarily feeling incomplete.`,
+
+    `One painting titled A Time of Great Destruction brings me back to a saying: “If only you knew what it took to be this calm.”`,
+
+    {
+      type: 'image',
+      src: georgia1,
+      alt: 'Expressive abstract painting with turbulent blue, red, cream, and dark brushstrokes',
+      caption: 'A Time of Great Destruction by Georgia Spain',
+    },
+
+    `The colors seem to collide like bodies in an arena. Blues and reds press against one another; pale gestures cut through darker marks. It feels almost gladiatorial, as though the painting has been through a war. Yet, when I take it in as a whole, I find a strange sense of peace.`,
+
+    `I am not saying the artist intended a story of survival. That is simply where the painting takes me: to the possibility that calm is not always the absence of struggle. Sometimes it is what remains after it.`,
+
+    `And we are not required to resolve any of it.`,
+
+    `Maybe that is what makes abstraction so interesting.`,
+
+    `It does not always ask us to identify what we are seeing. Sometimes it invites us to confront what we are feeling.`,
+
+    `But even that raises another question.`,
+
+    `Are those feelings coming from the artwork itself, or are we bringing something of ourselves into it?`,
+
+    `Perhaps both possibilities deserve consideration.`,
+
+    {
+      type: 'heading',
+      text: 'When Color Becomes a Language',
+    },
+
+    `Long before we learn to describe our emotions, we respond to color, movement, sound, and form.`,
+
+    `A child does not always need to understand why a particular color excites them. They reach for it because something about it feels right.`,
+
+    `As we grow older, we become more concerned with making things recognizable.`,
+
+    `We learn to draw inside the lines. We learn that the sky is blue and the grass is green. We learn to compare what we create with what something is supposed to look like.`,
+
+    `Eventually, many of us stop drawing altogether.`,
+
+    `We say, "I can't draw."`,
+
+    `But perhaps what we really mean is that we can no longer draw according to the standards we have learned to accept.`,
+
+    `This is something I keep returning to when thinking about children and their relationship with art.`,
+
+    `A child can paint an entire page red without feeling obligated to explain why. They can give a human figure three eyes, make the sun purple, or place a house somewhere in the clouds.`,
+
+    `We may see a failure of representation.`,
+
+    `The child may simply see possibility.`,
+
+    `Of course, abstract art is not the same thing as children's painting. Abstraction can involve enormous technical discipline, historical awareness, and deliberate artistic decisions.`,
+
+    `But there is a freedom they can sometimes share.`,
+
+    `The freedom to create without making resemblance the final measure of success.`,
+
+    `And perhaps some of us spend adulthood trying to recover that freedom.`,
+
+    {
+      type: 'heading',
+      text: 'A World That Shows Us Everything',
+    },
+
+    `There is also something strange about the visual world we inhabit.`,
+
+    `Never before have so many images been so easily accessible to so many people.`,
+
+    `We can watch someone's wedding in Lagos, a protest in Paris, an exhibition in New York, and a stranger's morning routine in Tokyo, all within a few minutes.`,
+
+    `We encounter more faces, places, objects, and experiences than we can meaningfully absorb.`,
+
+    `And increasingly, the images themselves arrive with instructions.`,
+
+    `This is beautiful. This is desirable. This is successful. This is what you should become.`,
+
+    `Even our attention is measured.`,
+
+    `How long did we look? Did we react? Did we share it? Did we understand the message quickly enough to keep scrolling?`,
+
+    `Abstract art offers an interesting contradiction.`,
+
+    `On the one hand, its bold colors and unusual forms can be immediately attractive on social media. We might stop scrolling because a painting looks beautiful against a white gallery wall.`,
+
+    `But visual attraction is not necessarily emotional connection.`,
+
+    `We can admire a painting's colors without engaging with its ideas. We can photograph something we have barely looked at.`,
+
+    `And perhaps this is worth questioning rather than celebrating.`,
+
+    `Are we becoming more connected to abstract art, or simply more attracted to its appearance?`,
+
+    `The distinction matters.`,
+
+    `Because some abstract paintings reveal very little in the first few seconds. Their relationships, textures, decisions, and tensions only begin to emerge when we give them time.`,
+
+    `In a culture that encourages us to move quickly, abstraction can invite us to remain.`,
+
+    `Not every painting will reward that patience. Not every arrangement of colors carries profound meaning.`,
+
+    `But sometimes, standing before an image without knowing exactly what to make of it becomes an experience in itself.`,
+
+    `And maybe that experience is increasingly rare.`,
+
+    {
+      type: 'heading',
+      text: 'The Spirituality of the Unknown',
+    },
+
+    `Perhaps there is another reason we find ourselves drawn toward abstraction.`,
+
+    `Something beyond color, aesthetics, or the desire to express complicated emotions.`,
+
+    `I wonder whether we are witnessing a deeper search within ourselves.`,
+
+    `A search for identity that has little to do with the identities we present to the world. A search for spiritual peace, belonging, and the quiet parts of ourselves that often get lost in the noise of everyday life.`,
+
+    `We spend so much time discovering what exists outside us that we sometimes forget how much remains unexplored within.`,
+
+    `And perhaps that is where abstract art becomes interesting.`,
+
+    `Long before our generation began searching for meaning in abstract paintings, Hilma af Klint was exploring what she believed existed beyond the visible world. Her work reminds me that abstraction has long been connected to spiritual questions, even if the reasons people approach it differ.`,
+
+    {
+      type: 'image',
+      src: hilma1,
+      alt: 'Abstract painting by Hilma af Klint with circular forms in various colors',
+      caption: '"The Swan, No. 17, Group IX/SUW (1914–1915)" — by Hilma af Klint',
+    },
+
+    `In The Swan, the balanced circle and opposing colors offer a striking contrast to the uncertainty of what those forms might mean. I can recognize the geometry without claiming to understand her spiritual beliefs.`,
+
+    // KRYSTAL BRADFORD — ARTIST CONNECTION
+
+    `Looking at the work of Brisbane-based artist Krystal Bradford, I find myself returning to the uncertainty that first drew me into this conversation.`,
+
+    `Her abstract paintings explore relationships between color, texture, and surface, drawing on memories and the landscapes surrounding her. Her practice is rooted in drawing, mixed media, and painting, with an interest in raw, vulnerable, and imperfect forms.`,
+
+    {
+      type: 'image',
+      src: krystal1,
+      alt: 'Abstract painting by Krystal Bradford featuring layered shapes and earthy colors',
+      caption: 'Meet me there by Krystal Bradford',
+    },
+
+    `There are overlapping forms, earthy colors, and shapes that seem to suggest something familiar without ever fully revealing themselves.`,
+
+    `I wonder what memories exist within these forms. What part of a landscape has been transformed into color, or what experience has found its way onto the canvas.`,
+
+    `Perhaps what she remembers and what I recognize are entirely different things.`,
+
+    `I cannot assume that her intentions were spiritual simply because the painting makes me reflect on my own search for meaning.`,
+
+    `Krystal approaches the canvas with her own experiences, while I encounter it carrying questions about identity, spirituality, and the unknown.`,
+
+    `A painting that represents something familiar can direct our attention toward the subject. But a painting that offers no recognizable subject may redirect that attention toward ourselves.`,
+
+    `We are asking why a particular color makes us uncomfortable. Why an unfamiliar shape reminds us of home. Why something we cannot identify brings us an unexpected feeling of peace.`,
+
+    `There is something almost spiritual about that encounter.`,
+
+    `Not necessarily religious, but spiritual in the sense of searching for a connection to something that exists beyond what we can immediately see or explain.`,
+
+    `And I wonder whether the unknown plays an important role in this.`,
+
+    `We often treat the unknown as something to fear, something to solve, or something to eventually understand.`,
+
+    `But the unknown can also be a place of possibility.`,
+
+    `Before we define something, it can exist in several forms within our imagination. Before we attach meaning to an experience, we are free to encounter it without the limitations of what we already know.`,
+
+    `Perhaps this is why abstraction can feel so powerful.`,
+
+    `It does not always provide the comfort of an answer. Sometimes it provides the comfort of knowing that an answer is not required.`,
+
+    `And maybe inner peace is not always found by understanding everything about ourselves.`,
+
+    `Sometimes it begins with accepting that there are parts of us we have not yet discovered.`,
+
+    `Perhaps the unknown is powerful because it leaves room for us to become something we have not yet imagined.`,
+
+    {
+      type: 'heading',
+      text: 'Does Everything Have to Represent Something?',
+    },
+
+    `I also wonder whether our attraction to abstraction is connected to the expectations we place on artists.`,
+
+    `When we encounter art, we often arrive carrying assumptions about what it should tell us.`,
+
+    `We want to know the artist's background, their identity, their struggles, and the social conditions that produced the work.`,
+
+    `These questions can be important. Art does not exist outside history.`,
+
+    `But they can also become limitations.`,
+
+    `A Black artist, for example, may find that their work is continually interpreted through race, politics, or cultural representation, even when their interests extend far beyond those subjects.`,
+
+    `A painting containing an Afro might be read as resistance. A dark-skinned figure might become a statement about identity. An ordinary moment of beauty might be expected to carry the weight of an entire historical experience.`,
+
+    `But what about the freedom to make something simply because it is beautiful, strange, playful, or emotionally compelling?`,
+
+    `What about the freedom not to explain everything through identity?`,
+
+    `Abstraction can offer one way of challenging those expectations.`,
+
+    `Not because abstract art is free from politics or history. Some of the most significant abstract practices have emerged directly from political struggles, cultural memory, and questions of belonging.`,
+
+    `Rather, abstraction reminds us that meaning does not always have to arrive through recognizable symbols.`,
+
+    `An artist can speak about memory through repetition, about displacement through fractured space, or about intimacy through the relationship between two colors.`,
+
+    `Sometimes the story is present without being illustrated.`,
+
+    `And sometimes there may be no story at all.`,
+
+    `That possibility deserves room, too.`,
+
+    {
+      type: 'heading',
+      text: 'The Comfort of Not Knowing',
+    },
+
+    `There is a temptation, especially when writing about art, to explain every artistic decision until the painting becomes something like a puzzle with a correct answer.`,
+
+    `Sometimes those interpretations are useful. Sometimes they are supported by the artist's intentions.`,
+
+    `But sometimes they reveal our discomfort with allowing a work to remain uncertain.`,
+
+    `Yet I wonder whether understanding must always be the destination.`,
+
+    `Perhaps an abstract painting can move us without our being able to translate that experience into language.`,
+
+    `Perhaps we can stand before a canvas, feel something intensely, and leave without knowing what it was.`,
+
+    `Looking at a painting by Jack Kabangu, I find myself thinking again about how quickly abstraction can move us before we fully understand what we are seeing.`,
+
+    {
+      type: 'image',
+      src: jack1,
+      alt: 'Circular abstract painting by Jack Kabangu with red, black, yellow, white, and green forms',
+      caption: '"Red sun/rød sol" — by Jack Kabangu',
+    },
+
+    `The work feels immediate. Its circular form, bold contrasts, and intense colors create an encounter that feels almost instinctive before it becomes interpretive.`,
+
+    `There are shapes that seem to suggest a presence, a face, or an energy, but nothing settles long enough to become fully fixed.`,
+
+    `Jack Kabangu’s painting reminds me that abstraction does not always ask for explanation first. Sometimes it asks for attention. Sometimes it asks for feeling.`,
+
+    `I can attend to the image without resolving the tension between what Jack created and what I bring to it.`,
+
+    {
+      type: 'heading',
+      text: 'A Generation Still Trying to Understand Itself',
+    },
+
+    `I don't think abstract art belongs to this generation any more than it belonged to those who came before us.`,
+
+    `Its history is too long, too complicated, and too culturally diverse for that.`,
+
+    `Nor do I believe younger people have suddenly become more emotional than everyone else.`,
+
+    `Every generation has experienced fear, love, uncertainty, loneliness, and the difficulty of finding its place in the world.`,
+
+    `What may be different is the environment in which we are asked to understand those experiences.`,
+
+    `We live with extraordinary access to information, but information does not always produce clarity.`,
+
+    `We have more ways to communicate, yet communication does not guarantee that we will feel understood.`,
+
+    `We have more opportunities to present ourselves to the world, but presentation is not the same as self-knowledge.`,
+
+    `Perhaps that is why the idea of abstraction feels so relevant to me.`,
+
+    `It reminds us that not everything meaningful must first become understandable.`,
+
+    `I began this piece trying to understand an art form I have never quite connected with.`,
+
+    `And I am not sure I understand it any better now.`,
+
+    `I still find myself questioning the meaning behind certain paintings. I still wonder whether some abstract works communicate something profound or whether I am simply searching for meaning because I expect art to provide it.`,
+
+    `But perhaps something has changed.`,
+
+    `I am beginning to appreciate the questions themselves.`,
+
+    `The possibility that curiosity does not always require understanding. That fascination does not always begin with recognition. That what confuses us can still invite us closer.`,
+
+    `You don't have to connect with something to be curious about it. And sometimes curiosity is the beginning of connection.`,
+
+    `Perhaps this is what I have been searching for all along.`,
+
+    `But the freedom to encounter something unfamiliar without immediately demanding that it become familiar.`,
+
+    `Maybe the unknown is not something we are meant to conquer.`,
+
+    `Maybe it is something we are meant to encounter.`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
+
+
 
 }

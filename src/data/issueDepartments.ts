@@ -16,6 +16,7 @@ import bekuti1 from '../assets/bekuti1.jpg'
 import okereke1 from '../assets/okereke1.jpg'
 import supportingCover from '../assets/supporting-cover.png'
 import okadaMan from '../assets/okadaMan.png'
+import krystalCover from '../assets/krystalCover.png'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -368,5 +369,36 @@ export const issueDepartments: IssueDepartments = {
     },
   },
 },
+
+
+'issue-10': {
+  issueNumber: 10,
+
+  departments: {
+    'studio-notes': {
+      artist: 'Mo Alimi',
+
+      title: 'The Spirituality of the Unknown',
+
+      description: [
+        'Why does abstract art continue to intrigue us even when we struggle to understand it? Perhaps our fascination with the unknown reflects something deeper: a search for inner peace, identity, and the parts of ourselves we have yet to discover.',
+
+        'A reflection on abstraction, emotional uncertainty, spiritual connection, and the possibility that curiosity itself may be the beginning of connection.',
+      ],
+
+      image: krystalCover,
+
+      imageAlt:
+        'Abstract painting with layered geometric forms in burgundy, brown, cream, and earthy tones',
+
+      caption:
+        'Abstract artwork — Artist and title to be credited',
+
+      link:
+        '/studio-hours/a-generation-that-feels-more-than-it-can-explain',
+    },
+  },
+},
+
 
 }

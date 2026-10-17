@@ -12,7 +12,7 @@ import bluCover from '../assets/blu-cover.png'
 
 import oyeleye5 from '../assets/oyeleye5.png'
 import okadaMan from '../assets/okadaMan.png'
-
+import krystalCover from '../assets/krystalCover.png'
 type StudioNoteTeaser = {
   title: string
   artist: string
@@ -358,6 +358,39 @@ openingStatement: [
   '— Mo Alimi, Editor, Art All Day',
 ],
 
+},
+{
+  slug: 'issue-10',
+
+  issueNumber: 10,
+  number: 'Issue 10',
+
+  title: 'A Generation That Feels More Than It Can Explain',
+
+  headline:
+    'On abstract art, the search for inner peace, and the beauty of not knowing.',
+
+  date: 'October 2026',
+
+  status: 'Current Issue',
+
+  coverImage: krystalCover,
+
+  // lead story
+  articleSlug: 'a-generation-that-feels-more-than-it-can-explain',
+
+  description:
+    'Why does art we struggle to understand still leave us curious and intrigued? Issue 10 explores our relationship with abstraction, the search for inner peace, and the power of the unknown. A personal reflection on emotional complexity, spirituality, and the possibility that curiosity itself may be the beginning of connection.',
+
+  openingStatement: [
+    'I started writing this piece trying to understand something I have never quite been able to connect with. Abstract art.',
+
+    'Why does something I struggle to understand still leave me so confused and intrigued? Perhaps there is something powerful about the unknown, something that invites us to look inward rather than search for answers in the world around us.',
+
+    'Issue 10 explores abstraction, spirituality, and our generation’s search for meaning, reminding us that we do not have to understand something to be curious about it. And sometimes, curiosity is the beginning of connection.',
+
+    '— Mo Alimi, Editor, Art All Day',
+  ],
 },
 
 ]
