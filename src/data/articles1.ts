@@ -76,7 +76,12 @@ import krystal1 from '../assets/krystal1.webp'
 import jack1 from '../assets/jack1.webp'
 import hilma1 from '../assets/hilma2.jpg'
 import georgia1 from '../assets/georgia1.png'
-
+import romeoCover1 from '../assets/romeoCover1.jpg'
+import romeo8 from '../assets/romeo8.png'
+import romeo10 from '../assets/romeo10.jpg'
+import romeo6 from '../assets/romeo6.png'
+import romeo5 from '../assets/romeo5.png'
+import romeo4 from '../assets/romeo4.png'
 // type BodyB
 // lock =
 //   | string
@@ -4289,6 +4294,506 @@ intro:
   youtube: '',
 },
 
+
+'what-if-i-stayed': {
+  category: 'culture-criticism',
+
+  title: 'What If I Stayed?',
+
+  author: 'Mo Alimi',
+
+  readTime: '12 min read',
+
+  publishedAt: '2026-10-20T00:00:00-06:00',
+
+  issueNumber: 11,
+
+  issue: 'Issue 11',
+
+  intro:
+    'I left Nigeria when I was barely older than a teenager. Before I knew it, there I was in Debrecen, Hungary, trying to figure life out in a country so different from the one I had always known. And looking at Romeo Niyigena’s paintings, I find myself asking a question I rarely allow myself to sit with. What if I stayed?',
+
+  heroImage: romeoCover1,
+
+  heroImageCaption:
+    'Thrilled thoughts by Romeo Niyigena',
+
+  body: [
+    `I left Nigeria when I was barely older than a teenager.`,
+
+    `Before I knew it, there I was in Debrecen, Hungary, trying to figure life out in a country so different from the one I had always known.`,
+
+    `I was young, ambitious, and perhaps a little naive about what it meant to leave home.`,
+
+    `Like many immigrants, especially those from backgrounds like mine, I carried a familiar story with me. The promise of a better life.`,
+
+    `It is a story we tell ourselves long before we ever board a plane. Somewhere beyond the borders of our country, there are opportunities waiting for us. More possibilities, more freedom, perhaps even a greater chance of becoming whoever we imagine ourselves to be.`,
+
+    `And so we leave.`,
+
+    `But nobody really tells you what happens to the person you were before you left.`,
+
+    `The version of me that left Nigeria is still somewhere deep down. I think about him sometimes. What he imagined life would look like. The things he was afraid of. The confidence he carried without knowing how much the world would challenge it.`,
+
+    `I wonder whether he would recognize the person I am today.`,
+
+    `Having lived in Africa, Europe, and now North America, I have come to understand that leaving is not a single event.`,
+
+    `You leave once physically, but emotionally, you spend years negotiating what it means to have left.`,
+
+    `And looking at Romeo Niyigena's paintings, I find myself returning to a question I rarely allow myself to sit with.`,
+
+    `What if I stayed?`,
+
+    `Not because I regret leaving. Not because I believe the life I might have lived in Nigeria would necessarily have been better.`,
+
+    `But because every decision creates another life we will never get to experience.`,
+
+    `Somewhere in my imagination, there is a version of me who never left.`,
+
+    `And I wonder who he became.`,
+
+    {
+      type: 'heading',
+      text: 'Learning to Belong Everywhere',
+    },
+
+    `I think there are phases to living in the diaspora.`,
+
+    `The first is integration.`,
+
+      {
+      type: 'image',
+      src: romeo6,
+      alt: 'Painting by Romeo Niyigena of a woman in a flowing orange outfit seated in an ornate chair, surrounded by sunflowers and white flowers',
+      caption: 'My Comfort II — Romeo Niyigena',
+    },
+
+
+    `When you arrive somewhere new, you are almost immediately confronted with how much of the world you do not know.`,
+
+    `The language is different. The food is different. The humor, the social rules, even the little things people take for granted are unfamiliar.`,
+
+    `You learn.`,
+
+    `You observe how people interact. You begin to understand their jokes. You develop friendships, adopt new habits, and gradually become comfortable in places that once made you feel like a stranger.`,
+
+    `You allow yourself to become a global citizen.`,
+
+    `I remember arriving in Debrecen and slowly adjusting to a world that operated differently from the one I grew up in. At some point, what was unfamiliar became ordinary. The city became part of my everyday life.`,
+
+    `It is a remarkable thing, the human ability to adapt.`,
+
+    `But adaptation also changes you.`,
+
+    `Not always dramatically. Sometimes it happens in the smallest ways. The expressions you begin using. The food you develop a taste for. The way you approach conversations, relationships, ambition, and even your understanding of yourself.`,
+
+    `Then one day, you realize you have become a collection of all the places you have lived.`,
+
+    `And that realization brings another question.`,
+
+    `How much of the person I used to be is still here?`,
+
+    {
+      type: 'heading',
+      text: 'The Responsibility of Remembering',
+    },
+
+    `The second phase, I think, is preservation.`,
+
+    
+      {
+      type: 'image',
+      src: romeo5,
+      alt: 'Painting by Romeo Niyigena of a woman in a flowing orange outfit seated in an ornate chair, surrounded by sunflowers and white flowers',
+      caption: 'Aware of my mind — Romeo Niyigena',
+    },
+
+
+    `At first, holding on to your roots feels like a matter of identity.`,
+
+    `You want to remain Nigerian. You want your accent, your food, your expressions, your childhood memories, and your understanding of the world to remain recognizable.`,
+
+    `There is a certain pride in being able to say where you come from.`,
+
+    `But as you grow older and spend more time away, preservation begins to mean something different.`,
+
+    `It becomes less about proving your identity to others and more about protecting something within yourself.`,
+
+    `You begin to realize that a part of who you are exists because of a particular place, a particular time, and particular people.`,
+
+    `And none of those things are guaranteed to remain the same.`,
+
+    `Culture does not always carry itself forward.`,
+
+    `Sometimes someone has to make a deliberate decision to keep it alive.`,
+
+    `It might be something as simple as remembering an expression your mother used when you were younger. Cooking a meal you grew up eating. Speaking your language even when everyone around you speaks another.`,
+
+    `Sometimes it is returning to music you haven't listened to in years.`,
+
+    `Other times, it is realizing that certain memories have become so distant that you can no longer tell whether you remember the moment itself or simply the story you have told yourself about it.`,
+
+    `I think that is one of the quiet complications of living abroad.`,
+
+    `You spend so much time learning how to belong somewhere new that one day, you find yourself making a conscious effort not to forget where you first belonged.`,
+
+    `Integration teaches you how to live in the world. Preservation teaches you how not to disappear inside it.`,
+
+    `And somewhere between those two things, you begin to construct a different kind of identity.`,
+
+    `One that belongs to several places, but never entirely to just one.`,
+
+    {
+      type: 'heading',
+      text: 'The Rich Aunty',
+    },
+
+    `There is something about Romeo Niyigena's paintings that makes it easy for me to enter a particular state of mind.`,
+
+    `Born in Kigali, Rwanda, in 1999, Romeo is a multidisciplinary artist whose relationship with art began in childhood. His desire to pursue art formally led him to École d'Arts de Nyundo, where he studied and graduated in 2018, developing his skills in graphic design.`,
+
+    `Working with oils, acrylics, and sometimes newspaper collage on canvas, Romeo draws inspiration from the diversity of the world around him. Through the internet, he has explored cultures beyond his immediate surroundings, particularly across Africa. His work often carries a poetic expression, with each piece offering its own story or meaning.`,
+
+    `What interests me is how much of his artistic world is rooted in ordinary human experiences. The body, culture, social life, the way people carry themselves and exist within their surroundings.`,
+
+    `As a Nigerian who has lived across three continents, I find myself recognizing people, moods, and experiences in his work that are difficult to explain.`,
+
+    `One painting, in particular, makes me smile.`,
+
+    {
+      type: 'image',
+      src: romeo10,
+      alt: 'Painting by Romeo Niyigena of a woman in a flowing orange outfit seated in an ornate chair, surrounded by sunflowers and white flowers',
+      caption: 'My Comfort I — Romeo Niyigena',
+    },
+
+    `A woman sits comfortably in an elaborate chair, dressed in beautiful shades of orange, surrounded by sunflowers and white flowers. Her expression is thoughtful, almost as though she has been interrupted in the middle of remembering something.`,
+
+    `And immediately, I think of someone familiar.`,
+
+    `The rich aunty.`,
+
+    `You know the one.`,
+
+    `She never got married, but she has lived a little more than a lot of people.`,
+
+    `Perhaps she has traveled to countries you have only heard about. She has friends in cities you have never visited. She knows how to carry herself, how to enter a room, how to enjoy the things she has worked for.`,
+
+    `She has stories.`,
+
+    `And there is something about the way she sits that makes me imagine she no longer feels the need to explain herself.`,
+
+    `I find that interesting.`,
+
+    `We often measure people's lives through the milestones they have achieved. Marriage, children, careers, houses, the things society has taught us to associate with a successful life.`,
+
+    `But here, I imagine a woman whose life has been rich in a different way.`,
+
+    `Rich in experiences.`,
+
+    `Rich in encounters.`,
+
+    `Rich in the many versions of herself she has had the opportunity to become.`,
+
+    `Of course, I do not know the story Romeo intended to tell through this woman. The life I imagine for her may be entirely different from the life the artist had in mind.`,
+
+    `But that is part of what I enjoy about looking at art.`,
+
+    `Sometimes a painting gives you enough room to recognize someone who exists only in your memory or imagination.`,
+
+    `And this woman reminds me of people who have spent years moving through the world without completely surrendering their sense of where they come from.`,
+
+    `Perhaps she has learned something I am still trying to understand.`,
+
+    `That becoming a citizen of the world does not mean abandoning home.`,
+
+    `It means learning how to carry home differently.`,
+
+    {
+      type: 'heading',
+      text: 'The People I Left Behind',
+    },
+
+    `But there is another side to leaving that I have come to understand.`,
+
+    `The people I left behind aren't the same either.`,
+
+    `And the Nigeria I left does not exist anymore. At least not in the way I remember it.`,
+
+    `For a long time, I think I carried an image of home that remained untouched by time.`,
+
+    `The familiar streets. The people. The friendships. The conversations.`,
+
+    `Somewhere in my mind, they were all waiting exactly as I had left them.`,
+
+    `But life does not stop because you leave.`,
+
+    `People grow older.`,
+
+    `Friendships change.`,
+
+    `The people you once knew so intimately develop lives you are no longer part of. They experience things you weren't there to witness, and you experience things they may never fully understand.`,
+
+    `You try to stay in touch.`,
+
+    `A message here. A phone call there. The occasional conversation that makes it feel as though no time has passed.`,
+
+    `But friendship that survives beyond proximity is a rare thing.`,
+
+    `There is something about growing up together that creates a kind of familiarity difficult to reproduce elsewhere.`,
+
+    `These are people who knew you before you had anything to prove. Before the degrees, the countries, the ambitions, and all the different versions of yourself you have had to become.`,
+
+    `And perhaps that is why we hold on so tightly.`,
+
+    `You try not to change too much.`,
+
+    `You want to remain recognizable to the people who truly knew you.`,
+
+    `You want to return to a conversation years later and still laugh at the same jokes, speak the same language, remember the same things.`,
+
+    `But the expectation to remain unchanged creates its own burden.`,
+
+    `You begin preserving yourself not only because you are afraid of forgetting where you came from, but because you are afraid the people who knew you might no longer recognize who you have become.`,
+
+    `And yet, they have changed too.`,
+
+    `That is the strange thing about distance.`,
+
+    `Everyone is moving forward, but we keep remembering one another in the past.`,
+
+    `We become custodians of versions of people who no longer exist.`,
+
+    `Maybe this is another kind of homesickness.`,
+
+    `Not simply missing a country or a particular person, but missing a time when you and the people you loved occupied the same world.`,
+
+    `A world that cannot be returned to, even with a plane ticket.`,
+
+    `And perhaps that is why the question What If I Stayed? becomes so difficult.`,
+
+    `Because staying would not have stopped life from changing.`,
+
+    `It would only have allowed me to witness those changes from a different place.`,
+
+    {
+      type: 'heading',
+      text: 'The Weight of Becoming',
+    },
+
+    `I return to another of Romeo's paintings.`,
+
+    {
+      type: 'image',
+      src: romeo8,
+      alt: 'Painting by Romeo Niyigena featuring a contemplative figure in a brown winter coat and gray fur hat with sunflowers against a dark green background',
+      caption: 'In the moment of What If by Romeo Niyigena',
+    },
+
+    `A figure sits wrapped in a heavy brown coat, wearing a thick fur hat. The colors are darker, the atmosphere quieter. Beside the figure, sunflowers grow against a deep green background.`,
+
+    `There is something about the image that makes me think of the emotional experience of being somewhere unfamiliar.`,
+
+    `The coat makes me think of winter.`,
+
+    `And winter makes me think of arriving in a place where even the weather reminds you that you are far from home.`,
+
+    `But what holds my attention is the figure's expression.`,
+
+    `I cannot say exactly what they are thinking.`,
+
+    `Perhaps nothing particularly dramatic.`,
+
+    `Perhaps they are simply resting.`,
+
+    `Still, I find myself projecting something familiar onto the image.`,
+
+    `The quiet moments when you are far away from everything you once knew, when the excitement of having made it somewhere new gives way to the ordinary responsibility of building a life.`,
+
+    `Because leaving is often celebrated as an achievement.`,
+
+    `And sometimes it is.`,
+
+    `But after the excitement comes the everyday reality.`,
+
+    `You have to make friends. Find your way around. Learn how things work. Understand a culture you were not raised in. Discover who you are when the things that once defined you are no longer immediately visible to everyone around you.`,
+
+    `You have to become comfortable with being misunderstood.`,
+
+    `And through all of that, you continue changing.`,
+
+    `I look at the sunflowers beside the figure and think about the strange ways familiar things can follow us into unfamiliar places.`,
+
+    `Something small can suddenly remind you of home.`,
+
+    `A smell. A song. A voice. A face.`,
+
+    `And for a moment, the distance between where you are and where you came from seems to disappear.`,
+
+    `Maybe that is one of the things art can do.`,
+
+    `It can bring you close to a feeling without requiring you to explain it first.`,
+
+    {
+      type: 'heading',
+      text: 'A Home That Exists in Memory',
+    },
+
+       {
+      type: 'image',
+      src: romeo4,
+      alt: 'Painting by Romeo Niyigena featuring a contemplative figure in a brown winter coat and gray fur hat with sunflowers against a dark green background',
+      caption: 'NGIRA NKUGIRE by Romeo Niyigena',
+    },
+
+
+    `There is something I have been thinking about lately.`,
+
+    `When I say I miss Nigeria, what exactly am I missing?`,
+
+    `Is it the country as it exists today?`,
+
+    `Or the Nigeria I remember?`,
+
+    `The one I knew when I was younger. When my understanding of life was smaller, when my friendships felt permanent, when the future was still something I could imagine without knowing what it would demand of me.`,
+
+    `Because the more I think about it, the more I realize that I do not only miss a place.`,
+
+    `I miss a period of my life.`,
+
+    `And those are two very different things.`,
+
+    `You can return to a country.`,
+
+    `You can visit the streets you grew up around, see familiar faces, eat the food you have missed, and sit with people who remember you from before.`,
+
+    `But you cannot return to being that age.`,
+
+    `You cannot recreate the exact circumstances that made those memories possible.`,
+
+    `Even if everything around you somehow remained unchanged, you would still arrive as a different person.`,
+
+    `Perhaps that is one of the more difficult truths about growing older.`,
+
+    `We spend so much time imagining that the things we love are waiting for us somewhere, only to discover that many of them existed at a particular moment in time.`,
+
+    `And time does not preserve things simply because they matter to us.`,
+
+    `This is where I find Romeo's paintings especially moving.`,
+
+    `Not because they necessarily tell a story about migration, but because they give me space to think about the people, places, and experiences I carry within me.`,
+
+    `Romeo's interest in cultural diversity and everyday human life makes this encounter even more meaningful to me. His paintings emerge from his own experiences and observations, yet they leave enough room for someone from another country, with an entirely different journey, to find something familiar within them.`,
+
+    `The woman in orange reminds me of the possibility of becoming comfortable in the life you have built.`,
+
+    `The figure in the winter coat reminds me of the uncertainty that often comes before that comfort.`,
+
+    `And somewhere between the two, I see my own journey.`,
+
+    `Not literally, but emotionally.`,
+
+    `A younger version of me arriving in Debrecen, unsure of what the world had waiting.`,
+
+    `And the person I am today, still figuring out what it means to belong.`,
+
+    {
+      type: 'heading',
+      text: 'What If I Stayed?',
+    },
+
+    `I have spent years searching for a better life.`,
+
+    `And I imagine I will spend many more trying to understand what that really means.`,
+
+    `When I was younger, a better life felt like something waiting somewhere else.`,
+
+    `A destination.`,
+
+    `A country.`,
+
+    `An opportunity.`,
+
+    `Something I could reach if I was willing to go far enough.`,
+
+    `Now, I am beginning to think that a better life is not always a place you arrive at.`,
+
+    `Sometimes it is the ability to look at everything you have experienced and recognize that each version of yourself mattered.`,
+
+    `The boy who left Nigeria.`,
+
+    `The young man trying to figure things out in Debrecen.`,
+
+    `The person learning to build a life in America.`,
+
+    `None of them is entirely gone.`,
+
+    `They exist in the way I think, the things I value, the people I miss, and the memories I continue to carry.`,
+
+    `And perhaps that is why the question remains with me.`,
+
+    `What if I stayed?`,
+
+    `Would I have been happier?`,
+
+    `Would the friendships have lasted longer?`,
+
+    `Would I have felt more connected to the people and places that shaped me?`,
+
+    `Would I have become someone entirely different?`,
+
+    `I don't know.`,
+
+    `And I will never know.`,
+
+    `But I am beginning to understand that the life I left behind was never going to remain exactly as I remembered it.`,
+
+    `The people would have changed.`,
+
+    `The country would have changed.`,
+
+    `And I would have changed with them.`,
+
+    `Maybe the real question is not whether I should have stayed.`,
+
+    `Maybe it is whether I can learn to appreciate the life I have lived without constantly measuring it against the life I might have had.`,
+
+    `I think about the rich aunty again.`,
+
+    `The way I imagine her sitting comfortably in that chair, surrounded by flowers, carrying a lifetime of experiences I know nothing about.`,
+
+    `Perhaps she has asked herself the same question.`,
+
+    `Perhaps she has wondered about the people she could have become, the places she could have lived, the decisions she could have made differently.`,
+
+    `Or perhaps she has learned to stop asking.`,
+
+    `I don't know.`,
+
+    `But there is something beautiful about imagining a person who has lived enough to understand that every life contains things we gain and things we leave behind.`,
+
+    `And perhaps becoming comfortable with that is its own kind of freedom.`,
+
+    `I left Nigeria in search of a better life.`,
+
+    `Along the way, I have found different places to call home, different people to love, and different versions of myself to become.`,
+
+    `But somewhere deep down, that young boy who left home is still with me.`,
+
+    `And as much as I sometimes wonder who he might have become if he had stayed, I hope he would be curious about the person we are becoming.`,
+
+    `Because perhaps the most important thing I have learned from leaving is that home is not always somewhere we can return to.`,
+
+    `Sometimes, it is something we spend the rest of our lives learning how to carry.`,
+
+    `— Mo Alimi, Editor, Art All Day`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
 
 
 }

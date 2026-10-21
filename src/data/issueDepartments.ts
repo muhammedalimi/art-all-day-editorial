@@ -17,6 +17,7 @@ import okereke1 from '../assets/okereke1.jpg'
 import supportingCover from '../assets/supporting-cover.png'
 import okadaMan from '../assets/okadaMan.png'
 import krystalCover from '../assets/krystalCover.png'
+import romeoCover from '../assets/romeoCover.png'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -400,5 +401,34 @@ export const issueDepartments: IssueDepartments = {
   },
 },
 
+
+'issue-11': {
+  issueNumber: 11,
+
+  departments: {
+    'studio-notes': {
+      artist: 'Mo Alimi',
+
+      title: 'What If I Stayed?',
+
+      description: [
+        'What happens when the home we remember no longer exists as we knew it? Through the paintings of Rwandan artist Romeo Niyigena, we reflect on diaspora, belonging, and the versions of ourselves we leave behind in search of a better life.',
+
+        'A personal journey from Nigeria to Hungary and North America, exploring integration, cultural preservation, friendships that survive distance, and the quiet realization that neither we nor the people we left behind remain unchanged.',
+      ],
+
+      image: romeoCover,
+
+      imageAlt:
+        'Painting by Romeo Niyigena depicting a smiling woman in a blue cap, orange jacket, and blue trousers, seated in an armchair surrounded by colorful flowers',
+
+      caption:
+        'Artwork by Romeo Niyigena — Featured in Art All Day Issue 11',
+
+      link:
+        '/studio-hours/what-if-i-stayed',
+    },
+  },
+},
 
 }

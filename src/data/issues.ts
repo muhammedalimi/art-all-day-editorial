@@ -13,6 +13,7 @@ import bluCover from '../assets/blu-cover.png'
 import oyeleye5 from '../assets/oyeleye5.png'
 import okadaMan from '../assets/okadaMan.png'
 import krystalCover from '../assets/krystalCover.png'
+import romeoCover from '../assets/romeoCover.png'
 type StudioNoteTeaser = {
   title: string
   artist: string
@@ -392,6 +393,42 @@ openingStatement: [
     '— Mo Alimi, Editor, Art All Day',
   ],
 },
+
+
+{
+  slug: 'issue-11',
+
+  issueNumber: 11,
+  number: 'Issue 11',
+
+  title: 'What If I Stayed?',
+
+  headline:
+    'On diaspora, belonging, the people we leave behind, and the versions of ourselves we can never return to.',
+
+  date: 'October 2026',
+
+  status: 'Current Issue',
+
+  coverImage: romeoCover,
+
+  // lead story
+  articleSlug: 'what-if-i-stayed',
+
+  description:
+    'What happens when the home we remember no longer exists as we knew it? Through the paintings of Rwandan artist Romeo Niyigena, Issue 11 reflects on migration, identity, and the quiet responsibility of preserving our roots. From Nigeria to Hungary and North America, a personal exploration of the lives we leave behind, the friendships that survive distance, and the different versions of ourselves we become along the way.',
+
+  openingStatement: [
+    'I left Nigeria when I was barely older than a teenager. Before I knew it, there I was in Debrecen, Hungary, trying to figure life out in a country so different from the one I had always known.',
+
+    'Like many immigrants, I left in search of a better life. But the people I left behind have changed too, and the Nigeria I remember no longer exists in quite the same way. Somewhere between integration and preservation, I began to wonder what happens to the versions of ourselves we leave behind.',
+
+    'Through the evocative paintings of Romeo Niyigena, Issue 11 explores diaspora, belonging, memory, and the complicated meaning of home. Perhaps the question is not whether life would have been better if we stayed, but how we learn to carry the places and people that shaped us.',
+
+    '— Mo Alimi, Editor, Art All Day',
+  ],
+},
+
 
 ]
 
