@@ -18,6 +18,7 @@ import supportingCover from '../assets/supporting-cover.png'
 import okadaMan from '../assets/okadaMan.png'
 import krystalCover from '../assets/krystalCover.png'
 import romeoCover from '../assets/romeoCover.png'
+import gallen2 from '../assets/gallen2.webp'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -427,6 +428,35 @@ export const issueDepartments: IssueDepartments = {
 
       link:
         '/studio-hours/what-if-i-stayed',
+    },
+  },
+},
+
+'issue-12': {
+  issueNumber: 12,
+
+  departments: {
+    'culture-criticism': {
+      artist: 'Guest Contributor',
+
+      title: 'The Beauty of Tea, the Burden of Land',
+
+      description: [
+        'What happens when the beauty of a landscape conceals a painful history? Through the documentary Kikuyu Land, a Kenyan writer reflects on colonial dispossession, ancestral memory, and the stories we inherit about the places we call home.',
+
+        'A personal exploration of cinema, identity, language, and decolonisation, questioning who gets to tell our stories and what it means to confront the histories behind the things we love.',
+      ],
+
+      image: gallen2,
+
+      imageAlt:
+        'Cover artwork for The Beauty of Tea, the Burden of Land, an essay examining the documentary Kikuyu Land',
+
+      caption:
+        'The Beauty of Tea, the Burden of Land — Art All Day',
+
+      link:
+        '/studio-hours/the-beauty-of-tea-the-burden-of-land',
     },
   },
 },

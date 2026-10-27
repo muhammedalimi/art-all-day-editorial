@@ -14,6 +14,9 @@ import oyeleye5 from '../assets/oyeleye5.png'
 import okadaMan from '../assets/okadaMan.png'
 import krystalCover from '../assets/krystalCover.png'
 import romeoCover from '../assets/romeoCover.png'
+// import gallen2 from '../assets/gallen2.webp'
+import gallenCover from '../assets/gallenCover.png'
+
 type StudioNoteTeaser = {
   title: string
   artist: string
@@ -338,7 +341,7 @@ export const issues: Issue[] = [
 
   date: 'October 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
 
   coverImage: okadaMan,
 
@@ -373,7 +376,7 @@ openingStatement: [
 
   date: 'October 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
 
   coverImage: krystalCover,
 
@@ -408,7 +411,7 @@ openingStatement: [
 
   date: 'October 2026',
 
-  status: 'Current Issue',
+  status: 'Archive',
 
   coverImage: romeoCover,
 
@@ -429,6 +432,40 @@ openingStatement: [
   ],
 },
 
+
+{
+  slug: 'issue-12',
+
+  issueNumber: 12,
+  number: 'Issue 12',
+
+  title: 'The Beauty of Tea, the Burden of Land',
+
+  headline:
+    'On colonial memory, ancestral land, the beauty we inherit, and the histories we are taught not to question.',
+
+  date: 'October 2026',
+
+  status: 'Current Issue',
+
+  coverImage: gallenCover,
+
+  // lead story
+  articleSlug: 'the-beauty-of-tea-the-burden-of-land',
+
+  description:
+    'Through the documentary Kikuyu Land, Kenyan writer Waithera wa Mwangi examines the uncomfortable histories beneath Kenya’s celebrated tea landscapes. A personal reflection on colonial dispossession, family memory, cultural identity, and the power of cinema to challenge inherited narratives. Issue 12 asks what happens when the things we love carry histories we have never been taught to question.',
+
+  openingStatement: [
+    'There is something remarkable about the way art can change what we see. A beautiful landscape may hold a painful history. A familiar tradition may carry questions that generations have avoided. Sometimes, looking more closely means confronting what we would rather leave undisturbed.',
+
+    'In this issue, Kenyan writer Waithera wa Mwangi takes us into the documentary Kikuyu Land, reflecting on the relationship between colonial history, ancestral land, cultural memory, and the stories families pass from one generation to another.',
+
+    'Through her personal encounter with the film, we are reminded that art does more than preserve beauty. It can challenge the narratives we inherit, question who gets to tell our stories, and ask us to reconsider the histories behind the things we love.',
+
+    '— Mo Alimi, Editor, Art All Day',
+  ],
+},
 
 ]
 

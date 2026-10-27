@@ -82,6 +82,17 @@ import romeo10 from '../assets/romeo10.jpg'
 import romeo6 from '../assets/romeo6.png'
 import romeo5 from '../assets/romeo5.png'
 import romeo4 from '../assets/romeo4.png'
+
+import gallen2 from '../assets/gallen2.webp'
+import gallen1 from '../assets/gallen1.webp'
+import gallen3 from '../assets/gallen3.jpg'
+import gallen4 from '../assets/gallen4.jpg'
+import gallen5 from '../assets/gallen5.jpg'
+import gallen6 from '../assets/gallen6.jpg'
+// import winnie1 from '../assets/winnie1.png'
+// import winnie2 from '../assets/winnie2.jpeg'
+import winnie3 from '../assets/winnie3.jpeg'
+
 // type BodyB
 // lock =
 //   | string
@@ -4788,6 +4799,226 @@ intro:
     `Sometimes, it is something we spend the rest of our lives learning how to carry.`,
 
     `— Mo Alimi, Editor, Art All Day`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
+
+
+'the-beauty-of-tea-the-burden-of-land': {
+  category: 'culture-criticism',
+
+  title: 'The Beauty of Tea, the Burden of Land',
+
+  author: 'Waithera wa Mwangi',
+
+  readTime: '9 min read',
+
+  publishedAt: '2026-10-27T00:00:00-06:00',
+
+  issueNumber: 12,
+
+  issue: 'Issue 12',
+
+  intro:
+    `Art, Memory and the Work of Decolonising in Kikuyu Land. An encounter with Kikuyu Land reveals how cinema can challenge inherited narratives, confront family histories and invite us to reconsider the land beneath our feet—and the tea in our cups.`,
+
+  heroImage: gallen2,
+
+  heroImageCaption:
+    'Kikuyu Woman by Akseli Gallen-Kallela',
+
+  body: [
+    `There is something unsettling about discovering that a thing you have always been proud of carries a history you were never taught to question.`,
+
+    `As a Kikuyu, a Kenyan and a lover of tea, I approached *Kikuyu Land* with a familiar affection for one of my country's most celebrated exports. I left thinking differently about the relationship between beauty, memory and power.`,
+
+    
+       {
+      type: 'image',
+      src: winnie3,
+      alt: '',
+      caption: 'Photograph by Waithera wa Mwangi',
+    },
+
+    `Co-directed by Kenyan journalist and filmmaker **Bea Wangondu** and Emmy Award-winning filmmaker **Andrew H. Brown**, *Kikuyu Land* is a feature documentary that examines the enduring consequences of colonial land dispossession in Kenya's tea-growing highlands. At its centre is a struggle to reclaim ancestral land, a history of corporate power and an investigation that leads Wangondu towards uncomfortable discoveries about her own family. The film premiered at the 2026 Sundance Film Festival before travelling to international audiences. [1](https://fest26-wp.festival.sundance.org/blogs/kikuyu-land-chronicles-historic-injustice-and-one-womans-quest-for-truth/) [2](https://www.thegardencinema.co.uk/film/kikuyu-land-qa/)`,
+
+    `What makes the film particularly compelling is not simply the history it uncovers, but the way it asks us to encounter that history through images, personal testimony and the intimate details of everyday life.`,
+    
+    {
+      type: 'heading',
+      text: 'Looking beyond the green',
+    },
+
+    `Kenyan tea is beautiful. Its rolling hills, carefully cultivated plantations and seemingly endless green landscapes have become part of the country's visual identity. Tea is an important export, a source of national pride and an everyday pleasure enjoyed far beyond Kenya's borders.`,
+
+    `But what happens when we look beyond the green?`,
+
+    `*Kikuyu Land* asks us to consider the colonial dispossession beneath this picturesque landscape and the inequalities that continue to shape relationships between land, labour and corporate wealth.`,
+
+    `Land is never simply land. In Kenya, it carries ancestry, belonging, livelihood and cultural memory. To lose it is to lose more than a physical possession; it is to have one's relationship with place and generations of family history disrupted.`,
+
+    `The film's investigation brings these consequences into the present, challenging the assumption that colonialism ended when Kenya gained independence. Its central questions concern not only what happened in the past, but who continues to benefit from it and what meaningful accountability might look like today.`,
+
+    `For me, this was the film's first challenge: **how do we celebrate an industry without confronting the conditions under which its foundations were laid?**`,
+
+    {
+      type: 'heading',
+      text: 'When the camera becomes an act of reclamation',
+    },
+
+          {
+      type: 'image',
+      src: gallen1,
+      alt: '',
+      caption: 'Portrait of Kenosua by Gallen-Kallela, 1909–1910',
+    },
+
+    `One of the film's most powerful qualities is its cinematography, shaped by the collaboration between its co-directors, particularly Brown's work behind the camera.`,
+
+    `The images hold two realities together: the undeniable beauty of the landscape and the painful history it contains. The camera does not need to diminish the landscape's beauty to reveal its injustices. Instead, it invites us to look more carefully.`,
+
+    `Equally important is the dignity with which people are represented. They are not merely illustrations of historical suffering, but individuals with relationships, ambitions and lives extending beyond the circumstances being documented.`,
+
+    `This matters in a world where images of Africa have too often been shaped by external perspectives, reducing complex lives to familiar narratives of poverty, conflict or helplessness.`,
+
+    `A particularly moving thread in the film is a young boy's interest in photography and cameras. His curiosity offers a quiet counterpoint to the history surrounding him. It also raises a question central to the politics of representation: who gets to hold the camera, and who gets to tell the story?`,
+
+    `For this child, photography represents a possibility—the opportunity to become the person documenting his community rather than simply appearing in someone else's images.`,
+
+    `Art cannot undo historical violence, but it can change who has the power to narrate it. When communities document their own experiences, they create opportunities to preserve memories, challenge imposed narratives and build archives for future generations.`,
+
+    {
+      type: 'heading',
+      text: 'The histories we inherit',
+    },
+
+             {
+      type: 'image',
+      src: gallen3,
+      alt: '',
+      caption: 'Kikuyu by the Riverbank by Akseli Valdemar Gallen-Kallela',
+    },
+
+
+    `The film's most uncomfortable revelations emerge when Wangondu's investigation turns towards her own family.`,
+
+    `During the post-screening discussion I attended, she spoke about discovering her grandfather's relationship with the British colonial establishment and his involvement in acquiring land around the transition to independence. The discovery complicated her understanding of her family and challenged the story she had initially set out to tell.`,
+
+    `This moment stayed with me because it exposed something deeply human: our desire to believe that the people who came before us stood on the right side of history.`,
+
+    `We want to be proud of our families. We want their achievements to reflect courage, integrity and hard work. But what happens when the historical record complicates that pride?`,
+
+    `The audience discussion brought this question closer to home when another attendee described discovering that their own grandparent had benefited from land redistribution during the transition away from colonial rule.`,
+
+    `Suddenly, the conversation was no longer simply about colonial authorities or multinational corporations. It was about family memory, inheritance and the stories we preserve to protect the people we love.`,
+
+    `How many family histories remain incomplete because certain questions have never been asked? How often do we confuse loving our ancestors with protecting them from scrutiny?`,
+
+    `Acknowledging complicity does not require us to reduce a person's entire life to a single decision. It requires a willingness to examine how power and wealth were accumulated, and what those processes cost others.`,
+
+    `We cannot choose the circumstances into which we are born, but we can choose what we do with the knowledge we acquire.`,
+
+    `Perhaps one of the most meaningful ways to honour our ancestors is to tell the truth about them, even when that truth unsettles the stories through which we have understood ourselves.`,
+
+    {
+      type: 'heading',
+      text: 'Decolonisation begins at home',
+    },
+
+              {
+      type: 'image',
+      src: gallen4,
+      alt: '',
+      caption: 'Dancing Kikuyu Warriors (1909)',
+    },
+
+
+    `For me, the film's questions extend beyond land ownership into language, identity and the values we inherit.`,
+
+    `During the discussion, Wangondu reflected on how her upbringing had shaped her relationship with language, including her distance from her mother tongue, Kikuyu.`,
+
+    `As a Kikuyu, I found this particularly resonant.`,
+
+    `What does it mean to inherit a language without fully possessing it? What is lost when the language through which our grandparents understood the world becomes something the next generation struggles to speak?`,
+
+    `Decolonisation is often discussed in terms of institutions, political movements and economic structures. These are essential, but the process also asks us to examine the assumptions that shape our everyday lives: what we consider sophisticated, whose knowledge we value and which parts of ourselves we have learned to leave behind.`,
+
+    `This is not about rejecting English or dismissing the opportunities it provides. It is about recognising the cost of allowing one language or worldview to become the unquestioned measure of everything else.`,
+
+    `Nor is introspection a substitute for structural change. Examining our inherited assumptions must sit alongside questions of land restitution, corporate accountability and the institutions responsible for addressing historical injustice.`,
+
+    `The challenge is to move beyond awareness towards meaningful action.`,
+
+    {
+      type: 'heading',
+      text: 'From remembrance to responsibility',
+    },
+                 {
+      type: 'image',
+      src: gallen5,
+      alt: '',
+      caption: 'Kikuyu In Papyrus Reeds (1909)',
+    },
+
+    
+
+    `Screened in the UK during Black History Month, *Kikuyu Land* offers an opportunity to reconsider how Britain engages with its colonial past and how that past continues to shape relationships between former colonies and the societies that benefited from imperial expansion.`,
+
+    `For British audiences, the film connects the history of empire to the contemporary products, institutions and economic systems through which its consequences remain visible.`,
+
+    `For Kenyan audiences, it invites a reconsideration of national narratives, contested land ownership and the histories that have been overlooked or left unresolved.`,
+
+    `For those of us who inhabit both worlds in different ways, it asks what we carry between them.`,
+
+    `Yet storytelling alone cannot restore lost land or compensate for generations of harm. Recognition matters, but it is not the same as justice.`,
+
+    `The questions raised by the film require credible investigations, transparent processes and meaningful engagement with the communities affected. They also demand support for the people who take risks to bring difficult histories into public view.`,
+
+    `Documentary filmmakers need resources, independent journalists need protection, and the people who share their experiences deserve to have their safety taken seriously.`,
+
+    `If we celebrate art's ability to challenge injustice, we must also consider our responsibility to the people who make that work possible.`,
+
+    {
+      type: 'heading',
+      text: 'Let the stories travel',
+    },
+
+             {
+      type: 'image',
+      src: gallen6,
+      alt: '',
+      caption: 'A Kikuyu Man (1909)',
+    },
+
+
+    
+
+    `I left the screening thinking about tea—not simply as an export or a national symbol, but as an ordinary part of everyday life.`,
+
+    `I thought about how easily we inherit national pride without inheriting the full story, and how often beauty allows us to overlook the histories that made it possible.`,
+
+    `I also thought about the power of art to connect personal experience with collective memory.`,
+
+    `Through its combination of landscape, testimony and family history, *Kikuyu Land* transforms a story about Kenyan tea into a wider conversation about identity, complicity, belonging and justice.`,
+
+    `Its importance lies not in offering easy answers, but in making it harder to ignore the questions.`,
+
+    `As a Kikuyu, a Kenyan and a lover of tea, I want more stories like this to be told, shared and discussed. I want them to reach audiences who have never considered the histories behind the products they consume or the landscapes they admire.`,
+
+    `And I want us to support the filmmakers and communities making these stories possible.`,
+
+    `Decolonisation is not a destination reached simply by learning the right language. It is an ongoing practice of examining what we have inherited, questioning what we have been taught to value and remaining willing to change.`,
+
+    `Sometimes the most important thing a work of art can do is change the way we see something we thought we already knew.`,
+
+    `I went into *Kikuyu Land* proud of my country, my heritage and my love of tea.`,
+
+    `I left with a more complicated understanding of all three.`,
+
+    `Perhaps that is where the real work begins.`,
   ],
 
   images: [],
