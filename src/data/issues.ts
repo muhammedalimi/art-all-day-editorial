@@ -16,6 +16,7 @@ import krystalCover from '../assets/krystalCover.png'
 import romeoCover from '../assets/romeoCover.png'
 // import gallen2 from '../assets/gallen2.webp'
 import gallenCover from '../assets/gallenCover.png'
+import judeCover from '../assets/judeCover.png'
 
 type StudioNoteTeaser = {
   title: string
@@ -466,6 +467,44 @@ openingStatement: [
     '— Mo Alimi, Editor, Art All Day',
   ],
 },
+
+
+{
+  slug: 'issue-13',
+
+  issueNumber: 13,
+  number: 'Issue 13',
+
+  title: 'Mama Said Cut Your Hair',
+
+  headline:
+    'On Black hair, professionalism, beauty standards, and the quiet ways we learn what it means to look presentable.',
+
+  date: 'October 2026',
+
+  status: 'Current Issue',
+
+  coverImage: judeCover,
+
+  // lead story
+  articleSlug: 'mama-said-cut-your-hair',
+
+  description:
+    'Before the world taught us what was professional, home taught us what was presentable. Through the paintings of Lagos-based Nigerian artist Jude Adebayo and his series Hate My Hair, Issue 13 explores the complicated relationship between Black hair, childhood, cultural identity, and social acceptance. From a mother’s preference for a fresh low cut to the rich traditions of Yoruba hairstyling and the expectations of modern workplaces, Mo Alimi questions when natural hair became something we were expected to fix.',
+
+  openingStatement: [
+    'Before we question the world’s beauty standards, perhaps we should begin at home. The familiar reminders to cut our hair, look neat, and appear responsible may have shaped our understanding of beauty long before we learned to question them.',
+
+    'In Issue 13, we feature Lagos-based Nigerian artist Jude Adebayo and his painting series Hate My Hair. His exploration of identity, emotion, and self-perception opens a conversation about the complicated relationship between our natural appearance and the expectations placed upon it.',
+
+    'From childhood memories of the barber’s chair to Yoruba hairstyling traditions and the politics of professionalism, this issue asks whether we choose how to present ourselves freely, or whether we sometimes change our appearance to be taken seriously.',
+
+    'Perhaps we were never explicitly taught to hate our hair. Perhaps we simply learned that it looked better when there was less of it.',
+
+    '— Mo Alimi, Editor, Art All Day',
+  ],
+},
+
 
 ]
 

@@ -92,7 +92,12 @@ import gallen6 from '../assets/gallen6.jpg'
 // import winnie1 from '../assets/winnie1.png'
 // import winnie2 from '../assets/winnie2.jpeg'
 import winnie3 from '../assets/winnie3.jpeg'
-
+import jude1 from '../assets/jude1.png'
+import jude2 from '../assets/jude2.png'
+import jude3 from '../assets/jude3.png'
+import jude4 from '../assets/jude4.png'
+import jude6 from '../assets/jude6.png'
+import jude7 from '../assets/jude7.png'
 // type BodyB
 // lock =
 //   | string
@@ -5025,6 +5030,644 @@ intro:
 
   youtube: '',
 },
+
+
+// 'mama-said-cut-your-hair': {
+//   category: 'culture-criticism',
+
+//   title: 'Mama Said Cut Your Hair',
+
+//   author: 'Mo Alimi',
+
+//   readTime: '10 min read',
+
+//   publishedAt: '2026-10-30T00:00:00-06:00',
+
+//   issueNumber: 13,
+
+//   issue: 'Issue 13',
+
+//   intro:
+//     `Before the world taught us what was professional, home taught us what was presentable. Through the paintings of Nigerian artist Jude Adebayo, childhood memories of the barber's chair, and the cultural significance of Black hair, we question why something so natural became something we were constantly asked to fix.`,
+
+//   heroImage: jude1,
+
+//   heroImageCaption:
+//     '"i hate my hair, perhaps I was taught to hate it III" by Jude Adebayo',
+
+//   body: [
+//     `Before we shift the conversation to the world, perhaps we should begin at home, with what we were taught about our own hair.`,
+
+//     `Growing up, we often heard familiar expressions.`,
+
+//     `*"Your hair is bushy."*`,
+
+//     `*"You look like a rascal."*`,
+
+//     `*"Go and make yourself look responsible."*`,
+
+//     `These were ordinary comments, sometimes said with affection, sometimes with frustration, and often without much thought. But somewhere between being told to look neat and being reminded to visit the barber, we began to associate the appearance of our hair with the kind of person we were expected to become.`,
+
+//     `As a child, I was often celebrated by my mother whenever I returned home with a fresh low cut. Suddenly, I was handsome, neat, and responsible. The compliments came almost immediately.`,
+
+//     `But even the slightest appearance of an afro was enough to signal that another trip to the salon was approaching.`,
+
+//     `My hair had barely grown before it was already time to cut it again.`,
+
+//     `I never really questioned it. A haircut was simply part of looking presentable, much like wearing clean clothes or polishing your shoes before leaving the house.`,
+
+//     `And like many children, I enjoyed the compliments.`,
+
+//     `But looking back, I find myself wondering why the approval seemed to depend so much on how little hair was left on my head.`,
+
+//     `When did having too much hair become a sign of irresponsibility? And how did something growing naturally from our bodies become something that constantly needed fixing?`,
+
+//     `I don't believe my mother's intention was ever to make me dislike my hair. Perhaps, like many parents, she simply wanted her child to look well-groomed and respectable.`,
+
+//     `But there is something worth examining about the things we praise in children and the things we repeatedly ask them to change.`,
+
+//     `Nobody ever explicitly told me to hate my hair.`,
+
+//     `**Perhaps I was simply taught that it looked better when there was less of it.**`,
+
+//     {
+//       type: 'heading',
+//       text: 'Perhaps I was taught to hate it',
+//     },
+
+//             {
+//       type: 'image',
+//       src: jude2,
+//       alt: '',
+//       caption: '""I hate my hair, perhaps I was taught to hate it" II" by Jude Adebayo',
+//     },
+
+
+//     `This question became more interesting to me when I encountered *Hate My Hair*, a series of paintings by Lagos-based Nigerian artist **Jude Adebayo**.`,
+
+//     `Working primarily in painting and drawing, Jude explores identity, memory, human emotions, and the often-unspoken stories of African experiences. His artistic practice is interested in how culture, upbringing, and society shape the ways people see themselves and others.`,
+
+//     `What first caught my attention was the title of the series.`,
+
+//     `*Hate My Hair.*`,
+
+//     `It sounds almost like a confession. A simple statement, yet one that invites a much larger conversation.`,
+
+//     `Can we truly hate something about ourselves without first developing an idea of what it should look like?`,
+
+//     `Or do we gradually become uncomfortable with certain parts of ourselves because of the reactions they receive?`,
+
+//     `In one of Jude's paintings, a woman appears deep in thought. Her gaze is lowered, one hand resting near her face. She wears a dark burgundy jacket against a largely white background.`,
+
+//     `But it is her hair that commands the painting.`,
+
+//     `Dark, textured, and almost sculptural, it expands far beyond the familiar proportions of a traditional portrait. Thick layers of paint spread across the canvas, interrupted by rough edges and traces of purple. The hair appears to resist the boundaries of the figure itself.`,
+
+//     `There is something fascinating about the contrast.`,
+
+//     `**The woman's expression is quiet, but her hair is anything but.**`,
+
+//     `It occupies space without apology.`,
+
+//     `To me, the painting presents a kind of freedom that feels strangely at odds with the title of the series.`,
+
+//     `I see beauty in the texture, the movement, the unpredictability of it all. Yet the words *Hate My Hair* invite me to consider how the very features we admire in art can become subjects of criticism in everyday life.`,
+
+//     `A hairstyle celebrated on a canvas might receive an entirely different reaction in a classroom, at home, or during a job interview.`,
+
+//     `Of course, the artist's intentions may extend beyond my own reading of the work. But perhaps that is part of what makes art interesting. Sometimes a painting raises questions about experiences we had never thought to examine.`,
+
+//     `For me, Jude's work brings back a childhood memory of the barber's chair and a mother who seemed happiest when my hair was neatly cut.`,
+
+//     `It also raises a bigger question.`,
+
+//     `**Were we being taught how to care for our hair, or were we being taught how much of it other people would tolerate?**`,
+
+//     {
+//       type: 'heading',
+//       text: 'The rules of looking neat',
+//     },
+
+//     `In America, conversations about embracing natural hair, skin tone, and identity have become part of a larger movement toward self-acceptance and confidence.`,
+
+//     `There is growing encouragement to love the features we were born with, rather than constantly trying to meet someone else's expectations of beauty.`,
+
+//     `But the conversation becomes more complicated when we enter professional spaces.`,
+
+//     `A hairstyle that represents freedom and self-expression outside the office can suddenly become a question of professionalism within it.`,
+
+//     `*Be yourself, but not too much.*`,
+
+//     `*Express yourself, but remain presentable.*`,
+
+//     `And what exactly does presentable mean?`,
+
+//     `We often discuss professionalism as though it is a universal standard. But much of what we consider professional has been shaped by social expectations, cultural preferences, and the appearance of those who have traditionally occupied positions of authority.`,
+
+//     `In the United States, [research by scholars at Duke University](https://www.fuqua.duke.edu/duke-fuqua-insights/ashleigh-rosette-research-suggests-bias-against-natural-hair-limits-job) found that Black women wearing natural hairstyles were perceived as less professional and less competent than women with straightened hairstyles in certain recruitment settings.`,
+
+//     `A [2023 workplace study commissioned by Dove and LinkedIn](https://www.linkedin.com/business/learning/blog/dove-linkedin-partnership) also reported that approximately two-thirds of Black women surveyed changed their hair for job interviews.`,
+
+//     `Think about that for a moment.`,
+
+//     `Before someone has spoken about their qualifications, experience, or ambitions, they may already be thinking about whether their hair will make them appear suitable for the opportunity.`,
+
+//     `It is not necessarily a question of whether they like their hair.`,
+
+//     `**It is a question of whether somebody else will.**`,
+
+//     `Of course, not every person who straightens their hair, wears a wig, chooses a low cut, or ties their hair back is doing so out of fear. People should have the freedom to experiment with their appearance without having their choices turned into political statements.`,
+
+//     `There is beauty in versatility.`,
+
+//     `But there is a difference between choosing a hairstyle because you enjoy it and choosing one because you believe your natural appearance might cost you an opportunity.`,
+
+//     `The problem is not the low cut, the straightened hair, or the ponytail.`,
+
+//     `The problem begins when one appearance is treated as respectable and another as something that must be corrected.`,
+
+//     `And perhaps that is why the language we use matters.`,
+
+//     `*Bushy. Rough. Untidy. Unprofessional.*`,
+
+//     `These descriptions do more than characterize hair. Depending on how they are used, they can begin to characterize the person wearing it.`,
+
+//     `We gradually stop discussing appearance and start making assumptions about discipline, intelligence, ambition, and character.`,
+
+//     `**But when did responsibility become something we could measure with a haircut?**`,
+
+//     {
+//       type: 'heading',
+//       text: 'Before the dress code',
+//     },
+
+//     `It would be easy to blame colonization for the complicated relationship Black people have with their appearance.`,
+
+//     `And certainly, the influence of colonialism and Western beauty standards deserves examination. But I also find myself looking further back, toward African cultures before European influence became so dominant.`,
+
+//     `In Yoruba culture, where I come from, hair was never simply decoration.`,
+
+//     `**It was a language.**`,
+
+//     `Hairstyles could communicate social status, age, marital status, and cultural or spiritual identity. The hair of a young girl might be arranged differently from that of a married woman. Particular styles could be associated with ceremony, social standing, or royalty.`,
+
+//     `A hairstyle could say something about you before you introduced yourself.`,
+
+//     `The cultural significance of Yoruba hairstyling is explored by historian Toyin Falola in [Yorùbá Hair Art and the Agency of Women](https://www.cambridge.org/core/books/abs/decolonizing-african-knowledge/yoruba-hair-art-and-the-agency-of-women/CE79860318271A423F0A02AE5D6B2104), which examines the relationship between hair, identity, spirituality, and social expectations.`,
+
+//     `There was also considerable artistry in the process.`,
+
+//     `The careful parting of the scalp, the arrangement of braids, the symmetry of patterns, and the patience required to create elaborate designs turned hair into something close to architecture.`,
+
+//     `It was both personal expression and a form of visual communication.`,
+
+//     `I find that fascinating.`,
+
+//     `Today, we sometimes speak about Black hair as though its natural texture is a problem waiting to be managed. Yet generations of African hairstyling traditions demonstrate just how much beauty and creativity can emerge from those same textures.`,
+
+//     `That is not to suggest that traditional African societies existed without strict expectations about appearance. Different communities had their own rules about grooming, gender, status, and presentation. In Yoruba society, too, neatness and proper grooming could be closely associated with social respectability.`,
+
+//     `Nor does every modern preference for straight hair come from colonial influence.`,
+
+//     `Our relationship with beauty has always been complicated.`,
+
+//     `But the history reminds us that there have been other ways of understanding the significance of hair.`,
+
+//     `Black hair can curl, coil, shrink, stretch, twist, and rise into extraordinary forms. It can be braided into intricate patterns or left to grow freely.`,
+
+//     `There is something almost architectural about it, as though each strand participates in a design of its own.`,
+
+//     `**And like a wildflower, it does not need to resemble another flower to be beautiful.**`,
+
+//     `Perhaps that is what I find so compelling about Jude's painting.`,
+
+//     `The woman's hair seems to exceed every expectation of where it should begin and end.`,
+
+//     `And I wonder why that kind of expression is so easily celebrated in a gallery but can still make people uncomfortable elsewhere.`,
+
+//     {
+//       type: 'heading',
+//       text: 'When success changes the rules',
+//     },
+
+//     `I sometimes think about Jay-Z.`,
+
+//     `For much of his early career, the rapper maintained a closely cropped haircut. Years later, he began growing his hair, eventually developing the freeform locs that reminded many observers of the late artist Jean-Michel Basquiat.`,
+
+//     `His changing appearance raises an interesting question about success and personal freedom.`,
+
+//     `Would someone entering a corporate office with that hairstyle be judged differently from a billionaire walking into the same room?`,
+
+//     `Does success give people the freedom to challenge expectations that others are still expected to follow?`,
+
+//     `Or are we simply assigning our own ideas about respectability to someone else's appearance?`,
+
+//     `Jay-Z's story also offers an interesting reminder that we should be careful about assuming why people choose their hairstyles.`,
+
+//     `In June 2026, Beyoncé [explained that Jay-Z began growing his locs](https://www.revolt.tv/article/beyonce-combing-out-jay-z-locs-cecred-vlog) partly to help their daughter, Blue Ivy, appreciate her natural hair texture. Years later, he combed out his locs and wore an afro in tribute to his late father.`,
+
+//     `That detail changes how I think about the story.`,
+
+//     `What I initially saw as a possible transformation connected to professional success was also a father's attempt to help his daughter see beauty in something about herself.`,
+
+//     `And suddenly, I find myself thinking about my own mother again.`,
+
+//     `Two parents, different approaches, perhaps both trying to prepare their children for the world.`,
+
+//     `One celebrated a fresh haircut. Another grew his hair to encourage his daughter's confidence.`,
+
+//     `Neither experience can explain every choice a person makes about their appearance. But together, they raise an interesting question about the influence parents have on how children come to understand beauty.`,
+
+//     `What would happen if we celebrated a child's natural hair with the same enthusiasm we give a fresh haircut?`,
+
+//     `Would they grow up seeing their hair differently?`,
+
+//     `Would they still feel the need to adjust their appearance before entering certain spaces?`,
+
+//     `Perhaps the answer is not as simple as refusing to cut our hair.`,
+
+//     `Perhaps it begins with examining why we sometimes feel that we must.`,
+
+//     {
+//       type: 'heading',
+//       text: 'What exactly are we fixing?',
+//     },
+
+//     `Returning to Jude Adebayo's painting, I am drawn once again to the difference between the woman's quiet expression and the overwhelming presence of her hair.`,
+
+//     `It is difficult to ignore.`,
+
+//     `The hair stretches across the canvas, breaking into rough, unpredictable forms. There is no attempt to make every edge smooth or every strand behave.`,
+
+//     `At least in my interpretation, that is where much of the painting's beauty lies.`,
+
+//     `It reminds me that art often encourages us to admire qualities that everyday social expectations ask us to suppress.`,
+
+//     `We praise originality in paintings, celebrate unconventional forms in sculpture, and admire artists who refuse to follow established rules.`,
+
+//     `Yet when those same qualities appear in people, we sometimes respond with discomfort.`,
+
+//     `We ask them to look neater.`,
+
+//     `To appear more serious.`,
+
+//     `To look responsible.`,
+
+//     `And perhaps what troubles me most is how ordinary these requests can sound.`,
+
+//     `I don't remember my mother ever sitting me down to explain why a low cut made me more respectable. There was no lecture about identity or beauty standards.`,
+
+//     `There were simply compliments when my hair was short and reminders when it grew.`,
+
+//     `That was enough to make me understand what was preferred.`,
+
+//     `And I imagine many of us have similar stories.`,
+
+//     `The child whose braids were called too rough. The young woman who was advised to straighten her hair before an interview. The young man whose afro was interpreted as a lack of seriousness.`,
+
+//     `Not everyone experiences these moments in the same way. Some may laugh them off. Others may remember them long after the conversation has ended.`,
+
+//     `And perhaps some never question them at all.`,
+
+//     `I still believe there is value in grooming, in taking care of ourselves, and in dressing appropriately for different occasions.`,
+
+//     `But taking care of something should not require us to believe there is something wrong with its natural state.`,
+
+//     `My mother wanted me to look responsible.`,
+
+//     `I understand that.`,
+
+//     `What I question now is why responsibility had to look a particular way.`,
+
+//     `Perhaps the conversation should never have been about whether our hair was too long, too thick, too rough, or too difficult to manage.`,
+
+//     `Perhaps it should have been about why those qualities made us uncomfortable in the first place.`,
+
+//     `And when I look at Jude's *Hate My Hair*, I no longer see the title as a statement that must be accepted at face value.`,
+
+//     `I see a question worth asking ourselves.`,
+
+//     `**Did we ever truly hate our hair?**`,
+
+//     `**Or did we simply become accustomed to seeing it through the expectations of others?**`,
+
+//     `Before we ask the world to change how it sees us, perhaps we should examine the language we use in our own homes.`,
+
+//     `The next time a child walks into the room with a growing afro, maybe the conversation doesn't have to begin with a reminder to visit the barber.`,
+
+//     `Maybe we can allow the hair to grow without making it a reflection of the child's character.`,
+
+//     `Because a fresh haircut can make someone look different.`,
+
+//     `**But it has never been what makes them responsible.**`,
+//   ],
+
+//   images: [],
+
+//   youtube: '',
+// },
+
+'mama-said-cut-your-hair': {
+  category: 'culture-criticism',
+
+  title: 'Mama Said Cut Your Hair',
+
+  author: 'Mo Alimi',
+
+  readTime: '9 min read',
+
+  publishedAt: '2026-10-30T00:00:00-06:00',
+
+  issueNumber: 13,
+
+  issue: 'Issue 13',
+
+  intro:
+    `Before the world taught us what was professional, home taught us what was presentable. Through childhood memories, Yoruba hairstyling traditions, and the paintings of Nigerian artist Jude Adebayo, a personal reflection on Black hair and why something so natural became something we were constantly asked to fix.`,
+
+  heroImage: jude1,
+
+  heroImageCaption:
+    '"i hate my hair, perhaps I was taught to hate it III" by Jude Adebayo',
+
+  body: [
+    `Before we start pointing fingers at the world, perhaps we should have a conversation about what happened at home.`,
+
+    `Growing up, my mum loved a fresh haircut. Every time I came back from the barber with a low cut, the compliments would start. I looked handsome, responsible, like a child who was being raised properly. You would think I had just graduated from university.`,
+
+    `But let my hair grow into a little afro and suddenly there was a problem. The reminders would begin, and from the way she reacted, you would think my hair had committed an offence.`,
+
+    `It was funny because I never understood what had changed about me. I was still the same boy, only with a little more hair on my head.`,
+
+    `We heard these things all the time growing up. Your hair is bushy. You look like a rascal. Go and make yourself look responsible. Nobody really explained the relationship between a haircut and responsibility. It was simply something we understood.`,
+
+    `And for a long time, I didn't think much of it either. I liked getting compliments from my mum, and if cutting my hair was what brought them, then a trip to the barber wasn't such a terrible thing.`,
+
+    `To be fair to her, I don't think she was trying to make me dislike my hair. She liked seeing her son looking neat. That was her idea of being presentable, and like many parents, she probably believed it would help me make a good impression on people.`,
+
+    `But the interesting thing about childhood is that you don't always need someone to explain a lesson before you learn it. Sometimes the excitement they show when you do something, and the disappointment when you don't, is enough.`,
+
+    `I knew my mother preferred my hair short long before I understood why.`,
+
+    `As I grew older, I started paying more attention to the things we were taught about appearance. Looking responsible, looking respectable, looking like someone people should take seriously. Somehow, all of these things could be connected to the amount of hair growing on your head.`,
+
+    `And that is where my curiosity began.`,
+
+    {
+      type: 'heading',
+      text: 'Perhaps I was taught to hate it',
+    },
+         {
+      type: 'image',
+      src: jude2,
+      alt: '',
+      caption: '""I hate my hair, perhaps I was taught to hate it" II" by Jude Adebayo',
+    },
+
+    `I recently came across a painting series called Hate My Hair by Lagos-based Nigerian artist Jude Adebayo, and the title immediately caught my attention.`,
+
+    `Jude works primarily in painting and drawing, exploring identity, memory, human emotions, and the stories that make up African experiences. He is particularly interested in how our culture, upbringing, and society influence the way we see ourselves and others.`,
+
+    `There was something about the title that brought me back to my childhood.`,
+
+    `Hate My Hair. Three simple words, but I kept thinking about how someone arrives at that feeling in the first place.`,
+
+    `I don't remember ever waking up and deciding that I hated my hair. As a child, I probably had more important things to worry about. But I understood that a particular version of me received more approval than another.`,
+
+    `Maybe hate is too strong a word for what I experienced. Perhaps I was simply taught that my hair looked better when there was less of it.`,
+
+    `Looking at one of Jude's paintings, I was struck by the amount of space the woman's hair occupies. Her face is almost quiet in comparison. She appears thoughtful, with her head slightly lowered and one hand resting near her face. But her hair is doing something entirely different.`,
+
+    `It spreads across the painting in thick, textured forms, almost as if it has no intention of staying within the boundaries of the portrait. There is something wild about it, but not in the negative way we often use that word to describe Black hair.`,
+
+    `I actually find it beautiful.`,
+
+    `The texture, the movement, the way the paint itself gives the hair a personality. It reminds me of how much we can do with our hair when we stop expecting it to behave like somebody else's.`,
+
+    `Of course, that is my own interpretation of the painting. Jude's work may be speaking to experiences beyond the ones I recognize in it. But I think that is part of the beauty of art. Two people can look at the same painting and find themselves thinking about entirely different things.`,
+
+    `For me, it brought back memories of the barber's chair, my mother's compliments, and the strange relationship between hair and responsibility.`,
+
+    `We can admire a painting because of its unusual texture and the freedom of its expression. We might even pay good money to hang it on our walls. Yet when somebody walks into a professional setting with an afro that occupies just as much attention, the conversation can suddenly become about whether they look presentable.`,
+
+    `Funny how that works.`,
+
+    {
+      type: 'heading',
+      text: 'Looking presentable',
+    },
+  {
+      type: 'image',
+      src: jude3,
+      alt: '',
+      caption: '""I hate my hair, perhaps I was taught to hate it" II" by Jude Adebayo',
+    },
+
+
+
+    `Living in America, I have noticed how conversations about natural hair, skin tone, and self-acceptance are often connected to confidence and mental well-being. People are encouraged to embrace the features they once felt pressured to change.`,
+
+    `There is something refreshing about that. I think everyone deserves to feel comfortable with the way they naturally look.`,
+
+    `But the conversation changes when we start talking about work.`,
+
+    `You can spend the weekend celebrating your natural hair, taking pictures, and feeling good about yourself. Then Monday comes around, you have a job interview, and suddenly you are standing in front of the mirror trying to decide whether that same hairstyle is a good idea.`,
+
+    `The hair hasn't changed. The setting has.`,
+
+    `And I think that says something interesting about what we call professionalism.`,
+
+    `We often treat professionalism as though everyone agrees on what it looks like. Wear the right clothes, keep your appearance neat, speak properly, and make a good impression. Most of us understand the importance of presenting ourselves well.`,
+
+    `But looking presentable is not always as straightforward as we make it sound. What one person considers neat, another might consider inappropriate. What looks perfectly normal within one culture can attract unwanted attention in another.`,
+
+    `Black hair has often found itself somewhere in the middle of those disagreements.`,
+
+    `There is actual research behind this discomfort. A study discussed by [Duke University](https://www.fuqua.duke.edu/duke-fuqua-insights/ashleigh-rosette-research-suggests-bias-against-natural-hair-limits-job) found that Black women with natural hairstyles were sometimes judged as less professional during recruitment evaluations than women with straightened hair.`,
+
+    `I find that troubling, not because there is anything wrong with straightened hair, but because of what it suggests about the way we judge people before getting to know them.`,
+
+    `Imagine spending years studying, developing your skills, preparing for a career, and still having to wonder whether the hair growing from your head might affect how someone evaluates your abilities.`,
+
+    `I don't believe every Black person who straightens their hair or keeps it low is trying to impress white America. That would be an unfair assumption. Some people genuinely prefer those styles. Others enjoy switching things up. Hair is personal, and the freedom to change it should be part of the conversation too.`,
+
+    `But there is a difference between choosing a hairstyle because you like it and choosing one because you are worried about how people will react.`,
+
+    `Sometimes we straighten it, tie it back, trim it down, or make it look less noticeable. And maybe we do these things so often that eventually we stop thinking about why.`,
+
+    `I am not against looking neat. I enjoy a good haircut myself. But I find it strange that we sometimes use appearance as a shortcut for judging someone's character.`,
+
+    `A low cut does not automatically make someone responsible, just as an afro does not make someone careless.`,
+
+    `Yet somehow we have become quite comfortable acting as though it does.`,
+
+    {
+      type: 'heading',
+      text: 'Before the world called it bushy',
+    },
+
+     {
+      type: 'image',
+      src: jude4,
+      alt: '',
+      caption: '"On my own Terms II" by Jude Adebayo',
+    },
+
+
+
+
+    `Whenever conversations about Black identity and beauty standards come up, colonialism is often one of the first things we discuss. And there are good reasons for that. European influence changed many aspects of African life, including ideas about appearance, education, class, and what it meant to look respectable.`,
+
+    `But I also think we should look at how African societies understood hair before Western beauty standards became so dominant.`,
+
+    `I am Yoruba, and in Yoruba culture, hair has a history that goes far beyond visiting the salon to look nice.`,
+
+    `Different hairstyles could communicate different things about a person. Age, marital status, social standing, cultural identity, and even spiritual beliefs could be expressed through the arrangement of hair. Certain styles were associated with ceremonies and important stages of life, while elaborate designs could reflect status or royalty.`,
+
+    `A young girl's hairstyle could look different from that of a newly married woman. A queen might wear something that communicated her position without needing an introduction.`,
+
+    `It is fascinating to think that hair could tell so much of a person's story without a single word being spoken.`,
+
+    `And then there is the artistry itself.`,
+
+    `Think about the patience required to create some of the traditional Yoruba hairstyles. The careful parting of the scalp, the patterns, the braids, the arrangement. Some of these styles are so elaborate that they almost resemble architecture.`,
+
+    `When I look at that history, I find it difficult to think of Black hair as something that simply needs to be controlled.`,
+
+    `It can be twisted, braided, stretched, sculpted, decorated, or allowed to grow. The possibilities seem endless. There is something almost rebellious about how it refuses to follow one particular shape.`,
+
+    `Like a wildflower, it can grow in its own direction and still be beautiful.`,
+
+    `But I don't want to romanticize the past either. African cultures had their own beauty standards, grooming expectations, and social rules. Yoruba society was no exception. Looking neat and being properly groomed mattered then too.`,
+
+    `That is why I hesitate to explain every modern attitude toward Black hair as simply a consequence of colonization. The history is more complicated than that.`,
+
+    `What interests me is how the meaning of hair changes depending on who is looking at it and where the person wearing it happens to be.`,
+
+    `The same kind of hairstyle that might be celebrated as cultural expression at a festival could be questioned in an office. A beautifully textured afro might be praised in a painting but called bushy on a person's head.`,
+
+    `And sometimes the criticism does not even come from outside our communities. It comes from people who look just like us, people who grew up hearing the same things we did.`,
+
+    `That brings me right back to my mother and her preference for a fresh low cut.`,
+
+    `Maybe the issue was never simply about Western beauty standards. Maybe it was also about the smaller everyday rules we had become accustomed to following without much discussion.`,
+
+    {
+      type: 'heading',
+      text: 'Jay-Z and the freedom to look different',
+    },
+
+     {
+      type: 'image',
+      src: jude6,
+      alt: '',
+      caption: 'Jay-Z x Basquiat by Eliana Wall Art',
+    },
+
+
+
+
+    `I sometimes think about Jay-Z when this conversation comes up.`,
+
+    `For much of his early career, he kept his hair low. The clean, closely cropped look was almost part of the image we associated with him. Years later, he began growing freeform locs, a hairstyle that reminded many people of the late artist Jean-Michel Basquiat.`,
+
+    `And eventually, he returned to a shorter haircut.`,
+
+    `I find that transformation interesting, especially when I think about how much his position in the world changed over those years.`,
+
+    `Jay-Z was no longer just a rapper trying to establish himself in the music industry. He had become one of the most recognizable and financially successful figures in entertainment and business.`,
+
+    `Seeing him with his locs made me wonder whether success changes how people interpret our appearance.`,
+
+    `If an unknown young Black man walked into a major business meeting with the same hairstyle, would he receive the same reaction as Jay-Z? Would people see creativity and confidence, or would somebody quietly suggest that he should get a haircut before the next meeting?`,
+
+    `I don't know what motivated Jay-Z to keep his hair short earlier in his career, and I wouldn't want to pretend that I do. His different hairstyles may have reflected personal preference, family, artistic expression, or simply a desire for change.`,
+
+    `In fact, Beyoncé has explained that his decision to grow his locs was partly connected to encouraging their daughter, Blue Ivy, to appreciate her natural hair. That detail makes the story even more interesting to me.`,
+
+    `Here was a father using his own appearance to show his daughter that there was nothing wrong with hers.`,
+
+    `And that takes me back to how much influence parents have over the way children understand themselves.`,
+
+    `My mother celebrated me when I had a low cut. Jay-Z, according to his wife's account, grew his hair partly to encourage his daughter to appreciate hers.`,
+
+    `Different circumstances, different expressions of care.`,
+
+    `I don't think one example automatically makes a parent right and the other wrong. Parenting is complicated, and people do what they believe is best for their children.`,
+
+    `But it does make me think about how powerful those little gestures of approval can be.`,
+
+    `A compliment can stay with a child. So can the feeling that something about their natural appearance needs to change before they look acceptable.`,
+
+    `Maybe we underestimate how much these ordinary moments shape the way we eventually see ourselves.`,
+
+    {
+      type: 'heading',
+      text: 'What exactly are we fixing?',
+    },
+
+    
+     {
+      type: 'image',
+      src: jude7,
+      alt: '',
+      caption: '"I hate my hair "perhaps I was taught to hate it"" by Jude Adebayo',
+    },
+
+    `I keep returning to Jude Adebayo's painting.`,
+
+    `There is something beautiful about how much space the woman's hair takes up. It doesn't look interested in behaving itself. The texture is thick, the shapes are unpredictable, and the hair almost seems to have a life of its own.`,
+
+    `The more I look at it, the more I think about how strange our relationship with beauty can be.`,
+
+    `We celebrate artists for experimenting, breaking rules, and creating things that look different from what we are used to seeing. We encourage them to be original, to challenge expectations, and to express themselves freely.`,
+
+    `But outside the gallery, we are sometimes less generous with that freedom.`,
+
+    `A young man grows an afro and someone tells him he looks like a rascal. A woman wears her natural hair to work and finds herself wondering whether it looks professional enough. A child is reminded that the next haircut is long overdue.`,
+
+    `None of these moments necessarily comes from a place of hatred. Sometimes people genuinely believe they are giving helpful advice.`,
+
+    `That is what makes the conversation complicated.`,
+
+    `My mum wasn't trying to start a debate about Black identity every time she reminded me to cut my hair. She wanted her son to look good. And I loved that she cared about how I presented myself.`,
+
+    `I still do.`,
+
+    `But growing older has made me question some of the things we accepted so easily when we were children.`,
+
+    `Maybe we should be more careful with the words we use when describing someone's natural appearance. There is a difference between telling a child to take care of their hair and making them believe the hair itself is the problem.`,
+
+    `Not every afro is untidy. Not every low cut is respectable. And certainly, no hairstyle can tell us everything we need to know about someone's character.`,
+
+    `There is room for grooming without making natural texture something to be ashamed of. There is room for personal preference without turning that preference into a rule for everyone else.`,
+
+    `Perhaps the most interesting part of Jude's Hate My Hair series, at least for me, is how the title makes me examine a feeling I may never have fully recognized.`,
+
+    `I never thought I hated my hair growing up. I simply knew my mother preferred it short, and I enjoyed the approval that came with looking the way she liked.`,
+
+    `But what happens when a child begins to associate that approval with changing something about their natural appearance?`,
+
+    `I don't have a perfect answer.`,
+
+    `What I do know is that I want to be more conscious of the things we call beautiful, the things we call presentable, and the things we ask people to fix.`,
+
+    `Because sometimes, without realizing it, we turn our personal preferences into standards that other people are expected to meet.`,
+
+    `And perhaps the next time a child walks into the room with a growing afro, the conversation doesn't have to begin with a reminder to visit the barber.`,
+
+    `Maybe we can just let the hair grow.`,
+
+    `After all, it is only hair.`,
+
+    `It was never a measure of how responsible I was in the first place.`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
+
 
 
 }

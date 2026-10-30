@@ -42,7 +42,7 @@ function Navbar() {
             className="navMenuButton"
             type="button"
           >
-            Featured Artists <span>▾</span>
+            {/* Featured Artists <span>▾</span> */}
           </button>
 
 
@@ -136,7 +136,7 @@ function Navbar() {
             className="navMenuButton"
             type="button"
           >
-            Writing <span>▾</span>
+            {/* Writing <span>▾</span> */}
           </button>
 
 
