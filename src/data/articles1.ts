@@ -5367,10 +5367,10 @@ intro:
 //   youtube: '',
 // },
 
-'mama-said-cut-your-hair': {
+'mama-said-fix-your-hair': {
   category: 'culture-criticism',
 
-  title: 'Mama Said Cut Your Hair',
+  title: 'Mama Said Fix Your Hair',
 
   author: 'Mo Alimi',
 

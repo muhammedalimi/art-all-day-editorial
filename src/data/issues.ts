@@ -475,7 +475,7 @@ openingStatement: [
   issueNumber: 13,
   number: 'Issue 13',
 
-  title: 'Mama Said Cut Your Hair',
+  title: 'Mama Said Fix Your Hair',
 
   headline:
     'On Black hair, professionalism, beauty standards, and the quiet ways we learn what it means to look presentable.',
@@ -487,7 +487,7 @@ openingStatement: [
   coverImage: judeCover,
 
   // lead story
-  articleSlug: 'mama-said-cut-your-hair',
+  articleSlug: 'mama-said-fix-your-hair',
 
   description:
     'Before the world taught us what was professional, home taught us what was presentable. Through the paintings of Lagos-based Nigerian artist Jude Adebayo and his series Hate My Hair, Issue 13 explores the complicated relationship between Black hair, childhood, cultural identity, and social acceptance. From a mother’s preference for a fresh low cut to the rich traditions of Yoruba hairstyling and the expectations of modern workplaces, Mo Alimi questions when natural hair became something we were expected to fix.',

@@ -471,7 +471,7 @@ export const issueDepartments: IssueDepartments = {
     'culture-criticism': {
       artist: 'Mo Alimi',
 
-      title: 'Mama Said Cut Your Hair',
+      title: 'Mama Said Fix Your Hair',
 
       description: [
         'Before the world taught us what was professional, home taught us what was presentable. Through childhood memories of fresh low cuts, a mother’s expectations, and the paintings of Lagos-based Nigerian artist Jude Adebayo, we examine how Black hair became a measure of neatness, responsibility, and social acceptance.',
@@ -485,10 +485,10 @@ export const issueDepartments: IssueDepartments = {
         'Painting by Jude Adebayo from his Hate My Hair series, featuring a contemplative woman with expansive textured Black hair',
 
       caption:
-        'Mama Said Cut Your Hair — Featuring Jude Adebayo, Art All Day Issue 13',
+        'Mama Said Fix Your Hair — Featuring Jude Adebayo, Art All Day Issue 13',
 
       link:
-        '/studio-hours/mama-said-cut-your-hair',
+        '/studio-hours/mama-said-fix-your-hair',
     },
   },
 },
