@@ -5382,8 +5382,11 @@ intro:
 
   issue: 'Issue 13',
 
-  intro:
-    `Before the world taught us what was professional, home taught us what was presentable. Through childhood memories, Yoruba hairstyling traditions, and the paintings of Nigerian artist Jude Adebayo, a personal reflection on Black hair and why something so natural became something we were constantly asked to fix.`,
+
+    
+intro:
+  `Growing up, a fresh haircut earned compliments. A growing afro raised concerns. But when did the hair growing naturally from our heads become something we needed to fix? Through Jude Adebayo's Hate My Hair series, we question the rules of beauty, respectability, and professionalism.`,
+
 
   heroImage: jude1,
 
