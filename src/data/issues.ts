@@ -17,7 +17,7 @@ import romeoCover from '../assets/romeoCover.png'
 // import gallen2 from '../assets/gallen2.webp'
 import gallenCover from '../assets/gallenCover.png'
 import judeCover from '../assets/judeCover.png'
-
+import whyArtCover from '../assets/whyArtCover.png'
 type StudioNoteTeaser = {
   title: string
   artist: string
@@ -504,6 +504,39 @@ openingStatement: [
     '— Mo Alimi, Editor, Art All Day',
   ],
 },
+
+
+{
+  slug: 'issue-14',
+
+  issueNumber: 14,
+  number: 'Issue 14',
+
+  title: 'Why Art?',
+
+  headline:
+    'On artistic freedom, finding resonance, and the beauty of looking closely.',
+
+  date: 'November 2026',
+
+  status: 'Current Issue',
+
+  coverImage: whyArtCover,
+
+  articleSlug: 'why-art',
+
+  description:
+    'Why Art? is a personal reflection by Mo Alimi on the beginnings of Art All Day, the artists who inspire its stories, and the beauty of seeing ourselves through art.',
+
+  openingStatement: [
+    'Why art? Perhaps because some things are better felt than explained. Art gives us a way to see ourselves, our memories, and the world through another person’s imagination.',
+
+    'In Issue 14, Mo Alimi reflects on the beginnings of Art All Day, the freedom of artistic expression, and the quiet connections that draw us to the work of artists.',
+
+    '— Mo Alimi, Editor, Art All Day',
+  ],
+},
+
 
 
 ]

@@ -33,6 +33,9 @@ import ArtistsPage from './pages/ArtistsPage'
 import ArtistArticlePage1 from './pages/ArtistArticlePage1'
 import LatestIssues from './components/LatestIssues'
 import IssuesArchivePage from './pages/IssuesArchivePage'
+import StudioPage from './pages/StudioPage'
+// import StudioPackages from './components/StudioPackages'
+
 
 function HomePage() {
   return (
@@ -40,6 +43,7 @@ function HomePage() {
       <Navbar />
       {/* <IssueTicker /> */}
       <Hero />
+     
       <ArtistPick />
       {/* <IssueIntro /> */}
       
@@ -77,10 +81,12 @@ function App() {
         {/* <Route path="/artists/:slug" element={<ArtistArticlePage />} /> */}
         <Route path="/test-artists/:slug" element={<ArtistArticlePage1 />}/>
         <Route path="/issues" element={<IssuesArchivePage />}/>
+        <Route path="/studio" element={<StudioPage />} />
         {/* <Route path="/departments/:slug" element={<DepartmentArticlePage />} /> */}
         <Route path="/issues/:issueSlug/departments/:slug" element={<DepartmentArticlePage />}/>
         <Route path="/departments/:slug" element={<DepartmentArticlePage />}/>
         <Route path="/issues/:issueSlug" element={<IssuePage />}/>
+        <Route path="/studio" element={<StudioPage />} />
       
       
         

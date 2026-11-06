@@ -20,6 +20,7 @@ import krystalCover from '../assets/krystalCover.png'
 import romeoCover from '../assets/romeoCover.png'
 import gallen2 from '../assets/gallen2.webp'
 import judeCover from '../assets/judeCover.png'
+import whyArtCover from '../assets/whyArtCover.png'
 
 type IssueDepartmentFeature = {
   artist: string
@@ -489,6 +490,36 @@ export const issueDepartments: IssueDepartments = {
 
       link:
         '/studio-hours/mama-said-fix-your-hair',
+    },
+  },
+},
+
+
+'issue-14': {
+  issueNumber: 14,
+
+  departments: {
+    'culture-criticism': {
+      artist: 'Mo Alimi',
+
+      title: 'Why Art?',
+
+      description: [
+        'Why art? In this personal editor’s note, Mo Alimi reflects on the beginnings of Art All Day, his love for visual expression, and the desire to create a space that brings artists and their stories together. What began as curiosity has grown into an exploration of artistic freedom, culture, and the beauty of paying attention.',
+
+        'From a conversation with Adrielle and discovering Art on My Mind by bell hooks to finding resonance in the works of artists like Ben Cowan and Pelumi, Why Art? explores the invisible connections between art, memory, and identity. A reflection on why we create, why we look, and how we sometimes discover ourselves through the eyes of an artist.',
+      ],
+
+      image: whyArtCover,
+
+      imageAlt:
+        'Portrait of Mo Alimi outdoors, wearing sunglasses, featured on the Why Art? editor’s note cover for Art All Day Issue 14',
+
+      caption:
+        'Why Art? — An Editor’s Note by Mo Alimi, Art All Day Issue 14',
+
+      link:
+        '/studio-hours/why-art',
     },
   },
 },

@@ -262,7 +262,7 @@ export default Navbar */}
     CTA
 ========================= */}
 
-<div className="navActions">
+{/* <div className="navActions">
 
   <a
     href="https://artalldaystudio.substack.com/subscribe"
@@ -271,7 +271,7 @@ export default Navbar */}
     className="navMemberButton"
   >
     Become a Member
-  </a>
+  </a> */}
 
   {/*
   <Link
@@ -281,6 +281,29 @@ export default Navbar */}
     Submit Work
   </Link>
   */}
+
+{/* </div> */}
+
+
+<div className="navActions">
+
+  {/* ART ALL DAY STUDIO */}
+  <Link
+    to="/studio"
+    className="navStudioLink"
+  >
+    Studio
+  </Link>
+
+  {/* MEMBERSHIP */}
+  <a
+    href="https://artalldaystudio.substack.com/subscribe"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="navMemberButton"
+  >
+    Become a Member
+  </a>
 
 </div>
 

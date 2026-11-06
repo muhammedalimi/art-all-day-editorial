@@ -98,6 +98,10 @@ import jude3 from '../assets/jude3.png'
 import jude4 from '../assets/jude4.png'
 import jude6 from '../assets/jude6.png'
 import jude7 from '../assets/jude7.png'
+import art1 from '../assets/art1.png'
+import art2 from '../assets/art2.png'
+import art3 from '../assets/art3.png'
+
 // type BodyB
 // lock =
 //   | string
@@ -5670,6 +5674,170 @@ intro:
 
   youtube: '',
 },
+
+
+'why-art': {
+  category: 'Notes',
+
+  title: 'Why Art?',
+
+  author: 'Mo Alimi',
+
+  readTime: '6 min read',
+
+  publishedAt: '2026-11-06T00:00:00-07:00',
+
+  issueNumber: 14,
+
+  issue: 'Issue 14',
+
+  intro:
+    `What began as a love for beautiful things became something more. In this editor's note, Mo Alimi reflects on why he started Art All Day, the artists who inspire its stories, and the beauty of finding ourselves through art.`,
+
+  heroImage: art3,
+
+  heroImageCaption:
+    'Photograph by Fatima Alimi',
+
+  body: [
+    `I started this platform not because I had some grand master plan of what success in the art world would look like. Quite frankly, I am still figuring that out.`,
+
+    `I wasn't a curator. I wasn't an art dealer. I didn't have a gallery or some established role in the art world. Just an interest, a curiosity, and perhaps an unreasonable belief in what could be possible.`,
+
+    `The thought of hosting events that bring artists together, creating spaces where ideas are exchanged, organizing exhibitions, curating collections, and perhaps one day becoming an art dealer excites me. I dare to dream that far. Why not?`,
+
+    `But the real reason I started Art All Day might be a little less profound.`,
+
+    `I can be bougie.`,
+
+    `I love beautiful things. I love color. I love the presence of a painting in a room, the way an artwork can become a statement against a white wall, an off-white wall, or perhaps a cream one, if we're feeling particularly sophisticated.`,
+
+    `I love life. What can I say?`,
+
+    `Jokes apart, I am an artist myself. I write like I would paint. Sometimes with too much color, sometimes with too many thoughts, and sometimes with the hope that what I leave unsaid will carry just as much meaning as what I put on the page.`,
+
+    {
+      type: 'image',
+      src: art1,
+      alt: 'Olive-green Art All Day editorial graphic featuring the words I write like I would paint',
+      caption: 'ART ALL DAY',
+    },
+
+    `There is something about the freedom of visual art that words cannot quite explain.`,
+
+    `The idea that less can be more. That silence can be beautiful. That the night has a voice, even when nothing is speaking.`,
+
+    `A painting doesn't always demand an explanation. Sometimes it simply asks you to stand there, to feel something, to recognize a part of yourself you didn't know was waiting to be seen.`,
+
+    `And perhaps that is what I love most.`,
+
+    {
+      type: 'heading',
+      text: 'Learning to look',
+    },
+
+    `My conversation with Adrielle really put a lot into perspective for me. She recommended Art on My Mind by bell hooks, a book I have found myself returning to again and again.`,
+
+    `It is one of those books I am in no hurry to finish.`,
+
+    {
+      type: 'image',
+      src: art2,
+      alt: 'Mo Alimi sitting on a sofa reading a book beside a warmly lit yellow lamp',
+      caption: 'A moment of reading and reflection — Art All Day',
+    },
+
+    `There is something beautiful about reading without the urgency to reach the last page. I want to sit with the thoughts, return to certain passages, and allow the words to find their place in my own understanding. Reading it has become something of a daily ritual.`,
+
+    `Perhaps because I am still learning what it means to look at art beyond the surface.`,
+
+    `Much of my work at Art All Day begins with an artist. I spend time looking at what they create, trying to understand what I am feeling before attempting to put it into words.`,
+
+    `I watch closely. I sit with the work. Sometimes I return to it several times, not necessarily looking for an answer, but waiting for something to reveal itself.`,
+
+    `And then I write.`,
+
+    {
+      type: 'heading',
+      text: 'Finding resonance',
+    },
+
+    `How I pick an artist has no science to it.`,
+
+    `There is no elaborate selection process, no checklist of what makes an artist worthy of being featured. Sometimes I come across a painting, a photograph, or a body of work, and something just resonates.`,
+
+    `It is difficult to explain.`,
+
+    `Perhaps it is like the relationship between a guitar string and its wooden body. The string vibrates, the wood carries the sound, and suddenly something that began as a small movement becomes something you can feel.`,
+
+    `That is what resonance means to me.`,
+
+    `I don't always know why a particular work stays with me. Sometimes the subject is familiar. Other times, it is something far removed from my own experience. But there is a connection, an invisible thread between what the artist has created and something within me.`,
+
+    `And I trust that feeling.`,
+
+    {
+      type: 'heading',
+      text: 'An act of rebellion',
+    },
+
+    `Over time, I began to realize that building a platform dedicated to celebrating artists is, in its own way, an act of rebellion.`,
+
+    `Not against art itself, but against the idea that art must always belong to an institution, a particular class, or a carefully defined world of people who know what they're looking at.`,
+
+    `I want to preserve something more human.`,
+
+    `The culture of why art matters in the first place. The stories behind the work. The quiet conversations between the person who creates and the person who encounters what has been created.`,
+
+    `Because there is always a story here.`,
+
+    `From Okada Man by Pelumi to Dear God by Ben Cowan, the subjects may appear worlds apart, yet something connects them. A shared humanity. A question about existence, movement, faith, struggle, or the things we carry without knowing how to say them.`,
+
+    `Perhaps that is why I find myself drawn to artists whose work asks questions rather than offers answers.`,
+
+    `There is a certain honesty in not knowing.`,
+
+    `And maybe that's the point.`,
+
+    {
+      type: 'heading',
+      text: 'Seeing ourselves through art',
+    },
+
+    `You don't have to be the artist to find yourself in the work.`,
+
+    `You might see your childhood, your mother, a stranger on the street, a city you once called home, or a feeling you've spent years trying to explain.`,
+
+    `Art gives those things a place to exist.`,
+
+    `I don't know exactly what Art All Day will become. Perhaps a gallery. Perhaps a gathering place. Perhaps something I haven't even imagined yet.`,
+
+    `But the more I engage with artists, the more I understand that this platform cannot simply be about publishing beautiful images. It has to be about paying attention to the people behind them.`,
+
+    `To their stories, their questions, their silences, and the world that shaped the work long before anyone came to admire it.`,
+
+    `Maybe that is also why I am in no hurry to finish that book.`,
+
+    `Or to have everything figured out.`,
+
+    `There is still so much to see.`,
+
+    `But I know why I started.`,
+
+    `Because I believe there is beauty in paying attention. Because artists deserve to be seen beyond the surface of their work. Because culture is not something we should only admire after it has become history.`,
+
+    `And because, sometimes, the things we cannot say are the very things worth preserving.`,
+
+    `This is Art All Day.`,
+
+    `A place to see yourself through the eyes of an artist.`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
+
 
 
 
