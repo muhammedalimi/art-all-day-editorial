@@ -5736,7 +5736,7 @@ intro:
       text: 'Learning to look',
     },
 
-    `My conversation with Adrielle really put a lot into perspective for me. She recommended Art on My Mind by bell hooks, a book I have found myself returning to again and again.`,
+    `My conversation with Adrielle Nicole (@adrielle_le_belle) really put a lot into perspective for me. She recommended Art on My Mind by bell hooks, a book I have found myself returning to again and again.`,
 
     `It is one of those books I am in no hurry to finish.`,
 
@@ -5791,7 +5791,7 @@ intro:
 
     `Because there is always a story here.`,
 
-    `From Okada Man by Pelumi to Dear God by Ben Cowan, the subjects may appear worlds apart, yet something connects them. A shared humanity. A question about existence, movement, faith, struggle, or the things we carry without knowing how to say them.`,
+    `From Okada Man by Pelumi Adekoya (@_pelumiadekoya) to Dear God by Ben Cowan (@benbencowan), the subjects may appear worlds apart, yet something connects them. A shared humanity. A question about existence, movement, faith, struggle, or the things we carry without knowing how to say them.`,
 
     `Perhaps that is why I find myself drawn to artists whose work asks questions rather than offers answers.`,
 
