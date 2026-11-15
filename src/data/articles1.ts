@@ -5508,7 +5508,7 @@ intro:
   title: 'The Main Character',
   author: 'Mo Alimi',
   readTime: '10 min read',
-  publishedAt: '2026-11-08T00:00:00-07:00',
+  publishedAt: '2026-11-15T00:00:00-07:00',
   issueNumber: 15,
   issue: 'Issue 15',
 
