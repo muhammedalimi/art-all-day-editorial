@@ -5503,17 +5503,277 @@ intro:
 
 
 
+// 'the-main-character': {
+//   category: 'Culture & Criticism',
+//   title: 'The Main Character',
+//   author: 'Mo Alimi',
+//   readTime: '10 min read',
+//   publishedAt: '2026-11-15T00:00:00-07:00',
+//   issueNumber: 15,
+//   issue: 'Issue 15',
+
+//   intro:
+//     `Through Melissa Porter's I’s, My’s & Me’s, Mo Alimi explores identity, visibility, self-portraiture, and the contradictions of becoming ourselves. A reflection on photography, the stories we construct about others, and the courage to take up space without surrendering the complexity of who we are.`,
+
+//   heroImage: melissaCover,
+
+//   heroImageCaption:
+//     'The Main Character — Featuring works from Melissa Porter’s I’s, My’s & Me’s collection. ART ALL DAY, Issue 15 Art Work.',
+
+//   body: [
+//     `I do not know whether Melissa Porter intended these works to be read as chapters of the same story. But looking at them together, I couldn't help seeing a woman moving through four stages of becoming.`,
+
+//     `A woman being observed. A woman being measured. A woman becoming difficult to see. And finally, a woman looking back at the world.`,
+
+//     `The titles almost invite such a reading. Targeted. Measured. Liminal Space. The Alchemist.`,
+
+//     `Yet the longer I looked, the less certain I became about the story I was telling.`,
+
+//     `We want to be seen, yet sometimes we hide. We long to belong, yet belonging can cost us parts of ourselves. Between acceptance and freedom, we negotiate our identities without always noticing what we have surrendered.`,
+
+//     `Porter's I’s, My’s & Me’s made me think about those contradictions. Through photography, fragmentation, collage, and self-portraiture, she creates images that appear familiar yet resist being understood at a glance.`,
+
+//     `Porter is photographing herself. The woman in the work is also the person behind the camera, deciding what enters the frame and how the final image will exist.`,
+
+//     `There is a quiet reversal in that decision. A conventional portrait often asks its subject to surrender something to the photographer: an expression, a gesture, an instant. Here, the person making those decisions is also the person whose image will be interpreted. That does not remove vulnerability. It makes vulnerability something she has actively helped shape.`,
+
+//     `Porter studied fine-art photography, but her practice has expanded beyond the photograph as a finished image. She combines photography with found materials, vintage newsprint, symbols, and layered surfaces. One of her signature techniques is encaustic, a process involving heated beeswax and resin through which images and materials can be placed at different depths.`,
+
+//     `A photograph preserves an appearance; layering complicates what we believe that appearance can tell us. Faces emerge through faded papers, bodies intersect with markings, and the figures hover between disclosure and concealment. Sometimes the technique deepens that uncertainty. Sometimes it risks becoming a familiar visual answer to every question the work raises.`,
+
+//     `The woman in these images is not waiting for us to define her. She has helped construct how we see her.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Targeted',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa1,
+//       alt: 'Mixed-media artwork by Melissa Porter showing a cropped female figure with a bent arm and an obscured face against a textured cream background with circular markings',
+//       caption: 'Targeted by Melissa Porter',
+//     },
+
+//     `I began with Targeted. To be targeted is to become the subject of someone else's attention, often without consent. But before deciding what the title meant, I had to confront the image itself.`,
+
+//     `The figure is cropped. Her face remains outside the frame, an arm bends across the upper body, and faint circular markings spread across a pale background. Scratches, lines, and fragments of printed material interrupt the surface, giving the image the appearance of something between a photograph, a drawing, and a memory being reconstructed.`,
+
+//     `The body seems assembled from different moments rather than captured in one. And then there are the circles. I see a target—but would I have made that connection without the title?`,
+
+//     `Here I find the work both effective and slightly too insistent. The cropping and bent arm leave room for competing explanations, while the circular markings come close to illustrating the title for us. The strongest part of the image may be what it refuses to explain, not what it marks so clearly.`,
+
+//     `That tension matters because the most troubling element in Targeted is not the suggestion of an actual target. It is the uncertainty of the gesture. The bent arm could signal defense, but it could also be an ordinary movement made strange by the crop. Porter’s decision to withhold a face is more disturbing than a symbol that tells us where to look. It lets the photograph remain unresolved.`,
+
+//     `Perhaps the word Targeted had already begun doing some of the looking for me.`,
+
+//     `I had read the gesture as protective. But the photograph gives me no permission to settle on that reading.`,
+
+//     `There is something revealing about how quickly we assign meaning to another person's body. A gesture, a way of dressing, an unfamiliar expression, and we begin constructing a story about someone we do not know.`,
+
+//     `Outside galleries, too, we mistake fragments of people's lives for the whole. Our desire to understand can quietly become a desire to define.`,
+
+//     `But knowing that Porter photographed herself changes something about my interpretation.`,
+
+//     `The absence of her face is not necessarily evidence that someone has taken her identity away. It is also part of an image she has chosen to create.`,
+
+//     `What remains outside a photograph can be as intentional as what appears within it. Absence does not automatically mean powerlessness.`,
+
+//     `Targeted gives us little of what we expect from a portrait: no face, no expression, no assurance that we understand the person before us. I began by wondering who was targeting the figure. I ended by questioning the viewer's place in that relationship.`,
+
+//     `Maybe the question is not simply why this figure remains hidden from us, but why we feel entitled to see more.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Measured',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa5,
+//       alt: 'Measured, a layered mixed-media artwork by Melissa Porter featuring a female figure and faded printed materials',
+//       caption: 'Measured by Melissa Porter',
+//     },
+
+//     `In Measured, looking becomes a question of judgment.`,
+
+//     `The human figure appears within layers of faded imagery and printed material. Rather than separating the person from the surrounding surface, Porter allows the fragments to overlap. The photograph becomes part of a larger arrangement of marks, textures, and visual information.`,
+
+//     `A photograph may record appearance, but it cannot account for a life. I thought about how easily a person becomes a collection of measurements.`,
+
+//     `What to eat. What to wear. How to look. What constitutes beauty. What is considered respectable, desirable, intelligent, or successful.`,
+
+//     `There is always a standard, and society has a way of presenting compliance as personal achievement.`,
+
+//     `The expectations placed on women's bodies make this visible: beauty is treated as objective even as its rules shift across cultures and generations. I cannot claim every experience behind those expectations, but I recognize the pressure of being judged by standards we did not create.`,
+
+//     `Grades stand in for intelligence; salaries for success; even happiness becomes a checklist. Measurement has its uses. The problem begins when we confuse what can be measured with what has value.`,
+
+//     `The same distinction applies to the artwork itself. A complicated surface is not necessarily a complicated thought. The question is whether Porter gives the materials a particular reason to share the frame. At its strongest, the layered print interrupts the familiar confidence of photography, forcing us to notice that even an apparently factual image has been arranged and edited. That is a more persuasive argument than texture alone can provide.`,
+
+//     `In Measured, the photograph competes with faded print and overlapping marks. The fragments have their own visual weight; they refuse to leave the figure undisturbed. Porter's wider practice draws on discarded papers and vintage objects, materials with histories of their own. Collage allows them to acquire new meanings in relation to the body.`,
+
+//     `Yet this is also where her method needs the most scrutiny. The accumulated texture creates atmosphere, but not every fragment feels equally necessary to the composition. When photograph, print, and mark are all subdued into similar layers, the eye can struggle to find a decisive relationship among them. Complexity alone is not depth. A work called Measured invites us to ask whether each addition has been measured, too.`,
+
+//     `Still, the difficulty of separating the person from the surrounding information is productive: we can assemble a record of someone and remain ignorant of the life behind it.`,
+
+//     `That criticism returns to me. Was I looking at Porter as a person, or turning her into a symbol of the pressures I wanted to discuss? A critic can reduce a subject even while criticizing the world for doing so.`,
+
+//     `Self-portraiture complicates the exchange: Porter is not only the subject being judged; she has shaped the image on which our judgments rest.`,
+
+//     `The most unsettling measurements may be the ones we learn to impose on ourselves. We look in the mirror for what is missing and compare our lives with appearances we barely understand. Eventually, society no longer needs to measure us.`,
+
+//     `We begin doing its work ourselves.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Liminal Space',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa3,
+//       alt: 'Blurred dark silhouette of a woman against layered blue, cream, and white textures in a mixed-media artwork',
+//       caption: 'Liminal Space by Melissa Porter',
+//     },
+
+//     `Of all the works, Liminal Space stayed with me the longest.`,
+
+//     `A woman appears almost swallowed by the background. Her dark silhouette occupies a considerable part of the composition, yet the details of her appearance remain difficult to grasp.`,
+
+//     `Blue and cream textures move across the surface. Faint lines, irregular marks, and fragments of imagery interrupt the figure, making it difficult to determine exactly where she ends and the surrounding space begins.`,
+
+//     `She dominates the composition and remains its least clearly defined element. I found myself thinking about invisibility.`,
+
+//     `Invisibility can mean being overlooked, ignored, forgotten. But it can also bring a kind of freedom: the relief of existing without constantly explaining ourselves.`,
+
+//     `Yet I am not convinced that invisibility should be celebrated without question.`,
+
+//     `Choosing to withdraw is not the same as being pushed out of sight. One can offer freedom; the other can leave a wound. Both can exist within the same person.`,
+
+//     `The palette contributes to this uncertainty. Blue and cream might have offered a peaceful field for the figure, but the marks and blurred edges make that space unstable. The body is present enough to hold the composition together and uncertain enough to resist being pinned down. That balance gives the image its emotional weight. It is not simply a portrait made obscure; it is an image in which presence and disappearance compete for the same space.`,
+
+//     `I returned to the blurred figure with that contradiction in mind. The image offers no clear expression to interpret. I cannot confidently tell whether she is retreating, emerging, or simply occupying a space between the two.`,
+
+//     `Porter has described using restrained color, softened imagery, and layered materials to temper the harshness of the world. Here that softness is more than an effect: it forces my eyes to work against the silhouette's dominance. Photography promises a clear record, but this image withholds one. What cannot be clearly seen becomes difficult to ignore.`,
+
+//     `Still, I wonder how often ambiguity can remain compelling when it is produced through the same devices. Fading, obscuring, and overlapping recur across the collection. Repetition can establish a visual language; it can also make uncertainty feel predictable. Liminal Space is stronger because the large, dark figure pushes against the very softness that threatens to swallow her. The tension happens in the composition, not only in the title.`,
+
+//     `Liminal means being between states: no longer who we were, not yet who we imagine ourselves becoming. Such spaces are rarely comfortable. Change can feel like progress or confusion, and transformation is not always recognizable from inside it.`,
+
+//     `I would be careful not to make invisibility an easy story of empowerment. Nobody should have to turn being overlooked into a virtue. The figure might suggest a wound, a refuge, or a condition for which neither word is enough.`,
+
+//     `I began by asking whether invisibility could become a superpower. I leave wondering who gets to choose when they are seen.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Alchemist',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa4,
+//       alt: 'Mixed-media portrait of a woman wearing large glasses and a patterned blouse, looking directly outward through layers of faded archival papers and markings',
+//       caption: 'Alchemist by Melissa Porter',
+//     },
+
+//     `Finally, "Alchemist" meets the viewer more directly.`,
+
+//     `A woman looks outward through large glasses. Her hair frames her face, while the pattern of her blouse seems to merge with the surrounding layers of pale paper, faded diagrams, and archival markings.`,
+
+//     `Unlike the obscured figure in Liminal Space, this face is recognizable. The archival layers still interrupt the boundary between woman and background, but her gaze gives the composition an anchor. For once, concealment is not doing all the work.`,
+
+//     `I wanted to see "Alchemist" as the conclusion of the story I had been constructing. After being targeted, measured, and rendered almost invisible, perhaps the woman had finally arrived at a clearer understanding of herself.`,
+
+//     `But that interpretation began to feel too convenient.`,
+
+//     `Alchemy promises to turn ordinary matter into something precious. But perhaps transformation is less about becoming someone new than finding possibilities within what already exists.`,
+
+//     `Through collage and encaustic techniques, Porter can hold photographs and found materials at different depths, making an image tactile, almost archaeological.`,
+
+//     `What interests me is what Porter has not erased. Faded marks remain; print interrupts the image; the blouse becomes part of the layered surface. Nothing has been cleared away to make an uncomplicated portrait.`,
+
+//     `And yet archival paper can become too convenient a symbol. Old print does not automatically make an image profound, nor does accumulation always equal memory. Alchemist works best where the recognizable face holds its own against those materials. The woman does not disappear beneath the metaphor. She looks back.`,
+
+//     `That difference makes Alchemist feel like a necessary counterpoint to the earlier works. The gaze changes my role as a viewer. In Targeted, I examine a body from which the face has been withheld. Here, the person inside the artwork appears to return the examination. The surrounding marks may suggest accumulated experience, but they do not get the final word. The face refuses to become merely another fragment in the collage.`,
+
+//     `We like stories in which hardship produces a final, improved self. Life is rarely so accommodating.`,
+
+//     `We can gain confidence and remain vulnerable. We can reject expectations and still seek approval. Transformation does not require contradictions to disappear. Alchemy interests me less as a promise of perfection than as a way of reexamining what seemed fixed.`,
+
+//     `The fragments remain, yet she looks directly outward. She has not become a blank page.`,
+
+//     `And perhaps she never needed to.`,
+
+   
+// {
+//   type: 'heading',
+//   text: 'The Main Character',
+// },
+
+// {
+//   type: 'image',
+//   src: melissa6,
+//   alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
+//   caption: 'A Long Look in the Mirror by Melissa Porter',
+// },
+
+// `I began this essay imagining a woman moving through four stages of becoming. A woman being observed, measured, obscured, and finally revealed. The titles seemed to offer a narrative, and I was eager to follow it.`,
+
+// `But the longer I looked, the less convinced I became that the story belonged to the images rather than to me.`,
+
+// `Porter's work is not without its contradictions, and neither are her artistic decisions. At times, the accumulation of materials threatens to overwhelm the very person she wishes to make visible. The recurring use of fragmentation and obscurity can become predictable, while certain symbols appear to explain what the photographs might have communicated more powerfully on their own.`,
+
+// `Yet when these elements find their balance, the results are compelling. In Targeted, the absence of a face questions our entitlement to another person's identity. In Liminal Space, the figure's uncertain boundaries make visibility feel both fragile and necessary. And in The Alchemist, the woman's unwavering gaze holds its ground against the history layered around her.`,
+
+// `This is where I believe Porter succeeds most convincingly. Not in the complexity of her surfaces, but in the tension between what she chooses to reveal and what she refuses to surrender.`,
+
+// `Her work reminds me that being visible does not necessarily mean being understood. And perhaps being understood is not something we owe the world in the first place.`,
+
+// `I had thought of the main character as someone who finally steps into the spotlight. Someone who, after years of being overlooked, emerges confident, transformed, and ready to be seen.`,
+
+// `But that interpretation now feels too convenient.`,
+
+// `A person does not need to emerge stronger from every difficult experience. Nor must every contradiction become a lesson in self-love. Sometimes we are simply becoming, without knowing exactly what that means.`,
+
+// `What changed throughout this encounter was not necessarily the woman in Porter's photographs, but the way I learned to look at her.`,
+
+// `There is a difference between seeing someone and allowing them the freedom to exist beyond what we think we know.`,
+
+// `And perhaps this is the most important accomplishment of I’s, My’s & Me’s. It does not offer a complete portrait of a woman finally discovering herself. Instead, it questions whether any portrait could ever contain the entirety of a person.`,
+
+// `Porter did not wait for someone else to place her at the center of the image.`,
+
+// `She took the photograph herself.`,
+
+// `And perhaps being the main character was never about finally being seen, but about reclaiming the right to decide how we appear, even when the world insists on telling us who we are.`,
+
+// `— Mo Alimi`,
+
+// `ART ALL DAY | Art & Reflection`,
+
+// `Follow artist on Instagram @melissa.porter.artist`,
+
+//   ],
+
+//   images: [],
+
+//   youtube: '',
+// },
+
+
+
 'the-main-character': {
   category: 'Culture & Criticism',
   title: 'The Main Character',
   author: 'Mo Alimi',
-  readTime: '10 min read',
-  publishedAt: '2026-11-15T00:00:00-07:00',
+  readTime: '14 min read',
+  publishedAt: '2026-11-08T00:00:00-07:00',
   issueNumber: 15,
   issue: 'Issue 15',
 
   intro:
-    `Through Melissa Porter's I’s, My’s & Me’s, Mo Alimi explores identity, visibility, self-portraiture, and the contradictions of becoming ourselves. A reflection on photography, the stories we construct about others, and the courage to take up space without surrendering the complexity of who we are.`,
+    `Through Melissa Porter's I’s, My’s & Me’s, Mo Alimi explores self-portraiture, the language of materials, and the distance between an artist's intention and a viewer's interpretation. In conversation with Porter, an essay about visibility becomes an inquiry into who gets to shape—and explain—an image.`,
 
   heroImage: melissaCover,
 
@@ -5521,27 +5781,17 @@ intro:
     'The Main Character — Featuring works from Melissa Porter’s I’s, My’s & Me’s collection. ART ALL DAY, Issue 15 Art Work.',
 
   body: [
-    `I do not know whether Melissa Porter intended these works to be read as chapters of the same story. But looking at them together, I couldn't help seeing a woman moving through four stages of becoming.`,
+    `I do not know whether Melissa Porter intended these works to be read as chapters of the same story. Looking at them together, I imagined a woman moving through four stages of becoming: observed, measured, obscured, and finally looking back at the world.`,
 
-    `A woman being observed. A woman being measured. A woman becoming difficult to see. And finally, a woman looking back at the world.`,
+    `The titles almost encouraged me. Targeted. Measured. Liminal Space. The Alchemist. Yet the longer I looked, the less certain I became that the story belonged to the images rather than to me.`,
 
-    `The titles almost invite such a reading. Targeted. Measured. Liminal Space. The Alchemist.`,
+    `We want to be seen, yet sometimes we hide. We want to belong, yet belonging can come at the cost of ourselves. In I’s, My’s & Me’s, Porter approaches those contradictions through black-and-white photography, collage, self-portraiture, and encaustic surfaces. Her photographs are not simply printed; they are placed in conversation with paper, marks, and material histories that can obscure as much as they reveal.`,
 
-    `Yet the longer I looked, the less certain I became about the story I was telling.`,
+    `The person in these portraits is also the person who staged and photographed them. That changes the relationship between subject and viewer. Porter is not merely being looked at; she has decided how to make herself available to our gaze.`,
 
-    `We want to be seen, yet sometimes we hide. We long to belong, yet belonging can cost us parts of ourselves. Between acceptance and freedom, we negotiate our identities without always noticing what we have surrendered.`,
+    `After looking at the collection, I asked her about the decisions behind these images. Her answers disclosed histories I could not have deduced from the surfaces alone. Some confirmed my reading. Others complicated it. And a few made me reconsider criticisms I had already formed.`,
 
-    `Porter's I’s, My’s & Me’s made me think about those contradictions. Through photography, fragmentation, collage, and self-portraiture, she creates images that appear familiar yet resist being understood at a glance.`,
-
-    `Porter is photographing herself. The woman in the work is also the person behind the camera, deciding what enters the frame and how the final image will exist.`,
-
-    `There is a quiet reversal in that decision. A conventional portrait often asks its subject to surrender something to the photographer: an expression, a gesture, an instant. Here, the person making those decisions is also the person whose image will be interpreted. That does not remove vulnerability. It makes vulnerability something she has actively helped shape.`,
-
-    `Porter studied fine-art photography, but her practice has expanded beyond the photograph as a finished image. She combines photography with found materials, vintage newsprint, symbols, and layered surfaces. One of her signature techniques is encaustic, a process involving heated beeswax and resin through which images and materials can be placed at different depths.`,
-
-    `A photograph preserves an appearance; layering complicates what we believe that appearance can tell us. Faces emerge through faded papers, bodies intersect with markings, and the figures hover between disclosure and concealment. Sometimes the technique deepens that uncertainty. Sometimes it risks becoming a familiar visual answer to every question the work raises.`,
-
-    `The woman in these images is not waiting for us to define her. She has helped construct how we see her.`,
+    `Porter offered a sentence that could serve as the collection’s quiet manifesto: “In a way, the layers give me permission to tell the truth without having to explain every detail.” But an artist’s explanation and a viewer’s experience are not identical. Her intentions can deepen what I see without proving that every aesthetic choice succeeds. That distance is where this conversation begins.`,
 
     {
       type: 'heading',
@@ -5551,37 +5801,27 @@ intro:
     {
       type: 'image',
       src: melissa1,
-      alt: 'Mixed-media artwork by Melissa Porter showing a cropped female figure with a bent arm and an obscured face against a textured cream background with circular markings',
+      alt: 'Mixed-media artwork by Melissa Porter showing a cropped female figure with an obscured face, bent arm, and circular markings',
       caption: 'Targeted by Melissa Porter',
     },
 
-    `I began with Targeted. To be targeted is to become the subject of someone else's attention, often without consent. But before deciding what the title meant, I had to confront the image itself.`,
+    `I began with Targeted. The figure is cropped, her face withheld from us. One arm folds across the upper body, while pale textures, scratches, and circular markings interrupt the space around her. Nothing is entirely isolated from the background; the body seems caught inside a surface that has been worked over repeatedly.`,
 
-    `The figure is cropped. Her face remains outside the frame, an arm bends across the upper body, and faint circular markings spread across a pale background. Scratches, lines, and fragments of printed material interrupt the surface, giving the image the appearance of something between a photograph, a drawing, and a memory being reconstructed.`,
+    `The title is unsettling. To be targeted is to become the object of another person’s attention, often without asking for it. Yet the visual metaphor initially struck me as almost too direct. A work called Targeted contains what looks like a target. Had the circles already told me what I was supposed to think?`,
 
-    `The body seems assembled from different moments rather than captured in one. And then there are the circles. I see a target—but would I have made that connection without the title?`,
+    `I put that question to Porter. She told me the piece had carried earlier working titles, including Dodged a Bullet and Target on My Back. It arose from a history of relationships in which she repeatedly placed another person’s needs above her own. The figure turns away not only from the viewer, she suggested, but perhaps from the problem itself. Even the position of the shoulder carries a private reality: her right shoulder is injured, and she expects it to remain vulnerable.`,
 
-    `Here I find the work both effective and slightly too insistent. The cropping and bent arm leave room for competing explanations, while the circular markings come close to illustrating the title for us. The strongest part of the image may be what it refuses to explain, not what it marks so clearly.`,
+    `That knowledge gives the bodily gesture a weight I could not have confidently assigned to it. Yet it does not make the photograph a straightforward confession. The arm is still ambiguous. Without her explanation, I cannot tell whether I am seeing protection, avoidance, or an ordinary movement made strange by the crop.`,
 
-    `That tension matters because the most troubling element in Targeted is not the suggestion of an actual target. It is the uncertainty of the gesture. The bent arm could signal defense, but it could also be an ordinary movement made strange by the crop. Porter’s decision to withhold a face is more disturbing than a symbol that tells us where to look. It lets the photograph remain unresolved.`,
+    `Then she explained the circles. They were constructed from fragments of black and red sheet music. A target suggests capture or harm; sheet music suggests the possibility of rhythm and partnership. Beneath the image of a woman caught in damaging patterns was a much quieter desire: she wanted someone to dance with.`,
 
-    `Perhaps the word Targeted had already begun doing some of the looking for me.`,
+    `This changed my judgment. The circles remain a literal symbol, and their meaning as a target arrives quickly. But the material carries a second, almost tender proposition that the symbol alone does not. What looks like a mark of danger is made from a language of music. Porter uses the same surface to hold the wish for connection and the fear of what connection might cost.`,
 
-    `I had read the gesture as protective. But the photograph gives me no permission to settle on that reading.`,
+    `Still, there is a distinction between a meaning an artist places inside a work and one the picture makes available to a viewer. If the musical notation is difficult to recognize, the irony may need her explanation to become fully legible. That is not a failure, but it is an aesthetic limit worth naming. A material can be deeply intentional without communicating all its history at first sight.`,
 
-    `There is something revealing about how quickly we assign meaning to another person's body. A gesture, a way of dressing, an unfamiliar expression, and we begin constructing a story about someone we do not know.`,
+    `What remains most convincing to me is the crop. The face is withheld, and the shoulder cannot be read with certainty. Knowing this is a self-portrait prevents me from treating that absence as evidence of helplessness. The person whose image is being examined has also decided what we may not see.`,
 
-    `Outside galleries, too, we mistake fragments of people's lives for the whole. Our desire to understand can quietly become a desire to define.`,
-
-    `But knowing that Porter photographed herself changes something about my interpretation.`,
-
-    `The absence of her face is not necessarily evidence that someone has taken her identity away. It is also part of an image she has chosen to create.`,
-
-    `What remains outside a photograph can be as intentional as what appears within it. Absence does not automatically mean powerlessness.`,
-
-    `Targeted gives us little of what we expect from a portrait: no face, no expression, no assurance that we understand the person before us. I began by wondering who was targeting the figure. I ended by questioning the viewer's place in that relationship.`,
-
-    `Maybe the question is not simply why this figure remains hidden from us, but why we feel entitled to see more.`,
+    `I began by asking who was targeting the figure. I ended by questioning the viewer’s own part in that relationship. There is a difference between seeing someone and claiming to know them. Why do we sometimes feel entitled to the rest of the picture?`,
 
     {
       type: 'heading',
@@ -5595,35 +5835,27 @@ intro:
       caption: 'Measured by Melissa Porter',
     },
 
-    `In Measured, looking becomes a question of judgment.`,
+    `If Targeted asks who has the right to look, Measured asks what happens when looking becomes judgment.`,
 
-    `The human figure appears within layers of faded imagery and printed material. Rather than separating the person from the surrounding surface, Porter allows the fragments to overlap. The photograph becomes part of a larger arrangement of marks, textures, and visual information.`,
+    `Here the figure sits within a field of faded imagery and print. The body does not stand cleanly against the surface. Paper, marks, and photographic information compete for attention, as though a person might be surrounded by so many standards that her outline becomes difficult to separate from them.`,
 
-    `A photograph may record appearance, but it cannot account for a life. I thought about how easily a person becomes a collection of measurements.`,
+    `I first read this as a critique of the measurements society uses to assign value. What to eat, what to wear, how to look. Grades become intelligence, salaries become success, and beauty is presented as an objective standard even as its rules shift from one generation to another.`,
 
-    `What to eat. What to wear. How to look. What constitutes beauty. What is considered respectable, desirable, intelligent, or successful.`,
+    `Porter brought that abstraction uncomfortably close to the body. She described Measured as the last and most difficult piece she made for the exhibition. Two women in her artistic community had spoken openly about learning to accept their stomachs: one after giving birth, another while comparing her present body with her younger one. Their honesty brought Porter face-to-face with how harshly she had judged her own.`,
 
-    `There is always a standard, and society has a way of presenting compliance as personal achievement.`,
+    `For her, the stomach is not an abstract symbol of beauty standards. It is a vulnerable part of her body that others have felt permitted to evaluate. Her experience of motherhood also complicates the subject: she is a mother who did not give birth to her child. The image holds personal histories that no visible measurement could adequately account for.`,
 
-    `The expectations placed on women's bodies make this visible: beauty is treated as objective even as its rules shift across cultures and generations. I cannot claim every experience behind those expectations, but I recognize the pressure of being judged by standards we did not create.`,
+    `Her process gives those histories a physical form. She begins with an intuitive collage of paper fragments chosen for their associations. A painted wash unifies the palette and sometimes covers what she is not ready to disclose. She sands down raised areas, heats the board, then builds roughly six to eight layers of encaustic wax. A black-and-white photograph is placed while the wax is still warm, followed by a final protective layer. As the wax cures, it becomes more transparent and allows underlying information to appear more clearly.`,
 
-    `Grades stand in for intelligence; salaries for success; even happiness becomes a checklist. Measurement has its uses. The problem begins when we confuse what can be measured with what has value.`,
+    `It is a practice of accumulation and subtraction. She builds up a surface and strips it back, deciding what can remain exposed. A technical procedure becomes an argument about disclosure: the truth does not arrive all at once, and it need not be offered whole.`,
 
-    `The same distinction applies to the artwork itself. A complicated surface is not necessarily a complicated thought. The question is whether Porter gives the materials a particular reason to share the frame. At its strongest, the layered print interrupts the familiar confidence of photography, forcing us to notice that even an apparently factual image has been arranged and edited. That is a more persuasive argument than texture alone can provide.`,
+    `But that knowledge also sharpens, rather than cancels, my formal question. Does every layer earn its place in the composition? The faded materials create an atmosphere of accumulated experience, yet at times they occupy similar tonal territory. The eye searches for a hierarchy—a point where the body resists the surrounding information—without always finding one. Complexity alone is not depth. A work called Measured invites us to ask whether each addition has been measured, too.`,
 
-    `In Measured, the photograph competes with faded print and overlapping marks. The fragments have their own visual weight; they refuse to leave the figure undisturbed. Porter's wider practice draws on discarded papers and vintage objects, materials with histories of their own. Collage allows them to acquire new meanings in relation to the body.`,
+    `Porter may intend the overload. After all, the subject of this work is a body subjected to too many judgments. But intention and effect must still be distinguished. An image can communicate the pressure of scrutiny while also risking a lack of compositional focus. The strongest reading of Measured holds both possibilities together.`,
 
-    `Yet this is also where her method needs the most scrutiny. The accumulated texture creates atmosphere, but not every fragment feels equally necessary to the composition. When photograph, print, and mark are all subdued into similar layers, the eye can struggle to find a decisive relationship among them. Complexity alone is not depth. A work called Measured invites us to ask whether each addition has been measured, too.`,
+    `And the criticism returns to me. By interpreting the image as a statement about social measurement, had I begun to measure Porter against a theory of my own? The interview reminds me that beneath the broader argument is a particular woman, with experiences she has chosen to reveal only in part.`,
 
-    `Still, the difficulty of separating the person from the surrounding information is productive: we can assemble a record of someone and remain ignorant of the life behind it.`,
-
-    `That criticism returns to me. Was I looking at Porter as a person, or turning her into a symbol of the pressures I wanted to discuss? A critic can reduce a subject even while criticizing the world for doing so.`,
-
-    `Self-portraiture complicates the exchange: Porter is not only the subject being judged; she has shaped the image on which our judgments rest.`,
-
-    `The most unsettling measurements may be the ones we learn to impose on ourselves. We look in the mirror for what is missing and compare our lives with appearances we barely understand. Eventually, society no longer needs to measure us.`,
-
-    `We begin doing its work ourselves.`,
+    `Perhaps the most unsettling measurements are those we learn to impose on ourselves. Eventually, society no longer needs to tell us what is missing. We begin doing its work ourselves.`,
 
     {
       type: 'heading',
@@ -5633,37 +5865,33 @@ intro:
     {
       type: 'image',
       src: melissa3,
-      alt: 'Blurred dark silhouette of a woman against layered blue, cream, and white textures in a mixed-media artwork',
+      alt: 'Liminal Space by Melissa Porter, showing a blurred dark silhouette against blue and cream textures',
       caption: 'Liminal Space by Melissa Porter',
     },
 
     `Of all the works, Liminal Space stayed with me the longest.`,
 
-    `A woman appears almost swallowed by the background. Her dark silhouette occupies a considerable part of the composition, yet the details of her appearance remain difficult to grasp.`,
+    `A dark female silhouette occupies much of a blue-and-cream surface. It is visually dominant yet difficult to define. Lines and marks cross the figure, and the edges seem to slip into the surrounding image. The body is present, but the picture refuses the precision we often expect from photography.`,
 
-    `Blue and cream textures move across the surface. Faint lines, irregular marks, and fragments of imagery interrupt the figure, making it difficult to determine exactly where she ends and the surrounding space begins.`,
+    `I initially thought about invisibility. Being overlooked can feel like disappearance; choosing not to be seen can sometimes offer freedom. But there is a gulf between withdrawing from view and being pushed out of it. I could not tell whether the figure was hiding, emerging, or suspended somewhere between the two.`,
 
-    `She dominates the composition and remains its least clearly defined element. I found myself thinking about invisibility.`,
+    `Porter’s response corrected an assumption I had made about the technique. The blur was created in the camera through a slow shutter speed, not simply applied afterward. The movement occurred during the exposure itself. What I had read as uncertain visibility was made through the uncertain registration of a body in time.`,
 
-    `Invisibility can mean being overlooked, ignored, forgotten. But it can also bring a kind of freedom: the relief of existing without constantly explaining ourselves.`,
+    `She also pointed to something I had not given enough weight: the subject carries a bow and arrows. For Porter, they suggest preparedness, courage, and the need to trust yourself when the path ahead is unclear. Her liminal space is not simply a place where a woman vanishes. It is a place where someone moves forward without knowing exactly what comes next.`,
 
-    `Yet I am not convinced that invisibility should be celebrated without question.`,
+    `That difference matters. My first reading emphasized what was withheld from the viewer; hers emphasized what the figure carries for herself. The same formal ambiguity accommodates both readings, but they are not interchangeable. The bow and arrows introduce a kind of resolve that the blur alone might have concealed.`,
 
-    `Choosing to withdraw is not the same as being pushed out of sight. One can offer freedom; the other can leave a wound. Both can exist within the same person.`,
+    `There is an intriguing echo across the collection: in Targeted, a mark implies a body exposed to someone else’s aim; here, a woman carries the instruments with which she might direct her own movement. I cannot claim that Porter intended those works as a pair. The connection may belong to my reading. But recognizing that possibility does not make it meaningless. It makes me responsible for identifying it as mine.`,
 
-    `The palette contributes to this uncertainty. Blue and cream might have offered a peaceful field for the figure, but the marks and blurred edges make that space unstable. The body is present enough to hold the composition together and uncertain enough to resist being pinned down. That balance gives the image its emotional weight. It is not simply a portrait made obscure; it is an image in which presence and disappearance compete for the same space.`,
+    `Formally, Liminal Space is among the most persuasive images. The dark silhouette gives the composition a center of gravity. Its blurred perimeter strains against that weight; visibility and dissolution become simultaneous experiences rather than ideas explained by a title.`,
 
-    `I returned to the blurred figure with that contradiction in mind. The image offers no clear expression to interpret. I cannot confidently tell whether she is retreating, emerging, or simply occupying a space between the two.`,
+    `Even here, I have a reservation. Across the collection, fading and obscurity recur often enough to risk becoming predictable. Ambiguity is not automatically profound. Liminal Space succeeds because the contrast between the figure’s strong presence and unstable edges produces real visual tension. The uncertainty is built into the image, not merely suggested by its symbolism.`,
 
-    `Porter has described using restrained color, softened imagery, and layered materials to temper the harshness of the world. Here that softness is more than an effect: it forces my eyes to work against the silhouette's dominance. Photography promises a clear record, but this image withholds one. What cannot be clearly seen becomes difficult to ignore.`,
+    `Porter told me that the piece was purchased by a woman who saw in it her fourteen-year-old daughter, suspended between childhood and whatever comes next. The connection was not one Porter had anticipated, and she welcomed it. Once an artwork leaves its maker, she observed, it begins acquiring meanings of its own.`,
 
-    `Still, I wonder how often ambiguity can remain compelling when it is produced through the same devices. Fading, obscuring, and overlapping recur across the collection. Repetition can establish a visual language; it can also make uncertainty feel predictable. Liminal Space is stronger because the large, dark figure pushes against the very softness that threatens to swallow her. The tension happens in the composition, not only in the title.`,
+    `That encounter unsettled the authority of both artist and critic. Porter created a figure prepared for the unknown; I saw a meditation on invisibility; another woman saw her daughter’s becoming. None of these responses needs to erase the others. The question is not which interpretation finally wins, but what the image makes possible without collapsing into vagueness.`,
 
-    `Liminal means being between states: no longer who we were, not yet who we imagine ourselves becoming. Such spaces are rarely comfortable. Change can feel like progress or confusion, and transformation is not always recognizable from inside it.`,
-
-    `I would be careful not to make invisibility an easy story of empowerment. Nobody should have to turn being overlooked into a virtue. The figure might suggest a wound, a refuge, or a condition for which neither word is enough.`,
-
-    `I began by asking whether invisibility could become a superpower. I leave wondering who gets to choose when they are seen.`,
+    `I began by wondering whether invisibility could be a kind of power. I left asking who gets to choose when they are seen—and what they carry when they step into uncertainty.`,
 
     {
       type: 'heading',
@@ -5673,95 +5901,86 @@ intro:
     {
       type: 'image',
       src: melissa4,
-      alt: 'Mixed-media portrait of a woman wearing large glasses and a patterned blouse, looking directly outward through layers of faded archival papers and markings',
+      alt: 'The Alchemist, a mixed-media self-portrait of a woman with large glasses among archival papers and markings',
       caption: 'Alchemist by Melissa Porter',
     },
 
-    `Finally, "Alchemist" meets the viewer more directly.`,
+    `Finally, Alchemist looks back.`,
 
-    `A woman looks outward through large glasses. Her hair frames her face, while the pattern of her blouse seems to merge with the surrounding layers of pale paper, faded diagrams, and archival markings.`,
+    `A woman faces outward through large glasses. Her patterned blouse enters into conversation with faded papers, diagrams, and archival marks. The materials continue to interrupt the photographic image, but unlike the uncertain figure in Liminal Space, the face holds its ground. The eye has somewhere to return.`,
 
-    `Unlike the obscured figure in Liminal Space, this face is recognizable. The archival layers still interrupt the boundary between woman and background, but her gaze gives the composition an anchor. For once, concealment is not doing all the work.`,
+    `I wanted to make this the final chapter of a familiar story. After being targeted, measured, and almost obscured, perhaps the woman had arrived at a clearer version of herself. But the interpretation felt too convenient. The sequence may have been mine all along.`,
 
-    `I wanted to see "Alchemist" as the conclusion of the story I had been constructing. After being targeted, measured, and rendered almost invisible, perhaps the woman had finally arrived at a clearer understanding of herself.`,
+    `Porter described the work as a refusal to let painful experiences turn her bitter. For her, alchemy is not denial and not the miraculous erasure of injury. It is the decision to acknowledge what has happened without allowing it to take away her softness. She photographed the self-portrait with a timer: the artist arranged the encounter, stood before the camera, and returned to decide what the image would become.`,
 
-    `But that interpretation began to feel too convenient.`,
+    `Her account makes the title more precise. The transformation she describes is not from weakness to an invulnerable self, but from experience to choice. The person in the image can remain wounded without making woundedness her only identity.`,
 
-    `Alchemy promises to turn ordinary matter into something precious. But perhaps transformation is less about becoming someone new than finding possibilities within what already exists.`,
+    `The imagery is strongest where it resists turning that thought into a simple triumph. The archival fragments do not disappear. The intricate pattern of the blouse competes with their markings. Yet the direct gaze creates a visual hierarchy that holds the composition together. The woman is more than another item in the collage.`,
 
-    `Through collage and encaustic techniques, Porter can hold photographs and found materials at different depths, making an image tactile, almost archaeological.`,
+    `I remain cautious about the alchemical metaphor itself. Old paper does not automatically confer depth, and the language of transformation can make suffering seem valuable only when it produces a better person. The work avoids that trap most convincingly in the face, which does not look like a symbol of perfection. It looks back without promising that the story has ended.`,
 
-    `What interests me is what Porter has not erased. Faded marks remain; print interrupts the image; the blouse becomes part of the layered surface. Nothing has been cleared away to make an uncomplicated portrait.`,
+    `That, to me, is where Alchemist earns its title—not in the quantity of fragments, but in the relationship between a gaze that persists and a surface that refuses to become clean. The work does not need to erase its history in order to make room for the person who remains.`,
 
-    `And yet archival paper can become too convenient a symbol. Old print does not automatically make an image profound, nor does accumulation always equal memory. Alchemist works best where the recognizable face holds its own against those materials. The woman does not disappear beneath the metaphor. She looks back.`,
+    `We can become more confident without becoming less vulnerable. We can refuse other people’s expectations and still find ourselves seeking approval. Change does not require contradictions to vanish.`,
 
-    `That difference makes Alchemist feel like a necessary counterpoint to the earlier works. The gaze changes my role as a viewer. In Targeted, I examine a body from which the face has been withheld. Here, the person inside the artwork appears to return the examination. The surrounding marks may suggest accumulated experience, but they do not get the final word. The face refuses to become merely another fragment in the collage.`,
+    `She has not become a blank page. And perhaps she never needed to.`,
 
-    `We like stories in which hardship produces a final, improved self. Life is rarely so accommodating.`,
+    {
+      type: 'heading',
+      text: 'The Main Character',
+    },
 
-    `We can gain confidence and remain vulnerable. We can reject expectations and still seek approval. Transformation does not require contradictions to disappear. Alchemy interests me less as a promise of perfection than as a way of reexamining what seemed fixed.`,
+    {
+      type: 'image',
+      src: melissa6,
+      alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
+      caption: 'A Long Look in the Mirror by Melissa Porter',
+    },
 
-    `The fragments remain, yet she looks directly outward. She has not become a blank page.`,
+    `I began this essay imagining a woman moving through four stages of becoming. A woman being observed, measured, obscured, and finally revealed. The titles offered a narrative, and I was eager to follow it.`,
 
-    `And perhaps she never needed to.`,
+    `But the longer I looked, and the more Porter told me, the less certain I became that the story belonged to the images rather than to me.`,
 
-   
-{
-  type: 'heading',
-  text: 'The Main Character',
-},
+    `Her account of self-portraiture makes that uncertainty even more important. She began photographing herself in college partly because she needed a model and had no one else to ask. Later, she stepped away from photography during a period when another person claimed it as their own creative path. Returning to black-and-white photography now feels, in her words, like coming home to a part of herself she will not abandon again.`,
 
-{
-  type: 'image',
-  src: melissa6,
-  alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
-  caption: 'A Long Look in the Mirror by Melissa Porter',
-},
+    `The collection is therefore not just a performance of visibility. It is a renewed relationship with the act of making images. Porter has placed herself before a camera she controls, then worked over those photographs with materials that hold stories she is not obliged to make fully public.`,
 
-`I began this essay imagining a woman moving through four stages of becoming. A woman being observed, measured, obscured, and finally revealed. The titles seemed to offer a narrative, and I was eager to follow it.`,
+    `She has described the works as larger and more physically assertive than images she previously allowed herself to make. Scale matters in the gallery: it asks viewers to encounter the body as a presence, not a small object of inspection. But size alone cannot create conviction. The more persuasive assertion happens within the frame, when a withheld face, unstable edge, or returned gaze makes us recognize the artist’s choices.`,
 
-`But the longer I looked, the less convinced I became that the story belonged to the images rather than to me.`,
+    `Her work is not without contradictions, and neither are her aesthetic decisions. At times, accumulation threatens to overwhelm the person it means to reveal. Fragmentation and obscurity can become a habit, while certain symbols explain what the composition might have communicated more powerfully on its own. Learning the personal history of a mark or a scrap of paper does not automatically resolve those problems.`,
 
-`Porter's work is not without its contradictions, and neither are her artistic decisions. At times, the accumulation of materials threatens to overwhelm the very person she wishes to make visible. The recurring use of fragmentation and obscurity can become predictable, while certain symbols appear to explain what the photographs might have communicated more powerfully on their own.`,
+    `Yet the interview also showed me where my criticism had been incomplete. The sheet music in Targeted complicates an apparently obvious symbol. The washes, sanding, and waxing of Measured make concealment an actual process rather than a decorative effect. The slow shutter and bow in Liminal Space move the image from passive disappearance toward courageous uncertainty. And the unwavering gaze in The Alchemist finds a clarity that the surrounding surface does not cancel.`,
 
-`Yet when these elements find their balance, the results are compelling. In Targeted, the absence of a face questions our entitlement to another person's identity. In Liminal Space, the figure's uncertain boundaries make visibility feel both fragile and necessary. And in The Alchemist, the woman's unwavering gaze holds its ground against the history layered around her.`,
+    `This is where I believe Porter succeeds most convincingly: not in the complexity of her surfaces alone, but in the tension between what she chooses to reveal and what she refuses to surrender. Her materials are at their strongest when they change the experience of looking rather than simply requiring an explanation of what they mean.`,
 
-`This is where I believe Porter succeeds most convincingly. Not in the complexity of her surfaces, but in the tension between what she chooses to reveal and what she refuses to surrender.`,
+    `Porter measures the exhibition’s success partly by the conversations it has opened among women. She has heard from viewers who recognize their own bodies, histories, and changes in these works. That response matters. But resonance is not the same as aesthetic achievement, just as an artist’s sincerity cannot make every visual decision successful. The collection deserves both kinds of attention: respect for the lives it touches and an exacting look at the pictures themselves.`,
 
-`Her work reminds me that being visible does not necessarily mean being understood. And perhaps being understood is not something we owe the world in the first place.`,
+    `I had imagined the main character as someone who finally steps into the spotlight—someone who emerges from difficulty stronger, clearer, and ready to be seen. But that conclusion now feels too convenient.`,
 
-`I had thought of the main character as someone who finally steps into the spotlight. Someone who, after years of being overlooked, emerges confident, transformed, and ready to be seen.`,
+    `A person does not need to emerge stronger from every painful experience. Nor must every contradiction become a lesson in self-love. Sometimes we are simply becoming, without knowing what that means.`,
 
-`But that interpretation now feels too convenient.`,
+    `What changed through this encounter was not necessarily the woman in Porter’s photographs. It was the way I learned to look at her. Her intentions helped me see things I had missed; they did not remove my responsibility to judge what is actually present in the work. And my judgments did not entitle me to define the life behind it.`,
 
-`A person does not need to emerge stronger from every difficult experience. Nor must every contradiction become a lesson in self-love. Sometimes we are simply becoming, without knowing exactly what that means.`,
+    `There is a difference between seeing someone and allowing them the freedom to exist beyond what we think we know.`,
 
-`What changed throughout this encounter was not necessarily the woman in Porter's photographs, but the way I learned to look at her.`,
+    `Perhaps this is the achievement of I’s, My’s & Me’s. It does not offer a complete portrait of a woman finally discovering herself. It asks whether any portrait, however carefully constructed, could ever contain the entirety of a person.`,
 
-`There is a difference between seeing someone and allowing them the freedom to exist beyond what we think we know.`,
+    `Porter did not wait for someone else to place her at the center of the image.`,
 
-`And perhaps this is the most important accomplishment of I’s, My’s & Me’s. It does not offer a complete portrait of a woman finally discovering herself. Instead, it questions whether any portrait could ever contain the entirety of a person.`,
+    `She took the photograph herself.`,
 
-`Porter did not wait for someone else to place her at the center of the image.`,
+    `And perhaps being the main character was never about finally being seen, but about reclaiming the right to decide how we appear, even when the world insists on telling us who we are.`,
 
-`She took the photograph herself.`,
+    `— Mo Alimi`,
 
-`And perhaps being the main character was never about finally being seen, but about reclaiming the right to decide how we appear, even when the world insists on telling us who we are.`,
+    `ART ALL DAY | Art & Reflection`,
 
-`— Mo Alimi`,
-
-`ART ALL DAY | Art & Reflection`,
-
-`Follow artist on Instagram @melissa.porter.artist`,
-
+    `Follow artist on Instagram @melissa.porter.artist`,
   ],
 
   images: [],
-
   youtube: '',
 },
-
-
 
 
 

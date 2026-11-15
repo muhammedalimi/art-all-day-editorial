@@ -543,6 +543,39 @@ openingStatement: [
 },
 
 
+// {
+//   slug: 'issue-15',
+
+//   issueNumber: 15,
+//   number: 'Issue 15',
+
+//   title: 'The Main Character',
+
+//   headline:
+//     'On identity, invisibility, societal expectations, and the courage to become the main character in your own life.',
+
+//   date: 'November 2026',
+
+//   status: 'Current Issue',
+
+//   coverImage: melissaCover,
+
+//   articleSlug: 'the-main-character',
+
+//   description:
+//     'The Main Character explores Melissa Porter’s I’s, My’s & Me’s, a deeply personal body of work examining identity, societal expectations, invisibility, and self-discovery. Through Targeted, Measured, Liminal Space, and The Alchemist, Mo Alimi reflects on the contradictions of being human and the courage it takes to reclaim ownership of our own stories.',
+
+//   openingStatement: [
+//     'We want to be seen, yet sometimes we hide. We want to belong, yet we fear losing ourselves in the process. We spend so much of our lives becoming what others expect of us that we sometimes forget to ask who we wanted to become in the first place.',
+
+//     'In Issue 15, Mo Alimi explores Melissa Porter’s I’s, My’s & Me’s, reflecting on the innocent, the obedient, and the invisible versions of ourselves. Through four compelling works, he considers how societal expectations shape our identities and what happens when we finally begin to question the standards we inherited.',
+
+//     'Perhaps becoming the main character in your own life is not about demanding the spotlight. Perhaps it is about realizing that you were never meant to spend your entire life standing outside it.',
+
+//     '— Mo Alimi, Editor, Art All Day',
+//   ],
+// },
+
 {
   slug: 'issue-15',
 
@@ -552,7 +585,7 @@ openingStatement: [
   title: 'The Main Character',
 
   headline:
-    'On identity, invisibility, societal expectations, and the courage to become the main character in your own life.',
+    'On self-portraiture, vulnerability, and the courage to reclaim how we see ourselves—and how the world sees us.',
 
   date: 'November 2026',
 
@@ -563,14 +596,16 @@ openingStatement: [
   articleSlug: 'the-main-character',
 
   description:
-    'The Main Character explores Melissa Porter’s I’s, My’s & Me’s, a deeply personal body of work examining identity, societal expectations, invisibility, and self-discovery. Through Targeted, Measured, Liminal Space, and The Alchemist, Mo Alimi reflects on the contradictions of being human and the courage it takes to reclaim ownership of our own stories.',
+    'The Main Character explores Melissa Porter’s I’s, My’s & Me’s, a deeply personal collection of photographic self-portraits, collage, and encaustic works confronting identity, body image, vulnerability, and transformation. Through Targeted, Measured, Liminal Space, and The Alchemist, Mo Alimi examines the tension between what an artist chooses to reveal and what a viewer believes they understand. In conversation with Porter, the essay considers how personal histories shape artistic decisions, why visibility does not always mean understanding, and what it means to reclaim authorship of our own image.',
 
   openingStatement: [
-    'We want to be seen, yet sometimes we hide. We want to belong, yet we fear losing ourselves in the process. We spend so much of our lives becoming what others expect of us that we sometimes forget to ask who we wanted to become in the first place.',
+    'We want to be seen, yet sometimes we hide. We want to belong, yet belonging can come at the cost of ourselves. Somewhere between the expectations of others and the freedom to become who we are, we begin negotiating how much of ourselves we are willing to reveal.',
 
-    'In Issue 15, Mo Alimi explores Melissa Porter’s I’s, My’s & Me’s, reflecting on the innocent, the obedient, and the invisible versions of ourselves. Through four compelling works, he considers how societal expectations shape our identities and what happens when we finally begin to question the standards we inherited.',
+    'In Issue 15, Mo Alimi enters the layered world of Melissa Porter’s I’s, My’s & Me’s. Through four self-portraits—Targeted, Measured, Liminal Space, and The Alchemist—and an intimate conversation with the artist, he explores the personal histories behind her images, the materials that conceal and reveal them, and the fragile relationship between artistic intention and interpretation.',
 
-    'Perhaps becoming the main character in your own life is not about demanding the spotlight. Perhaps it is about realizing that you were never meant to spend your entire life standing outside it.',
+    'What emerges is not a straightforward story of overcoming hardship or finally stepping into the spotlight. It is a reflection on vulnerability, the contradictions of becoming, and the possibility of telling our own stories without surrendering every part of ourselves to the world.',
+
+    'Perhaps being the main character was never about finally being seen, but about reclaiming the right to decide how we appear, even when the world insists on telling us who we are.',
 
     '— Mo Alimi, Editor, Art All Day',
   ],
