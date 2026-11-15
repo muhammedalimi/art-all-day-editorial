@@ -21,6 +21,8 @@ import romeoCover from '../assets/romeoCover.png'
 import gallen2 from '../assets/gallen2.webp'
 import judeCover from '../assets/judeCover.png'
 import whyArtCover from '../assets/whyArtCover.png'
+import melissaCover from '../assets/melissaCover.png'
+
 
 type IssueDepartmentFeature = {
   artist: string
@@ -520,6 +522,37 @@ export const issueDepartments: IssueDepartments = {
 
       link:
         '/studio-hours/why-art',
+    },
+  },
+},
+
+
+
+'issue-15': {
+  issueNumber: 15,
+
+  departments: {
+    'art-and-reflection': {
+      artist: 'Mo Alimi',
+
+      title: 'The Main Character',
+
+      description: [
+        'What does it mean to become the main character in your own life? Through Melissa Porter’s I’s, My’s & Me’s, Mo Alimi explores the contradictions of identity, invisibility, societal expectations, and the courage to reclaim ownership of our own stories. A reflection on the different versions of ourselves we carry through life and the expectations that shape who we become.',
+
+        'From the innocence of Targeted and the societal pressures of Measured to the quiet transformation of Liminal Space and the self-discovery of The Alchemist, this essay examines how we learn to see ourselves beyond the standards imposed upon us. An exploration of womanhood, beauty, intelligence, and the freedom to take up space without apology.',
+      ],
+
+      image: melissaCover,
+
+      imageAlt:
+        'Editorial collage featuring artworks from Melissa Porter’s I’s, My’s & Me’s collection, with layered portraits, abstract textures, and a blurred female silhouette for Art All Day Issue 15',
+
+      caption:
+        'The Main Character — Exploring Melissa Porter’s I’s, My’s & Me’s. An essay by Mo Alimi, Art All Day Issue 15',
+
+      link:
+        '/departments/art-and-reflection',
     },
   },
 },

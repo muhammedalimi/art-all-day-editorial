@@ -18,6 +18,11 @@ import romeoCover from '../assets/romeoCover.png'
 import gallenCover from '../assets/gallenCover.png'
 import judeCover from '../assets/judeCover.png'
 import whyArtCover from '../assets/whyArtCover.png'
+
+import melissaCover from '../assets/melissaCover.png'
+
+
+
 type StudioNoteTeaser = {
   title: string
   artist: string
@@ -532,6 +537,40 @@ openingStatement: [
     'Why art? Perhaps because some things are better felt than explained. Art gives us a way to see ourselves, our memories, and the world through another person’s imagination.',
 
     'In Issue 14, Mo Alimi reflects on the beginnings of Art All Day, the freedom of artistic expression, and the quiet connections that draw us to the work of artists.',
+
+    '— Mo Alimi, Editor, Art All Day',
+  ],
+},
+
+
+{
+  slug: 'issue-15',
+
+  issueNumber: 15,
+  number: 'Issue 15',
+
+  title: 'The Main Character',
+
+  headline:
+    'On identity, invisibility, societal expectations, and the courage to become the main character in your own life.',
+
+  date: 'November 2026',
+
+  status: 'Current Issue',
+
+  coverImage: melissaCover,
+
+  articleSlug: 'the-main-character',
+
+  description:
+    'The Main Character explores Melissa Porter’s I’s, My’s & Me’s, a deeply personal body of work examining identity, societal expectations, invisibility, and self-discovery. Through Targeted, Measured, Liminal Space, and The Alchemist, Mo Alimi reflects on the contradictions of being human and the courage it takes to reclaim ownership of our own stories.',
+
+  openingStatement: [
+    'We want to be seen, yet sometimes we hide. We want to belong, yet we fear losing ourselves in the process. We spend so much of our lives becoming what others expect of us that we sometimes forget to ask who we wanted to become in the first place.',
+
+    'In Issue 15, Mo Alimi explores Melissa Porter’s I’s, My’s & Me’s, reflecting on the innocent, the obedient, and the invisible versions of ourselves. Through four compelling works, he considers how societal expectations shape our identities and what happens when we finally begin to question the standards we inherited.',
+
+    'Perhaps becoming the main character in your own life is not about demanding the spotlight. Perhaps it is about realizing that you were never meant to spend your entire life standing outside it.',
 
     '— Mo Alimi, Editor, Art All Day',
   ],

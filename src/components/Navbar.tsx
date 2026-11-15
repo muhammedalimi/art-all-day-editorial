@@ -288,12 +288,12 @@ export default Navbar */}
 <div className="navActions">
 
   {/* ART ALL DAY STUDIO */}
-  <Link
+  {/* <Link
     to="/studio"
     className="navStudioLink"
   >
     Studio
-  </Link>
+  </Link> */}
 
   {/* MEMBERSHIP */}
   <a

@@ -101,6 +101,13 @@ import jude7 from '../assets/jude7.png'
 import art1 from '../assets/art1.png'
 import art2 from '../assets/art2.png'
 import art3 from '../assets/art3.png'
+import melissa1 from '../assets/melissa1.webp'
+// import melissa2 from '../assets/melissa2.webp'
+import melissa3 from '../assets/melissa3.webp'
+import melissa4 from '../assets/melissa4.webp'
+import melissa5 from '../assets/melissa5.webp'
+import melissa6 from '../assets/melissa6.webp'
+import melissaCover from '../assets/melissaCover.png'
 
 // type BodyB
 // lock =
@@ -3508,430 +3515,6 @@ intro:
 },
 
 
-// 'a-generation-that-feels-more-than-it-can-explain': {
-//   category: 'culture-criticism',
-
-//   title: 'A Generation That Feels More Than It Can Explain',
-
-//   author: 'Mo Alimi',
-
-//   readTime: '9 min read',
-
-//   publishedAt: '2026-10-13T00:00:00-06:00',
-
-//   issueNumber: 10,
-
-//   issue: 'Issue 10',
-
-//   intro:
-//     'I started writing this piece trying to understand something I have never quite been able to connect with. Abstract art. Why does something I struggle to understand still leave me so confused and intrigued?',
-
-//   heroImage: krystal1,
-
-//   heroImageCaption:
-//     'Abstract artwork by Krystal Bradford — title to be confirmed',
-
-//   body: [
-//     `I started writing this piece trying to understand something I have never quite been able to connect with.`,
-
-//     `Abstract art.`,
-
-//     `Why does something I struggle to understand still leave me so confused and intrigued?`,
-
-//     `I have looked at paintings that seem to represent nothing familiar. No recognizable figures, no obvious narratives, sometimes not even a clear beginning or end. Just colors, shapes, and gestures existing on a canvas.`,
-
-//     `And yet, something about them holds my attention.`,
-
-//     `I find myself searching for meaning in things I cannot identify, trying to understand feelings I cannot quite describe.`,
-
-//     `But perhaps I have been asking the wrong question.`,
-
-//     `What if abstraction is not always something we are supposed to understand?`,
-
-//     `What if its power lies in the very things it refuses to explain?`,
-
-//     `Lately, I have been thinking about the deeper search for meaning that seems to shape so much of our generation. Beyond careers, relationships, achievements, and the identities we present to the world, there is a quieter search taking place.`,
-
-//     `The search for ourselves.`,
-
-//     `For inner peace. For spiritual connection. For something that feels true, even when we cannot explain why.`,
-
-//     `And I wonder whether our fascination with abstract art is connected to that search.`,
-
-//     `Perhaps we are drawn to the unknown not because it offers answers, but because it reminds us how much of ourselves remains undiscovered.`,
-
-//     {
-//       type: 'heading',
-//       text: 'The Things We Cannot Put Into Words',
-//     },
-
-//     `We belong to a culture that constantly asks us to explain ourselves.`,
-
-//     `Explain what you do. Explain who you are. Explain your ambitions, your feelings, your relationships, your choices.`,
-
-//     `Even our creativity is expected to arrive with an explanation.`,
-
-//     `A photograph needs a caption. A painting needs a statement. An experience becomes a story, and that story is often expected to mean something to someone else.`,
-
-//     `But what happens to the feelings we cannot explain?`,
-
-//     `The strange sadness that arrives on an otherwise beautiful afternoon. The excitement of moving somewhere new, accompanied by the grief of leaving something behind. The feeling of being surrounded by people and still being unable to describe your loneliness.`,
-
-//     `Sometimes two contradictory emotions can exist within us without either being less real.`,
-
-//     `Perhaps abstraction gives those contradictions somewhere to live.`,
-
-//     `A painting can be chaotic and peaceful at once. A color can appear joyful in one corner and unsettling in another. A composition can feel unfinished without necessarily feeling incomplete.`,
-
-//     `And we are not required to resolve any of it.`,
-
-//     `Maybe that is what makes abstraction so interesting.`,
-
-//     `It does not always ask us to identify what we are seeing. Sometimes it invites us to confront what we are feeling.`,
-
-//     `But even that raises another question.`,
-
-//     `Are those feelings coming from the artwork itself, or are we bringing something of ourselves into it?`,
-
-//     `Perhaps both possibilities deserve consideration.`,
-
-//     {
-//       type: 'heading',
-//       text: 'When Color Becomes a Language',
-//     },
-
-//     `Long before we learn to describe our emotions, we respond to color, movement, sound, and form.`,
-
-//     `A child does not always need to understand why a particular color excites them. They reach for it because something about it feels right.`,
-
-//     `As we grow older, we become more concerned with making things recognizable.`,
-
-//     `We learn to draw inside the lines. We learn that the sky is blue and the grass is green. We learn to compare what we create with what something is supposed to look like.`,
-
-//     `Eventually, many of us stop drawing altogether.`,
-
-//     `We say, "I can't draw."`,
-
-//     `But perhaps what we really mean is that we can no longer draw according to the standards we have learned to accept.`,
-
-//     `This is something I keep returning to when thinking about children and their relationship with art.`,
-
-//     `A child can paint an entire page red without feeling obligated to explain why. They can give a human figure three eyes, make the sun purple, or place a house somewhere in the clouds.`,
-
-//     `We may see a failure of representation.`,
-
-//     `The child may simply see possibility.`,
-
-//     `Of course, abstract art is not the same thing as children's painting. Abstraction can involve enormous technical discipline, historical awareness, and deliberate artistic decisions.`,
-
-//     `But there is a freedom they can sometimes share.`,
-
-//     `The freedom to create without making resemblance the final measure of success.`,
-
-//     `And perhaps some of us spend adulthood trying to recover that freedom.`,
-
-//     {
-//       type: 'heading',
-//       text: 'A World That Shows Us Everything',
-//     },
-
-//     `There is also something strange about the visual world we inhabit.`,
-
-//     `Never before have so many images been so easily accessible to so many people.`,
-
-//     `We can watch someone's wedding in Lagos, a protest in Paris, an exhibition in New York, and a stranger's morning routine in Tokyo, all within a few minutes.`,
-
-//     `We encounter more faces, places, objects, and experiences than we can meaningfully absorb.`,
-
-//     `And increasingly, the images themselves arrive with instructions.`,
-
-//     `This is beautiful. This is desirable. This is successful. This is what you should become.`,
-
-//     `Even our attention is measured.`,
-
-//     `How long did we look? Did we react? Did we share it? Did we understand the message quickly enough to keep scrolling?`,
-
-//     `Abstract art offers an interesting contradiction.`,
-
-//     `On the one hand, its bold colors and unusual forms can be immediately attractive on social media. We might stop scrolling because a painting looks beautiful against a white gallery wall.`,
-
-//     `But visual attraction is not necessarily emotional connection.`,
-
-//     `We can admire a painting's colors without engaging with its ideas. We can photograph something we have barely looked at.`,
-
-//     `And perhaps this is worth questioning rather than celebrating.`,
-
-//     `Are we becoming more connected to abstract art, or simply more attracted to its appearance?`,
-
-//     `The distinction matters.`,
-
-//     `Because some abstract paintings reveal very little in the first few seconds. Their relationships, textures, decisions, and tensions only begin to emerge when we give them time.`,
-
-//     `In a culture that encourages us to move quickly, abstraction can invite us to remain.`,
-
-//     `Not every painting will reward that patience. Not every arrangement of colors carries profound meaning.`,
-
-//     `But sometimes, standing before an image without knowing exactly what to make of it becomes an experience in itself.`,
-
-//     `And maybe that experience is increasingly rare.`,
-
-//     {
-//       type: 'heading',
-//       text: 'The Spirituality of the Unknown',
-//     },
-
-//     `Perhaps there is another reason we find ourselves drawn toward abstraction.`,
-
-//     `Something beyond color, aesthetics, or the desire to express complicated emotions.`,
-
-//     `I wonder whether we are witnessing a deeper search within ourselves.`,
-
-//     `A search for identity that has little to do with the identities we present to the world. A search for spiritual peace, belonging, and the quiet parts of ourselves that often get lost in the noise of everyday life.`,
-
-//     `We spend so much time discovering what exists outside us that we sometimes forget how much remains unexplored within.`,
-
-//     `And perhaps that is where abstract art becomes interesting.`,
-
-//     // =====================================
-//     // KRYSTAL BRADFORD — ARTIST CONNECTION
-//     // =====================================
-
-//     `Looking at the work of Brisbane-based artist Krystal Bradford, I find myself returning to the uncertainty that first drew me into this conversation.`,
-
-//     `Her abstract paintings explore relationships between color, texture, and surface, drawing on memories and the landscapes surrounding her. Her practice is rooted in drawing, mixed media, and painting, with an interest in raw, vulnerable, and imperfect forms.`,
-
-//     `Yet looking at her work, I find myself searching for something I cannot quite identify.`,
-
-//     {
-//       type: 'image',
-//       src: krystal1,
-//       alt: 'Abstract painting by Krystal Bradford featuring layered shapes and earthy colors',
-//       caption: 'Artwork by Krystal Bradford — title to be confirmed',
-//     },
-
-//     `There are overlapping forms, earthy colors, and shapes that seem to suggest something familiar without ever fully revealing themselves.`,
-
-//     `I wonder what memories exist within these forms. What part of a landscape has been transformed into color, or what experience has found its way onto the canvas.`,
-
-//     `Perhaps what she remembers and what I recognize are entirely different things.`,
-
-//     `I cannot assume that her intentions were spiritual simply because the painting makes me reflect on my own search for meaning.`,
-
-//     `Krystal approaches the canvas with her own experiences, while I encounter it carrying questions about identity, spirituality, and the unknown.`,
-
-//     `We do not necessarily arrive at the same meaning.`,
-
-//     `But somewhere between what the artist creates and what the viewer experiences, something unexpected can happen.`,
-
-//     `A connection becomes possible without either person needing to explain everything.`,
-
-//     // =====================================
-//     // CONTINUE MAIN ARTICLE
-//     // =====================================
-
-//     `A painting that represents something familiar can direct our attention toward the subject. But a painting that offers no recognizable subject may redirect that attention toward ourselves.`,
-
-//     `Suddenly, we are not only asking what the artist intended.`,
-
-//     `We are asking why a particular color makes us uncomfortable. Why an unfamiliar shape reminds us of home. Why something we cannot identify brings us an unexpected feeling of peace.`,
-
-//     `There is something almost spiritual about that encounter.`,
-
-//     `Not necessarily religious, but spiritual in the sense of searching for a connection to something that exists beyond what we can immediately see or explain.`,
-
-//     `And I wonder whether the unknown plays an important role in this.`,
-
-//     `We often treat the unknown as something to fear, something to solve, or something to eventually understand.`,
-
-//     `But the unknown can also be a place of possibility.`,
-
-//     `Before we define something, it can exist in several forms within our imagination. Before we attach meaning to an experience, we are free to encounter it without the limitations of what we already know.`,
-
-//     `Perhaps this is why abstraction can feel so powerful.`,
-
-//     `It does not always provide the comfort of an answer. Sometimes it provides the comfort of knowing that an answer is not required.`,
-
-//     `And maybe inner peace is not always found by understanding everything about ourselves.`,
-
-//     `Sometimes it begins with accepting that there are parts of us we have not yet discovered.`,
-
-//     `Perhaps the unknown is powerful because it leaves room for us to become something we have not yet imagined.`,
-
-//     {
-//       type: 'heading',
-//       text: 'Does Everything Have to Represent Something?',
-//     },
-
-//     `I also wonder whether our attraction to abstraction is connected to the expectations we place on artists.`,
-
-//     `When we encounter art, we often arrive carrying assumptions about what it should tell us.`,
-
-//     `We want to know the artist's background, their identity, their struggles, and the social conditions that produced the work.`,
-
-//     `These questions can be important. Art does not exist outside history.`,
-
-//     `But they can also become limitations.`,
-
-//     `A Black artist, for example, may find that their work is continually interpreted through race, politics, or cultural representation, even when their interests extend far beyond those subjects.`,
-
-//     `A painting containing an Afro might be read as resistance. A dark-skinned figure might become a statement about identity. An ordinary moment of beauty might be expected to carry the weight of an entire historical experience.`,
-
-//     `But what about the freedom to make something simply because it is beautiful, strange, playful, or emotionally compelling?`,
-
-//     `What about the freedom not to explain everything through identity?`,
-
-//     `Abstraction can offer one way of challenging those expectations.`,
-
-//     `Not because abstract art is free from politics or history. Some of the most significant abstract practices have emerged directly from political struggles, cultural memory, and questions of belonging.`,
-
-//     `Rather, abstraction reminds us that meaning does not always have to arrive through recognizable symbols.`,
-
-//     `An artist can speak about memory through repetition, about displacement through fractured space, or about intimacy through the relationship between two colors.`,
-
-//     `Sometimes the story is present without being illustrated.`,
-
-//     `And sometimes there may be no story at all.`,
-
-//     `That possibility deserves room, too.`,
-
-//     {
-//       type: 'heading',
-//       text: 'The Comfort of Not Knowing',
-//     },
-
-//     `There is a temptation, especially when writing about art, to explain every artistic decision until the painting becomes something like a puzzle with a correct answer.`,
-
-//     `This color represents grief.`,
-
-//     `That shape symbolizes freedom.`,
-
-//     `The empty space signifies isolation.`,
-
-//     `Sometimes those interpretations are useful. Sometimes they are supported by the artist's intentions.`,
-
-//     `But sometimes they reveal our discomfort with allowing a work to remain uncertain.`,
-
-//     `We want meaning because meaning makes us feel that we have understood something.`,
-
-//     `Yet I wonder whether understanding must always be the destination.`,
-
-//     `Perhaps an abstract painting can move us without our being able to translate that experience into language.`,
-
-//     `Perhaps we can stand before a canvas, feel something intensely, and leave without knowing what it was.`,
-
-//     `Looking at a painting by Jack Kabangu, I find myself thinking again about how quickly abstraction can move us before we fully understand what we are seeing.`,
-
-// {
-//   type: 'image',
-//   src: jack1,
-//   alt: 'Circular abstract painting by Jack Kabangu with red, black, yellow, white, and green forms',
-//   caption: '"Red sun/rød sol" — by Jack Kabangu',
-// },
-
-// `The work feels immediate. Its circular form, bold contrasts, and intense colors create an encounter that feels almost instinctive before it becomes interpretive.`,
-
-// `I do not know exactly what I am looking at, and that uncertainty becomes part of the experience.`,
-
-// `There are shapes that seem to suggest a presence, a face, or an energy, but nothing settles long enough to become fully fixed.`,
-
-// `And perhaps that is what keeps me there.`,
-
-// `Not the comfort of recognition, but the tension between familiarity and mystery.`,
-
-// `Jack Kabangu’s painting reminds me that abstraction does not always ask for explanation first. Sometimes it asks for attention. Sometimes it asks for feeling.`,
-
-// `What I bring to the work may not be what the artist intended, but that does not make the encounter any less real.`,
-
-// `If anything, it reveals how much of art happens in the space between what is created and what is received.`,
-
-// `That does not necessarily mean the artist has communicated a particular emotion successfully. What we feel may come as much from our own memories and associations as from the artist's intentions.`,
-
-// `But that encounter is still real.`,
-
-// `The painting has become a place where something within us has surfaced.`,
-
-// `And there is something beautiful about that.`,
-
-//     `That does not necessarily mean the artist has communicated a particular emotion successfully. What we feel may come as much from our own memories and associations as from the artist's intentions.`,
-
-//     `But that encounter is still real.`,
-
-//     `The painting has become a place where something within us has surfaced.`,
-
-//     `And there is something beautiful about that.`,
-
-//     {
-//       type: 'heading',
-//       text: 'A Generation Still Trying to Understand Itself',
-//     },
-
-//     `I don't think abstract art belongs to this generation any more than it belonged to those who came before us.`,
-
-//     {
-//       type: 'image',
-//       src: hilma1,
-//       alt: 'Abstract painting by Hilma af Klint with circular forms in various colors',
-//       caption: '"The Swan, No. 17, Group IX/SUW (1914–1915)" — by Hilma af Klint',
-//     },
-
-
-
-//     `Its history is too long, too complicated, and too culturally diverse for that.`,
-
-//     `Nor do I believe younger people have suddenly become more emotional than everyone else.`,
-
-//     `Every generation has experienced fear, love, uncertainty, loneliness, and the difficulty of finding its place in the world.`,
-
-//     `What may be different is the environment in which we are asked to understand those experiences.`,
-
-//     `We live with extraordinary access to information, but information does not always produce clarity.`,
-
-//     `We have more ways to communicate, yet communication does not guarantee that we will feel understood.`,
-
-//     `We have more opportunities to present ourselves to the world, but presentation is not the same as self-knowledge.`,
-
-//     `Perhaps that is why the idea of abstraction feels so relevant to me.`,
-
-//     `It reminds us that not everything meaningful must first become understandable.`,
-
-//     `That emotion can exist before explanation.`,
-
-//     `That uncertainty is not necessarily emptiness.`,
-
-//     `And that what we cannot recognize immediately may still have something to offer us.`,
-
-//     `I began this piece trying to understand an art form I have never quite connected with.`,
-
-//     `And I am not sure I understand it any better now.`,
-
-//     `I still find myself questioning the meaning behind certain paintings. I still wonder whether some abstract works communicate something profound or whether I am simply searching for meaning because I expect art to provide it.`,
-
-//     `But perhaps something has changed.`,
-
-//     `I am beginning to appreciate the questions themselves.`,
-
-//     `The possibility that curiosity does not always require understanding. That fascination does not always begin with recognition. That what confuses us can still invite us closer.`,
-
-//     `You don't have to connect with something to be curious about it. And sometimes curiosity is the beginning of connection.`,
-
-//     `Perhaps this is what I have been searching for all along.`,
-
-//     `Not an explanation for every shape, color, or gesture.`,
-
-//     `Not a final answer to what abstract art is supposed to mean.`,
-
-//     `But the freedom to encounter something unfamiliar without immediately demanding that it become familiar.`,
-
-//     `Maybe the unknown is not something we are meant to conquer.`,
-
-//     `Maybe it is something we are meant to encounter.`,
-//   ],
-
-//   images: [],
-
-//   youtube: '',
-// },
-
 
 'a-generation-that-feels-more-than-it-can-explain': {
   category: 'culture-criticism',
@@ -5036,340 +4619,6 @@ intro:
 },
 
 
-// 'mama-said-cut-your-hair': {
-//   category: 'culture-criticism',
-
-//   title: 'Mama Said Cut Your Hair',
-
-//   author: 'Mo Alimi',
-
-//   readTime: '10 min read',
-
-//   publishedAt: '2026-10-30T00:00:00-06:00',
-
-//   issueNumber: 13,
-
-//   issue: 'Issue 13',
-
-//   intro:
-//     `Before the world taught us what was professional, home taught us what was presentable. Through the paintings of Nigerian artist Jude Adebayo, childhood memories of the barber's chair, and the cultural significance of Black hair, we question why something so natural became something we were constantly asked to fix.`,
-
-//   heroImage: jude1,
-
-//   heroImageCaption:
-//     '"i hate my hair, perhaps I was taught to hate it III" by Jude Adebayo',
-
-//   body: [
-//     `Before we shift the conversation to the world, perhaps we should begin at home, with what we were taught about our own hair.`,
-
-//     `Growing up, we often heard familiar expressions.`,
-
-//     `*"Your hair is bushy."*`,
-
-//     `*"You look like a rascal."*`,
-
-//     `*"Go and make yourself look responsible."*`,
-
-//     `These were ordinary comments, sometimes said with affection, sometimes with frustration, and often without much thought. But somewhere between being told to look neat and being reminded to visit the barber, we began to associate the appearance of our hair with the kind of person we were expected to become.`,
-
-//     `As a child, I was often celebrated by my mother whenever I returned home with a fresh low cut. Suddenly, I was handsome, neat, and responsible. The compliments came almost immediately.`,
-
-//     `But even the slightest appearance of an afro was enough to signal that another trip to the salon was approaching.`,
-
-//     `My hair had barely grown before it was already time to cut it again.`,
-
-//     `I never really questioned it. A haircut was simply part of looking presentable, much like wearing clean clothes or polishing your shoes before leaving the house.`,
-
-//     `And like many children, I enjoyed the compliments.`,
-
-//     `But looking back, I find myself wondering why the approval seemed to depend so much on how little hair was left on my head.`,
-
-//     `When did having too much hair become a sign of irresponsibility? And how did something growing naturally from our bodies become something that constantly needed fixing?`,
-
-//     `I don't believe my mother's intention was ever to make me dislike my hair. Perhaps, like many parents, she simply wanted her child to look well-groomed and respectable.`,
-
-//     `But there is something worth examining about the things we praise in children and the things we repeatedly ask them to change.`,
-
-//     `Nobody ever explicitly told me to hate my hair.`,
-
-//     `**Perhaps I was simply taught that it looked better when there was less of it.**`,
-
-//     {
-//       type: 'heading',
-//       text: 'Perhaps I was taught to hate it',
-//     },
-
-//             {
-//       type: 'image',
-//       src: jude2,
-//       alt: '',
-//       caption: '""I hate my hair, perhaps I was taught to hate it" II" by Jude Adebayo',
-//     },
-
-
-//     `This question became more interesting to me when I encountered *Hate My Hair*, a series of paintings by Lagos-based Nigerian artist **Jude Adebayo**.`,
-
-//     `Working primarily in painting and drawing, Jude explores identity, memory, human emotions, and the often-unspoken stories of African experiences. His artistic practice is interested in how culture, upbringing, and society shape the ways people see themselves and others.`,
-
-//     `What first caught my attention was the title of the series.`,
-
-//     `*Hate My Hair.*`,
-
-//     `It sounds almost like a confession. A simple statement, yet one that invites a much larger conversation.`,
-
-//     `Can we truly hate something about ourselves without first developing an idea of what it should look like?`,
-
-//     `Or do we gradually become uncomfortable with certain parts of ourselves because of the reactions they receive?`,
-
-//     `In one of Jude's paintings, a woman appears deep in thought. Her gaze is lowered, one hand resting near her face. She wears a dark burgundy jacket against a largely white background.`,
-
-//     `But it is her hair that commands the painting.`,
-
-//     `Dark, textured, and almost sculptural, it expands far beyond the familiar proportions of a traditional portrait. Thick layers of paint spread across the canvas, interrupted by rough edges and traces of purple. The hair appears to resist the boundaries of the figure itself.`,
-
-//     `There is something fascinating about the contrast.`,
-
-//     `**The woman's expression is quiet, but her hair is anything but.**`,
-
-//     `It occupies space without apology.`,
-
-//     `To me, the painting presents a kind of freedom that feels strangely at odds with the title of the series.`,
-
-//     `I see beauty in the texture, the movement, the unpredictability of it all. Yet the words *Hate My Hair* invite me to consider how the very features we admire in art can become subjects of criticism in everyday life.`,
-
-//     `A hairstyle celebrated on a canvas might receive an entirely different reaction in a classroom, at home, or during a job interview.`,
-
-//     `Of course, the artist's intentions may extend beyond my own reading of the work. But perhaps that is part of what makes art interesting. Sometimes a painting raises questions about experiences we had never thought to examine.`,
-
-//     `For me, Jude's work brings back a childhood memory of the barber's chair and a mother who seemed happiest when my hair was neatly cut.`,
-
-//     `It also raises a bigger question.`,
-
-//     `**Were we being taught how to care for our hair, or were we being taught how much of it other people would tolerate?**`,
-
-//     {
-//       type: 'heading',
-//       text: 'The rules of looking neat',
-//     },
-
-//     `In America, conversations about embracing natural hair, skin tone, and identity have become part of a larger movement toward self-acceptance and confidence.`,
-
-//     `There is growing encouragement to love the features we were born with, rather than constantly trying to meet someone else's expectations of beauty.`,
-
-//     `But the conversation becomes more complicated when we enter professional spaces.`,
-
-//     `A hairstyle that represents freedom and self-expression outside the office can suddenly become a question of professionalism within it.`,
-
-//     `*Be yourself, but not too much.*`,
-
-//     `*Express yourself, but remain presentable.*`,
-
-//     `And what exactly does presentable mean?`,
-
-//     `We often discuss professionalism as though it is a universal standard. But much of what we consider professional has been shaped by social expectations, cultural preferences, and the appearance of those who have traditionally occupied positions of authority.`,
-
-//     `In the United States, [research by scholars at Duke University](https://www.fuqua.duke.edu/duke-fuqua-insights/ashleigh-rosette-research-suggests-bias-against-natural-hair-limits-job) found that Black women wearing natural hairstyles were perceived as less professional and less competent than women with straightened hairstyles in certain recruitment settings.`,
-
-//     `A [2023 workplace study commissioned by Dove and LinkedIn](https://www.linkedin.com/business/learning/blog/dove-linkedin-partnership) also reported that approximately two-thirds of Black women surveyed changed their hair for job interviews.`,
-
-//     `Think about that for a moment.`,
-
-//     `Before someone has spoken about their qualifications, experience, or ambitions, they may already be thinking about whether their hair will make them appear suitable for the opportunity.`,
-
-//     `It is not necessarily a question of whether they like their hair.`,
-
-//     `**It is a question of whether somebody else will.**`,
-
-//     `Of course, not every person who straightens their hair, wears a wig, chooses a low cut, or ties their hair back is doing so out of fear. People should have the freedom to experiment with their appearance without having their choices turned into political statements.`,
-
-//     `There is beauty in versatility.`,
-
-//     `But there is a difference between choosing a hairstyle because you enjoy it and choosing one because you believe your natural appearance might cost you an opportunity.`,
-
-//     `The problem is not the low cut, the straightened hair, or the ponytail.`,
-
-//     `The problem begins when one appearance is treated as respectable and another as something that must be corrected.`,
-
-//     `And perhaps that is why the language we use matters.`,
-
-//     `*Bushy. Rough. Untidy. Unprofessional.*`,
-
-//     `These descriptions do more than characterize hair. Depending on how they are used, they can begin to characterize the person wearing it.`,
-
-//     `We gradually stop discussing appearance and start making assumptions about discipline, intelligence, ambition, and character.`,
-
-//     `**But when did responsibility become something we could measure with a haircut?**`,
-
-//     {
-//       type: 'heading',
-//       text: 'Before the dress code',
-//     },
-
-//     `It would be easy to blame colonization for the complicated relationship Black people have with their appearance.`,
-
-//     `And certainly, the influence of colonialism and Western beauty standards deserves examination. But I also find myself looking further back, toward African cultures before European influence became so dominant.`,
-
-//     `In Yoruba culture, where I come from, hair was never simply decoration.`,
-
-//     `**It was a language.**`,
-
-//     `Hairstyles could communicate social status, age, marital status, and cultural or spiritual identity. The hair of a young girl might be arranged differently from that of a married woman. Particular styles could be associated with ceremony, social standing, or royalty.`,
-
-//     `A hairstyle could say something about you before you introduced yourself.`,
-
-//     `The cultural significance of Yoruba hairstyling is explored by historian Toyin Falola in [Yorùbá Hair Art and the Agency of Women](https://www.cambridge.org/core/books/abs/decolonizing-african-knowledge/yoruba-hair-art-and-the-agency-of-women/CE79860318271A423F0A02AE5D6B2104), which examines the relationship between hair, identity, spirituality, and social expectations.`,
-
-//     `There was also considerable artistry in the process.`,
-
-//     `The careful parting of the scalp, the arrangement of braids, the symmetry of patterns, and the patience required to create elaborate designs turned hair into something close to architecture.`,
-
-//     `It was both personal expression and a form of visual communication.`,
-
-//     `I find that fascinating.`,
-
-//     `Today, we sometimes speak about Black hair as though its natural texture is a problem waiting to be managed. Yet generations of African hairstyling traditions demonstrate just how much beauty and creativity can emerge from those same textures.`,
-
-//     `That is not to suggest that traditional African societies existed without strict expectations about appearance. Different communities had their own rules about grooming, gender, status, and presentation. In Yoruba society, too, neatness and proper grooming could be closely associated with social respectability.`,
-
-//     `Nor does every modern preference for straight hair come from colonial influence.`,
-
-//     `Our relationship with beauty has always been complicated.`,
-
-//     `But the history reminds us that there have been other ways of understanding the significance of hair.`,
-
-//     `Black hair can curl, coil, shrink, stretch, twist, and rise into extraordinary forms. It can be braided into intricate patterns or left to grow freely.`,
-
-//     `There is something almost architectural about it, as though each strand participates in a design of its own.`,
-
-//     `**And like a wildflower, it does not need to resemble another flower to be beautiful.**`,
-
-//     `Perhaps that is what I find so compelling about Jude's painting.`,
-
-//     `The woman's hair seems to exceed every expectation of where it should begin and end.`,
-
-//     `And I wonder why that kind of expression is so easily celebrated in a gallery but can still make people uncomfortable elsewhere.`,
-
-//     {
-//       type: 'heading',
-//       text: 'When success changes the rules',
-//     },
-
-//     `I sometimes think about Jay-Z.`,
-
-//     `For much of his early career, the rapper maintained a closely cropped haircut. Years later, he began growing his hair, eventually developing the freeform locs that reminded many observers of the late artist Jean-Michel Basquiat.`,
-
-//     `His changing appearance raises an interesting question about success and personal freedom.`,
-
-//     `Would someone entering a corporate office with that hairstyle be judged differently from a billionaire walking into the same room?`,
-
-//     `Does success give people the freedom to challenge expectations that others are still expected to follow?`,
-
-//     `Or are we simply assigning our own ideas about respectability to someone else's appearance?`,
-
-//     `Jay-Z's story also offers an interesting reminder that we should be careful about assuming why people choose their hairstyles.`,
-
-//     `In June 2026, Beyoncé [explained that Jay-Z began growing his locs](https://www.revolt.tv/article/beyonce-combing-out-jay-z-locs-cecred-vlog) partly to help their daughter, Blue Ivy, appreciate her natural hair texture. Years later, he combed out his locs and wore an afro in tribute to his late father.`,
-
-//     `That detail changes how I think about the story.`,
-
-//     `What I initially saw as a possible transformation connected to professional success was also a father's attempt to help his daughter see beauty in something about herself.`,
-
-//     `And suddenly, I find myself thinking about my own mother again.`,
-
-//     `Two parents, different approaches, perhaps both trying to prepare their children for the world.`,
-
-//     `One celebrated a fresh haircut. Another grew his hair to encourage his daughter's confidence.`,
-
-//     `Neither experience can explain every choice a person makes about their appearance. But together, they raise an interesting question about the influence parents have on how children come to understand beauty.`,
-
-//     `What would happen if we celebrated a child's natural hair with the same enthusiasm we give a fresh haircut?`,
-
-//     `Would they grow up seeing their hair differently?`,
-
-//     `Would they still feel the need to adjust their appearance before entering certain spaces?`,
-
-//     `Perhaps the answer is not as simple as refusing to cut our hair.`,
-
-//     `Perhaps it begins with examining why we sometimes feel that we must.`,
-
-//     {
-//       type: 'heading',
-//       text: 'What exactly are we fixing?',
-//     },
-
-//     `Returning to Jude Adebayo's painting, I am drawn once again to the difference between the woman's quiet expression and the overwhelming presence of her hair.`,
-
-//     `It is difficult to ignore.`,
-
-//     `The hair stretches across the canvas, breaking into rough, unpredictable forms. There is no attempt to make every edge smooth or every strand behave.`,
-
-//     `At least in my interpretation, that is where much of the painting's beauty lies.`,
-
-//     `It reminds me that art often encourages us to admire qualities that everyday social expectations ask us to suppress.`,
-
-//     `We praise originality in paintings, celebrate unconventional forms in sculpture, and admire artists who refuse to follow established rules.`,
-
-//     `Yet when those same qualities appear in people, we sometimes respond with discomfort.`,
-
-//     `We ask them to look neater.`,
-
-//     `To appear more serious.`,
-
-//     `To look responsible.`,
-
-//     `And perhaps what troubles me most is how ordinary these requests can sound.`,
-
-//     `I don't remember my mother ever sitting me down to explain why a low cut made me more respectable. There was no lecture about identity or beauty standards.`,
-
-//     `There were simply compliments when my hair was short and reminders when it grew.`,
-
-//     `That was enough to make me understand what was preferred.`,
-
-//     `And I imagine many of us have similar stories.`,
-
-//     `The child whose braids were called too rough. The young woman who was advised to straighten her hair before an interview. The young man whose afro was interpreted as a lack of seriousness.`,
-
-//     `Not everyone experiences these moments in the same way. Some may laugh them off. Others may remember them long after the conversation has ended.`,
-
-//     `And perhaps some never question them at all.`,
-
-//     `I still believe there is value in grooming, in taking care of ourselves, and in dressing appropriately for different occasions.`,
-
-//     `But taking care of something should not require us to believe there is something wrong with its natural state.`,
-
-//     `My mother wanted me to look responsible.`,
-
-//     `I understand that.`,
-
-//     `What I question now is why responsibility had to look a particular way.`,
-
-//     `Perhaps the conversation should never have been about whether our hair was too long, too thick, too rough, or too difficult to manage.`,
-
-//     `Perhaps it should have been about why those qualities made us uncomfortable in the first place.`,
-
-//     `And when I look at Jude's *Hate My Hair*, I no longer see the title as a statement that must be accepted at face value.`,
-
-//     `I see a question worth asking ourselves.`,
-
-//     `**Did we ever truly hate our hair?**`,
-
-//     `**Or did we simply become accustomed to seeing it through the expectations of others?**`,
-
-//     `Before we ask the world to change how it sees us, perhaps we should examine the language we use in our own homes.`,
-
-//     `The next time a child walks into the room with a growing afro, maybe the conversation doesn't have to begin with a reminder to visit the barber.`,
-
-//     `Maybe we can allow the hair to grow without making it a reflection of the child's character.`,
-
-//     `Because a fresh haircut can make someone look different.`,
-
-//     `**But it has never been what makes them responsible.**`,
-//   ],
-
-//   images: [],
-
-//   youtube: '',
-// },
 
 'mama-said-fix-your-hair': {
   category: 'culture-criticism',
@@ -5837,6 +5086,697 @@ intro:
 
   youtube: '',
 },
+
+// 'the-main-character': {
+//   category: 'Culture & Criticism',
+
+//   title: 'The Main Character',
+
+//   author: 'Mo Alimi',
+
+//   readTime: '10 min read',
+
+//   publishedAt: '2026-11-08T00:00:00-07:00',
+
+//   issueNumber: 15,
+
+//   issue: 'Issue 15',
+
+//   intro:
+//     `Through Melissa Porter's I’s, My’s & Me’s, Mo Alimi explores identity, visibility, self-portraiture, and the contradictions of becoming ourselves. A reflection on photography, the stories we construct about others, and the courage to take up space without surrendering the complexity of who we are.`,
+
+//   heroImage: melissaCover,
+
+//   heroImageCaption:
+//     'The Main Character — Featuring works from Melissa Porter’s I’s, My’s & Me’s collection. ART ALL DAY, Issue 15 Art Work.',
+
+//   body: [
+//     `I do not know whether Melissa Porter intended these works to be read as chapters of the same story. But looking at them together, I couldn't help seeing a woman moving through four stages of becoming.`,
+
+//     `A woman being observed. A woman being measured. A woman becoming difficult to see. And finally, a woman looking back at the world.`,
+
+//     `The titles almost invite such a reading. Targeted. Measured. Liminal Space. The Alchemist.`,
+
+//     `Yet the longer I looked, the less certain I became about the story I was telling.`,
+
+//     `There is something fascinating about the contradictions of being human. We want to be seen, yet sometimes we hide. We long to belong, yet belonging can come at the expense of who we are. Somewhere between acceptance and the freedom to be ourselves, we begin negotiating our existence without always recognizing how much of ourselves we have given away.`,
+
+//     `Porter's I’s, My’s & Me’s made me think about those contradictions. Through photography, fragmentation, collage, and self-portraiture, she creates images that appear familiar yet resist being understood at a glance.`,
+
+//     `What makes this collection particularly interesting is that Porter is not simply photographing another person. She is photographing herself.`,
+
+//     `The woman appearing throughout these works is also the person behind the camera, deciding what enters the frame and how the final image should exist in the world.`,
+
+//     `Porter studied fine-art photography, but her practice has expanded beyond the photograph as a finished image. She combines photography with found materials, vintage newsprint, symbols, and layered surfaces. One of her signature techniques is encaustic, a process involving heated beeswax and resin through which images and materials can be placed at different depths.`,
+
+//     `A photograph preserves an appearance, but layering complicates what we believe that appearance can tell us.`,
+
+//     `In these works, faces emerge through faded papers, bodies intersect with markings, and figures seem to exist somewhere between being revealed and concealed.`,
+
+//     `I wondered whether those layers were hiding something or asking me to look more carefully.`,
+
+//     `Perhaps both.`,
+
+//     `And perhaps the most important thing to remember is that the woman in these images is not simply waiting for us to define her. She has already participated in constructing how we see her.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Targeted',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa1,
+//       alt: 'Mixed-media artwork by Melissa Porter showing a cropped female figure with a bent arm and an obscured face against a textured cream background with circular markings',
+//       caption: 'Targeted by Melissa Porter',
+//     },
+
+//     `I began with Targeted.`,
+
+//     `There is something unsettling about the word itself. To be targeted is to become the subject of someone else's attention, often without having asked for it.`,
+
+//     `But before deciding what the title meant, I had to confront what was actually in front of me.`,
+
+//     `The figure is cropped. Her face remains outside the frame, an arm bends across the upper body, and faint circular markings spread across a pale background. Scratches, lines, and fragments of printed material interrupt the surface, giving the image the appearance of something between a photograph, a drawing, and a memory being reconstructed.`,
+
+//     `Nothing appears entirely separate from the background. The body emerges through the layers, as though the image has been assembled from different moments rather than captured in one.`,
+
+//     `And then there are the circles.`,
+
+//     `I could not help seeing something resembling a target. But would I have made that connection had Porter given the work another title?`,
+
+//     `Perhaps the word Targeted had already begun doing some of the looking for me.`,
+
+//     `That realization made me reconsider my first response to the figure. I had assumed the bent arm suggested protection. But was she hiding, defending herself, or simply occupying a position that had nothing to do with either?`,
+
+//     `There is something revealing about how quickly we assign meaning to another person's body. A gesture, a way of dressing, an unfamiliar expression, and we begin constructing a story about someone we do not know.`,
+
+//     `We do this outside galleries too. In classrooms, workplaces, on the street, and sometimes within our closest relationships. We observe fragments of people's lives and mistake them for the whole person.`,
+
+//     `I wonder whether the act of looking can sometimes become an act of possession. Whether our desire to understand another person can quietly turn into a desire to define them.`,
+
+//     `But knowing that Porter photographed herself changes something about my interpretation.`,
+
+//     `The absence of her face is not necessarily evidence that someone has taken her identity away. It is also part of an image she has chosen to create.`,
+
+//     `A photographer decides what enters the frame. What remains outside it can be just as intentional as what is allowed to appear.`,
+
+//     `That does not tell me why Porter chose this particular composition. But it reminds me that the absence of information does not automatically make a person powerless.`,
+
+//     `What interests me about Targeted is that the figure gives us very little of what we expect from a portrait. There is no face to study, no expression to interpret, no familiar invitation to believe that we have understood the person before us.`,
+
+//     `There is a difference between seeing someone and knowing them. Yet we often behave as though one automatically grants us the other.`,
+
+//     `I began by wondering who or what was targeting the figure. The longer I looked, the more I questioned the viewer's place in that relationship.`,
+
+//     `Maybe the question is not simply why this figure remains hidden from us, but why we feel entitled to see more.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Measured',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa5,
+//       alt: 'Measured, a layered mixed-media artwork by Melissa Porter featuring a female figure and faded printed materials',
+//       caption: 'Measured by Melissa Porter',
+//     },
+
+//     `From Targeted, I moved to Measured.`,
+
+//     `Here, the question of looking begins to feel like a question of judgment.`,
+
+//     `The human figure appears within layers of faded imagery and printed material. Rather than separating the person from the surrounding surface, Porter allows the fragments to overlap. The photograph becomes part of a larger arrangement of marks, textures, and visual information.`,
+
+//     `A photograph might tell us something about a person's appearance, but it cannot offer a complete account of who they are.`,
+
+//     `I began to think about how easily a person can become a collection of measurements.`,
+
+//     `What to eat. What to wear. How to look. What constitutes beauty. What is considered respectable, desirable, intelligent, or successful.`,
+
+//     `There always seems to be a standard.`,
+
+//     `Society has a remarkable ability to create standards and then convince us that meeting them is a personal achievement.`,
+
+//     `The expectations placed upon women's bodies are particularly familiar examples. Beauty is presented as though it were something objective, even as its requirements shift across cultures, generations, and circumstances.`,
+
+//     `I cannot pretend to understand every experience those expectations produce. But I recognize something familiar in the larger idea of being measured against a standard we did not create.`,
+
+//     `It begins early.`,
+
+//     `In school, intelligence is often expressed through grades and examinations. In our professions, success is measured through titles and salaries. Even happiness can begin to resemble a checklist of achievements we are expected to complete.`,
+
+//     `Measurement itself is not the problem. It allows us to compare, understand, and make sense of the world.`,
+
+//     `The difficulty begins when we confuse what can be measured with what has value.`,
+
+//     `Returning to Measured, I began thinking about the relationship between the photographic image and the materials layered around it.`,
+
+//     `Porter's broader practice makes use of discarded papers, vintage objects, and imagery that carry traces of previous lives. Through collage, these fragments can be placed into new relationships, taking on meanings that did not belong to them individually.`,
+
+//     `Something that appears to offer a record of a person becomes part of a larger, less certain narrative.`,
+
+//     `We can collect information about someone, observe their appearance, and place them within familiar categories while still knowing very little about the life they have lived.`,
+
+//     `There was also something uncomfortable about my own interpretation.`,
+
+//     `Was I looking at Porter as a person, or had I already turned her into a symbol of the social expectations I wanted to discuss?`,
+
+//     `It is easy to criticize society for reducing people to appearances while doing something similar in the act of interpretation.`,
+
+//     `Perhaps this is what makes self-portraiture especially interesting here. Porter presents herself as the subject, but she also participates in shaping the image through which we encounter her.`,
+
+//     `The viewer may attempt to measure the person, yet the artist has already complicated the terms of that measurement.`,
+
+//     `And perhaps the most unsettling measurements are not always the ones imposed upon us by others.`,
+
+//     `Sometimes they are the ones we have learned to impose upon ourselves.`,
+
+//     `We look in the mirror and notice what is missing before recognizing what is already there. We compare our lives with people whose circumstances we barely understand, mistaking the distance between our realities and their appearances for evidence that we are falling behind.`,
+
+//     `Eventually, we no longer need society to measure us.`,
+
+//     `We begin doing its work ourselves.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Liminal Space',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa3,
+//       alt: 'Blurred dark silhouette of a woman against layered blue, cream, and white textures in a mixed-media artwork',
+//       caption: 'Liminal Space by Melissa Porter',
+//     },
+
+//     `Of all the works, Liminal Space stayed with me the longest.`,
+
+//     `A woman appears almost swallowed by the background. Her dark silhouette occupies a considerable part of the composition, yet the details of her appearance remain difficult to grasp.`,
+
+//     `Blue and cream textures move across the surface. Faint lines, irregular marks, and fragments of imagery interrupt the figure, making it difficult to determine exactly where she ends and the surrounding space begins.`,
+
+//     `There is something contradictory about her presence.`,
+
+//     `She is the most visually dominant part of the image, yet she is also the least clearly defined.`,
+
+//     `I found myself thinking about invisibility.`,
+
+//     `We often understand invisibility as a form of disappearance. To be overlooked, ignored, or forgotten. To exist in a room where nobody seems to notice that you are there.`,
+
+//     `But what if invisibility can also offer a kind of freedom?`,
+
+//     `What if being overlooked allows us to observe the world without constantly performing for it? There is a certain peace in existing without having to explain ourselves to everyone we meet.`,
+
+//     `Yet I am not convinced that invisibility should be celebrated without question.`,
+
+//     `There is a difference between choosing to withdraw and being pushed out of sight. Between enjoying solitude and being made to feel that your presence no longer matters.`,
+
+//     `One may offer freedom. The other can leave a wound.`,
+
+//     `And both can exist within the same person.`,
+
+//     `I returned to the blurred figure with that contradiction in mind. The image offers no clear expression to interpret. I cannot confidently tell whether she is retreating, emerging, or simply occupying a space between the two.`,
+
+//     `But something about Porter's approach to photography adds another dimension to this uncertainty.`,
+
+//     `In her broader practice, she has described using restrained color, softened imagery, and layered materials to temper the harshness of the world around her.`,
+
+//     `Photography is often associated with the promise of clarity. We expect the camera to show us what was there.`,
+
+//     `Yet this image seems less concerned with giving us a precise record than with creating a particular experience of looking.`,
+
+//     `The blurred silhouette resists the certainty we often expect from a photograph.`,
+
+//     `The softness does not weaken the image. It demands more attention. I find myself spending longer with something I cannot immediately understand.`,
+
+//     `Sometimes what cannot be clearly seen becomes impossible to ignore.`,
+
+//     `The word liminal describes a condition of being between states, of having left something behind without fully arriving somewhere else.`,
+
+//     `There are periods in life when we occupy that kind of space. We are no longer the people we once were, yet have not become the people we imagine ourselves to be.`,
+
+//     `Those spaces are rarely comfortable.`,
+
+//     `Sometimes change feels like progress. Other times it feels like confusion. We question our choices, our relationships, and even the beliefs that once gave us a sense of direction.`,
+
+//     `Looking at Porter's figure, I am reminded that transformation is not always something we can recognize while it is happening.`,
+
+//     `We may be changing without knowing exactly what we are becoming.`,
+
+//     `I would be careful not to turn someone's invisibility into an easy story of empowerment. Nobody should have to transform being overlooked into a virtue simply to make the experience bearable.`,
+
+//     `The figure may suggest a wound. She may offer a refuge. She may occupy a space where neither interpretation is sufficient.`,
+
+//     `I began by asking whether invisibility could become a superpower.`,
+
+//     `I leave the image wondering whether the more important question is who gets to choose when they are seen.`,
+
+//     {
+//       type: 'heading',
+//       text: 'The Alchemist',
+//     },
+
+//     {
+//       type: 'image',
+//       src: melissa4,
+//       alt: 'Mixed-media portrait of a woman wearing large glasses and a patterned blouse, looking directly outward through layers of faded archival papers and markings',
+//       caption: 'Alchemist by Melissa Porter',
+//     },
+
+//     `Finally, there is The Alchemist.`,
+
+//     `After the uncertainty of Liminal Space, I was struck by how directly this portrait meets the viewer.`,
+
+//     `A woman looks outward through large glasses. Her hair frames her face, while the pattern of her blouse seems to merge with the surrounding layers of pale paper, faded diagrams, and archival markings.`,
+
+//     `Unlike the obscured figure in Liminal Space, this portrait offers a recognizable face. Yet it is not a conventional image of clarity. The layers interrupt the boundary between the woman and the materials surrounding her.`,
+
+//     `The woman looks directly at us, but the image does not surrender its complexity simply because her face is visible.`,
+
+//     `I wanted to see The Alchemist as the conclusion of the story I had been constructing. After being targeted, measured, and rendered almost invisible, perhaps the woman had finally arrived at a clearer understanding of herself.`,
+
+//     `But that interpretation began to feel too convenient.`,
+
+//     `Alchemy is often associated with turning ordinary materials into something precious. I have always found that idea fascinating, particularly when considered beyond its literal meaning.`,
+
+//     `What if transformation is not about becoming someone entirely new, but about discovering possibilities within what already exists?`,
+
+//     `Porter's artistic practice offers an interesting way to consider that question.`,
+
+//     `Photography was her starting point, but she learned to move beyond the camera through collage and encaustic techniques. In her broader work, hot wax can hold photographic imagery and found materials at different depths, creating surfaces in which the past seems to remain visible beneath the present.`,
+
+//     `What began as an image captured by a camera can become something more tactile, almost archaeological.`,
+
+//     `Looking at The Alchemist, I became interested in what Porter had chosen not to erase.`,
+
+//     `The faded marks remain. The fragments of printed material still interrupt the image. Even the blouse, with its intricate pattern, becomes part of the layered surface rather than standing apart from it.`,
+
+//     `Nothing has been cleared away to produce an uncomplicated portrait.`,
+
+//     `The image seems to carry its history into whatever it is becoming.`,
+
+//     `That interests me more than a straightforward story of triumph.`,
+
+//     `We have become accustomed to narratives in which personal growth must produce a final, improved version of ourselves. A person encounters hardship, learns a lesson, overcomes the obstacle, and emerges transformed.`,
+
+//     `Life, of course, is rarely so accommodating.`,
+
+//     `We can learn to value ourselves and still struggle with insecurity. We can reject certain expectations and still find ourselves seeking approval. We can become more confident without becoming less vulnerable.`,
+
+//     `Transformation does not necessarily require the disappearance of contradiction.`,
+
+//     `And perhaps that is what I find meaningful about the idea of alchemy.`,
+
+//     `Not the promise of perfection, but the possibility of reexamining what we once believed was fixed.`,
+
+//     `I return to the woman's gaze. The archival fragments remain, the surface is still layered, and yet she looks directly outward.`,
+
+//     `She has not become a blank page.`,
+
+//     `And perhaps she never needed to.`,
+
+//     {
+//       type: 'heading',
+//       text: 'Taking Up Space',
+//     },
+
+//     `There is something I keep returning to in Melissa Porter's I’s, My’s & Me’s: the idea of taking up space.`,
+
+//     `Porter has described this collection as an exploration of authenticity, vulnerability, and the refusal to make herself smaller. In her artist statement, she reflects on the habits of anticipating, accommodating, and adapting to the needs of others, sometimes mistaking those habits for personality.`,
+
+//     `She also describes the scale of this body of work as intentional. The images are larger, more assertive, and more vulnerable than what she had previously allowed herself to create.`,
+
+//     `That intention gives me another way to consider the collection.`,
+
+//     `Porter is not simply photographing a woman who wishes to be seen. She is choosing to make herself visible, to place her own body within the image, and to transform that image through a process she controls.`,
+
+//     `The photographer becomes the subject.`,
+
+//     `And the subject becomes the person deciding how the photograph should exist.`,
+
+//     `Of course, that does not mean she controls how every viewer will interpret the work. My own encounter with these images is evidence of that. I arrived with assumptions, constructed narratives, and occasionally mistook my interpretations for what the images were telling me.`,
+
+//     `Self-portraiture allows an artist to participate in shaping her own representation. It does not require her to make every part of herself available to the viewer.`,
+
+//     `There is something important about that distinction.`,
+
+//     `We live much of our lives through relationships with other people. We are children, friends, partners, colleagues, and members of communities. These relationships shape us, sometimes without our noticing.`,
+
+//     `And there are moments when the roles we play become so familiar that we begin to mistake them for the entirety of who we are.`,
+
+//     `The supporting character. The caretaker. The agreeable one. The person who always understands, always accommodates, and rarely asks for anything in return.`,
+
+//     `Some of these roles are born out of love. Others develop through necessity. And sometimes the habits that once helped us survive become the very things that keep us from recognizing ourselves.`,
+
+//     `But what happens when making room for oneself no longer feels like something that requires an apology?`,
+
+//     `I don't think the answer is necessarily a dramatic declaration of independence. Nor does becoming the main character mean that everyone else must become less important.`,
+
+//     `The challenge is learning to participate in our relationships without disappearing into them.`,
+
+//     {
+//       type: 'image',
+//       src: melissa6,
+//       alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
+//       caption: 'A Long Look in the Mirror by Melissa Porter',
+//     },
+
+//     `Looking at the collection again, I am less certain that these works tell a story with a clear beginning and end.`,
+
+//     `Perhaps I was simply looking for a narrative because stories help us make sense of things that are otherwise difficult to explain.`,
+
+//     `The titles may suggest a progression, but the images resist being reduced to a single lesson. They are layered, fragmented, sometimes direct, sometimes difficult to read.`,
+
+//     `Porter has spoken about asking herself not simply what she wants, but who she wants to become. It is a question I find meaningful because it does not assume that identity is something we discover once and possess forever.`,
+
+//     `It leaves room for uncertainty.`,
+
+//     `It leaves room for change.`,
+
+//     `And perhaps most importantly, it leaves room for a person to become something they could not previously imagine.`,
+
+//     `What I take away from I’s, My’s & Me’s is not a promise that self-discovery will make life easier. It is the possibility that we can become more attentive to the ways we have learned to see ourselves.`,
+
+//     `To recognize when an expectation is no longer serving us. To question a standard we once accepted without hesitation. To make peace with the contradictions we carry without demanding that every part of ourselves fit neatly together.`,
+
+//     `And perhaps that is what taking up space can mean.`,
+
+//     `Not demanding that the world revolve around us, but recognizing that we do not have to disappear for others to belong.`,
+
+//     `I began this essay imagining a woman moving through four stages of becoming. I leave it less interested in where that journey ends.`,
+
+//     `The longer I looked at Porter's work, the more aware I became of the limits of my own interpretation. I had wanted to give these figures a beginning, a struggle, and eventually, a kind of resolution.`,
+
+//     `But they do not owe me any of those things.`,
+
+//     `A person does not need to emerge stronger from every difficult experience. Nor must every contradiction become a lesson in self-love.`,
+
+//     `Sometimes we are simply becoming, without knowing exactly what that means.`,
+
+//     `And maybe the most important change was not in the woman I imagined moving through these works, but in the way I learned to look at her.`,
+
+//     `Because there is a difference between seeing someone and allowing them the freedom to exist beyond what we think we know.`,
+
+//     `I had thought of the main character as someone who finally steps into the spotlight.`,
+
+//     `But perhaps Porter had already challenged that idea before I began writing.`,
+
+//     `She did not wait for someone else to place her at the center of the image. She took the photograph herself.`,
+
+//     `What followed was not simply an attempt to be seen, but an invitation to consider how much of a person can ever be contained in an image.`,
+
+//     `And perhaps that is where the real story begins.`,
+
+//     `— Mo Alimi`,
+
+//     `ART ALL DAY | Art & Reflection`,
+
+//     `Follow artist on Instagram @melissa.porter.artist`,
+//   ],
+
+//   images: [],
+
+//   youtube: '',
+// },
+
+
+
+'the-main-character': {
+  category: 'Culture & Criticism',
+  title: 'The Main Character',
+  author: 'Mo Alimi',
+  readTime: '10 min read',
+  publishedAt: '2026-11-08T00:00:00-07:00',
+  issueNumber: 15,
+  issue: 'Issue 15',
+
+  intro:
+    `Through Melissa Porter's I’s, My’s & Me’s, Mo Alimi explores identity, visibility, self-portraiture, and the contradictions of becoming ourselves. A reflection on photography, the stories we construct about others, and the courage to take up space without surrendering the complexity of who we are.`,
+
+  heroImage: melissaCover,
+
+  heroImageCaption:
+    'The Main Character — Featuring works from Melissa Porter’s I’s, My’s & Me’s collection. ART ALL DAY, Issue 15 Art Work.',
+
+  body: [
+    `I do not know whether Melissa Porter intended these works to be read as chapters of the same story. But looking at them together, I couldn't help seeing a woman moving through four stages of becoming.`,
+
+    `A woman being observed. A woman being measured. A woman becoming difficult to see. And finally, a woman looking back at the world.`,
+
+    `The titles almost invite such a reading. Targeted. Measured. Liminal Space. The Alchemist.`,
+
+    `Yet the longer I looked, the less certain I became about the story I was telling.`,
+
+    `We want to be seen, yet sometimes we hide. We long to belong, yet belonging can cost us parts of ourselves. Between acceptance and freedom, we negotiate our identities without always noticing what we have surrendered.`,
+
+    `Porter's I’s, My’s & Me’s made me think about those contradictions. Through photography, fragmentation, collage, and self-portraiture, she creates images that appear familiar yet resist being understood at a glance.`,
+
+    `Porter is photographing herself. The woman in the work is also the person behind the camera, deciding what enters the frame and how the final image will exist.`,
+
+    `There is a quiet reversal in that decision. A conventional portrait often asks its subject to surrender something to the photographer: an expression, a gesture, an instant. Here, the person making those decisions is also the person whose image will be interpreted. That does not remove vulnerability. It makes vulnerability something she has actively helped shape.`,
+
+    `Porter studied fine-art photography, but her practice has expanded beyond the photograph as a finished image. She combines photography with found materials, vintage newsprint, symbols, and layered surfaces. One of her signature techniques is encaustic, a process involving heated beeswax and resin through which images and materials can be placed at different depths.`,
+
+    `A photograph preserves an appearance; layering complicates what we believe that appearance can tell us. Faces emerge through faded papers, bodies intersect with markings, and the figures hover between disclosure and concealment. Sometimes the technique deepens that uncertainty. Sometimes it risks becoming a familiar visual answer to every question the work raises.`,
+
+    `The woman in these images is not waiting for us to define her. She has helped construct how we see her.`,
+
+    {
+      type: 'heading',
+      text: 'Targeted',
+    },
+
+    {
+      type: 'image',
+      src: melissa1,
+      alt: 'Mixed-media artwork by Melissa Porter showing a cropped female figure with a bent arm and an obscured face against a textured cream background with circular markings',
+      caption: 'Targeted by Melissa Porter',
+    },
+
+    `I began with Targeted. To be targeted is to become the subject of someone else's attention, often without consent. But before deciding what the title meant, I had to confront the image itself.`,
+
+    `The figure is cropped. Her face remains outside the frame, an arm bends across the upper body, and faint circular markings spread across a pale background. Scratches, lines, and fragments of printed material interrupt the surface, giving the image the appearance of something between a photograph, a drawing, and a memory being reconstructed.`,
+
+    `The body seems assembled from different moments rather than captured in one. And then there are the circles. I see a target—but would I have made that connection without the title?`,
+
+    `Here I find the work both effective and slightly too insistent. The cropping and bent arm leave room for competing explanations, while the circular markings come close to illustrating the title for us. The strongest part of the image may be what it refuses to explain, not what it marks so clearly.`,
+
+    `That tension matters because the most troubling element in Targeted is not the suggestion of an actual target. It is the uncertainty of the gesture. The bent arm could signal defense, but it could also be an ordinary movement made strange by the crop. Porter’s decision to withhold a face is more disturbing than a symbol that tells us where to look. It lets the photograph remain unresolved.`,
+
+    `Perhaps the word Targeted had already begun doing some of the looking for me.`,
+
+    `I had read the gesture as protective. But the photograph gives me no permission to settle on that reading.`,
+
+    `There is something revealing about how quickly we assign meaning to another person's body. A gesture, a way of dressing, an unfamiliar expression, and we begin constructing a story about someone we do not know.`,
+
+    `Outside galleries, too, we mistake fragments of people's lives for the whole. Our desire to understand can quietly become a desire to define.`,
+
+    `But knowing that Porter photographed herself changes something about my interpretation.`,
+
+    `The absence of her face is not necessarily evidence that someone has taken her identity away. It is also part of an image she has chosen to create.`,
+
+    `What remains outside a photograph can be as intentional as what appears within it. Absence does not automatically mean powerlessness.`,
+
+    `Targeted gives us little of what we expect from a portrait: no face, no expression, no assurance that we understand the person before us. I began by wondering who was targeting the figure. I ended by questioning the viewer's place in that relationship.`,
+
+    `Maybe the question is not simply why this figure remains hidden from us, but why we feel entitled to see more.`,
+
+    {
+      type: 'heading',
+      text: 'Measured',
+    },
+
+    {
+      type: 'image',
+      src: melissa5,
+      alt: 'Measured, a layered mixed-media artwork by Melissa Porter featuring a female figure and faded printed materials',
+      caption: 'Measured by Melissa Porter',
+    },
+
+    `In Measured, looking becomes a question of judgment.`,
+
+    `The human figure appears within layers of faded imagery and printed material. Rather than separating the person from the surrounding surface, Porter allows the fragments to overlap. The photograph becomes part of a larger arrangement of marks, textures, and visual information.`,
+
+    `A photograph may record appearance, but it cannot account for a life. I thought about how easily a person becomes a collection of measurements.`,
+
+    `What to eat. What to wear. How to look. What constitutes beauty. What is considered respectable, desirable, intelligent, or successful.`,
+
+    `There is always a standard, and society has a way of presenting compliance as personal achievement.`,
+
+    `The expectations placed on women's bodies make this visible: beauty is treated as objective even as its rules shift across cultures and generations. I cannot claim every experience behind those expectations, but I recognize the pressure of being judged by standards we did not create.`,
+
+    `Grades stand in for intelligence; salaries for success; even happiness becomes a checklist. Measurement has its uses. The problem begins when we confuse what can be measured with what has value.`,
+
+    `The same distinction applies to the artwork itself. A complicated surface is not necessarily a complicated thought. The question is whether Porter gives the materials a particular reason to share the frame. At its strongest, the layered print interrupts the familiar confidence of photography, forcing us to notice that even an apparently factual image has been arranged and edited. That is a more persuasive argument than texture alone can provide.`,
+
+    `In Measured, the photograph competes with faded print and overlapping marks. The fragments have their own visual weight; they refuse to leave the figure undisturbed. Porter's wider practice draws on discarded papers and vintage objects, materials with histories of their own. Collage allows them to acquire new meanings in relation to the body.`,
+
+    `Yet this is also where her method needs the most scrutiny. The accumulated texture creates atmosphere, but not every fragment feels equally necessary to the composition. When photograph, print, and mark are all subdued into similar layers, the eye can struggle to find a decisive relationship among them. Complexity alone is not depth. A work called Measured invites us to ask whether each addition has been measured, too.`,
+
+    `Still, the difficulty of separating the person from the surrounding information is productive: we can assemble a record of someone and remain ignorant of the life behind it.`,
+
+    `That criticism returns to me. Was I looking at Porter as a person, or turning her into a symbol of the pressures I wanted to discuss? A critic can reduce a subject even while criticizing the world for doing so.`,
+
+    `Self-portraiture complicates the exchange: Porter is not only the subject being judged; she has shaped the image on which our judgments rest.`,
+
+    `The most unsettling measurements may be the ones we learn to impose on ourselves. We look in the mirror for what is missing and compare our lives with appearances we barely understand. Eventually, society no longer needs to measure us.`,
+
+    `We begin doing its work ourselves.`,
+
+    {
+      type: 'heading',
+      text: 'Liminal Space',
+    },
+
+    {
+      type: 'image',
+      src: melissa3,
+      alt: 'Blurred dark silhouette of a woman against layered blue, cream, and white textures in a mixed-media artwork',
+      caption: 'Liminal Space by Melissa Porter',
+    },
+
+    `Of all the works, Liminal Space stayed with me the longest.`,
+
+    `A woman appears almost swallowed by the background. Her dark silhouette occupies a considerable part of the composition, yet the details of her appearance remain difficult to grasp.`,
+
+    `Blue and cream textures move across the surface. Faint lines, irregular marks, and fragments of imagery interrupt the figure, making it difficult to determine exactly where she ends and the surrounding space begins.`,
+
+    `She dominates the composition and remains its least clearly defined element. I found myself thinking about invisibility.`,
+
+    `Invisibility can mean being overlooked, ignored, forgotten. But it can also bring a kind of freedom: the relief of existing without constantly explaining ourselves.`,
+
+    `Yet I am not convinced that invisibility should be celebrated without question.`,
+
+    `Choosing to withdraw is not the same as being pushed out of sight. One can offer freedom; the other can leave a wound. Both can exist within the same person.`,
+
+    `The palette contributes to this uncertainty. Blue and cream might have offered a peaceful field for the figure, but the marks and blurred edges make that space unstable. The body is present enough to hold the composition together and uncertain enough to resist being pinned down. That balance gives the image its emotional weight. It is not simply a portrait made obscure; it is an image in which presence and disappearance compete for the same space.`,
+
+    `I returned to the blurred figure with that contradiction in mind. The image offers no clear expression to interpret. I cannot confidently tell whether she is retreating, emerging, or simply occupying a space between the two.`,
+
+    `Porter has described using restrained color, softened imagery, and layered materials to temper the harshness of the world. Here that softness is more than an effect: it forces my eyes to work against the silhouette's dominance. Photography promises a clear record, but this image withholds one. What cannot be clearly seen becomes difficult to ignore.`,
+
+    `Still, I wonder how often ambiguity can remain compelling when it is produced through the same devices. Fading, obscuring, and overlapping recur across the collection. Repetition can establish a visual language; it can also make uncertainty feel predictable. Liminal Space is stronger because the large, dark figure pushes against the very softness that threatens to swallow her. The tension happens in the composition, not only in the title.`,
+
+    `Liminal means being between states: no longer who we were, not yet who we imagine ourselves becoming. Such spaces are rarely comfortable. Change can feel like progress or confusion, and transformation is not always recognizable from inside it.`,
+
+    `I would be careful not to make invisibility an easy story of empowerment. Nobody should have to turn being overlooked into a virtue. The figure might suggest a wound, a refuge, or a condition for which neither word is enough.`,
+
+    `I began by asking whether invisibility could become a superpower. I leave wondering who gets to choose when they are seen.`,
+
+    {
+      type: 'heading',
+      text: 'Alchemist',
+    },
+
+    {
+      type: 'image',
+      src: melissa4,
+      alt: 'Mixed-media portrait of a woman wearing large glasses and a patterned blouse, looking directly outward through layers of faded archival papers and markings',
+      caption: 'Alchemist by Melissa Porter',
+    },
+
+    `Finally, "Alchemist" meets the viewer more directly.`,
+
+    `A woman looks outward through large glasses. Her hair frames her face, while the pattern of her blouse seems to merge with the surrounding layers of pale paper, faded diagrams, and archival markings.`,
+
+    `Unlike the obscured figure in Liminal Space, this face is recognizable. The archival layers still interrupt the boundary between woman and background, but her gaze gives the composition an anchor. For once, concealment is not doing all the work.`,
+
+    `I wanted to see "Alchemist" as the conclusion of the story I had been constructing. After being targeted, measured, and rendered almost invisible, perhaps the woman had finally arrived at a clearer understanding of herself.`,
+
+    `But that interpretation began to feel too convenient.`,
+
+    `Alchemy promises to turn ordinary matter into something precious. But perhaps transformation is less about becoming someone new than finding possibilities within what already exists.`,
+
+    `Through collage and encaustic techniques, Porter can hold photographs and found materials at different depths, making an image tactile, almost archaeological.`,
+
+    `What interests me is what Porter has not erased. Faded marks remain; print interrupts the image; the blouse becomes part of the layered surface. Nothing has been cleared away to make an uncomplicated portrait.`,
+
+    `And yet archival paper can become too convenient a symbol. Old print does not automatically make an image profound, nor does accumulation always equal memory. Alchemist works best where the recognizable face holds its own against those materials. The woman does not disappear beneath the metaphor. She looks back.`,
+
+    `That difference makes Alchemist feel like a necessary counterpoint to the earlier works. The gaze changes my role as a viewer. In Targeted, I examine a body from which the face has been withheld. Here, the person inside the artwork appears to return the examination. The surrounding marks may suggest accumulated experience, but they do not get the final word. The face refuses to become merely another fragment in the collage.`,
+
+    `We like stories in which hardship produces a final, improved self. Life is rarely so accommodating.`,
+
+    `We can gain confidence and remain vulnerable. We can reject expectations and still seek approval. Transformation does not require contradictions to disappear. Alchemy interests me less as a promise of perfection than as a way of reexamining what seemed fixed.`,
+
+    `The fragments remain, yet she looks directly outward. She has not become a blank page.`,
+
+    `And perhaps she never needed to.`,
+
+    {
+      type: 'heading',
+      text: 'Taking Up Space',
+    },
+
+    `I keep returning to the idea of taking up space.`,
+
+    `Porter has described this collection as an exploration of authenticity, vulnerability, and the refusal to make herself smaller. In her artist statement, she reflects on the habits of anticipating, accommodating, and adapting to the needs of others, sometimes mistaking those habits for personality.`,
+
+    `She also describes the scale of this body of work as intentional. The images are larger, more assertive, and more vulnerable than what she had previously allowed herself to create.`,
+
+    `This is not simply a woman wishing to be seen. She places her own body in the work and transforms its appearance through a process she controls. The photographer becomes the subject; the subject helps determine how the photograph exists.`,
+
+    `But ambition and scale cannot substitute for precision. Bigger images may demand physical attention, yet the strongest claim to space comes from a choice of form that makes that attention worthwhile. Porter’s collection is most convincing when a crop, a gaze, or a collision of materials creates tension that neither the title nor the artist statement has to explain.`,
+
+    `That does not mean Porter controls the viewer. I arrived with assumptions, invented a narrative, and sometimes mistook my story for what the images were saying. Self-portraiture gives her a hand in shaping her representation, not an obligation to explain every part of herself.`,
+
+    `What interests me is that her control is never complete. Once these images enter a gallery or a publication, strangers bring their own histories to them. We connect an unfamiliar face to our memories, our assumptions, sometimes our prejudices. The artist can choose the arrangement, but she cannot choose every story that will be told in front of it.`,
+
+    `Relationships shape us. We become children, friends, partners, colleagues, caretakers, the agreeable ones. Sometimes a role grows so familiar that we mistake it for an identity.`,
+
+    `Some roles come from love, others from necessity. Habits that once helped us survive can eventually keep us from recognizing ourselves. Becoming the main character does not mean everyone else matters less. It means learning to participate in relationships without disappearing into them.`,
+
+    {
+      type: 'image',
+      src: melissa6,
+      alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
+      caption: 'A Long Look in the Mirror by Melissa Porter',
+    },
+
+    `Looking at the collection again, I am less certain that these works tell a story with a clear beginning and end. Even my reservations about the recurring layers remind me how much I want a decisive statement from an image. At times Porter withholds too much; at others, she provides symbols that seem to tell me too quickly what I should see. The work is most alive somewhere between those extremes.`,
+
+    `Perhaps I wanted a narrative because stories make uncertainty manageable. The titles suggest progression, but the images resist one lesson. Their surfaces are layered, sometimes direct, sometimes difficult to read.`,
+
+    `Porter has spoken about asking herself not simply what she wants, but who she wants to become. It is a question I find meaningful because it does not assume that identity is something we discover once and possess forever.`,
+
+    `It leaves room for uncertainty, change, and a person becoming something they could not previously imagine.`,
+
+    `I do not take from I’s, My’s & Me’s a promise that self-discovery makes life easier. I take an invitation to question the standards through which we judge ourselves, without demanding that every contradiction be resolved.`,
+
+    `Taking up space is not asking the world to revolve around us. It is recognizing that we need not disappear for others to belong.`,
+
+    `I began this essay imagining four stages of becoming. I leave it less interested in where that journey ends. I wanted to give these figures a beginning, a struggle, and a resolution.`,
+
+    `But they do not owe me any of those things.`,
+
+    `A person does not need to emerge stronger from every difficult experience. Nor must every contradiction become a lesson in self-love.`,
+
+    `Sometimes we are simply becoming, without knowing exactly what that means.`,
+
+    `Perhaps the most important change was in the way I learned to look. Seeing someone is not the same as allowing them to exist beyond what we think we know.`,
+
+    `I had thought of the main character as someone who finally steps into the spotlight. Porter had challenged that idea before I began writing.`,
+
+    `She did not wait for someone else to place her at the center of the image. She took the photograph herself.`,
+
+    `What followed was not simply an attempt to be seen, but an invitation to consider how much of a person can ever be contained in an image.`,
+
+    `And perhaps that is where the real story begins.`,
+
+    `— Mo Alimi`,
+
+    `ART ALL DAY | Art & Reflection`,
+
+    `Follow artist on Instagram @melissa.porter.artist`,
+  ],
+
+  images: [],
+
+  youtube: '',
+},
+
 
 
 
