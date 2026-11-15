@@ -5705,71 +5705,55 @@ intro:
 
     `And perhaps she never needed to.`,
 
-    {
-      type: 'heading',
-      text: 'Taking Up Space',
-    },
+   
+{
+  type: 'heading',
+  text: 'The Main Character',
+},
 
-    `I keep returning to the idea of taking up space.`,
+{
+  type: 'image',
+  src: melissa6,
+  alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
+  caption: 'A Long Look in the Mirror by Melissa Porter',
+},
 
-    `Porter has described this collection as an exploration of authenticity, vulnerability, and the refusal to make herself smaller. In her artist statement, she reflects on the habits of anticipating, accommodating, and adapting to the needs of others, sometimes mistaking those habits for personality.`,
+`I began this essay imagining a woman moving through four stages of becoming. A woman being observed, measured, obscured, and finally revealed. The titles seemed to offer a narrative, and I was eager to follow it.`,
 
-    `She also describes the scale of this body of work as intentional. The images are larger, more assertive, and more vulnerable than what she had previously allowed herself to create.`,
+`But the longer I looked, the less convinced I became that the story belonged to the images rather than to me.`,
 
-    `This is not simply a woman wishing to be seen. She places her own body in the work and transforms its appearance through a process she controls. The photographer becomes the subject; the subject helps determine how the photograph exists.`,
+`Porter's work is not without its contradictions, and neither are her artistic decisions. At times, the accumulation of materials threatens to overwhelm the very person she wishes to make visible. The recurring use of fragmentation and obscurity can become predictable, while certain symbols appear to explain what the photographs might have communicated more powerfully on their own.`,
 
-    `But ambition and scale cannot substitute for precision. Bigger images may demand physical attention, yet the strongest claim to space comes from a choice of form that makes that attention worthwhile. Porter’s collection is most convincing when a crop, a gaze, or a collision of materials creates tension that neither the title nor the artist statement has to explain.`,
+`Yet when these elements find their balance, the results are compelling. In Targeted, the absence of a face questions our entitlement to another person's identity. In Liminal Space, the figure's uncertain boundaries make visibility feel both fragile and necessary. And in The Alchemist, the woman's unwavering gaze holds its ground against the history layered around her.`,
 
-    `That does not mean Porter controls the viewer. I arrived with assumptions, invented a narrative, and sometimes mistook my story for what the images were saying. Self-portraiture gives her a hand in shaping her representation, not an obligation to explain every part of herself.`,
+`This is where I believe Porter succeeds most convincingly. Not in the complexity of her surfaces, but in the tension between what she chooses to reveal and what she refuses to surrender.`,
 
-    `What interests me is that her control is never complete. Once these images enter a gallery or a publication, strangers bring their own histories to them. We connect an unfamiliar face to our memories, our assumptions, sometimes our prejudices. The artist can choose the arrangement, but she cannot choose every story that will be told in front of it.`,
+`Her work reminds me that being visible does not necessarily mean being understood. And perhaps being understood is not something we owe the world in the first place.`,
 
-    `Relationships shape us. We become children, friends, partners, colleagues, caretakers, the agreeable ones. Sometimes a role grows so familiar that we mistake it for an identity.`,
+`I had thought of the main character as someone who finally steps into the spotlight. Someone who, after years of being overlooked, emerges confident, transformed, and ready to be seen.`,
 
-    `Some roles come from love, others from necessity. Habits that once helped us survive can eventually keep us from recognizing ourselves. Becoming the main character does not mean everyone else matters less. It means learning to participate in relationships without disappearing into them.`,
+`But that interpretation now feels too convenient.`,
 
-    {
-      type: 'image',
-      src: melissa6,
-      alt: 'A Long Look in the Mirror, an artwork by Melissa Porter from her I’s, My’s & Me’s collection',
-      caption: 'A Long Look in the Mirror by Melissa Porter',
-    },
+`A person does not need to emerge stronger from every difficult experience. Nor must every contradiction become a lesson in self-love. Sometimes we are simply becoming, without knowing exactly what that means.`,
 
-    `Looking at the collection again, I am less certain that these works tell a story with a clear beginning and end. Even my reservations about the recurring layers remind me how much I want a decisive statement from an image. At times Porter withholds too much; at others, she provides symbols that seem to tell me too quickly what I should see. The work is most alive somewhere between those extremes.`,
+`What changed throughout this encounter was not necessarily the woman in Porter's photographs, but the way I learned to look at her.`,
 
-    `Perhaps I wanted a narrative because stories make uncertainty manageable. The titles suggest progression, but the images resist one lesson. Their surfaces are layered, sometimes direct, sometimes difficult to read.`,
+`There is a difference between seeing someone and allowing them the freedom to exist beyond what we think we know.`,
 
-    `Porter has spoken about asking herself not simply what she wants, but who she wants to become. It is a question I find meaningful because it does not assume that identity is something we discover once and possess forever.`,
+`And perhaps this is the most important accomplishment of I’s, My’s & Me’s. It does not offer a complete portrait of a woman finally discovering herself. Instead, it questions whether any portrait could ever contain the entirety of a person.`,
 
-    `It leaves room for uncertainty, change, and a person becoming something they could not previously imagine.`,
+`Porter did not wait for someone else to place her at the center of the image.`,
 
-    `I do not take from I’s, My’s & Me’s a promise that self-discovery makes life easier. I take an invitation to question the standards through which we judge ourselves, without demanding that every contradiction be resolved.`,
+`She took the photograph herself.`,
 
-    `Taking up space is not asking the world to revolve around us. It is recognizing that we need not disappear for others to belong.`,
+`And perhaps being the main character was never about finally being seen, but about reclaiming the right to decide how we appear, even when the world insists on telling us who we are.`,
 
-    `I began this essay imagining four stages of becoming. I leave it less interested in where that journey ends. I wanted to give these figures a beginning, a struggle, and a resolution.`,
+`— Mo Alimi`,
 
-    `But they do not owe me any of those things.`,
+`ART ALL DAY | Art & Reflection`,
 
-    `A person does not need to emerge stronger from every difficult experience. Nor must every contradiction become a lesson in self-love.`,
+`Follow artist on Instagram @melissa.porter.artist`,
 
-    `Sometimes we are simply becoming, without knowing exactly what that means.`,
-
-    `Perhaps the most important change was in the way I learned to look. Seeing someone is not the same as allowing them to exist beyond what we think we know.`,
-
-    `I had thought of the main character as someone who finally steps into the spotlight. Porter had challenged that idea before I began writing.`,
-
-    `She did not wait for someone else to place her at the center of the image. She took the photograph herself.`,
-
-    `What followed was not simply an attempt to be seen, but an invitation to consider how much of a person can ever be contained in an image.`,
-
-    `And perhaps that is where the real story begins.`,
-
-    `— Mo Alimi`,
-
-    `ART ALL DAY | Art & Reflection`,
-
-    `Follow artist on Instagram @melissa.porter.artist`,
   ],
 
   images: [],
